@@ -8,16 +8,16 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 
-<div class="type-1904">
-    <div class="container">
-        <div class="row img">
-            <div class="col-md-12 slide-band6">
+<div class="col-md-12">
+    <div class="type-1904">
+        <div class="img">
+            <div class="slide-band6">
                 <div class="col-md-8 img1">
                     <div class="wrapper">
                         <div class="single-img item-adv-simple">
                             <div class="wrapper item-adv-simple">
                                 <a href="#" class="img-sale">
-                                    <img width="780" height="400" src="images/ad4-2.jpg" class="img-responsive">
+                                    <img width="780" height="400" src="<?php echo $url_path ?>/images/ad4-2.jpg" class="img-responsive">
                                 </a>
                                 <div class="promotion info-1">
                                     <h1>Siemens</h1>
@@ -36,7 +36,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="single-img item-adv-simple item1">
                             <div class="wrapper item-adv-simple">
                                 <a href="#">
-                                    <img src="images/ad5-1.jpg" class="img-responsive">
+                                    <img src="<?php echo $url_path ?>/images/ad5-1.jpg" class="img-responsive">
                                 </a>
                             </div>
 
@@ -53,7 +53,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="single-img item-adv-simple item2">
                             <div class="wrapper item-adv-simple ">
                                 <a href="#">
-                                    <img src="images/ad6.jpg" class="img-responsive">
+                                    <img src="<?php echo $url_path ?>/images/ad6.jpg" class="img-responsive">
                                 </a>
                                 <div class="promotion info-3">
                                     <h3>Piece OXO</h3>

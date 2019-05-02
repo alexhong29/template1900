@@ -15,6 +15,8 @@ if (!class_exists('lessc')) {
 $less = new lessc;
 $less->compileFile('less/1900.less', 'css/1900.css');
 $less->compileFile('less/1902.less', 'css/1902.css');
+$less->compileFile('less/1903.less', 'css/1903.css');
+$less->compileFile('less/1904.less', 'css/1904.css');
 $less->compileFile('less/1921.less', 'css/1921.css');
 ?>
 
@@ -36,15 +38,21 @@ $less->compileFile('less/1921.less', 'css/1921.css');
 
         <link rel="stylesheet" href="<?php echo $url_path ?>/css/1900.css">
         <link rel="stylesheet" href="<?php echo $url_path ?>/css/1902.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/css/1903.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/css/1904.css">
         <link rel="stylesheet" href="<?php echo $url_path ?>/css/1921.css">
-
+        
+        
         <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
         <script src="<?php echo $url_path ?>/js/owl.carousel.min.js"></script>
         <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
-
+        <script src="<?php echo $url_path ?>/js/jquery.final-countdown.js"></script>
+        <script src="<?php echo $url_path ?>/js/kinetic.js"></script>
+        
         <script src="<?php echo $url_path ?>/js/1900.js"></script>
         <script src="<?php echo $url_path ?>/js/1902.js"></script>
+        <script src="<?php echo $url_path ?>/js/1903.js"></script>
         <script src="<?php echo $url_path ?>/js/1921.js"></script>
 
     </head>
@@ -54,12 +62,25 @@ $less->compileFile('less/1921.less', 'css/1921.css');
         <div class="slider-home">
             <div class="container">
                 <div class="row">
-                    <?php include $dir_block . '/blocks/1902/1902-content.php'; ?>
+                    <?php include $dir_block . '/blocks/1902/1902-content.php'; ?>       
                     <?php include $dir_block . '/blocks/1921/1921-content.php'; ?>
                 </div>
             </div>
         </div>
-
+        <div class="slider-product">
+            <div class="container">
+                <div class="row">
+                    <?php include $dir_block . '/blocks/1903/1903-content.php'; ?>
+                </div>
+            </div>
+        </div>
+        <div class="slider-promotion">
+            <div class="container">
+                <div class="row">
+                    <?php include $dir_block . '/blocks/1904/1904-content.php'; ?>
+                </div>
+            </div>
+        </div>
 
 
         <!--        <div class="fit-cont">
