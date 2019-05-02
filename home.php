@@ -16,10 +16,7 @@ $less = new lessc;
 $less->compileFile('less/1900.less', 'css/1900.css');
 $less->compileFile('less/1902.less', 'css/1902.css');
 $less->compileFile('less/1903.less', 'css/1903.css');
-<<<<<<< HEAD
 $less->compileFile('less/1904.less', 'css/1904.css');
-=======
->>>>>>> 2522f688cd98d3783dfc13ee03999cd6fb8ec1dc
 $less->compileFile('less/1921.less', 'css/1921.css');
 ?>
 
@@ -44,11 +41,7 @@ $less->compileFile('less/1921.less', 'css/1921.css');
         <link rel="stylesheet" href="<?php echo $url_path ?>/css/1903.css">
         <link rel="stylesheet" href="<?php echo $url_path ?>/css/1904.css">
         <link rel="stylesheet" href="<?php echo $url_path ?>/css/1921.css">
-<<<<<<< HEAD
         
-=======
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/1903.css"/>
->>>>>>> 2522f688cd98d3783dfc13ee03999cd6fb8ec1dc
         
         <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
@@ -71,18 +64,9 @@ $less->compileFile('less/1921.less', 'css/1921.css');
                 <div class="row">
                     <?php include $dir_block . '/blocks/1902/1902-content.php'; ?>       
                     <?php include $dir_block . '/blocks/1921/1921-content.php'; ?>
-                    <?php include $dir_block . '/blocks/1903/1903-content.php'; ?>
                 </div>
             </div>
         </div>
-        <div class="slider-product">
-            <div class="container">
-                <div class="row">
-                    <?php include $dir_block . '/blocks/1903/1903-content.php'; ?>
-                </div>
-            </div>
-        </div>
-<<<<<<< HEAD
         <div class="slider-product">
             <div class="container">
                 <div class="row">
@@ -97,8 +81,6 @@ $less->compileFile('less/1921.less', 'css/1921.css');
                 </div>
             </div>
         </div>
-=======
->>>>>>> 2522f688cd98d3783dfc13ee03999cd6fb8ec1dc
 
 
         <!--        <div class="fit-cont">

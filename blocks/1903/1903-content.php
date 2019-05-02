@@ -81,11 +81,7 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
         </div>
         <div class="col-md-9 col-sm-8 col-xs-12 product">
-<<<<<<< HEAD
             <div class="products">
-=======
-            <div class="row products">
->>>>>>> 2522f688cd98d3783dfc13ee03999cd6fb8ec1dc
                 <div id="Electronis" class="tabcontent">
                     <div class="owl-controls">
                         <div class="owl-buttons">
@@ -97,11 +93,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
                         </div>
                     </div>
-<<<<<<< HEAD
                     <div class="swiper-container swiper-product">
-=======
-                    <div class="swiper-container">
->>>>>>> 2522f688cd98d3783dfc13ee03999cd6fb8ec1dc
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="col-md-3 col-sm-6 col-xs-12">
@@ -649,11 +641,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
                         </div>
                     </div>
-<<<<<<< HEAD
                     <div class="swiper-container swiper-product-2">
-=======
-                    <div class="swiper-container-2">
->>>>>>> 2522f688cd98d3783dfc13ee03999cd6fb8ec1dc
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="col-md-3 col-sm-6 col-xs-12">
@@ -1049,11 +1037,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
                         </div>
                     </div>
-<<<<<<< HEAD
                     <div class="swiper-container swiper-product-3">
-=======
-                    <div class="swiper-container-3">
->>>>>>> 2522f688cd98d3783dfc13ee03999cd6fb8ec1dc
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="col-md-3 col-sm-6 col-xs-12">
