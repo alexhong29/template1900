@@ -51,12 +51,20 @@ $less->compileFile('less/1921.less', 'css/1921.css');
 
     <body>
         <?php include $dir_block . '/blocks/1900/1900-content.php'; ?>
-        <?php include $dir_block . '/blocks/1902/1902-content.php'; ?>
-        <?php include $dir_block . '/blocks/1921/1921-content.php'; ?>
+        <div class="slider-home">
+            <div class="container">
+                <div class="row">
+                    <?php include $dir_block . '/blocks/1902/1902-content.php'; ?>
+                    <?php include $dir_block . '/blocks/1921/1921-content.php'; ?>
+                </div>
+            </div>
+        </div>
 
-<!--        <div class="fit-cont">
-            <?php include $dir_block . '/blocks/1907-content.php'; ?>
-        </div>-->
+
+
+        <!--        <div class="fit-cont">
+        <?php include $dir_block . '/blocks/1907-content.php'; ?>
+                </div>-->
 
     </body>
 </html>
