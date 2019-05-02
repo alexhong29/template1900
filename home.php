@@ -18,8 +18,6 @@ $less->compileFile('less/1902.less', 'css/1902.css');
 $less->compileFile('less/1921.less', 'css/1921.css');
 $less->compileFile('less/1903.less', 'css/1903.css');
 $less->compileFile('less/1904.less', 'css/1904.css');
-$less->compileFile('less/1904.less', 'css/1905.css');
-$less->compileFile('less/1904.less', 'css/1906.css');
 $less->compileFile('less/1907.less', 'css/1907.css');
 ?>
 
@@ -44,8 +42,6 @@ $less->compileFile('less/1907.less', 'css/1907.css');
         <link rel="stylesheet" href="<?php echo $url_path ?>/css/1921.css">
         <link rel="stylesheet" href="<?php echo $url_path ?>/css/1903.css">
         <link rel="stylesheet" href="<?php echo $url_path ?>/css/1904.css">
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/1905.css">
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/1906.css">
         <link rel="stylesheet" href="<?php echo $url_path ?>/css/1907.css">
 
 
@@ -60,8 +56,6 @@ $less->compileFile('less/1907.less', 'css/1907.css');
         <script src="<?php echo $url_path ?>/js/1902.js"></script>
         <script src="<?php echo $url_path ?>/js/1921.js"></script>
         <script src="<?php echo $url_path ?>/js/1903.js"></script>
-        <script src="<?php echo $url_path ?>/js/1905.js"></script>
-        <script src="<?php echo $url_path ?>/js/1906.js"></script>
 
     </head>
 
@@ -90,8 +84,6 @@ $less->compileFile('less/1907.less', 'css/1907.css');
             </div>
         </div>
         
-        <?php include $dir_block . '/blocks/1905/1905-content.php'; ?>
-
         <div class="clearfix"></div>
 
         <footer>
