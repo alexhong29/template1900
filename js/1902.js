@@ -1,17 +1,18 @@
 $(document).ready(function () {
-    var swiper = new Swiper('.swiper-container', {
+    var swiper1 = new Swiper('.swiper-1902', {
         slidesPerView: 1,
         spaceBetween: 30,
-        slidesPerGroup: 1,
         loop: true,
-        loopFillGroupWithBlank: true,
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
     });
+//    $(window).resize(function () {
+//        setTimeout(function () {
+//            $('.swiper-container').each(function () {
+//                $(this).data('swiper').reInit()
+//            });
+//        },0);
+//    });
 });

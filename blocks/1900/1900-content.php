@@ -241,7 +241,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                                 <div class="megaone">
                                                     <h2>Deal Of The Day</h2>
                                                     <a href="#" class="image">
-                                                        <img src="./images/banner-header.jpg" alt="null">
+                                                        <img src="<?php echo $url_path ?>/images/banner-header.jpg" alt="null">
                                                     </a>
                                                     <h4>Travel shop</h4>
                                                     <h4 class="upto">Upto</h4>

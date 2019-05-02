@@ -91,6 +91,8 @@ $less->compileFile('less/1907.less', 'css/1907.css');
         </div>
         
         <?php include $dir_block . '/blocks/1905/1905-content.php'; ?>
+        
+        <?php include $dir_block . '/blocks/1906/1906-content.php'; ?>
 
         <div class="clearfix"></div>
 
