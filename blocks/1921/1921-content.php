@@ -11,15 +11,13 @@ $url_path = str_replace('\\', '/', $url_path);
 <div class="type-1921">
     <div class="container">
         <div class="row img">
-            <div class="col-md-12 slide-band6">
-                <div class="col-md-8 img1">
-                </div>
+            <div class="slide-band6">
                 <div class="col-md-4 img2">
                     <div class="wrapper">
                         <div class="single-img item-adv-simple item1">
                             <div class="wrapper item-adv-simple">
                                 <a href="#">
-                                    <img src="<?php echo $url_path ?>/images/ad1-2.jpg" class="img-responsive">
+                                    <img src="images/ad1-2.jpg" class="img-responsive">
                                 </a>
                             </div>
 
@@ -36,7 +34,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="single-img item-adv-simple item2">
                             <div class="wrapper item-adv-simple ">
                                 <a href="#">
-                                    <img src="<?php echo $url_path ?>/images/ad2-2.jpg" class="img-responsive">
+                                    <img src="images/ad2-2.jpg" class="img-responsive">
                                 </a>
                                 <div class="promotion info-3">
                                     <h3>iPOD APPLE</h3>
