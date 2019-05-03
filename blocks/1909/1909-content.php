@@ -8,71 +8,65 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-1909">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-9 col-sm-8 col-xs-12">
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src="<?php echo $url_path ?>/images/bn1.jpg" alt="error" class="img-responsive"/>
-                            <div class="promotion">
-                                <h3>jewelry-bracelets</h3>
-                                <h2>exta 35% off </h2>
-                                <button class="button d1">
-                                    <span>Shop Now</span>
-                                </button>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="<?php echo $url_path ?>/images/bn2.jpg" alt="error" class="img-responsive"/>
-                            <div class="promotion">
-                                <h3>New technology</h3>
-                                <h2>exta 35% off </h2>
-                                <button class="button d1">
-                                    <span>Shop Now</span>
-                                </button>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="<?php echo $url_path ?>/images/bn3.jpg" alt="error" class="img-responsive"/>
-                            <div class="promotion">
-                                <h3>new fashion</h3>
-                                <h2>exta 35% off </h2>
-                                <button class="button d1">
-                                    <span>Shop Now</span>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Add Arrows -->
-                    <div class="arrow">
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                    </div>
+    <div class="swiper-container swiper1909">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="<?php echo $url_path ?>/images/bn1.jpg" alt="error" class="img-responsive"/>
+                <div class="promotion">
+                    <h3>jewelry-bracelets</h3>
+                    <h2>exta 35% off </h2>
+                    <button class="button d1">
+                        <span>Shop Now</span>
+                    </button>
                 </div>
-                <div class="list-shop-cat">
-                    <ul>
-                        <li>
-                            <a href="#">Electronis <span>20</span></a>
-                        </li>
-                        <li>
-                            <a href="#">Fashion <span>10</span></a>
-                        </li>
-                        <li>
-                            <a href="#">Food <span>10</span></a>
-                        </li>
-                        <li>
-                            <a href="#">Furniture <span>10</span></a>
-                        </li>
-                        <li>
-                            <a href="#">Jewelry <span>10</span></a>
-                        </li>
-                        <li>
-                            <a href="#">Sports <span>8</span></a>
-                        </li>
-                    </ul>
+            </div>
+            <div class="swiper-slide">
+                <img src="<?php echo $url_path ?>/images/bn2.jpg" alt="error" class="img-responsive"/>
+                <div class="promotion">
+                    <h3>New technology</h3>
+                    <h2>exta 35% off </h2>
+                    <button class="button d1">
+                        <span>Shop Now</span>
+                    </button>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="<?php echo $url_path ?>/images/bn3.jpg" alt="error" class="img-responsive"/>
+                <div class="promotion">
+                    <h3>new fashion</h3>
+                    <h2>exta 35% off </h2>
+                    <button class="button d1">
+                        <span>Shop Now</span>
+                    </button>
                 </div>
             </div>
         </div>
+        <!-- Add Arrows -->
+        <div class="arrow">
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+    <div class="list-shop-cat">
+        <ul>
+            <li>
+                <a href="#">Electronis <span>20</span></a>
+            </li>
+            <li>
+                <a href="#">Fashion <span>10</span></a>
+            </li>
+            <li>
+                <a href="#">Food <span>10</span></a>
+            </li>
+            <li>
+                <a href="#">Furniture <span>10</span></a>
+            </li>
+            <li>
+                <a href="#">Jewelry <span>10</span></a>
+            </li>
+            <li>
+                <a href="#">Sports <span>8</span></a>
+            </li>
+        </ul>
     </div>
 </div>

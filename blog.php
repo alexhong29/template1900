@@ -71,7 +71,7 @@ $less->compileFile('less/1912.less', 'css/1912.css');
                         <?php include $dir_block . '/blocks/1915/1915-content.php'; ?>
                         <?php include $dir_block . '/blocks/1911/1911-content.php'; ?>
                     </div>
-                    <div class="col-md-9">
+                    <div class="col-md-9 col-sm-8 col-xs-12">
                         <?php include $dir_block . '/blocks/1913/1913-content.php'; ?>
                     </div>
                 </div>
