@@ -7,6 +7,7 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-1905">
+
     <div class="container">
         <div class="row top_title">
             <div class="col-md-12 new_product">
@@ -32,9 +33,9 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="circle-info-wrapper">
                         <figure class="imghvr-push-up">
-                            <img src="<?php echo $url_path ?>/images/fas1.png" alt="#" class="img-responsive">
+                            <img src="images/fas1.png" alt="#" class="img-responsive">
                             <figcaption class="image-hover">
-                                <img src="<?php echo $url_path ?>/images/fas2.png" alt="#" class="img-responsive">
+                                <img src="images/fas2.png" alt="#" class="img-responsive">
                                 <div class="bor_img">
                                     <div class="like">
                                         <a href="#">
@@ -66,9 +67,9 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="circle-info-wrapper">
                         <figure class="imghvr-push-up">
-                            <img src="<?php echo $url_path ?>/images/fas2.png" alt="#" class="img-responsive">
+                            <img src="images/fas2.png" alt="#" class="img-responsive">
                             <figcaption class="image-hover">
-                                <img src="<?php echo $url_path ?>/images/fas1.png" alt="#" class="img-responsive">
+                                <img src="images/fas1.png" alt="#" class="img-responsive">
                                 <div class="bor_img">
                                     <div class="like">
                                         <a href="#">
@@ -102,9 +103,9 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="circle-info-wrapper">
                         <figure class="imghvr-push-up">
-                            <img src="<?php echo $url_path ?>/images/computer1.jpg" alt="#" class="img-responsive">
+                            <img src="images/computer1.jpg" alt="#" class="img-responsive">
                             <figcaption class="image-hover">
-                                <img src="<?php echo $url_path ?>/images/computer2.jpg" alt="#" class="img-responsive">
+                                <img src="images/computer2.jpg" alt="#" class="img-responsive">
                                 <div class="bor_img">
                                     <div class="like">
                                         <a href="#">
@@ -139,9 +140,9 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="circle-info-wrapper">
                         <figure class="imghvr-push-up">
-                            <img src="<?php echo $url_path ?>/images/computer1.jpg" alt="#" class="img-responsive">
+                            <img src="images/computer1.jpg" alt="#" class="img-responsive">
                             <figcaption class="image-hover">
-                                <img src="<?php echo $url_path ?>/images/fas2.png" alt="#" class="img-responsive">
+                                <img src="images/fas2.png" alt="#" class="img-responsive">
                                 <div class="bor_img">
                                     <div class="like">
                                         <a href="#">
@@ -175,9 +176,9 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="circle-info-wrapper">
                         <figure class="imghvr-push-up">
-                            <img src="<?php echo $url_path ?>/images/fas1.png" alt="#" class="img-responsive">
+                            <img src="images/fas1.png" alt="#" class="img-responsive">
                             <figcaption class="image-hover">
-                                <img src="<?php echo $url_path ?>/images/fas2.png" alt="#" class="img-responsive">
+                                <img src="images/fas2.png" alt="#" class="img-responsive">
                                 <div class="bor_img">
                                     <div class="like">
                                         <a href="#">

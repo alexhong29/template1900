@@ -14,10 +14,11 @@ if (!class_exists('lessc')) {
 
 $less = new lessc;
 $less->compileFile('less/1900.less', 'css/1900.css');
-$less->compileFile('less/1902.less', 'css/1902.css');
-$less->compileFile('less/1903.less', 'css/1903.css');
-$less->compileFile('less/1904.less', 'css/1904.css');
-$less->compileFile('less/1921.less', 'css/1921.css');
+$less->compileFile('less/1914.less', 'css/1914.css');
+$less->compileFile('less/1915.less', 'css/1915.css');
+$less->compileFile('less/1911.less', 'css/1911.css');
+$less->compileFile('less/1913.less', 'css/1913.css');
+$less->compileFile('less/1912.less', 'css/1912.css');
 ?>
 
 <!DOCTYPE html>
@@ -29,7 +30,7 @@ $less->compileFile('less/1921.less', 'css/1921.css');
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Home - AloShop</title>
+        <title>Blog - AloShop</title>
 
         <link rel="stylesheet" href="<?php echo $url_path ?>/css/bootstrap.min.css">
         <link rel="stylesheet" href="<?php echo $url_path ?>/css/font-awesome.min.css">
@@ -37,10 +38,11 @@ $less->compileFile('less/1921.less', 'css/1921.css');
         <link rel="stylesheet" href="<?php echo $url_path ?>/css/imagehover.min.css">
 
         <link rel="stylesheet" href="<?php echo $url_path ?>/css/1900.css">
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/1902.css">
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/1903.css">
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/1904.css">
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/1921.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/css/1914.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/css/1915.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/css/1911.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/css/1913.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/css/1912.css">
 
 
         <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
@@ -51,35 +53,30 @@ $less->compileFile('less/1921.less', 'css/1921.css');
         <script src="<?php echo $url_path ?>/js/kinetic.js"></script>
 
         <script src="<?php echo $url_path ?>/js/1900.js"></script>
-        <script src="<?php echo $url_path ?>/js/1902.js"></script>
-        <script src="<?php echo $url_path ?>/js/1903.js"></script>
-        <script src="<?php echo $url_path ?>/js/1921.js"></script>
+        <script src="<?php echo $url_path ?>/js/1914.js"></script>
+        <script src="<?php echo $url_path ?>/js/1915.js"></script>
+        <script src="<?php echo $url_path ?>/js/1911.js"></script>
+        <script src="<?php echo $url_path ?>/js/1913.js"></script>
+        <script src="<?php echo $url_path ?>/js/1912.js"></script>
 
     </head>
 
     <body>
         <?php include $dir_block . '/blocks/1900/1900-content.php'; ?>
-        <div class="slider-home">
+        <div class="blog-page">
             <div class="container">
                 <div class="row">
-                    <?php include $dir_block . '/blocks/1902/1902-content.php'; ?>       
-                    <?php include $dir_block . '/blocks/1921/1921-content.php'; ?>
+                    <div class="col-md-3 col-sm-4 col-xs-12">
+                        <?php include $dir_block . '/blocks/1914/1914-content.php'; ?>
+                        <?php include $dir_block . '/blocks/1915/1915-content.php'; ?>
+                        <?php include $dir_block . '/blocks/1911/1911-content.php'; ?>
+                    </div>
+                    <div class="col-md-9">
+                        <?php include $dir_block . '/blocks/1913/1913-content.php'; ?>
+                    </div>
                 </div>
             </div>
         </div>
-        <?php include $dir_block . '/blocks/1903/1903-content.php'; ?>
-        <div class="slider-promotion">
-            <div class="container">
-                <div class="row">
-                    <?php include $dir_block . '/blocks/1904/1904-content.php'; ?>
-                </div>
-            </div>
-        </div>
-
-
-        <!--        <div class="fit-cont">
-        <?php include $dir_block . '/blocks/1907-content.php'; ?>
-                </div>-->
-
+        <?php include $dir_block . '/blocks/1912/1912-content.php'; ?>
     </body>
 </html>
