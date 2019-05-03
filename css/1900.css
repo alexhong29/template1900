@@ -1,19 +1,22 @@
-.type-1900 {
-  position: relative;
-}
-.type-1900 body {
+body {
   padding: 0;
   margin: 0;
 }
-.type-1900 a {
+body a {
   text-decoration: none;
 }
-.type-1900 li {
+body a:hover {
+  text-decoration: none;
+}
+body li {
   list-style: none;
 }
-.type-1900 ul {
+body ul {
   list-style: none;
   padding: 0;
+}
+.type-1900 {
+  position: relative;
 }
 .type-1900 .clearfix {
   overflow: auto;
