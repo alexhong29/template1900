@@ -1,0 +1,120 @@
+.type-1918 {
+  box-sizing: border-box;
+  outline: none;
+  color: #333;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  background: #FFFFFF;
+}
+.type-1918 .contact-info-page {
+  background: #f4f4f4 none repeat scroll 0 0;
+  padding: 70px 0;
+  text-align: center;
+}
+.type-1918 .contact-info-page .desc {
+  color: #555;
+  margin: 0 auto;
+  max-width: 890px;
+  padding: 0 15px;
+}
+.type-1918 .item-contact-info {
+  margin-bottom: 45px;
+  position: relative;
+  text-align: center;
+}
+.type-1918 .item-contact-info:after {
+  background: #999 none repeat scroll 0 0;
+  content: "";
+  height: 2px;
+  left: 100%;
+  margin-left: -50px;
+  position: absolute;
+  top: 28px;
+  width: 100px;
+}
+.type-1918 .item-contact-info .contact-icon {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+}
+.type-1918 .item-contact-info .contact-icon .before {
+  color: #999;
+  font-size: 60px;
+  left: 100%;
+  position: absolute;
+  top: -1px;
+  transition: all 0.3s ease 0s;
+  left: 0;
+  transform: translateX(-200%);
+  opacity: 0;
+}
+.type-1918 .item-contact-info .contact-icon a {
+  color: #333;
+  text-decoration: none;
+}
+.type-1918 .item-contact-info .contact-icon a:hover {
+  color: #f9bc02;
+}
+.type-1918 .item-contact-info .contact-icon:hover .before {
+  transform: translateX(0) rotate(0);
+  opacity: 1;
+  color: #f9bc02;
+}
+.type-1918 .item-contact-info .contact-icon:hover:before {
+  transform: translateX(0) rotate(0);
+  -moz-transform: translateX(0) rotate(0);
+  -webkit-transform: translateX(0) rotate(0);
+  opacity: 1;
+  color: #f9bc02;
+}
+.type-1918 .item-contact-info .contact-icon:hover i {
+  -webkit-transform: translateX(200%);
+  transform: translateX(200%);
+  opacity: 0;
+  color: #f9bc02;
+}
+.type-1918 .item-contact-info .contact-icon:before {
+  color: #999;
+  font-family: "fontawesome";
+  font-size: 60px;
+  left: 100%;
+  position: absolute;
+  top: -1px;
+  left: 0;
+  -webkit-transform: translateX(-200%);
+  transform: translateX(-200%);
+  opacity: 0;
+}
+.type-1918 .item-contact-info a {
+  color: #333;
+  text-decoration: none;
+}
+.type-1918 .item-contact-info a:hover {
+  color: #f9bc02;
+}
+.type-1918 .item-contact-info a i {
+  color: #999;
+  font-size: 60px;
+}
+.type-1918 .item-contact-info h2 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 25px 0 0;
+}
+.type-1918 .last-item:after {
+  display: none;
+}
+.type-1918 .vc_custom {
+  margin-bottom: 0px;
+}
+.type-1918 p {
+  line-height: 24px;
+}
+@media (max-width: 768px) {
+  .type-1918 .item-contact-info:after {
+    display: none;
+  }
+}

@@ -42,8 +42,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="header-second">
                     <div class="col-md-4 col-sm-3">
                         <div class="logo-top">
-                            <a class="logo" href="#">
-                                <img src="<?php echo $url_path ?>/images/logo-top.png" class="img-responsive" alt="logo">
+                            <a class="logo" href="../">
+                                <img  src="<?php echo $url_path ?>/images/logo-top.png" class="img-responsive" alt="logo">
                             </a>
                         </div>
                     </div>
@@ -108,7 +108,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <!--Item Home-->
                                     <li>
                                         <div class="title">
-                                            <a href="#">HOME <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                            <a href="../">HOME <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                         </div>
                                         <div class="context">
                                             <ul>
@@ -136,7 +136,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <!--Item Shop-->
                                     <li>
                                         <div class="title">
-                                            <a href="#">Shops <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                            <a href="../fashion.php">Shops <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                         </div>
 
                                         <div class="contextshop">
@@ -180,7 +180,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <!--Item Blog-->
                                     <li>
                                         <div class="title">
-                                            <a href="#">Blog <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                            <a href="../blog.php">Blog <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                         </div>
                                         <div class="context">
                                             <ul>
@@ -269,13 +269,13 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <!--Item About-->
                                     <li>
                                         <div class="title">
-                                            <a href="#">About</a>
+                                            <a href="../about.php">About</a>
                                         </div>
                                     </li>
                                     <!--Item Contact-->
                                     <li>
                                         <div class="title">
-                                            <a href="#">Contact</a>
+                                            <a href="../contact.php">Contact</a>
                                         </div>
                                     </li>
                                 </ul>
