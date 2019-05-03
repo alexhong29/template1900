@@ -24,7 +24,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="col-md-6  col-sm-6 col-xs-12 slide-content">
                                 <div class="col-md-6 col-sm-12 col-xs-6 ">
                                     <div class="pic-hover">
-                                        <img src="images/user-photo-4.jpg" alt="hinh1" class="img-responsive">
+                                        <img src="<?php echo $url_path ?>/images/user-photo-4.jpg" alt="hinh1" class="img-responsive">
                                         
                                     </div>
 
@@ -45,7 +45,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="col-md-6  col-sm-6 col-xs-12 slide-content">
                                 <div class="col-md-6 col-sm-12 col-xs-6 ">
                                     <div class="pic-hover">
-                                        <img src="images/user-photo-5.jpg" alt="hinh1" class="img-responsive">
+                                        <img src="<?php echo $url_path ?>/images/user-photo-5.jpg" alt="hinh1" class="img-responsive">
                                     </div>
 
                                 </div>
@@ -67,7 +67,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="col-md-6  col-sm-6 col-xs-12 slide-content">
                                 <div class="col-md-6 col-sm-12 col-xs-6 ">
                                     <div class="pic-hover">
-                                        <img src="images/user-photo-6.jpg" alt="hinh1" class="img-responsive">
+                                        <img src="<?php echo $url_path ?>/images/user-photo-6.jpg" alt="hinh1" class="img-responsive">
                                     </div>
 
                                 </div>
@@ -87,7 +87,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="col-md-6  col-sm-6 col-xs-12 slide-content">
                                 <div class="col-md-6 col-sm-12 col-xs-6 ">
                                     <div class="pic-hover">
-                                        <img src="images/user-photo-8.jpg" alt="hinh1" class="img-responsive">
+                                        <img src="<?php echo $url_path ?>/images/user-photo-8.jpg" alt="hinh1" class="img-responsive">
                                     </div>
 
                                 </div>

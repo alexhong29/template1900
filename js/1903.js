@@ -6,7 +6,7 @@ $(document).ready(function () {
     });
 // Get the element with id="defaultOpen" and click on it
     document.getElementById("furniture").click();
-    var swiper = new Swiper('.swiper-product-3', {
+    var swiper4 = new Swiper('.swiper4', {
         slidesPerView: 4,
         spaceBetween: 30,
         navigation: {
@@ -21,7 +21,7 @@ $(document).ready(function () {
         }
     });
     document.getElementById("fashion").click();
-    var swiper = new Swiper('.swiper-product-2', {
+    var swiper3 = new Swiper('.swiper3', {
         slidesPerView: 4,
         spaceBetween: 30,
         navigation: {
@@ -36,7 +36,7 @@ $(document).ready(function () {
         }
     });
     document.getElementById("electronis").click();
-    var swiper = new Swiper('.swiper-product', {
+    var swiper2 = new Swiper('.swiper2', {
         slidesPerView: 4,
         spaceBetween: 30,
         navigation: {

@@ -7,11 +7,10 @@ preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-
-<div class="faqs">
-    <div class="type-1915">
-        <div class="top-row">
-            <div class="faqs">
+<div class="type-1915">
+    <div class="container">
+        <div class="row top-row">
+            <div class="col-md-3 col-xs-12 faqs">
                 <h2>FAQS</h2>
                 <h3 class="accordion active">Flyout Content Area 1</h3>
                 <div class="panel content-body">

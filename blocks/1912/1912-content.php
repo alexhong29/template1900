@@ -107,32 +107,32 @@ $url_path = str_replace('\\', '/', $url_path);
                         <ul>
                             <li>
                                 <a href="#">
-                                    <img width="40" height="40" src="<?php echo $url_path ?>/images/s1.png" class="attachment-full size-full" alt="">
+                                    <img width="40" height="40" src="images/s1.png" class="attachment-full size-full" alt="">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img width="40" height="40" src="<?php echo $url_path ?>/images/s2.png" class="attachment-full size-full" alt="">
+                                    <img width="40" height="40" src="images/s2.png" class="attachment-full size-full" alt="">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img width="40" height="40" src="<?php echo $url_path ?>/images/s3.png" class="attachment-full size-full" alt="">
+                                    <img width="40" height="40" src="images/s3.png" class="attachment-full size-full" alt="">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img width="40" height="40" src="<?php echo $url_path ?>/images/s4.png" class="attachment-full size-full" alt="">
+                                    <img width="40" height="40" src="images/s4.png" class="attachment-full size-full" alt="">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img width="40" height="40" src="<?php echo $url_path ?>/images/s5.png" class="attachment-full size-full" alt="">
+                                    <img width="40" height="40" src="images/s5.png" class="attachment-full size-full" alt="">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img width="40" height="40" src="<?php echo $url_path ?>/images/s6.png" class="attachment-full size-full" alt="">
+                                    <img width="40" height="40" src="images/s6.png" class="attachment-full size-full" alt="">
                                 </a>
                             </li>
                         </ul>
@@ -262,13 +262,13 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class=" col-sm-6 col-md-4">
                     <div class="payment-method clearfix">
                         <a href="#">
-                            <img width="77" height="27" src="<?php echo $url_path ?>/images/p1.png" class="attachment-full size-full" alt="">
+                            <img width="77" height="27" src="images/p1.png" class="attachment-full size-full" alt="">
                         </a>
                         <a href="#">
-                            <img width="49" height="29" src="<?php echo $url_path ?>/images/p4.png" class="attachment-full size-full" alt="">
+                            <img width="49" height="29" src="images/p4.png" class="attachment-full size-full" alt="">
                         </a>
                         <a href="#">
-                            <img width="46" height="27" src="<?php echo $url_path ?>/images/p3.png" class="attachment-full size-full" alt=""></a><a href="#"><img width="46" height="28" src="<?php echo $url_path ?>/images/p2.png" class="attachment-full size-full" alt="">
+                            <img width="46" height="27" src="images/p3.png" class="attachment-full size-full" alt=""></a><a href="#"><img width="46" height="28" src="images/p2.png" class="attachment-full size-full" alt="">
                         </a>
                     </div>
                 </div>
