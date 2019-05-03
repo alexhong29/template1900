@@ -72,12 +72,14 @@
                         transition: 0.3s;
                         font-size: 17px;
                     }
-                    .tablinks::after {
-                        content: "";
+                    
+                    .fa-angle-right{
+                        display: none;
                     }
-                    .active::after{
-                        content: "\f054";
+                    
+                    .active .fa-angle-right{
                         float: right;
+                        display: block;
                     }
                     button:hover {
                         color: #4bae4f;

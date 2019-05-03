@@ -65,12 +65,12 @@
   transition: 0.3s;
   font-size: 17px;
 }
-.type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-tab .tab .tablinks::after {
-  content: "";
+.type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-tab .tab .fa-angle-right {
+  display: none;
 }
-.type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-tab .tab .active::after {
-  content: "\f054";
+.type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-tab .tab .active .fa-angle-right {
   float: right;
+  display: block;
 }
 .type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-tab .tab button:hover {
   color: #4bae4f;

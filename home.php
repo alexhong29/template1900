@@ -36,11 +36,10 @@ $less->compileFile('less/1921.less', 'css/1921.css');
         <title>Home - AloShop</title>
 
         <link rel="stylesheet" href="<?php echo $url_path ?>/css/bootstrap.min.css">
-        <!--<link rel="stylesheet" href="<?php echo $url_path ?>/css/font-awesome.min.css">-->
+        <link rel="stylesheet" href="<?php echo $url_path ?>/css/font-awesome.min.css">
         <link rel="stylesheet" href="<?php echo $url_path ?>/css/swiper.min.css">
         <link rel="stylesheet" href="<?php echo $url_path ?>/css/imagehover.min.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-        <link href="css/all.css" rel="stylesheet" type="text/css"/>
 
         <link rel="stylesheet" href="<?php echo $url_path ?>/css/1900.css">
         <link rel="stylesheet" href="<?php echo $url_path ?>/css/1902.css">
