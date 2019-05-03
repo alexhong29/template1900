@@ -2,6 +2,7 @@
 $url_host = 'http://' . $_SERVER['HTTP_HOST'];
 $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
 $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
+
 preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
@@ -20,15 +21,15 @@ $url_path = str_replace('\\', '/', $url_path);
                 <!-- Tab links -->
                 <div class="tab">
                     <a class="tablinks" onclick="openCity(event, 'Computer')">COMPUTER</a>
-                    <a class="tablinks" onclick="openCity(event, 'Electronis')">ELECTRONIS</a>
-                    <a class="tablinks" onclick="openCity(event, 'Fashions')">FASHIONS</a>
+                    <a class="tablinks" onclick="openCity(event, 'Electroniss')">ELECTRONIS</a>
+                    <a class="tablinks" onclick="openCity(event, 'Fashionss')">FASHIONS</a>
                     <a class="tablinks" onclick="openCity(event, 'Foods')">FOODS</a>
                 </div>
             </div>
         </div>
         <!-- Tab content -->
         <div class="row gallery">
-            <div id="Computer" class="tabcontent">
+            <div id="Computer" class="tabcontents">
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="circle-info-wrapper">
                         <figure class="imghvr-push-up">
@@ -98,7 +99,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
             </div>
-            <div id="Electronis" class="tabcontent">
+            <div id="Electroniss" class="tabcontent">
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="circle-info-wrapper">
                         <figure class="imghvr-push-up">
@@ -134,7 +135,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
             </div>
-            <div id="Fashions" class="tabcontent">
+            <div id="Fashionss" class="tabcontents">
 
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="circle-info-wrapper">
@@ -171,7 +172,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
             </div>
-            <div id="Foods" class="tabcontent">
+            <div id="Foods" class="tabcontents">
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="circle-info-wrapper">
                         <figure class="imghvr-push-up">
