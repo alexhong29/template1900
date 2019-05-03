@@ -14,7 +14,7 @@ $url_path = str_replace('\\', '/', $url_path);
             <strong>big sale</strong>
         </h2>
     </div>
-    <div class="swiper-container">
+    <div class="swiper-container swiper1911">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <img src="<?php echo $url_path ?>/images/slide1.jpg" class="img-responsive">

@@ -1,0 +1,179 @@
+.type-1908 {
+  color: #333;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: inherit;
+  background: #FFFFFF;
+}
+.type-1908 .vlput {
+  width: 54%;
+}
+.type-1908 .sidebar-shop {
+  box-sizing: border-box;
+  outline: none;
+}
+.type-1908 .sidebar-shop .widget {
+  border: 1px solid #e8e8e8;
+  margin-bottom: 30px;
+  padding: 22px 20px;
+}
+.type-1908 .sidebar-shop .widget .widget-filter {
+  border: 0;
+  margin-bottom: 0;
+}
+.type-1908 .sidebar-shop .widget ul {
+  display: block;
+  padding: 0 2px;
+  margin: 15px 0;
+  margin: 0 0 20px;
+  padding: 0;
+  list-style: none;
+}
+.type-1908 .sidebar-shop .widget ul li {
+  margin-bottom: 10px;
+}
+.type-1908 .sidebar-shop .widget ul li .input-check input {
+  position: relative;
+  height: 20px;
+  width: 20px;
+  top: 5px;
+  cursor: pointer;
+}
+.type-1908 .sidebar-shop .widget ul li .input-check a {
+  color: #666;
+  cursor: pointer;
+}
+.type-1908 .sidebar-shop .widget ul li .input-check a:hover {
+  color: #fe9c00;
+  text-decoration: none;
+}
+.type-1908 .sidebar-shop .widget .widget-title {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 12px;
+  position: relative;
+  text-transform: uppercase;
+  padding: 0;
+  border-bottom: 0;
+}
+.type-1908 .sidebar-shop .widget .widget-title i {
+  float: right;
+  color: gray;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  line-height: 1px;
+  text-transform: lowercase;
+}
+.type-1908 .sidebar-shop .box-filter {
+  border-bottom: 1px solid #e8e8e8;
+  margin-bottom: 20px;
+}
+.type-1908 .sidebar-shop .box-filter:last-child {
+  border: medium none;
+  margin: 0;
+}
+.type-1908 .sidebar-shop .range-filter {
+  color: #666;
+}
+.type-1908 .sidebar-shop .range-filter form {
+  padding: 0;
+  margin: 15px 0;
+}
+.type-1908 .sidebar-shop .range-filter #amount span {
+  border: 1px solid #e8e8e8;
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  width: 20px;
+}
+.type-1908 .sidebar-shop .range-filter .btn-filter {
+  background: #fe9c00 none repeat scroll 0 0;
+  border: medium none;
+  color: #FFFFFF;
+  height: 30px;
+  width: 72px;
+}
+.type-1908 .sidebar-shop .range-filter #slider-range {
+  background: #fe9c00 none repeat scroll 0 0;
+  border: medium none;
+  height: 1px;
+  margin: 30px 0;
+  cursor: pointer;
+}
+.type-1908 .sidebar-shop .range-filter #slider-range .ui-slider-handle {
+  background: #ff9900 none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 0;
+  height: 16px;
+  margin: 0 -8px;
+  top: -8px;
+  width: 16px;
+  cursor: pointer;
+}
+.type-1908 .sidebar-shop .list-color-filter {
+  margin: 0 0 15px;
+}
+.type-1908 .sidebar-shop .list-color-filter a {
+  border: 1px solid #ccc;
+  display: inline-block;
+  height: 22px;
+  margin-bottom: 4px;
+  margin-right: 7px;
+  width: 22px;
+  color: #333;
+}
+.type-1908 .sidebar-shop .list-color-filter a:hover {
+  border: 1px solid #ED321E;
+}
+.type-1908 .sidebar-shop .list-color-filter a:active {
+  background: url("../images/grid/check.jpg") no-repeat right bottom;
+}
+.type-1908 .sidebar-shop .list-color-filter .color-black {
+  background-color: #000;
+}
+.type-1908 .sidebar-shop .list-color-filter .color-red {
+  background-color: #cd0c20;
+}
+.type-1908 .sidebar-shop .list-color-filter .color-pink {
+  background-color: #e66054;
+}
+.type-1908 .sidebar-shop .list-color-filter .color-blue {
+  background-color: #107a8e;
+}
+.type-1908 .sidebar-shop .list-color-filter .color-brown {
+  background-color: #502006;
+}
+.type-1908 .sidebar-shop .list-color-filter .color-green {
+  background-color: #a7bc93;
+}
+.type-1908 .sidebar-shop .list-color-filter .color-violet {
+  background-color: #d0b7cc;
+}
+.type-1908 .sidebar-shop .list-color-filter .color-blue-sky {
+  background-color: #b9cad2;
+}
+.type-1908 .sidebar-shop .list-color-filter .color-orange {
+  background-color: #FE9C00;
+}
+.type-1908 .sidebar-shop .list-color-filter .color-gray {
+  background-color: #b4b3ae;
+}
+.type-1908 .sidebar-shop .list-color-filter .color-red-blood {
+  background-color: #bd0316;
+}
+.type-1908 .sidebar-shop .list-color-filter .color-white {
+  background-color: #fff f;
+}
+.type-1908 .ui-slider {
+  position: relative;
+}
+.type-1908 .ui-slider .ui-slider-handle {
+  position: absolute;
+  z-index: 2;
+  cursor: default;
+}
+.type-1908 ul li a {
+  text-decoration: none;
+}
