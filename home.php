@@ -45,6 +45,9 @@ $less->compileFile('less/1921.less', 'css/1921.css');
         <link rel="stylesheet" href="<?php echo $url_path ?>/css/1902.css">
         <link rel="stylesheet" href="<?php echo $url_path ?>/css/1903.css">
         <link rel="stylesheet" href="<?php echo $url_path ?>/css/1904.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/css/1905.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/css/1906.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/css/1907.css">
         <link rel="stylesheet" href="<?php echo $url_path ?>/css/1921.css">
 
 
@@ -58,6 +61,8 @@ $less->compileFile('less/1921.less', 'css/1921.css');
         <script src="<?php echo $url_path ?>/js/1900.js"></script>
         <script src="<?php echo $url_path ?>/js/1902.js"></script>
         <script src="<?php echo $url_path ?>/js/1903.js"></script>
+        <script src="<?php echo $url_path ?>/js/1905.js"></script>
+        <script src="<?php echo $url_path ?>/js/1906.js"></script>
         <script src="<?php echo $url_path ?>/js/1921.js"></script>
 
     </head>
@@ -81,10 +86,15 @@ $less->compileFile('less/1921.less', 'css/1921.css');
             </div>
         </div>
 
+        <?php include $dir_block . '/blocks/1905/1905-content.php'; ?>
+        
+        <?php include $dir_block . '/blocks/1906/1906-content.php'; ?>
 
-        <div class="fit-cont">
-            <?php include $dir_block . '/blocks/1907-content.php'; ?>
-        </div>
+        <div class="clearfix"></div>
+
+        <footer>
+            <?php include $dir_block . '/blocks/1907/1907-content.php'; ?>
+        </footer>
 
     </body>
 </html>

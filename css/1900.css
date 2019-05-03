@@ -1360,6 +1360,12 @@ body ul {
     display: none;
   }
 }
+.type-1900 .context,
+.type-1900 .contextinformation,
+.type-1900 .contextmega,
+.type-1900 .contextshop {
+  z-index: 99;
+}
 @keyframes navup {
   0% {
     transform: translateY(25px);
