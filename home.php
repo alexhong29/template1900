@@ -18,8 +18,8 @@ $less->compileFile('less/1902.less', 'css/1902.css');
 $less->compileFile('less/1921.less', 'css/1921.css');
 $less->compileFile('less/1903.less', 'css/1903.css');
 $less->compileFile('less/1904.less', 'css/1904.css');
-$less->compileFile('less/1904.less', 'css/1905.css');
-$less->compileFile('less/1904.less', 'css/1906.css');
+$less->compileFile('less/1905.less', 'css/1905.css');
+$less->compileFile('less/1906.less', 'css/1906.css');
 $less->compileFile('less/1907.less', 'css/1907.css');
 $less->compileFile('less/1921.less', 'css/1921.css');
 ?>
