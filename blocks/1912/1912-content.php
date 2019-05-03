@@ -16,7 +16,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="logo-footer">
                             <figure class="figure-image">
                                 <a href="#" target="_self" class="vc_single_image-wrapper">
-                                    <img src="images/logo-footer.png" class="vc_single_image-img attachment-thumbnail" alt="">
+                                    <img src="<?php echo $url_path ?>/images/logo-footer.png" class="vc_single_image-img attachment-thumbnail" alt="">
                                 </a>
                             </figure>
                         </div>
