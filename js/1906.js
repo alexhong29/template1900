@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-    var swiper = new Swiper('.qoutation-slider--higher', {
+    var swiper = new Swiper('.swiper-container', {
         loop: true,
     calculateHeight: true,
     mode: 'horizontal',
