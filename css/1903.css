@@ -65,10 +65,10 @@
   transition: 0.3s;
   font-size: 17px;
 }
-.type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-tab .tab .fa-angle-right {
+.type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-tab .tab .fa-chevron-right {
   display: none;
 }
-.type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-tab .tab .active .fa-angle-right {
+.type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-tab .tab .active .fa-chevron-right {
   float: right;
   display: block;
 }
