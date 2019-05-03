@@ -49,29 +49,28 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="swiper-button-next"></div>
                         <div class="swiper-button-prev"></div>
                     </div>
-
-                    <div class="list-shop-cat">
-                        <ul>
-                            <li>
-                                <a href="#">Electronis <span>20</span></a>
-                            </li>
-                            <li>
-                                <a href="#">Fashion <span>10</span></a>
-                            </li>
-                            <li>
-                                <a href="#">Food <span>10</span></a>
-                            </li>
-                            <li>
-                                <a href="#">Furniture <span>10</span></a>
-                            </li>
-                            <li>
-                                <a href="#">Jewelry <span>10</span></a>
-                            </li>
-                            <li>
-                                <a href="#">Sports <span>8</span></a>
-                            </li>
-                        </ul>
-                    </div>
+                </div>
+                <div class="list-shop-cat">
+                    <ul>
+                        <li>
+                            <a href="#">Electronis <span>20</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Fashion <span>10</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Food <span>10</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Furniture <span>10</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Jewelry <span>10</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Sports <span>8</span></a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
