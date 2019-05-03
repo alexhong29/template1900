@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    var swiper1 = new Swiper('.swiper-1902', {
+    var swiper1 = new Swiper('.swiper1902', {
         slidesPerView: 1,
         spaceBetween: 30,
         loop: true,
