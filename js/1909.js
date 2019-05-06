@@ -9,6 +9,10 @@ $(document).ready(function () {
             el: '.swiper-pagination',
             clickable: true,
         },
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
         navigation: {
             nextEl: '.next1909',
             prevEl: '.prev1909',
