@@ -53,14 +53,14 @@ $(document).ready(function () {
 });
 function openCity(evt, cityName) {
     var i, tabcontent, tablinks;
-    tabcontent = document.getElementsByClassName("tabcontent");
+    tabcontent = document.getElementsByClassName("tabcontent1903");
     for (i = 0; i < tabcontent.length; i++) {
         tabcontent[i].style.display = "none";
     }
-    tablinks = document.getElementsByClassName("tablinks");
+    tablinks = document.getElementsByClassName("tablinks1903");
     for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
+        tablinks[i].className = tablinks[i].className.replace(" active1903", "");
     }
     document.getElementById(cityName).style.display = "block";
-    evt.currentTarget.className += " active";
+    evt.currentTarget.className += " active1903";
 }

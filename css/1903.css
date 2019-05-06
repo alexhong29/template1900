@@ -71,14 +71,14 @@
 .type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-tab .tab .fa-chevron-right {
   display: none;
 }
-.type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-tab .tab .active .fa-chevron-right {
+.type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-tab .tab .active1903 .fa-chevron-right {
   float: right;
   display: block;
 }
 .type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-tab .tab button:hover {
   color: #4bae4f;
 }
-.type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-tab .tabcontent {
+.type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-tab .tabcontent1903 {
   float: left;
   padding: 0px 12px;
   width: 76.5%;
@@ -158,11 +158,11 @@
   -webkit-transform: scale(1,0);
   z-index: 9;
 }
-.type-1903 .tabcontent .owl-controls {
+.type-1903 .tabcontent1903 .owl-controls {
   margin-top: 15px;
   margin-left: 770px;
 }
-.type-1903 .tabcontent .owl-buttons div {
+.type-1903 .tabcontent1903 .owl-buttons div {
   width: 25px;
   height: 25px;
   display: inline-block;
@@ -172,13 +172,13 @@
   background: #707070;
   opacity: 1;
 }
-.type-1903 .tabcontent .owl-buttons div span {
+.type-1903 .tabcontent1903 .owl-buttons div span {
   color: #fff;
   margin-left: 10px;
 }
-.type-1903 .swiper-container,
-.type-1903 .swiper-container-2,
-.type-1903 .swiper-container-3 {
+.type-1903 .swiper2,
+.type-1903 .swiper3,
+.type-1903 .swiper4 {
   overflow: hidden;
   width: 100%;
   height: auto;
@@ -301,7 +301,7 @@
   text-decoration: line-through;
 }
 @media (max-width: 960px) {
-  .type-1903 .tabcontent .owl-controls {
+  .type-1903 .tabcontent1903 .owl-controls {
     display: none;
   }
 }

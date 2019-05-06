@@ -18,9 +18,9 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
                 <div class="supperdeal-tab">
                     <div class="tab">
-                        <button class="tablinks active" onclick="openCity(event, 'Electronis')" id="electronis" >Electronis<i class="fa fa-chevron-right"></i></button>
-                        <button class="tablinks active" onclick="openCity(event, 'Fashion')" id="fashion">Fashion<i class="fa fa-chevron-right"></i></button>
-                        <button class="tablinks active" onclick="openCity(event, 'Furniture')" id="furniture">Furniture<i class="fa fa-chevron-right"></i></button>
+                        <button class="tablinks1903 active1903" onclick="openCity(event, 'Electronis')" id="electronis" >Electronis<i class="fa fa-chevron-right"></i></button>
+                        <button class="tablinks1903 active1903" onclick="openCity(event, 'Fashion')" id="fashion">Fashion<i class="fa fa-chevron-right"></i></button>
+                        <button class="tablinks1903 active1903" onclick="openCity(event, 'Furniture')" id="furniture">Furniture<i class="fa fa-chevron-right"></i></button>
                     </div>
                 </div>
                 <div class="supperdeal-countdown">
@@ -82,20 +82,20 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
         <div class="col-md-9 col-sm-8 col-xs-12 product">
             <div class="products">
-                <div id="Electronis" class="tabcontent">
+                <div id="Electronis" class="tabcontent1903">
                     <div class="owl-controls">
                         <div class="owl-buttons">
-                            <div class="swiper-button-prev">
+                            <div class="swiper-button-prev prev1903">
                                 <span class="fa fa-angle-left"></span>
                             </div>
-                            <div class="swiper-button-next">
+                            <div class="swiper-button-next next1903">
                                 <span class="fa fa-angle-right"></span>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-container swiper2">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide">
+                            <div class="swiper-slide slide2">
                                 <div class="col-md-3 col-sm-6 col-xs-12">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
@@ -630,20 +630,20 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
                 </div>
-                <div id="Fashion" class="tabcontent">
+                <div id="Fashion" class="tabcontent1903">
                     <div class="owl-controls">
                         <div class="owl-buttons">
-                            <div class="swiper-button-prev">
+                            <div class="swiper-button-prev prev1903">
                                 <span class="fa fa-angle-left"></span>
                             </div>
-                            <div class="swiper-button-next">
+                            <div class="swiper-button-next next1903">
                                 <span class="fa fa-angle-right"></span>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-container swiper3">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide">
+                            <div class="swiper-slide slide3">
                                 <div class="col-md-3 col-sm-6 col-xs-12">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
@@ -1026,20 +1026,20 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
                 </div>
-                <div id="Furniture" class="tabcontent">
+                <div id="Furniture" class="tabcontent1903">
                     <div class="owl-controls">
                         <div class="owl-buttons">
-                            <div class="swiper-button-prev">
+                            <div class="swiper-button-prev prev1903">
                                 <span class="fa fa-angle-left"></span>
                             </div>
-                            <div class="swiper-button-next">
+                            <div class="swiper-button-next next1903">
                                 <span class="fa fa-angle-right"></span>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-container swiper4">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide">
+                            <div class="swiper-slide slide4">
                                 <div class="col-md-3 col-sm-6 col-xs-12">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
