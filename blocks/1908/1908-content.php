@@ -41,7 +41,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <input class="vlput" type="text" id="amount" readonly>
 
                                 <button class="btn-filter">Filter</button>
-                                <div id="slider-range" class="ui-slider"></div>
+                                <div id="slider-range1" class="ui-slider"></div>
                             </div>
                         </div>
                     </div>

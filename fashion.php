@@ -52,6 +52,7 @@ $less->compileFile('less/1912.less', 'css/1912.css');
         <script src="<?php echo $url_path ?>/js/owl.carousel.min.js"></script>
         <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
         <script src="<?php echo $url_path ?>/js/jquery.final-countdown.js"></script>
+        <script src="<?php echo $url_path ?>/js/jquery-ui.js"></script>
         <script src="<?php echo $url_path ?>/js/kinetic.js"></script>
 
         <script src="<?php echo $url_path ?>/js/1900.js"></script>
