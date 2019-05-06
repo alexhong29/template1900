@@ -26,16 +26,18 @@ $url_path = str_replace('\\', '/', $url_path);
                             </li>
                         </ul>
                         <p>
-                            <a class="new-user-guide" href="#">View New User Guide</a>
+                            <a href="#">View New User Guide</a>
                         </p>
                     </div>
                 </div>
-                <div class="col-sm-6">
-                    <figure>
-                        <a href="#" target="_self">
-                            <img src="<?php echo $url_path ?>/images/about-video.jpg" alt="" vc_single_image-imgsrcset="<?php echo $url_path ?>/images/about-video.jpg">
-                        </a>
-                    </figure>
+                <div class="col-sm-6 col-sm-6 col-xs-12">
+                    <div class="imagemodule">
+                        <figure>
+                            <a href="#">
+                                <img src="<?php echo $url_path ?>/images/about-video.jpg" alt="" vc_single_image-imgsrcset="<?php echo $url_path ?>/images/about-video.jpg">
+                            </a>
+                        </figure>
+                    </div>
                 </div>
             </div>
         </div>

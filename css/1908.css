@@ -8,6 +8,14 @@
 .type-1908 .vlput {
   width: 54%;
 }
+.type-1908 .accordion1::after {
+  content: "\2212";
+  float: right;
+}
+.type-1908 .active1::after {
+  content: '\002B';
+  float: right;
+}
 .type-1908 .sidebar-shop {
   box-sizing: border-box;
   outline: none;
@@ -57,17 +65,12 @@
   padding: 0;
   border-bottom: 0;
 }
-.type-1908 .sidebar-shop .widget .widget-title i {
-  float: right;
-  color: gray;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 14px;
-  line-height: 1px;
-  text-transform: lowercase;
-}
 .type-1908 .sidebar-shop .box-filter {
   border-bottom: 1px solid #e8e8e8;
   margin-bottom: 20px;
+}
+.type-1908 .sidebar-shop .box-filter .panel-body {
+  display: none;
 }
 .type-1908 .sidebar-shop .box-filter:last-child {
   border: medium none;
