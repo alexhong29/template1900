@@ -10,8 +10,8 @@ $(document).ready(function () {
             clickable: true,
         },
         navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
+            nextEl: '.next1909',
+            prevEl: '.prev1909',
         },
     });
 });

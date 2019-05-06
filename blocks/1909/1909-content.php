@@ -43,8 +43,8 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
         <!-- Add Arrows -->
         <div class="arrow">
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next next1909"></div>
+            <div class="swiper-button-prev prev1909"></div>
         </div>
     </div>
     <div class="list-shop-cat">
