@@ -10,7 +10,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
 <div class="col-md-8">
     <div class="type-1902">
-        <div class="swiper-container swiper1902">
+        <div class="swiper-container swiper1902" >
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <img src="<?php echo $url_path ?>/images/demo1.jpg" alt="error" class="img-responsive"/>
@@ -44,8 +44,10 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
             </div>
             <!-- Add Arrows -->
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+            <div class="arrow1902">
+                <div class="swiper-button-next next1902"><i class="fa fa-angle-right" style="color: #fff; font-size: 20px;"></i></div>
+                <div class="swiper-button-prev prev1902"><i class="fa fa-angle-left" style="color: #fff; font-size: 20px;"></i></div>
+            </div>
         </div>
     </div>
 </div>
