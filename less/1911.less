@@ -20,29 +20,64 @@
         cursor: pointer;
         width: 100%;
         height: 100%;
+        
         .promotion{
             position: absolute;
             background: rgba(255,255,255,0.5);
             width: 100%;
         }
+        
+        h3{
+            font-size: 24px;
+        }
+        h2{
+            font-size: 20px;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+
+        .next1911, .prev1911{
+            width: 20px;
+            height: 40px;
+            line-height: 40px;
+            background: #333 none repeat scroll 0 0;
+            text-align: center;
+        }
+
+        .arrow1911{
+            display: none;
+        }
+        
+        .next1911{
+            right: 0;
+        }
+
+        .prev1911{
+            left: 0;
+        }
     }
-    .swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        background: #fff;
-        /* Center slide text vertically */
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        -webkit-justify-content: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        -webkit-align-items: center;
-        align-items: center;
+
+    .swiper1911:hover{
+        .arrow1911{
+            display: block
+        }
     }
     @media (max-width: 480px ) and (min-width:413px) {
         .promotion{
