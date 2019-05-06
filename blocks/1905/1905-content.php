@@ -33,7 +33,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="circle-info-wrapper">
                         <figure class="imghvr-push-up">
-                            <img src="<?php echo $url_path ?>/images/fas1.png" alt="#" class="img-responsive">
+                            <img src="<?php echo $url_path ?>/images/computer1.jpg" alt="#" class="img-responsive">
                             <figcaption class="image-hover">
                                 <img src="<?php echo $url_path ?>/images/fas2.png" alt="#" class="img-responsive">
                                 <div class="bor_img">
@@ -67,9 +67,9 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="circle-info-wrapper">
                         <figure class="imghvr-push-up">
-                            <img src="<?php echo $url_path ?>/images/fas2.png" alt="#" class="img-responsive">
+                            <img src="<?php echo $url_path ?>/images/computer2.jpg" alt="#" class="img-responsive">
                             <figcaption class="image-hover">
-                                <img src="<?php echo $url_path ?>/images/fas1.png" alt="#" class="img-responsive">
+                                <img src="<?php echo $url_path ?>/images/computer1.jpg" alt="#" class="img-responsive">
                                 <div class="bor_img">
                                     <div class="like">
                                         <a href="#">
