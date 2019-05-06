@@ -20,16 +20,16 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
                 <!-- Tab links -->
                 <div class="tab">
-                    <a class="tablinks" onclick="openCity(event, 'Computer')">COMPUTER</a>
-                    <a class="tablinks" onclick="openCity(event, 'Electroniss')">ELECTRONIS</a>
-                    <a class="tablinks" onclick="openCity(event, 'Fashionss')">FASHIONS</a>
-                    <a class="tablinks" onclick="openCity(event, 'Foods')">FOODS</a>
+                    <a class="tablinks1905" onclick="openCity(event, 'Computer1905')">COMPUTER</a>
+                    <a class="tablinks1905" onclick="openCity(event, 'Electroniss1905')">ELECTRONIS</a>
+                    <a class="tablinks1905" onclick="openCity(event, 'Fashionss1905')">FASHIONS</a>
+                    <a class="tablinks1905" onclick="openCity(event, 'Foods1905')">FOODS</a>
                 </div>
             </div>
         </div>
         <!-- Tab content -->
         <div class="row gallery">
-            <div id="Computer" class="tabcontents">
+            <div id="Computer1905" class="tabcontents">
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="circle-info-wrapper">
                         <figure class="imghvr-push-up">
@@ -99,7 +99,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
             </div>
-            <div id="Electroniss" class="tabcontent">
+            <div id="Electroniss1905" class="tabcontents">
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="circle-info-wrapper">
                         <figure class="imghvr-push-up">
@@ -135,7 +135,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
             </div>
-            <div id="Fashionss" class="tabcontents">
+            <div id="Fashionss1905" class="tabcontents">
 
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="circle-info-wrapper">
@@ -172,7 +172,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
             </div>
-            <div id="Foods" class="tabcontents">
+            <div id="Foods1905" class="tabcontents">
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="circle-info-wrapper">
                         <figure class="imghvr-push-up">

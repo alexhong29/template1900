@@ -122,24 +122,24 @@
   font-size: 15px;
   font-weight: bold;
 }
-.type-1905 .tabcontent {
+.type-1905 .tabcontents {
   margin-top: 20px;
 }
-.type-1905 .tabcontent a {
+.type-1905 .tabcontents a {
   font-weight: bold;
   font-size: 18px;
   color: black;
 }
-.type-1905 .tabcontent a:hover {
+.type-1905 .tabcontents a:hover {
   color: #4bae4f;
 }
-.type-1905 .tabcontent .price span.new_price {
+.type-1905 .tabcontents .price span.new_price {
   color: #4bae4f;
   font-weight: bold;
   font-size: 18px;
   padding-right: 10px;
 }
-.type-1905 .tabcontent .price span.old_price {
+.type-1905 .tabcontents .price span.old_price {
   color: #e5e5e5;
   font-weight: bold;
   text-decoration: line-through;

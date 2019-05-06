@@ -44,7 +44,7 @@
   margin-bottom: -40px;
   font-size: 0;
 }
-.type-1906 .swiper-controls .prev-arrow {
+.type-1906 .swiper-controls .prev-arroww {
   margin-right: 14px;
   position: relative;
   display: inline-block;
@@ -53,7 +53,7 @@
   border: 4px solid #e8e8dd;
   border-radius: 50%;
 }
-.type-1906 .swiper-controls .next-arrow {
+.type-1906 .swiper-controls .next-arroww {
   position: relative;
   display: inline-block;
   width: 36px;
@@ -61,18 +61,18 @@
   border: 4px solid #e8e8dd;
   border-radius: 50%;
 }
-.type-1906 .swiper-controls .prev-arrow:before {
+.type-1906 .swiper-controls .prev-arroww:before {
   left: 7px;
   border-width: 10px 10px 10px 0;
   border-color: transparent #e8e8dd transparent transparent;
 }
-.type-1906 .swiper-controls .next-arrow:before {
+.type-1906 .swiper-controls .next-arroww:before {
   right: 7px;
   border-width: 10px 0 10px 10px;
   border-color: transparent transparent transparent #e8e8dd;
 }
-.type-1906 .swiper-controls .prev-arrow:before,
-.type-1906 .swiper-controls .next-arrow:before {
+.type-1906 .swiper-controls .prev-arroww:before,
+.type-1906 .swiper-controls .next-arroww:before {
   content: "";
   position: absolute;
   top: 4px;
@@ -81,28 +81,28 @@
   height: 0;
   border-style: solid;
 }
-.type-1906 .swiper-controls .prev-arrow:hover,
-.type-1906 .swiper-controls .next-arrow:hover {
+.type-1906 .swiper-controls .prev-arroww:hover,
+.type-1906 .swiper-controls .next-arroww:hover {
   border-color: #7ccbfc;
 }
-.type-1906 .swiper-controls .prev-arrow:hover:before {
+.type-1906 .swiper-controls .prev-arroww:hover:before {
   border-color: transparent #7ccbfc transparent transparent;
 }
-.type-1906 .swiper-controls .next-arrow:hover:before {
+.type-1906 .swiper-controls .next-arroww:hover:before {
   border-color: transparent transparent transparent #7ccbfc;
 }
-.type-1906 .swiper-controls .prev-arrow:before {
+.type-1906 .swiper-controls .prev-arroww:before {
   left: 7px;
   border-width: 10px 10px 10px 0;
   border-color: transparent #e8e8dd transparent transparent;
 }
-.type-1906 .swiper-controls .next-arrow:before {
+.type-1906 .swiper-controls .next-arroww:before {
   right: 7px;
   border-width: 10px 0 10px 10px;
   border-color: transparent transparent transparent #e8e8dd;
 }
-.type-1906 .swiper-controls .prev-arrow:before,
-.type-1906 .swiper-controls .next-arrow:before {
+.type-1906 .swiper-controls .prev-arroww:before,
+.type-1906 .swiper-controls .next-arroww:before {
   content: "";
   position: absolute;
   top: 4px;
@@ -111,17 +111,17 @@
   height: 0;
   border-style: solid;
 }
-.type-1906 .swiper-controls .prev-arrow:hover,
-.type-1906 .swiper-controls .next-arrow:hover {
+.type-1906 .swiper-controls .prev-arroww:hover,
+.type-1906 .swiper-controls .next-arroww:hover {
   border-color: #7ccbfc;
 }
-.type-1906 .swiper-controls .prev-arrow:hover:before {
+.type-1906 .swiper-controls .prev-arroww:hover:before {
   border-color: transparent #7ccbfc transparent transparent;
 }
-.type-1906 .swiper-controls .next-arrow:hover:before {
+.type-1906 .swiper-controls .next-arroww:hover:before {
   border-color: transparent transparent transparent #7ccbfc;
 }
-.type-1906 .swiper-container {
+.type-1906 .qoutation-slider--higher {
   margin: 0 auto;
   position: relative;
   overflow: hidden;

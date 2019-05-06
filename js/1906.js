@@ -1,11 +1,13 @@
-$( document ).ready(function() {
+$(document).ready(function () {
     var swiper = new Swiper('.qoutation-slider--higher', {
         loop: true,
-    calculateHeight: true,
-    mode: 'horizontal',
-    nextButton: '.next-arrow',
-    prevButton: '.prev-arrow'
-});
+        calculateHeight: true,
+        mode: 'horizontal',
+        navigation: {
+            nextEl: '.next-arroww',
+            prevEl: '.prev-arroww',
+        },
+    });
 });
 
-   
+
