@@ -157,10 +157,16 @@
   .type-1906 .qoutation-slider--higher {
     max-height: 380px;
   }
+  .type-1906 .client-says {
+    padding: 0 15px;
+  }
 }
 @media (max-width: 767px) {
   .type-1906 span {
     font-size: 25px;
+  }
+  .type-1906 .client-says {
+    padding: 0 30px;
   }
   .type-1906 .qoutation-slider-controls {
     margin-bottom: 5px;
@@ -176,14 +182,15 @@
   .type-1906 .swiper-container {
     margin-top: -65px;
   }
+  .type-1906 .info-pic {
+    margin-top: -25px;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 989px) {
   .type-1906 .info-pic {
     margin-top: -10px;
   }
-}
-@media (max-width: 768px) {
-  .type-1906 .info-pic {
-    margin-top: -25px;
+  .type-1906 .client-says {
+    padding: 0 15px;
   }
 }
