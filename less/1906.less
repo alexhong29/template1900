@@ -7,6 +7,9 @@
     @font_size_title: 20px;
     @font_size_desc: 17px;
     @font_size_by: 15px;
+    .client-says{
+        padding: 0 15px;
+    }
     span {
         font-weight: bold;
     }
@@ -166,18 +169,18 @@
         .qoutation-slider--higher {
             max-height: 380px;
         }
+        .client-says{
+        padding: 0 15px;
     }
-    @media (min-width: 1200px){
-        .container {
-            padding-right: 0;
-            padding-left: 0;
-        }
     }
     
     @media (max-width: 767px){
         span{
             font-size: 25px;
         }
+        .client-says{
+        padding: 0 30px;
+    }
         .qoutation-slider-controls {
             margin-bottom: 5px;
         }
@@ -192,16 +195,17 @@
         .swiper-container{
             margin-top: -65px;
         }
+        .info-pic{
+            margin-top: -25px;
+        }
     }
     @media only screen and (min-width: 768px) and (max-width: 989px){
         .info-pic{
             margin-top: -10px;
         }
+        .client-says{
+        padding: 0 15px;
     }
-    @media (max-width: 768px){
-        .info-pic{
-            margin-top: -25px;
-        }
     }
 
 }

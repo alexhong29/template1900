@@ -92,52 +92,57 @@ $url_path = str_replace('\\', '/', $url_path);
 
 
             <div class="row form-contact ">
-                <div class="col-sm-6">
-                    <div class="newsletter-footer" placeholder="Enter Your Email..." >
-                        <label>Newsletter</label>
-                        <form class="form-group " method="post" data-name="MailChimlp">
-                            <input type="text" name="EMAIL" placeholder="Enter Your Email..." required="">
-                            <input type="submit" value="">
-                        </form>
+                <div class="col-sm-12">
+                    <div class="border1912">
+                        <div class="col-sm-6">
+                            <div class="newsletter-footer" placeholder="Enter Your Email..." >
+                                <label>Newsletter</label>
+                                <form class="form-group " method="post" data-name="MailChimlp">
+                                    <input type="text" name="EMAIL" placeholder="Enter Your Email..." required="">
+                                    <input type="submit" value="">
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="social-footer">
+                                <label>Follow Us</label>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <img width="40" height="40" src="<?php echo $url_path ?>/images/s1.png" class="attachment-full size-full" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img width="40" height="40" src="<?php echo $url_path ?>/images/s2.png" class="attachment-full size-full" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img width="40" height="40" src="<?php echo $url_path ?>/images/s3.png" class="attachment-full size-full" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img width="40" height="40" src="<?php echo $url_path ?>/images/s4.png" class="attachment-full size-full" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img width="40" height="40" src="<?php echo $url_path ?>/images/s5.png" class="attachment-full size-full" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img width="40" height="40" src="<?php echo $url_path ?>/images/s6.png" class="attachment-full size-full" alt="">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-6">
-                    <div class="social-footer">
-                        <label>Follow Us</label>
-                        <ul>
-                            <li>
-                                <a href="#">
-                                    <img width="40" height="40" src="<?php echo $url_path ?>/images/s1.png" class="attachment-full size-full" alt="">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img width="40" height="40" src="<?php echo $url_path ?>/images/s2.png" class="attachment-full size-full" alt="">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img width="40" height="40" src="<?php echo $url_path ?>/images/s3.png" class="attachment-full size-full" alt="">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img width="40" height="40" src="<?php echo $url_path ?>/images/s4.png" class="attachment-full size-full" alt="">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img width="40" height="40" src="<?php echo $url_path ?>/images/s5.png" class="attachment-full size-full" alt="">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img width="40" height="40" src="<?php echo $url_path ?>/images/s6.png" class="attachment-full size-full" alt="">
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+
             </div>
             <div class="row category">
                 <div class="col-sm-12">

@@ -26,7 +26,13 @@
   background: rgba(255,255,255,0.5);
   width: 100%;
 }
-.type-1911 .swiper-slide {
+.type-1911 .swiper1911 h3 {
+  font-size: 24px;
+}
+.type-1911 .swiper1911 h2 {
+  font-size: 20px;
+}
+.type-1911 .swiper1911 .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
@@ -42,6 +48,26 @@
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
+}
+.type-1911 .swiper1911 .next1911,
+.type-1911 .swiper1911 .prev1911 {
+  width: 20px;
+  height: 40px;
+  line-height: 40px;
+  background: #333 none repeat scroll 0 0;
+  text-align: center;
+}
+.type-1911 .swiper1911 .arrow1911 {
+  display: none;
+}
+.type-1911 .swiper1911 .next1911 {
+  right: 0;
+}
+.type-1911 .swiper1911 .prev1911 {
+  left: 0;
+}
+.type-1911 .swiper1911:hover .arrow1911 {
+  display: block;
 }
 @media (max-width: 480px) and (min-width: 413px) {
   .type-1911 .promotion h3 {
