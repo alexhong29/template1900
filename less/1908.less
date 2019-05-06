@@ -12,6 +12,14 @@
     .vlput{
         width: 54%;
     }
+    .accordion1::after {
+        content: "\2212";
+        float: right;
+    }
+    .active1::after {
+        content: '\002B';
+        float: right;
+    }
     .sidebar-shop{
         box-sizing:border-box;
         outline:none;
@@ -61,19 +69,14 @@
                 text-transform: uppercase;
                 padding: 0;
                 border-bottom: 0;
-                i{
-                    float: right;
-                    color: gray;
-                    font-family: "Times New Roman", Times, serif;
-                    font-size: @font-size14;
-                    line-height: 1px;
-                    text-transform: lowercase;
-                }
             }
         }
         .box-filter {
             border-bottom: 1px solid #e8e8e8;
             margin-bottom: 20px;
+            .panel-body{
+                display: none;
+            }
         }
         .box-filter:last-child {
             border: medium none;

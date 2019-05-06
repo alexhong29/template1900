@@ -11,3 +11,20 @@ $(document).ready(function () {
     $("#amount").val($("#slider-range1").slider("values", 0) +
             " - " + $("#slider-range1").slider("values", 1));
 });
+$(document).ready(function () {
+    var acc = document.getElementsByClassName("accordion1");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+            this.classList.toggle("active1");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        });
+    }
+});
+

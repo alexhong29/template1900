@@ -4,6 +4,11 @@
 .type-1920 .container {
   width: 100%;
 }
+.type-1920 .about-review {
+  border-top: 2px solid #e5e5e5;
+  margin-top: 95px;
+  padding-top: 95px;
+}
 .type-1920 .about-review .about .tittle-default {
   text-transform: uppercase;
   margin-bottom: 40px;
