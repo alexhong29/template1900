@@ -129,9 +129,8 @@
 }
 .type-1910 .home-title-wrapper .sort-pagi-bar .product-order form.woocommerce-ordering span img.icon-img {
   border: 1px solid #e8e8e8;
-  position: absolute;
-  top: 0px;
-  right: -10px;
+  top: 5px;
+  right: 10px;
 }
 .type-1910 .home-title-wrapper .sort-pagi-bar .product-per-page select.orderby {
   height: 30px;
