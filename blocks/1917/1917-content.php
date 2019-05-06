@@ -15,7 +15,7 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="row">
                 <div class="col-sm-12">
                     <!-- Swiper -->
-                    <div class="swiper-container">
+                    <div class="swiper-container swiper1917">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <a href="#" target="_self" class="image-wrapper">
@@ -34,9 +34,9 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
                         </div>
                         <!-- Add Arrows -->
-                        <div class="arrow">
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
+                        <div class="arrow1917">
+                            <div class="swiper-button-next next1917"><i class="fa fa-angle-right" style="color: #fff; font-size: 20px;"></i></div>
+                            <div class="swiper-button-prev prev1917"><i class="fa fa-angle-left" style="color: #fff; font-size: 20px;"></i></div>
                         </div>
                     </div>
                 </div>
