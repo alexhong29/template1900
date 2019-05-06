@@ -18,9 +18,9 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
                 <div class="supperdeal-tab">
                     <div class="tab">
-                        <button class="tablinks1903 active1903" onclick="openCity(event, 'Electronis')" id="electronis" >Electronis<i class="fa fa-chevron-right"></i></button>
-                        <button class="tablinks1903 active1903" onclick="openCity(event, 'Fashion')" id="fashion">Fashion<i class="fa fa-chevron-right"></i></button>
-                        <button class="tablinks1903 active1903" onclick="openCity(event, 'Furniture')" id="furniture">Furniture<i class="fa fa-chevron-right"></i></button>
+                        <button class="tablinks1903 active" onclick="openCity(event, 'Electronis')" id="electronis" >Electronis<i class="fa fa-chevron-right"></i></button>
+                        <button class="tablinks1903 active" onclick="openCity(event, 'Fashion')" id="fashion">Fashion<i class="fa fa-chevron-right"></i></button>
+                        <button class="tablinks1903 active" onclick="openCity(event, 'Furniture')" id="furniture">Furniture<i class="fa fa-chevron-right"></i></button>
                     </div>
                 </div>
                 <div class="supperdeal-countdown">
@@ -95,7 +95,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                     <div class="swiper-container swiper2">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide slide2">
+                            <div class="swiper-slide">
                                 <div class="col-md-3 col-sm-6 col-xs-12">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
@@ -643,7 +643,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                     <div class="swiper-container swiper3">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide slide3">
+                            <div class="swiper-slide">
                                 <div class="col-md-3 col-sm-6 col-xs-12">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
@@ -1039,7 +1039,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                     <div class="swiper-container swiper4">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide slide4">
+                            <div class="swiper-slide">
                                 <div class="col-md-3 col-sm-6 col-xs-12">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
