@@ -1,3 +1,6 @@
+.type-1906 .client-says {
+  padding: 0 15px;
+}
 .type-1906 span {
   font-weight: bold;
 }
@@ -153,12 +156,6 @@
   }
   .type-1906 .qoutation-slider--higher {
     max-height: 380px;
-  }
-}
-@media (min-width: 1200px) {
-  .type-1906 .container {
-    padding-right: 0;
-    padding-left: 0;
   }
 }
 @media (max-width: 767px) {
