@@ -45,11 +45,14 @@ body {
   width: 100%;
   background: #fe9c00;
 }
-.type-1917 .swiper-container {
+.type-1917 .swiper1917 {
   width: 100%;
   height: 100%;
 }
-.type-1917 .swiper-slide {
+.type-1917 .swiper1917 .arrow1917 {
+  display: none;
+}
+.type-1917 .swiper1917 .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
@@ -66,9 +69,20 @@ body {
   -webkit-align-items: center;
   align-items: center;
 }
-.type-1917 .arrow {
-  display: none;
+.type-1917 .swiper1917 .next1917,
+.type-1917 .swiper1917 .prev1917 {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background: #333 none repeat scroll 0 0;
+  text-align: center;
 }
-.type-1917 .wrapper-img:hover .arrow {
+.type-1917 .swiper1917 .next1917 {
+  right: 0;
+}
+.type-1917 .swiper1917 .prev1917 {
+  left: 0;
+}
+.type-1917 .swiper1917:hover .arrow1917 {
   display: block;
 }

@@ -95,14 +95,14 @@
   height: 30px;
   width: 72px;
 }
-.type-1908 .sidebar-shop .range-filter #slider-range {
+.type-1908 .sidebar-shop .range-filter #slider-range1 {
   background: #fe9c00 none repeat scroll 0 0;
   border: medium none;
   height: 1px;
   margin: 30px 0;
   cursor: pointer;
 }
-.type-1908 .sidebar-shop .range-filter #slider-range .ui-slider-handle {
+.type-1908 .sidebar-shop .range-filter #slider-range1 .ui-slider-handle {
   background: #ff9900 none repeat scroll 0 0;
   border: medium none;
   border-radius: 0;

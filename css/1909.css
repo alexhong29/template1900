@@ -85,6 +85,12 @@
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
+.type-1909 .list-shop-cat ul li a:hover {
+  color: #ed321e;
+}
+.type-1909 .list-shop-cat ul li a:hover span {
+  background-color: #ed321e;
+}
 .type-1909 .list-shop-cat ul li a span {
   border-radius: 50%;
   width: 26px;
@@ -99,6 +105,9 @@
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   color: #fff;
+}
+.type-1909 .list-shop-cat ul li a span:hover {
+  background-color: #ed321e;
 }
 .type-1909 .swiper-slide {
   font-size: 18px;
