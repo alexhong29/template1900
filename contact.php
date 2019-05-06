@@ -61,9 +61,6 @@ $less->compileFile('less/1912.less', 'css/1912.css');
         
 
 
-        <!--        <div class="fit-cont">
-       <?php include $dir_block . '/blocks/1912/1912-content.php'; ?>
-                </div>-->
-
+        <?php include $dir_block . '/blocks/1912/1912-content.php'; ?>
     </body>
 </html>

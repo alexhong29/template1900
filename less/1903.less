@@ -11,7 +11,9 @@
         border: 1px solid #e5e5e5;
         margin-bottom: @size50;
         margin-top: @size50;
-
+        max-width: 100%;
+        display: inline-block;
+        position: relative;
         .product{
             padding-left: 0;
         }
@@ -72,11 +74,11 @@
                         transition: 0.3s;
                         font-size: 17px;
                     }
-                    
+
                     .fa-chevron-right{
                         display: none;
                     }
-                    
+
                     .active .fa-chevron-right{
                         float: right;
                         display: block;
