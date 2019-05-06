@@ -96,22 +96,22 @@
   font-size: 15px;
   font-weight: bold;
 }
-.type-1905 .tab {
+.type-1905 .tab1905 {
   border: 1px solid #e5e5e5;
   padding: 10px 0px;
   padding-top: 60px;
   margin-top: -1px;
 }
-.type-1905 .tab a.active {
+.type-1905 .tab1905 a.active {
   color: #4bae4f;
 }
-.type-1905 .tab a {
+.type-1905 .tab1905 a {
   cursor: pointer;
   padding: 15px;
   color: black;
   font-weight: bold;
 }
-.type-1905 .tab a:hover {
+.type-1905 .tab1905 a:hover {
   color: #4bae4f;
 }
 .type-1905 .filter {
@@ -207,7 +207,7 @@
   .type-1905 .filter {
     font-size: 14px;
   }
-  .type-1905 .tab {
+  .type-1905 .tab1905 {
     font-size: 11px;
   }
   .type-1905 .tabcontent a {

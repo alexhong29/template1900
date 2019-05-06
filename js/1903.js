@@ -59,8 +59,8 @@ function openCity(evt, cityName) {
     }
     tablinks = document.getElementsByClassName("tablinks1903");
     for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active1903", "");
+        tablinks[i].className = tablinks[i].className.replace("active", "");
     }
     document.getElementById(cityName).style.display = "block";
-    evt.currentTarget.className += " active1903";
+    evt.currentTarget.className += " active";
 }
