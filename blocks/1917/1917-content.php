@@ -19,17 +19,17 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <a href="#" target="_self" class="image-wrapper">
-                                    <img width="1170" height="380" src="images/about-banner.jpg" class="img-responsive" alt="">
+                                    <img width="1170" height="380" src="<?php echo $url_path ?>/images/about-banner.jpg" class="img-responsive" alt="">
                                 </a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="#" target="_self" class="image-wrapper">
-                                    <img width="1170" height="380" src="images/about-banner1.jpg" class="img-responsive" alt="">
+                                    <img width="1170" height="380" src="<?php echo $url_path ?>/images/about-banner1.jpg" class="img-responsive" alt="">
                                 </a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="#" target="_self" class="image-wrapper">
-                                    <img width="1170" height="380" src="images/about-banner2.jpg" class="img-responsive" alt="">
+                                    <img width="1170" height="380" src="<?php echo $url_path ?>/images/about-banner2.jpg" class="img-responsive" alt="">
                                 </a>
                             </div>
                         </div>
