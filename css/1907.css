@@ -109,6 +109,9 @@
   margin-bottom: 10px;
   list-style: none;
 }
+.type-1907 .footer-before .column-inner .social-footer ul li i {
+  margin: 5px;
+}
 .type-1907 .footer-before .column-inner .social-footer ul li i.fa-facebook {
   background: #425D98;
   padding: 12px 16px;
