@@ -13,8 +13,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <h2><span>FROM THE BLOG</span></h2>
                 <!-- Qoutation slider -->
                 <div class="swiper-controls qoutation-slider-controls">
-                    <a class="prev-arrow" href="#"></a>
-                    <a class="next-arrow" href="#"></a>
+                    <a class="prev-arroww"></a>
+                    <a class="next-arroww"></a>
                 </div>
                 <div class="swiper-container qoutation-slider qoutation-slider--higher">
                     <div class="swiper-wrapper">

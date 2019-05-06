@@ -20,10 +20,10 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
                 <!-- Tab links -->
                 <div class="tab">
-                    <a class="tablinks" onclick="openCity(event, 'Computer')">COMPUTER</a>
-                    <a class="tablinks" onclick="openCity(event, 'Electroniss')">ELECTRONIS</a>
-                    <a class="tablinks" onclick="openCity(event, 'Fashionss')">FASHIONS</a>
-                    <a class="tablinks" onclick="openCity(event, 'Foods')">FOODS</a>
+                    <a class="tablinks1905" onclick="openCity(event, 'Computer')">COMPUTER</a>
+                    <a class="tablinks1905" onclick="openCity(event, 'Electroniss')">ELECTRONIS</a>
+                    <a class="tablinks1905" onclick="openCity(event, 'Fashionss')">FASHIONS</a>
+                    <a class="tablinks1905" onclick="openCity(event, 'Foods')">FOODS</a>
                 </div>
             </div>
         </div>
