@@ -10,8 +10,8 @@ $(document).ready(function () {
         slidesPerView: 4,
         spaceBetween: 30,
         navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
+            nextEl: '.next1903',
+            prevEl: '.prev1903',
         },
         breakpoints: {
             960: {
@@ -25,8 +25,8 @@ $(document).ready(function () {
         slidesPerView: 4,
         spaceBetween: 30,
         navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
+            nextEl: '.next1903',
+            prevEl: '.prev1903',
         },
         breakpoints: {
             960: {
@@ -40,8 +40,8 @@ $(document).ready(function () {
         slidesPerView: 4,
         spaceBetween: 30,
         navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
+            nextEl: '.next1903',
+            prevEl: '.prev1903',
         },
         breakpoints: {
             960: {
