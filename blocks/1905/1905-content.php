@@ -19,11 +19,11 @@ $url_path = str_replace('\\', '/', $url_path);
                     <span>FILTER</span>
                 </div>
                 <!-- Tab links -->
-                <div class="tab">
-                    <a class="tablinks1905 active" onclick="openCity(event, 'Computer1905')">COMPUTER</a>
-                    <a class="tablinks1905 " onclick="openCity(event, 'Electroniss1905')">ELECTRONIS</a>
-                    <a class="tablinks1905 " onclick="openCity(event, 'Fashionss1905')">FASHIONS</a>
-                    <a class="tablinks1905 " onclick="openCity(event, 'Foods1905')">FOODS</a>
+                <div class="tab1905">
+                    <a class="tablinks1905 " onclick="open1905(event, 'Computer1905')">COMPUTER</a>
+                    <a class="tablinks1905 " onclick="open1905(event, 'Electroniss1905')">ELECTRONIS</a>
+                    <a class="tablinks1905 " onclick="open1905(event, 'Fashionss1905')">FASHIONS</a>
+                    <a class="tablinks1905 " onclick="open1905(event, 'Foods1905')">FOODS</a>
                 </div>
             </div>
         </div>
