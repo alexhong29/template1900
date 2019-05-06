@@ -12,6 +12,10 @@
 .type-1919 .protect-video {
   margin-top: 95px;
 }
+.type-1919 .protect-video .imagemodule {
+  text-align: center;
+  margin-bottom: 0;
+}
 .type-1919 ul {
   padding: 0;
   list-style: none;
@@ -73,16 +77,22 @@
   padding-left: 25px;
   vertical-align: middle;
 }
-.type-1919 .about-full-protec .new-user-guide {
+.type-1919 .about-full-protec a {
   color: #3a49b8;
   display: block;
   margin-top: 30px;
   text-decoration: none;
+  display: inline-block;
+  vertical-align: top;
+  max-width: 100%;
 }
-.type-1919 .about-full-protec .new-user-guide:hover {
+.type-1919 .about-full-protec a:hover {
   color: #fe9c00;
 }
 .type-1919 figure {
   max-width: 100%;
   height: auto;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
 }
