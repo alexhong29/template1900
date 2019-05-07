@@ -31,6 +31,9 @@
   color: #666;
 }
 @media (max-width: 767px) {
+  .type-1922 {
+    margin-top: 50px;
+  }
   .type-1922 .form {
     width: 100% !important;
   }

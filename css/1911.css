@@ -84,6 +84,9 @@
   }
 }
 @media (max-width: 768px) and (min-width: 480px) {
+  .type-1911 {
+    margin-top: 50px;
+  }
   .type-1911 .promotion h3 {
     font-size: 25px;
   }
