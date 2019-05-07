@@ -119,20 +119,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                             </ul>
                                         </div>
                                     </li>
-                                    <!--Item Vendors-->
-                                    <li>
-                                        <div class="title">
-                                            <a href="#">Vendors <i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                                        </div>
-                                        <div class="context">
-                                            <ul>
-                                                <li><a href="#"><p>Vendors page</p></a></li>
-                                                <li><a href="#"><p>Vendor Dashboard</p></a></li>
-                                                <li><a href="#"><p>Orders</p></a></li>
-                                                <li><a href="#"><p>Shop Settings</p></a></li>
-                                            </ul>
-                                        </div>
-                                    </li>
                                     <!--Item Shop-->
                                     <li>
                                         <div class="title">
