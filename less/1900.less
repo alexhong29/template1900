@@ -242,8 +242,6 @@ body{
 
     .content{
         position: relative;
-        .row{
-        }
         .mmcontext{
             padding: 0;
         }
@@ -1409,14 +1407,15 @@ body{
     }
 
     #collape{
-        float: right;
+        position: absolute;
+        right: 0px;
         background: none 0px 0px repeat scroll rgb(250, 250, 250);
         border-style: solid;
         border-color: rgb(255, 255, 255) rgb(255, 255, 255) rgb(255, 255, 255);
         border-image: initial;
         box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 4px 0px;
         width: 200px;
-        z-index: 99;
+        z-index: 2;
         transition: all 0.3s ease-out 0s;
         text-align: left;
         top: 100%;
@@ -1505,10 +1504,13 @@ body{
 
         .right-category-dropdown{
         }
+    }
 
-        .list-category-dropdown{
-            margin-top: 42px;
-            margin-right: -38px;
+    @media only screen and (max-width: 767px){
+        .content{
+            .row{
+                margin: 0;
+            }
         }
     }
 
@@ -1546,6 +1548,10 @@ body{
         .buttonclosemenu{
             display: none;
         }
+
+        #collape{
+            right: 15px!important;
+        }
     }
 
     @media only screen and (min-width: 992px){
@@ -1558,6 +1564,10 @@ body{
 
         .buttonclosemenu{
             display: none;
+        }
+
+        #collape{
+            right: 15px!important;
         }
     }
 
