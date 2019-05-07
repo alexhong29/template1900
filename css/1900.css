@@ -1226,14 +1226,15 @@ body ul {
   background: #ccdb38;
 }
 .type-1900 #collape {
-  float: right;
+  position: absolute;
+  right: 0px;
   background: none 0px 0px repeat scroll #fafafa;
   border-style: solid;
   border-color: #ffffff #ffffff #ffffff;
   border-image: initial;
   box-shadow: rgba(0,0,0,0.2) 0px 4px 4px 0px;
   width: 200px;
-  z-index: 99;
+  z-index: 2;
   transition: all 0.3s ease-out 0s;
   text-align: left;
   top: 100%;
@@ -1302,9 +1303,10 @@ body ul {
   .type-1900 .top-extra-link {
     text-align: center;
   }
-  .type-1900 .list-category-dropdown {
-    margin-top: 42px;
-    margin-right: -38px;
+}
+@media only screen and (max-width: 767px) {
+  .type-1900 .content .row {
+    margin: 0;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1337,6 +1339,9 @@ body ul {
   .type-1900 .buttonclosemenu {
     display: none;
   }
+  .type-1900 #collape {
+    right: 15px !important;
+  }
 }
 @media only screen and (min-width: 992px) {
   .type-1900 .smart-search-form {
@@ -1347,6 +1352,9 @@ body ul {
   }
   .type-1900 .buttonclosemenu {
     display: none;
+  }
+  .type-1900 #collape {
+    right: 15px !important;
   }
 }
 @media only screen and (min-width: 1200px) {
