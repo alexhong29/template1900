@@ -22,14 +22,14 @@ $url_path = str_replace('\\', '/', $url_path);
 
                         <div class="swiper-slide">
                             <div class="col-md-6  col-sm-6 col-xs-12 slide-content">
-                                <div class="col-md-6 col-sm-12 col-xs-6 ">
+                                <div class="col-md-6 col-sm-6 col-xs-6 ">
                                     <div class="pic-hover">
                                         <img src="<?php echo $url_path ?>/images/user-photo-4.jpg" alt="hinh1" class="img-responsive">
                                         
                                     </div>
 
                                 </div>
-                                <div class="col-md-6 col-sm-12 col-xs-6 caption-slider">
+                                <div class="col-md-6 col-sm-6 col-xs-6 caption-slider">
                                     <div class="info-pic">
                                         <h3 ><a href="">Lorem Khaled Ipsum is a major key to</a></h3>
                                         <div class="by">
@@ -43,13 +43,13 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </div>
                             </div>
                             <div class="col-md-6  col-sm-6 col-xs-12 slide-content">
-                                <div class="col-md-6 col-sm-12 col-xs-6 ">
+                                <div class="col-md-6 col-sm-6 col-xs-6 ">
                                     <div class="pic-hover">
                                         <img src="<?php echo $url_path ?>/images/user-photo-5.jpg" alt="hinh1" class="img-responsive">
                                     </div>
 
                                 </div>
-                                <div class="col-md-6 col-sm-12 col-xs-6 caption-slider">
+                                <div class="col-md-6 col-sm-6 col-xs-6 caption-slider">
                                     <div class="info-pic">
                                         <h3 ><a href="">Lorem Khaled Ipsum is a major key to</a></h3>
                                         <div class="by">
@@ -65,13 +65,13 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                         <div class="swiper-slide">
                             <div class="col-md-6  col-sm-6 col-xs-12 slide-content">
-                                <div class="col-md-6 col-sm-12 col-xs-6 ">
+                                <div class="col-md-6 col-sm-6 col-xs-6 ">
                                     <div class="pic-hover">
                                         <img src="<?php echo $url_path ?>/images/user-photo-6.jpg" alt="hinh1" class="img-responsive">
                                     </div>
 
                                 </div>
-                                <div class="col-md-6 col-sm-12 col-xs-6 caption-slider">
+                                <div class="col-md-6 col-sm-6 col-xs-6 caption-slider">
                                     <div class="info-pic">
                                         <h3 ><a href="">Lorem Khaled Ipsum is a major key to</a></h3>
                                         <div class="by">
@@ -85,13 +85,13 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </div>
                             </div>
                             <div class="col-md-6  col-sm-6 col-xs-12 slide-content">
-                                <div class="col-md-6 col-sm-12 col-xs-6 ">
+                                <div class="col-md-6 col-sm-6 col-xs-6 ">
                                     <div class="pic-hover">
                                         <img src="<?php echo $url_path ?>/images/user-photo-8.jpg" alt="hinh1" class="img-responsive">
                                     </div>
 
                                 </div>
-                                <div class="col-md-6 col-sm-12 col-xs-6 caption-slider">
+                                <div class="col-md-6 col-sm-6 col-xs-6 caption-slider">
                                     <div class="info-pic">
                                         <h3 ><a href="">Lorem Khaled Ipsum is a major key to</a></h3>
                                         <div class="by">
