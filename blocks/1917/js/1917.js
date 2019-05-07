@@ -6,12 +6,15 @@
 
 
 $(document).ready(function () {
-    var swiper = new Swiper('.swiper-container', {
+    var swiper = new Swiper('.swiper1917', {
+        slidesPerView: 'auto',
+        loop: true,
         navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
+            nextEl: '.next1917',
+            prevEl: '.prev1917',
         }, autoplay: {
             delay: 2500,
+            disableOnInteraction: false,
         },
     });
 });
