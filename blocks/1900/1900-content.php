@@ -119,20 +119,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                             </ul>
                                         </div>
                                     </li>
-                                    <!--Item Vendors-->
-                                    <li>
-                                        <div class="title">
-                                            <a href="#">Vendors <i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                                        </div>
-                                        <div class="context">
-                                            <ul>
-                                                <li><a href="#"><p>Vendors page</p></a></li>
-                                                <li><a href="#"><p>Vendor Dashboard</p></a></li>
-                                                <li><a href="#"><p>Orders</p></a></li>
-                                                <li><a href="#"><p>Shop Settings</p></a></li>
-                                            </ul>
-                                        </div>
-                                    </li>
                                     <!--Item Shop-->
                                     <li>
                                         <div class="title">
@@ -180,40 +166,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <!--Item Blog-->
                                     <li>
                                         <div class="title">
-                                            <a href="../blog.php">Blog <i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                                        </div>
-                                        <div class="context">
-                                            <ul>
-                                                <li><a href="#"><p>Blog default</p></a></li>
-                                                <li><a href="#"><p>Blog full</p></a></li>
-                                                <li><a href="#"><p>Blog list</p></a></li>
-                                                <li>
-                                                    <a href="#"><p>Blog grid <i class="fa fa-angle-right" aria-hidden="true"></i></p></a>
-                                                    <!--Sub menu for parent-->
-                                                    <div class="subcontext">
-                                                        <ul>
-                                                            <li><a href="#"><p>Blog grid</p></a></li>
-                                                            <li><a href="#"><p>Blog grid – 2 column</p></a></li>
-                                                            <li><a href="#"><p>Blog grid – 4 column</p></a></li>
-                                                            <li><a href="#"><p>Blog grid – 5 column</p></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <a href="#"><p>Posts Detail <i class="fa fa-angle-right" aria-hidden="true"></i></p></a>
-                                                    <div class="subcontext">
-                                                        <ul>
-                                                            <li><a href="#"><p>Post format: Standard</p></a></li>
-                                                            <li><a href="#"><p>Post format: Image</p></a></li>
-                                                            <li><a href="#"><p>Post format: Gallery</p></a></li>
-                                                            <li><a href="#"><p>Post format: Video</p></a></li>
-                                                            <li><a href="#"><p>Post format: Audio</p></a></li>
-                                                            <li><a href="#"><p>Post: Left Sidebar</p></a></li>
-                                                            <li><a href="#"><p>Post: No Sidebar</p></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </li>
-                                            </ul>
+                                            <a href="../blog.php">Blog</a>
                                         </div>
                                     </li>
                                     <!--Item MegaMenu-->

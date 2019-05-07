@@ -164,6 +164,9 @@
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+  .type-1909 {
+    margin-top: 50px;
+  }
   .type-1909 .promotion h3 {
     font-size: 22px;
   }

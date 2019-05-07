@@ -69,12 +69,14 @@ $less->compileFile('less/1921.less', 'css/1921.css');
     </head>
 
     <body>
-        <?php include $dir_block . '/blocks/1900/1900-content.php'; ?>
-        <div class="slider-home">
-            <div class="container">
-                <div class="row">
-                    <?php include $dir_block . '/blocks/1902/1902-content.php'; ?>       
-                    <?php include $dir_block . '/blocks/1921/1921-content.php'; ?>
+        <div class="topheader">
+            <?php include $dir_block . '/blocks/1900/1900-content.php'; ?>
+            <div class="slider-home">
+                <div class="container">
+                    <div class="row">
+                        <?php include $dir_block . '/blocks/1902/1902-content.php'; ?>       
+                        <?php include $dir_block . '/blocks/1921/1921-content.php'; ?>
+                    </div>
                 </div>
             </div>
         </div>
@@ -92,9 +94,9 @@ $less->compileFile('less/1921.less', 'css/1921.css');
                 </div>
             </div>
         </div>
-        
+
         <?php include $dir_block . '/blocks/1905/1905-content.php'; ?>
-        
+
         <?php include $dir_block . '/blocks/1906/1906-content.php'; ?>
 
         <div class="clearfix"></div>

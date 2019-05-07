@@ -216,6 +216,11 @@
   background: #ff9933;
   color: #fff;
 }
+@media (max-width: 768px) {
+  .type-1910 {
+    margin-top: 50px;
+  }
+}
 @media (max-width: 902px) {
   .type-1910 .sort-pagi-bar {
     text-align: center;

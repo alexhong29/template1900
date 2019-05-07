@@ -126,3 +126,8 @@
   margin-bottom: 0;
   border: medium none;
 }
+@media (max-width: 768px) {
+  .type-1914 .sidebar-post .widget {
+    margin-bottom: 50px;
+  }
+}

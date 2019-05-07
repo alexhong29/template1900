@@ -4,7 +4,7 @@
 .type-1915 h2 {
   font-size: 25px;
   font-weight: bold;
-  padding: 0 15px;
+  padding: 0 30px;
   margin: 15px -15px;
 }
 .type-1915 h3 {
@@ -32,6 +32,7 @@
 }
 .type-1915 .panel p {
   color: #999;
+  margin-left: 15px;
 }
 .type-1915 .swiper-container {
   width: 100%;
