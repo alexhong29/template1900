@@ -6,7 +6,8 @@
   background: #FFFFFF;
 }
 .type-1908 .vlput {
-  width: 54%;
+  width: 41%;
+  padding: 3px;
 }
 .type-1908 .accordion1::after {
   content: "\2212";
@@ -42,9 +43,9 @@
 }
 .type-1908 .sidebar-shop .widget ul li .input-check input {
   position: relative;
-  height: 20px;
-  width: 20px;
-  top: 5px;
+  height: 14px;
+  width: 15px;
+  top: 3px;
   cursor: pointer;
 }
 .type-1908 .sidebar-shop .widget ul li .input-check a {
@@ -79,6 +80,13 @@
 .type-1908 .sidebar-shop .range-filter {
   color: #666;
 }
+.type-1908 .sidebar-shop .range-filter .input-group-addon {
+  margin-top: -1px;
+  width: 0;
+  padding: 8px;
+  display: inline-table;
+  margin-right: -4px;
+}
 .type-1908 .sidebar-shop .range-filter form {
   padding: 0;
   margin: 15px 0;
@@ -110,7 +118,6 @@
   border: medium none;
   border-radius: 0;
   height: 16px;
-  margin: 0 -8px;
   top: -8px;
   width: 16px;
   cursor: pointer;

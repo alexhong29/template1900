@@ -34,9 +34,8 @@ $url_path = str_replace('\\', '/', $url_path);
                     <h2 class="widget-title accordion1 active1">price</h2>
                     <div class="panel-body">
                         <div class="range-filter">
-                            <label>$</label>
+                            <span class="input-group-addon"><i class="fa fa-dollar"></i></span>
                             <input class="vlput" type="text" id="amount" readonly>
-
                             <button class="btn-filter">Filter</button>
                             <div id="slider-range1" class="ui-slider"></div>
                         </div>
