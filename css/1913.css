@@ -29,7 +29,6 @@
   padding: 6px 0 8px;
 }
 .type-1913 .post .avatar {
-  margin-top: 20px;
   overflow: hidden;
 }
 .type-1913 .post .avatar img {
@@ -137,5 +136,10 @@
   .type-1913 .post .blog .pic {
     padding: 0;
     font-size: 22px;
+  }
+}
+@media (max-width: 768px) and (min-width: 480px) {
+  .type-1913 {
+    margin-top: 50px;
   }
 }
