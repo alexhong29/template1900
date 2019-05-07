@@ -38,7 +38,7 @@ $(document).ready(function () {
     document.getElementById("electronis").click();
     var swiper2 = new Swiper('.swiper2', {
         slidesPerView: 4,
-        spaceBetween: 30,
+        spaceBetween: 10,
         navigation: {
             nextEl: '.next1903',
             prevEl: '.prev1903',
