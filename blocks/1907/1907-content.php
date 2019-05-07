@@ -1,5 +1,5 @@
 <?php
-$url_host = $_SERVER['HTTP_HOST'];
+$url_host = 'http://' . $_SERVER['HTTP_HOST'];
 $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
 $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 preg_match_all($pattern_uri, __DIR__, $matches);
@@ -143,16 +143,16 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="payment-method">
                             <label>PAYMENT METHOD</label>
                             <a href="#">
-                                <img width="43" height="26" src="images/img_1.PNG" alt="">
+                                <img width="43" height="26" src="<?php echo $url_path ?>/images/img_1.PNG" alt="">
                             </a>
                             <a href="#">
-                                <img width="43" height="26" src="images/img_2.PNG" alt="">
+                                <img width="43" height="26" src="<?php echo $url_path ?>/images/img_2.PNG" alt="">
                             </a>
                             <a href="#">
-                                <img width="43" height="25" src="images/imh_3.PNG" alt="">
+                                <img width="43" height="25" src="<?php echo $url_path ?>/images/imh_3.PNG" alt="">
                             </a>
                             <a href="#">
-                                <img width="43" height="25" src="images/imh_4.PNG" alt="">
+                                <img width="43" height="25" src="<?php echo $url_path ?>/images/imh_4.PNG" alt="">
                             </a>
                         </div>
                     </div>
