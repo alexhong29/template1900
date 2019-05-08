@@ -19,15 +19,14 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <a href="#" class="img-sale">
                                     <img width="780" height="400" src="<?php echo $url_path ?>/images/ad4-2.jpg" class="img-responsive">
                                 </a>
-                                <div class="promotion info-1">
-                                    <h1>Siemens</h1>
-                                    <p>Magnetom Avanto</p>
-                                    <button class="button">
-                                        <span>Shop Now</span>
-                                    </button>
-                                </div>
                             </div>
-
+                            <div class="promotion info-1">
+                                <h1>Siemens</h1>
+                                <p>Magnetom Avanto</p>
+                                <button class="button">
+                                    <span>Shop Now</span>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -55,14 +54,14 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <a href="#">
                                     <img src="<?php echo $url_path ?>/images/ad6.jpg" class="img-responsive">
                                 </a>
-                                <div class="promotion info-3">
-                                    <h3>Piece OXO</h3>
-                                    <p>Holder with Tools Set</p>
-                                    <span class="money">
-                                        <span class="icon">$</span>
-                                        80.00
-                                    </span>
-                                </div>
+                            </div>
+                            <div class="promotion info-3">
+                                <h3>Piece OXO</h3>
+                                <p>Holder with Tools Set</p>
+                                <span class="money">
+                                    <span class="icon">$</span>
+                                    80.00
+                                </span>
                             </div>
                         </div>
                     </div>
