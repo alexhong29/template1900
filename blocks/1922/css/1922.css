@@ -1,6 +1,3 @@
-.type-1922 {
-  font-family: "Open Sans", sans-serif;
-}
 .type-1922 .form {
   margin-top: 10px;
   border: 1px solid #eaeaec;
@@ -19,6 +16,9 @@
   border: medium none;
   width: 100px;
   text-transform: uppercase;
+}
+.type-1922 .form button:hover {
+  background: #fe9c00 none repeat scroll 0 0;
 }
 .type-1922 .form h2 {
   font-size: 18px;

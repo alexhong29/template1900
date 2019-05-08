@@ -78,6 +78,10 @@
 .type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-tab .tab .active .fa-chevron-right {
   float: right;
   display: block;
+  color: #4bae4f;
+}
+.type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-tab .tab .active {
+  color: #4bae4f;
 }
 .type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-tab .tab button:hover {
   color: #4bae4f;
@@ -336,12 +340,6 @@
   .type-1903 .adv-home6 {
     padding-left: 50px;
   }
-  .type-1903 .adv-home6 a:before {
-    display: none;
-  }
-  .type-1903 .adv-home6 a:after {
-    display: none;
-  }
   .type-1903 .tabcontent1903 .owl-controls {
     display: none;
   }
@@ -368,12 +366,6 @@
     max-width: 95%;
     left: 15px;
   }
-  .type-1903 .adv-home6 a:before {
-    display: none;
-  }
-  .type-1903 .adv-home6 a:after {
-    display: none;
-  }
   .type-1903 .tabcontent1903 .owl-controls {
     display: none;
   }
@@ -395,12 +387,6 @@
     padding-left: 0;
   }
   .type-1903 .tabcontent1903 .owl-controls {
-    display: none;
-  }
-  .type-1903 .adv-home6 a:before {
-    display: none;
-  }
-  .type-1903 .adv-home6 a:after {
     display: none;
   }
 }
