@@ -1,0 +1,490 @@
+.type-1907{
+    @background_man:#4BAE4F;
+    @color_man:#4BAE4F;
+    .new-form{
+        background: @background_man;
+
+        .newsletter-form{
+            h2.newsletter{
+                float: left;
+                color: #fff;
+                display: inline-block;
+                font-size: 30px;
+                margin: 24px 20px 24px 0;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+            form.wp-form-email{
+                position: relative;
+                .wp-form-fields{
+                    input[type="text"]{
+                        display: inline-block;
+                        max-width: 520px;
+                        height: 40px;
+                        top: 20.5px;
+                        padding-right: 120px;
+                        position: relative;
+                        width: 100%;
+                        border: medium none;
+                        padding: 0 20px;
+                    }
+                    input[type="submit"]{
+                        background: #ccdb38 none repeat scroll 0 0;
+                        border: medium none;
+                        color: #fff;
+                        height: 40px;
+                        position: absolute;
+                        right: 33.7%;
+                        text-transform: uppercase;
+                        top: 20.5px;
+                        width: 120px;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-before{
+        margin-top: 3.8%;
+
+        .row{
+            margin: 0;
+        }
+        .wpb_wrapper{
+            border-right: 1px solid #e5e5e5;
+            .footer-box{
+                h2{
+                    color: @color_man;
+                    font-size: 18px;
+                    font-weight: 700;
+                    margin: 0 0 20px;
+                    text-transform: uppercase;
+                }
+                ul.footer-menu-box{
+                    padding: 0;
+                    li{
+                        margin-bottom: 10px;
+                        list-style: none;
+                        a{
+                            color: #555;
+                            padding: 0;
+                        }
+                        a:hover{
+                            color: @color_man;
+                        }
+                    }
+                }
+            }
+        }
+
+        .column-inner{
+            .footer-box{
+                h2{
+                    color: @color_man;
+                    font-size: 18px;
+                    font-weight: 700;
+                    margin: 0 0 20px;
+                    text-transform: uppercase;
+                }
+                ul.footer-box-contact{
+                    padding: 0;
+                    li{
+                        margin-bottom: 10px;
+                        list-style: none;
+                        a{
+                            color: #555;
+                            padding: 0;
+                        }
+                        i.fa-home{
+                            color: @color_man;
+                            font-size: 18px;
+                        }
+                        i.fa-mobile{
+                            color: @color_man;
+                            font-size: 18px;
+                        }
+                        i.fa-envelope{
+                            color: @color_man;
+                            font-size: 18px;
+                        }
+                        a.footer-email{
+                            color: @color_man;
+                        }
+                    }
+                }
+            }
+
+            .social-footer{
+                margin-top: 41px;
+                ul {
+                    display: inline-flex;
+                    padding: 0;
+                    li{
+                        /*margin: 0 10px 0 0px;*/
+                        margin-bottom: 10px;
+                        list-style: none;
+                        i{
+                            margin: 5px;
+                        }
+                        i.fa-facebook{
+                            background: #425D98;
+                            padding: 12px 16px;
+                            color: #fff;
+                        }
+                        i.fa-linkedin{
+                            background: #3984BD;
+                            padding: 12px 14px;
+                            color: #fff;
+                        }
+                        i.fa-twitter{
+                            background: #0FAED2;
+                            padding: 12px 13px;
+                            color: #fff;
+                        }
+                        i.fa-google-plus{
+                            background: #D52D1B;
+                            padding: 12px 11px;
+                            color: #fff;
+                        }
+                        i.fa-pinterest{
+                            background: #D50019;
+                            padding: 12px 14px;
+                            color: #fff;
+                        }
+
+                        /*hover*/
+                        i.fa-facebook:hover{
+                            opacity: 0.8;
+                        }
+                        i.fa-linkedin:hover{
+                            opacity: 0.8;
+                        }
+                        i.fa-twitter:hover{
+                            opacity: 0.8;
+                        }
+                        i.fa-google-plus:hover{
+                            opacity: 0.8;
+                        }
+                        i.fa-pinterest:hover{
+                            opacity: 0.8;
+                        }
+                        /*opacity: 0.8;*/
+                    }
+                }
+            }
+        }
+    }
+    .footer-after{
+        border-top: 1px solid #e5e5e5;
+        border-bottom: 1px solid #e5e5e5;
+        padding: 40px 0 35px;
+        .row{
+            margin: 0;
+        }
+        .footer_column-inner-before{
+            display: inline-flex;
+            .copyrigh a{
+                color: #4bae4f;
+            }
+            .policy{
+                padding: 0px 0 0 20px;
+                a{
+                    display: inline-block;
+                    border-right: 1px solid #ccc;
+                    padding-right: 6px;
+                    margin-right: 3px;
+                    height: 14px;
+                    line-height: 14px;
+                    color: #555;
+                }
+                a:last-child{
+                    border: medium none;
+                    margin: 0;
+                    padding: 0;
+                }
+            }
+        }
+
+        .footer-column-inner-after{
+            float: right;
+            .payment-method{
+                label{
+                    font-weight: 400;
+                    margin: 0 10px 0 0;
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+
+
+    @media (max-width:1199px) and (min-width:990px){
+        .new-form{
+            .newsletter-form{
+                form.wp-form-email{
+                    .wp-form-fields{
+                        input[type="submit"]{
+                            right: 12.7%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width:989px) and (min-width:764px){
+
+
+        .new-form{
+            .newsletter-form{
+                h2.newsletter{
+                    padding: 0 14px;
+                }
+                form.wp-form-email{
+                    .wp-form-fields{
+                        input[type="text"]{
+                            width: 40%;
+                        }
+                        input[type="submit"]{
+                            right: 22%;
+                        }
+                    }
+                }
+            }
+        }
+        .footer-before{
+            .wpb_wrapper{
+                .footer-box{
+                    h2{
+                        font-size: 15px;
+                    }
+                }
+                ul.footer-menu-box{
+                    font-size: 13px;
+                }
+            }
+            .column-inner{
+                .footer-box{
+                    h2{
+                        font-size: 15px;
+                    }
+                }
+                ul.footer-box-contact{
+                    font-size: 13px;
+                }
+                .social-footer{
+                    margin-top: 15px;
+
+                    ul li a i.fa-facebook{
+                        padding: 6px 9px;
+                    }
+                    ul li a i.fa-linkedin{
+                        padding: 6px 8px;
+                    }
+                    ul li a i.fa-twitter{
+                        padding: 6px 8px;
+                    }
+                    ul li a i.fa-google-plus{
+                        padding: 6px 5px;
+                    }
+                    ul li a i.fa-pinterest{
+                        padding: 6px 9px;
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width:763px) and (min-width:620px){
+        .new-form{
+            .newsletter-form{
+                h2.newsletter{
+                    font-size: 20px;
+                    padding: 0 15px;
+                    margin: 25px 20px 25px 0;
+                }
+                form.wp-form-email{
+                    .wp-form-fields{
+                        input[type="text"]{
+                            right: -5%;
+                            top: 21px;
+                            width: 60%;
+                            height: 28px;
+                        }
+                        input[type="submit"]{
+                            width: 85px;
+                            height: 28px;
+                            top: 21px;
+                            right: 3%;
+                            font-size: 11px;
+                        }
+                    }
+                }
+            }
+        }
+        /*.new-form{
+                .newsletter-form{
+                        h2.newsletter{
+                                font-size: 20px;
+                                padding: 0 15px;
+                                margin: 25px 20px 0 0;
+                        }
+                        form.wp-form-email{
+                                .wp-form-fields{
+                                        input[type="text"]{
+                                                right: -31%;
+                                                top: -26px;
+                                                width: 66%;
+                                                height: 28px;
+                                        }
+                                        input[type="submit"]{
+                                                width: 85px;
+                                                height: 28px;
+                                                top: 21px;
+                                                right: 3%;
+                                                font-size: 11px;
+                                        }
+                                }
+                        }
+                }
+                }*/
+    }
+    @media (max-width:619px) and (min-width:480px){
+        .new-form{
+            .newsletter-form{
+                h2.newsletter{
+                    font-size: 20px;
+                    padding: 0 15px;
+                    margin: 24px 20px 25px 0;
+                }
+                form.wp-form-email{
+                    .wp-form-fields{
+                        input[type="text"]{
+                            right: -1%;
+                            top: 23px;
+                            width: 53%;
+                            height: 22px;
+                        }
+                        input[type="submit"]{
+                            width: 85px;
+                            height: 22px;
+                            top: 23px;
+                            right: 3%;
+                            font-size: 11px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width:479px) and (min-width:380px){
+        .new-form{
+            .newsletter-form{
+                h2.newsletter{
+                    font-size: 20px;
+                    text-align: center;
+                    width: 100%;
+                }
+                form.wp-form-email{
+                    .wp-form-fields{
+                        input[type="text"]{
+                            right: -6%;
+                            top: -17px;
+                            width: 71%;
+                            height: 22px;
+                        }
+                        input[type="submit"]{
+                            width: 85px;
+                            height: 22px;
+                            top: 53px;
+                            right: 6%;
+                            font-size: 11px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width:379px) and (min-width:320px){
+        .new-form{
+            .newsletter-form{
+                h2.newsletter{
+                    font-size: 20px;
+                    text-align: center;
+                    width: 100%;
+                }
+                form.wp-form-email{
+                    .wp-form-fields{
+                        input[type="text"]{
+                            right: -6%;
+                            top: -17px;
+                            width: 71%;
+                            height: 22px;
+                        }
+                        input[type="submit"]{
+                            width: 85px;
+                            height: 22px;
+                            top: 53px;
+                            right: 6%;
+                            font-size: 11px;
+                        }
+                    }
+                }
+            }
+        }
+        .wpb_wrapper{
+            border: none !important;
+            text-align: center;
+        }
+        .column-inner{
+            text-align: center;
+        }
+    }
+    @media (max-width:319px) and (min-width:220px){
+        .new-form{
+            .newsletter-form{
+                h2.newsletter{
+                    font-size: 20px;
+                    text-align: center;
+                    width: 100%;
+                }
+                form.wp-form-email{
+                    .wp-form-fields{
+                        input[type="text"]{
+                            right: -6%;
+                            top: -17px;
+                            width: 71%;
+                            height: 22px;
+                        }
+                        input[type="submit"]{
+                            width: 85px;
+                            height: 22px;
+                            top: 53px;
+                            right: 6%;
+                            font-size: 11px;
+                        }
+                    }
+                }
+            }
+        }
+        .wpb_wrapper{
+            border: none !important;
+            text-align: center;
+        }
+        .column-inner{
+            text-align: center;
+        }
+        .footer_column-inner-before{
+            p.copyrigh{
+                font-size: 13px;
+            }
+            .policy{
+                font-size: 13px;
+            }
+        }
+        .payment-method{
+            label{
+                font-size: 13px;
+            }
+        }
+    }
+}
+

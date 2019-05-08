@@ -9,16 +9,16 @@ $url_path = str_replace('\\', '/', $url_path);
 
 if (!class_exists('lessc')) {
     $dir_block = dirname($_SERVER['SCRIPT_FILENAME']);
-    require_once($dir_block . '/libs/lessc.inc.php');
+    require_once($dir_block . '/blocks/1900/libs/lessc.inc.php');
 }
 
 $less = new lessc;
-$less->compileFile('less/1900.less', 'css/1900.css');
-$less->compileFile('less/1914.less', 'css/1914.css');
-$less->compileFile('less/1915.less', 'css/1915.css');
-$less->compileFile('less/1911.less', 'css/1911.css');
-$less->compileFile('less/1913.less', 'css/1913.css');
-$less->compileFile('less/1912.less', 'css/1912.css');
+$less->compileFile('blocks/1900/less/1900.less', 'blocks/1900/css/1900.css');
+$less->compileFile('blocks/1914/less/1914.less', 'blocks/1914/css/1914.css');
+$less->compileFile('blocks/1915/less/1915.less', 'blocks/1915/css/1915.css');
+$less->compileFile('blocks/1911/less/1911.less', 'blocks/1911/css/1911.css');
+$less->compileFile('blocks/1913/less/1913.less', 'blocks/1913/css/1913.css');
+$less->compileFile('blocks/1912/less/1912.less', 'blocks/1912/css/1912.css');
 ?>
 
 <!DOCTYPE html>
@@ -32,32 +32,31 @@ $less->compileFile('less/1912.less', 'css/1912.css');
 
         <title>Blog - AloShop</title>
 
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/bootstrap.min.css">
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/font-awesome.min.css">
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/swiper.min.css">
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/imagehover.min.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/blocks/1900/css/bootstrap.min.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/blocks/1900/css/font-awesome.min.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/blocks/1900/css/swiper.min.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/blocks/1900/css/imagehover.min.css">
 
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/1900.css">
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/1914.css">
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/1915.css">
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/1911.css">
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/1913.css">
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/1912.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/blocks/1900/css/1900.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/blocks/1914/css/1914.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/blocks/1915/css/1915.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/blocks/1911/css/1911.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/blocks/1913/css/1913.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/blocks/1912/css/1912.css">
 
+        <script src="<?php echo $url_path ?>/blocks/1900/js/jquery-2.1.4.min.js"></script>
+        <script src="<?php echo $url_path ?>/blocks/1900/js/bootstrap.min.js"></script>
+        <script src="<?php echo $url_path ?>/blocks/1900/js/owl.carousel.min.js"></script>
+        <script src="<?php echo $url_path ?>/blocks/1900/js/swiper.min.js"></script>
+        <script src="<?php echo $url_path ?>/blocks/1900/js/jquery.final-countdown.js"></script>
+        <script src="<?php echo $url_path ?>/blocks/1900/js/kinetic.js"></script>
 
-        <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/owl.carousel.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/jquery.final-countdown.js"></script>
-        <script src="<?php echo $url_path ?>/js/kinetic.js"></script>
-
-        <script src="<?php echo $url_path ?>/js/1900.js"></script>
-        <script src="<?php echo $url_path ?>/js/1914.js"></script>
-        <script src="<?php echo $url_path ?>/js/1915.js"></script>
-        <script src="<?php echo $url_path ?>/js/1911.js"></script>
-        <script src="<?php echo $url_path ?>/js/1913.js"></script>
-        <script src="<?php echo $url_path ?>/js/1912.js"></script>
+        <script src="<?php echo $url_path ?>/blocks/1900/js/1900.js"></script>
+        <script src="<?php echo $url_path ?>/blocks/1914/js/1914.js"></script>
+        <script src="<?php echo $url_path ?>/blocks/1915/js/1915.js"></script>
+        <script src="<?php echo $url_path ?>/blocks/1911/js/1911.js"></script>
+        <script src="<?php echo $url_path ?>/blocks/1913/js/1913.js"></script>
+        <script src="<?php echo $url_path ?>/blocks/1912/js/1912.js"></script>
 
     </head>
 

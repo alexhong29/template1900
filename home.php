@@ -9,19 +9,18 @@ $url_path = str_replace('\\', '/', $url_path);
 
 if (!class_exists('lessc')) {
     $dir_block = dirname($_SERVER['SCRIPT_FILENAME']);
-    require_once($dir_block . '/libs/lessc.inc.php');
+    require_once($dir_block . '/blocks/1900/libs/lessc.inc.php');
 }
 
 $less = new lessc;
-$less->compileFile('less/1900.less', 'css/1900.css');
-$less->compileFile('less/1902.less', 'css/1902.css');
-$less->compileFile('less/1921.less', 'css/1921.css');
-$less->compileFile('less/1903.less', 'css/1903.css');
-$less->compileFile('less/1904.less', 'css/1904.css');
-$less->compileFile('less/1905.less', 'css/1905.css');
-$less->compileFile('less/1906.less', 'css/1906.css');
-$less->compileFile('less/1907.less', 'css/1907.css');
-$less->compileFile('less/1921.less', 'css/1921.css');
+$less->compileFile('blocks/1900/less/1900.less', 'blocks/1900/css/1900.css');
+$less->compileFile('blocks/1902/less/1902.less', 'blocks/1902/css/1902.css');
+$less->compileFile('blocks/1921/less/1921.less', 'blocks/1921/css/1921.css');
+$less->compileFile('blocks/1903/less/1903.less', 'blocks/1903/css/1903.css');
+$less->compileFile('blocks/1904/less/1904.less', 'blocks/1904/css/1904.css');
+$less->compileFile('blocks/1905/less/1905.less', 'blocks/1905/css/1905.css');
+$less->compileFile('blocks/1906/less/1906.less', 'blocks/1906/css/1906.css');
+$less->compileFile('blocks/1907/less/1907.less', 'blocks/1907/css/1907.css');
 ?>
 
 <!DOCTYPE html>
@@ -35,48 +34,43 @@ $less->compileFile('less/1921.less', 'css/1921.css');
 
         <title>Home - AloShop</title>
 
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/bootstrap.min.css">
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/font-awesome.min.css">
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/swiper.min.css">
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/imagehover.min.css">
-        <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">-->
+        <link rel="stylesheet" href="<?php echo $url_path ?>/blocks/1900/css/bootstrap.min.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/blocks/1900/css/font-awesome.min.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/blocks/1900/css/swiper.min.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/blocks/1900/css/imagehover.min.css">
 
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/1900.css">
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/1902.css">
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/1921.css">
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/1903.css">
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/1904.css">
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/1905.css">
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/1906.css">
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/1907.css">
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/1921.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/blocks/1900/css/1900.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/blocks/1902/css/1902.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/blocks/1921/css/1921.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/blocks/1903/css/1903.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/blocks/1904/css/1904.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/blocks/1905/css/1905.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/blocks/1906/css/1906.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/blocks/1907/css/1907.css">
 
-        <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/owl.carousel.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/jquery.final-countdown.js"></script>
-        <script src="<?php echo $url_path ?>/js/kinetic.js"></script>
+        <script src="<?php echo $url_path ?>/blocks/1900/js/jquery-2.1.4.min.js"></script>
+        <script src="<?php echo $url_path ?>/blocks/1900/js/bootstrap.min.js"></script>
+        <script src="<?php echo $url_path ?>/blocks/1900/js/owl.carousel.min.js"></script>
+        <script src="<?php echo $url_path ?>/blocks/1900/js/swiper.min.js"></script>
+        <script src="<?php echo $url_path ?>/blocks/1900/js/jquery.final-countdown.js"></script>
+        <script src="<?php echo $url_path ?>/blocks/1900/js/kinetic.js"></script>
 
-        <script src="<?php echo $url_path ?>/js/1900.js"></script>
-        <script src="<?php echo $url_path ?>/js/1902.js"></script>
-        <script src="<?php echo $url_path ?>/js/1921.js"></script>
-        <script src="<?php echo $url_path ?>/js/1903.js"></script>
-        <script src="<?php echo $url_path ?>/js/1905.js"></script>
-        <script src="<?php echo $url_path ?>/js/1906.js"></script>
-        <script src="<?php echo $url_path ?>/js/1921.js"></script>
+        <script src="<?php echo $url_path ?>/blocks/1900/js/1900.js"></script>
+        <script src="<?php echo $url_path ?>/blocks/1902/js/1902.js"></script>
+        <script src="<?php echo $url_path ?>/blocks/1921/js/1921.js"></script>
+        <script src="<?php echo $url_path ?>/blocks/1903/js/1903.js"></script>
+        <script src="<?php echo $url_path ?>/blocks/1905/js/1905.js"></script>
+        <script src="<?php echo $url_path ?>/blocks/1906/js/1906.js"></script>
 
     </head>
 
     <body>
-        <div class="topheader">
-            <?php include $dir_block . '/blocks/1900/1900-content.php'; ?>
-            <div class="slider-home">
-                <div class="container">
-                    <div class="row">
-                        <?php include $dir_block . '/blocks/1902/1902-content.php'; ?>       
-                        <?php include $dir_block . '/blocks/1921/1921-content.php'; ?>
-                    </div>
+        <?php include $dir_block . '/blocks/1900/1900-content.php'; ?>
+        <div class="slider-home">
+            <div class="container">
+                <div class="row">
+                    <?php include $dir_block . '/blocks/1902/1902-content.php'; ?>       
+                    <?php include $dir_block . '/blocks/1921/1921-content.php'; ?>
                 </div>
             </div>
         </div>

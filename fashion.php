@@ -9,17 +9,17 @@ $url_path = str_replace('\\', '/', $url_path);
 
 if (!class_exists('lessc')) {
     $dir_block = dirname($_SERVER['SCRIPT_FILENAME']);
-    require_once($dir_block . '/libs/lessc.inc.php');
+    require_once($dir_block . '/blocks/1900/libs/lessc.inc.php');
 }
 
 $less = new lessc;
-$less->compileFile('less/1900.less', 'css/1900.css');
-$less->compileFile('less/1908.less', 'css/1908.css');
-$less->compileFile('less/1922.less', 'css/1922.css');
-$less->compileFile('less/1911.less', 'css/1911.css');
-$less->compileFile('less/1909.less', 'css/1909.css');
-$less->compileFile('less/1910.less', 'css/1910.css');
-$less->compileFile('less/1912.less', 'css/1912.css');
+$less->compileFile('blocks/1900/less/1900.less', 'blocks/1900/css/1900.css');
+$less->compileFile('blocks/1908/less/1908.less', 'blocks/1908/css/1908.css');
+$less->compileFile('blocks/1922/less/1922.less', 'blocks/1922/css/1922.css');
+$less->compileFile('blocks/1911/less/1911.less', 'blocks/1911/css/1911.css');
+$less->compileFile('blocks/1909/less/1909.less', 'blocks/1909/css/1909.css');
+$less->compileFile('blocks/1910/less/1910.less', 'blocks/1910/css/1910.css');
+$less->compileFile('blocks/1912/less/1912.less', 'blocks/1912/css/1912.css');
 ?>
 
 <!DOCTYPE html>
@@ -33,34 +33,32 @@ $less->compileFile('less/1912.less', 'css/1912.css');
 
         <title>Fashion - AloShop</title>
 
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/bootstrap.min.css">
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/font-awesome.min.css">
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/swiper.min.css">
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/imagehover.min.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/blocks/1900/css/bootstrap.min.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/blocks/1900/css/font-awesome.min.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/blocks/1900/css/swiper.min.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/blocks/1900/css/imagehover.min.css">
 
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/1900.css">
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/1908.css">
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/1922.css">
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/1911.css">
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/1909.css">
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/1910.css">
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/1912.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/blocks/1900/css/1900.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/blocks/1908/css/1908.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/blocks/1922/css/1922.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/blocks/1911/css/1911.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/blocks/1909/css/1909.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/blocks/1910/css/1910.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/blocks/1912/css/1912.css">
 
+        <script src="<?php echo $url_path ?>/blocks/1900/js/jquery-2.1.4.min.js"></script>
+        <script src="<?php echo $url_path ?>/blocks/1900/js/bootstrap.min.js"></script>
+        <script src="<?php echo $url_path ?>/blocks/1900/js/owl.carousel.min.js"></script>
+        <script src="<?php echo $url_path ?>/blocks/1900/js/swiper.min.js"></script>
+        <script src="<?php echo $url_path ?>/blocks/1900/js/jquery.final-countdown.js"></script>
+        <script src="<?php echo $url_path ?>/blocks/1900/js/kinetic.js"></script>
 
-        <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/owl.carousel.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/jquery.final-countdown.js"></script>
-        <script src="<?php echo $url_path ?>/js/jquery-ui.js"></script>
-        <script src="<?php echo $url_path ?>/js/kinetic.js"></script>
-
-        <script src="<?php echo $url_path ?>/js/1900.js"></script>
-        <script src="<?php echo $url_path ?>/js/1908.js"></script>
-        <script src="<?php echo $url_path ?>/js/1922.js"></script>
-        <script src="<?php echo $url_path ?>/js/1911.js"></script>
-        <script src="<?php echo $url_path ?>/js/1909.js"></script>
-        <script src="<?php echo $url_path ?>/js/1912.js"></script>
+        <script src="<?php echo $url_path ?>/blocks/1900/js/1900.js"></script>
+        <script src="<?php echo $url_path ?>/blocks/1908/js/1908.js"></script>
+        <script src="<?php echo $url_path ?>/blocks/1922/js/1922.js"></script>
+        <script src="<?php echo $url_path ?>/blocks/1911/js/1911.js"></script>
+        <script src="<?php echo $url_path ?>/blocks/1909/js/1909.js"></script>
+        <script src="<?php echo $url_path ?>/blocks/1912/js/1912.js"></script>
 
     </head>
 

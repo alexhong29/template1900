@@ -18,9 +18,18 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
                 <div class="supperdeal-tab">
                     <div class="tab">
-                        <button class="tablinks1903 active" onclick="openCity(event, 'Electronis')" id="electronis" >Electronis<i class="fa fa-chevron-right"></i></button>
-                        <button class="tablinks1903 active" onclick="openCity(event, 'Fashion')" id="fashion">Fashion<i class="fa fa-chevron-right"></i></button>
-                        <button class="tablinks1903 active" onclick="openCity(event, 'Furniture')" id="furniture">Furniture<i class="fa fa-chevron-right"></i></button>
+                        <button class="tablinks1903 active" onclick="openCity(event, 'Electronis')" id="electronis">
+                            Electronis
+                            <i class="fa fa-chevron-right"></i>
+                        </button>
+                        <button class="tablinks1903 active" onclick="openCity(event, 'Fashion')" id="fashion">
+                            Fashion
+                            <i class="fa fa-chevron-right"></i>
+                        </button>
+                        <button class="tablinks1903 active" onclick="openCity(event, 'Furniture')" id="furniture">
+                            Furniture
+                            <i class="fa fa-chevron-right"></i>
+                        </button>
                     </div>
                 </div>
                 <div class="supperdeal-countdown">
@@ -75,7 +84,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
                 <div class="item-adv-simple adv-home6">
                     <a href="#">
-                        <img width="230" height="260" src="<?php echo $url_path ?>/images/ad3-2.jpg" class="attachment-full size-full" alt="">
+                        <img width="230" height="260" src="<?php echo $url_path ?>/images/ad3-2.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
             </div>
