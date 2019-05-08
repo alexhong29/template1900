@@ -26,11 +26,6 @@ $url_path = str_replace('\\', '/', $url_path);
                             Fashion
                             <i class="fa fa-chevron-right"></i>
                         </button>
-                        <button class="tablinks1903" onclick="openCity(event, 'Furniture')" id="furniture">
-                        <button class="tablinks1903 " onclick="openCity(event, 'Fashion')" id="fashion">
-                            Fashion
-                            <i class="fa fa-chevron-right"></i>
-                        </button>
                         <button class="tablinks1903 " onclick="openCity(event, 'Furniture')" id="furniture">
                             Furniture
                             <i class="fa fa-chevron-right"></i>
