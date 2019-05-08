@@ -110,7 +110,7 @@
   background: #fe9c00 none repeat scroll 0 0;
   border: medium none;
   height: 1px;
-  margin: 30px 0;
+  margin: 30px 13px;
   cursor: pointer;
 }
 .type-1908 .sidebar-shop .range-filter #slider-range1 .ui-slider-handle {
@@ -118,6 +118,7 @@
   border: medium none;
   border-radius: 0;
   height: 16px;
+  margin: 0 -14px;
   top: -8px;
   width: 16px;
   cursor: pointer;
