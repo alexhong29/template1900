@@ -66,6 +66,7 @@
                         margin-bottom: 10px;
                         list-style: none;
                         a{
+                            text-decoration: none;
                             color: #555;
                             padding: 0;
                         }
@@ -73,6 +74,8 @@
                             color: @color_man;
                         }
                     }
+                    
+                    
                 }
             }
         }
@@ -94,6 +97,9 @@
                         a{
                             color: #555;
                             padding: 0;
+                        }
+                        a:hover{
+                            color: @color_man;
                         }
                         i.fa-home{
                             color: @color_man;
@@ -120,53 +126,66 @@
                     display: inline-flex;
                     padding: 0;
                     li{
-                        /*margin: 0 10px 0 0px;*/
                         margin-bottom: 10px;
                         list-style: none;
                         i{
                             margin: 5px;
                         }
                         i.fa-facebook{
-                            background: #425D98;
+                            background: #8d929b;
                             padding: 12px 16px;
                             color: #fff;
+                            transition: all 0.3s ease-in-out;
                         }
                         i.fa-linkedin{
-                            background: #3984BD;
+                            background: #8d929b;
                             padding: 12px 14px;
                             color: #fff;
+                            opacity: 0.8;
+                            transition: all 0.3s ease-in-out;
                         }
                         i.fa-twitter{
-                            background: #0FAED2;
+                            background: #8d929b;
                             padding: 12px 13px;
                             color: #fff;
+                            opacity: 0.8;
+                            transition: all 0.3s ease-in-out;
                         }
                         i.fa-google-plus{
-                            background: #D52D1B;
+                            background: #8d929b;
                             padding: 12px 11px;
                             color: #fff;
+                            opacity: 0.8;
+                            transition: all 0.3s ease-in-out;
                         }
                         i.fa-pinterest{
-                            background: #D50019;
+                            background: #8d929b;
                             padding: 12px 14px;
                             color: #fff;
+                            opacity: 0.8;
+                            transition: all 0.3s ease-in-out;
                         }
 
                         /*hover*/
                         i.fa-facebook:hover{
-                            opacity: 0.8;
+                            background: #3B5998;
+                            opacity: 1;
                         }
                         i.fa-linkedin:hover{
-                            opacity: 0.8;
+                            background: #4875B4;
+                            opacity: 1;
                         }
                         i.fa-twitter:hover{
-                            opacity: 0.8;
+                            background: #33CCFF;
+                            opacity: 1;
                         }
                         i.fa-google-plus:hover{
-                            opacity: 0.8;
+                            background: #C63D2D;
+                            opacity: 1;
                         }
                         i.fa-pinterest:hover{
-                            opacity: 0.8;
+                            background: #D50019;
+                            opacity: 1;
                         }
                         /*opacity: 0.8;*/
                     }
@@ -212,6 +231,14 @@
                     font-weight: 400;
                     margin: 0 10px 0 0;
                     vertical-align: middle;
+                }
+                a{
+                    img{
+                        transition: all 0.5s ease-in-out;
+                    }
+                    img:hover{
+                        transform: scale(1.2);
+                    }
                 }
             }
         }
