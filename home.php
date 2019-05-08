@@ -52,8 +52,7 @@ $less->compileFile('blocks/1907/less/1907.less', 'blocks/1907/css/1907.css');
         <script src="<?php echo $url_path ?>/blocks/1900/js/bootstrap.min.js"></script>
         <script src="<?php echo $url_path ?>/blocks/1900/js/owl.carousel.min.js"></script>
         <script src="<?php echo $url_path ?>/blocks/1900/js/swiper.min.js"></script>
-        <script src="<?php echo $url_path ?>/blocks/1900/js/jquery.final-countdown.js"></script>
-        <script src="<?php echo $url_path ?>/blocks/1900/js/kinetic.js"></script>
+        <script src="<?php echo $url_path ?>/blocks/1900/js/TimeCircles.js"></script>
 
         <script src="<?php echo $url_path ?>/blocks/1900/js/1900.js"></script>
         <script src="<?php echo $url_path ?>/blocks/1902/js/1902.js"></script>

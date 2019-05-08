@@ -95,46 +95,36 @@
 }
 .type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-countdown {
   position: relative;
-  width: fit-content;
+  width: 225px;
+  margin-bottom: 20px;
 }
-.type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-countdown .countdown {
-  position: relative;
-}
-.type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-countdown .countdown .clock-item .inner {
-  position: relative;
-  width: 49px;
-}
-.type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-countdown .countdown .clock-canvas {
+.type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-countdown .time_circles > div {
   background: #5f6062 none repeat scroll 0 0;
   border-radius: 50%;
-  height: 0px;
-  padding-bottom: 100%;
-}
-.type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-countdown .countdown .text {
-  font-size: 30px;
-  margin-top: -50px;
+  height: 52px;
+  margin-top: -18px;
+  position: absolute;
   text-align: center;
-  text-shadow: 1px 1px 1px #000000;
-  width: 100%;
+  width: 52px !important;
 }
-.type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-countdown .countdown .text .val {
-  font-size: 15px;
-  font-weight: 700;
+.type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-countdown .number {
   color: #fff;
+  display: block;
+  font-weight: 700;
   margin: 10px 0 -7px;
 }
-.type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-countdown .countdown .text .type-time {
+.type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-countdown .text {
   color: #ccc;
   font-size: 12px;
 }
-.type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-countdown .clock-item clock-days,
-.type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-countdown .countdown-time-value {
-  float: left;
+.type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-countdown .time_circles canvas {
+  left: -2px;
+  position: relative;
+  z-index: 999;
 }
 .type-1903 .supperdeal-deal6 .supperdeal-sidebar .item-adv-simple,
 .type-1903 .supperdeal-deal6 .supperdeal-sidebar .adv-home6 {
   margin-bottom: 20px;
-  margin-top: 100px;
 }
 .type-1903 .supperdeal-deal6 .supperdeal-sidebar .item-adv-simple a,
 .type-1903 .supperdeal-deal6 .supperdeal-sidebar .adv-home6 a {
@@ -374,6 +364,10 @@
   }
   .type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-tab {
     margin-bottom: 0;
+  }
+  .type-1903 .supperdeal-countdown {
+    text-align: center;
+    margin: 0 auto;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
