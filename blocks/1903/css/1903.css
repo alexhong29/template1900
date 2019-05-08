@@ -390,3 +390,25 @@
     display: none;
   }
 }
+@media only screen and (min-width: 992px) {
+  .type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-header ::before {
+    display: none;
+  }
+  .type-1903 .supperdeal-deal6 .supperdeal-sidebar {
+    padding-left: 0;
+  }
+  .type-1903 .tabcontent1903 .owl-controls {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-header ::before {
+    display: block;
+  }
+  .type-1903 .supperdeal-deal6 .supperdeal-sidebar {
+    padding-left: 45px;
+  }
+  .type-1903 .tabcontent1903 .owl-controls {
+    display: block;
+  }
+}

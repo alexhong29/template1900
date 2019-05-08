@@ -18,7 +18,6 @@
             h2{
                 font-weight: 700;
                 margin: 0;
-                padding: 0 15px;
                 text-transform: uppercase;
             }
         }
@@ -137,32 +136,29 @@
         }
     }
     .sort-pagi-bar{
-        .product-order{
-            float: right;
+        .product-order{ 
             form.woocommerce-ordering{
                 .orderby{
                     height: 30px;
-                    width: 163px;
+                    width: 137px;
                     border: 1px solid #e8e8e8;
                     position: relative;
                 }
                 .icon-img{
                     border: 1px solid #e8e8e8;
                     position: absolute;
-                    top: 0px;
-                    right: -10px;
                 }
             }
         }
         .product-per-page{
             .orderby{
                 height: 30px;
-                width: 110px;
+                width: 90px;
                 border: 1px solid #e8e8e8;
+                margin-left: 20px;
             }
         }
         .product-pagi-nav{
-            float: right;
             .page-numbers-1{
                 background: #ff9933;
                 color: #fff;
@@ -244,18 +240,20 @@
     }
     @media (max-width:768px){
         margin-top: 50px;
+        .product-pagi-nav {
+            margin: 10px 0;
+        }
     }
-
-
+    @media (max-width:991px){
+        .product-pagi-nav {
+            margin: 10px 0;
+        }
+    }
 
     @media (max-width:902px){
         .sort-pagi-bar{
             text-align: center;
             width: 100%;
-            .product-pagi-nav{
-                display: inline-flex;
-                /*padding-top: 10px;*/
-            }
         }
     }
     @media (max-width:568px){
