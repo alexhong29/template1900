@@ -14,9 +14,21 @@ $(document).ready(function () {
             prevEl: '.prev1903',
         },
         breakpoints: {
-            960: {
+            1024: {
+                slidesPerView: 3,
+                spaceBetween: 40,
+            },
+            768: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+            },
+            640: {
                 slidesPerView: 2,
                 spaceBetween: 20,
+            },
+            320: {
+                slidesPerView: 1,
+                spaceBetween: 10,
             }
         }
     });
@@ -29,9 +41,21 @@ $(document).ready(function () {
             prevEl: '.prev1903',
         },
         breakpoints: {
-            960: {
+            1024: {
+                slidesPerView: 3,
+                spaceBetween: 40,
+            },
+            768: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+            },
+            640: {
                 slidesPerView: 2,
                 spaceBetween: 20,
+            },
+            320: {
+                slidesPerView: 1,
+                spaceBetween: 10,
             }
         }
     });
@@ -44,9 +68,21 @@ $(document).ready(function () {
             prevEl: '.prev1903',
         },
         breakpoints: {
-            960: {
+            1024: {
+                slidesPerView: 3,
+                spaceBetween: 40,
+            },
+            768: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+            },
+            640: {
                 slidesPerView: 2,
                 spaceBetween: 20,
+            },
+            320: {
+                slidesPerView: 1,
+                spaceBetween: 10,
             }
         }
     });

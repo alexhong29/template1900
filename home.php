@@ -33,6 +33,7 @@ $less->compileFile('blocks/1907/less/1907.less', 'blocks/1907/css/1907.css');
 
         <title>Home - AloShop</title>
 
+        <link href="http://template1900.local/blocks/1900/images/favicon_io/favicon.ico" rel="shortcut icon" type="image/x-icon">
         <link rel="stylesheet" href="<?php echo $url_path ?>/blocks/1900/css/bootstrap.min.css">
         <link rel="stylesheet" href="<?php echo $url_path ?>/blocks/1900/css/font-awesome.min.css">
         <link rel="stylesheet" href="<?php echo $url_path ?>/blocks/1900/css/swiper.min.css">

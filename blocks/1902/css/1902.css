@@ -91,6 +91,14 @@
 .type-1902 .swiper1902 .prev1902 {
   left: 0;
 }
+.type-1902 .swiper1902 .arrow1902 .next1902,
+.type-1902 .swiper1902 .arrow1902 .prev1902 {
+  opacity: .5;
+}
+.type-1902 .swiper1902 .next1902:hover,
+.type-1902 .swiper1902 .prev1902:hover {
+  opacity: 1;
+}
 .type-1902 .swiper1902 .swiper-slide {
   text-align: center;
   font-size: 18px;
