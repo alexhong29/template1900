@@ -78,6 +78,10 @@
 .type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-tab .tab .active .fa-chevron-right {
   float: right;
   display: block;
+  color: #4bae4f;
+}
+.type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-tab .tab .active {
+  color: #4bae4f;
 }
 .type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-tab .tabcontent1903 {
   float: left;

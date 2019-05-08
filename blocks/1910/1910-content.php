@@ -171,6 +171,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <option value="price">Sort by price: low to high</option>
                                 <option value="price-desc">Sort by price: high to low</option>
                             </select>
+                            <span><img class="icon-img" src="<?php echo $url_path ?>/images/img1.PNG" alt="#"></span>
                         </form>
                     </div>
                 </div>

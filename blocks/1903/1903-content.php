@@ -18,7 +18,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
                 <div class="supperdeal-tab">
                     <div class="tab">
-                        <button class="tablinks1903 active" onclick="openCity(event, 'Electronis')" id="electronis">
+                        <button class="tablinks1903 " onclick="openCity(event, 'Electronis')" id="electronis">
                             Electronis
                             <i class="fa fa-chevron-right"></i>
                         </button>
@@ -27,6 +27,11 @@ $url_path = str_replace('\\', '/', $url_path);
                             <i class="fa fa-chevron-right"></i>
                         </button>
                         <button class="tablinks1903" onclick="openCity(event, 'Furniture')" id="furniture">
+                        <button class="tablinks1903 " onclick="openCity(event, 'Fashion')" id="fashion">
+                            Fashion
+                            <i class="fa fa-chevron-right"></i>
+                        </button>
+                        <button class="tablinks1903 " onclick="openCity(event, 'Furniture')" id="furniture">
                             Furniture
                             <i class="fa fa-chevron-right"></i>
                         </button>
