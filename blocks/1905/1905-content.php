@@ -55,7 +55,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </div>
                             </figcaption>
                         </figure>
-                        <!-- texxt -->
                         <div class="product">
                             <a href="#">Phone 1</a>
                             <div class="price">
@@ -71,74 +70,6 @@ $url_path = str_replace('\\', '/', $url_path);
                             <img src="<?php echo $url_path ?>/images/computer2.jpg" alt="#" class="img-responsive">
                             <figcaption class="image-hover">
                                 <img src="<?php echo $url_path ?>/images/computer1.jpg" alt="#" class="img-responsive">
-                                <div class="bor_img">
-                                    <div class="like">
-                                        <a href="#">
-                                            <div class="search">
-                                                <i class="fa fa-heart"></i>
-                                                <i class="fa fa-toggle-on"></i>
-                                                <i class="fa fa-search"></i>
-                                            </div>
-                                        </a>
-                                        <a href="#">
-                                            <div class="cart">
-                                                <i class="fa fa-shopping-basket"></i> Add to cart
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </figcaption>
-                        </figure>
-                        <!-- texxt -->
-                        <div class="product">
-                            <a href="#">Phone 1</a>
-                            <div class="price">
-                                <span class="new_price">$868.00</span>
-                                <span class="old_price">$968.00</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-4 col-xs-6">
-                    <div class="circle-info-wrapper">
-                        <figure class="imghvr-push-up">
-                            <img src="<?php echo $url_path ?>/images/computer2.jpg" alt="#" class="img-responsive">
-                            <figcaption class="image-hover">
-                                <img src="<?php echo $url_path ?>/images/computer1.jpg" alt="#" class="img-responsive">
-                                <div class="bor_img">
-                                    <div class="like">
-                                        <a href="#">
-                                            <div class="search">
-                                                <i class="fa fa-heart"></i>
-                                                <i class="fa fa-toggle-on"></i>
-                                                <i class="fa fa-search"></i>
-                                            </div>
-                                        </a>
-                                        <a href="#">
-                                            <div class="cart">
-                                                <i class="fa fa-shopping-basket"></i> Add to cart
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </figcaption>
-                        </figure>
-                        <!-- texxt -->
-                        <div class="product">
-                            <a href="#">Phone 1</a>
-                            <div class="price">
-                                <span class="new_price">$868.00</span>
-                                <span class="old_price">$968.00</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-4 col-xs-6">
-                    <div class="circle-info-wrapper">
-                        <figure class="imghvr-push-up">
-                            <img src="<?php echo $url_path ?>/images/computer1.jpg" alt="#" class="img-responsive">
-                            <figcaption class="image-hover">
-                                <img src="<?php echo $url_path ?>/images/fas2.png" alt="#" class="img-responsive">
                                 <div class="bor_img">
                                     <div class="like">
                                         <a href="#">
@@ -235,7 +166,40 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
                 </div>
-                
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="circle-info-wrapper">
+                        <figure class="imghvr-push-up">
+                            <img src="<?php echo $url_path ?>/images/computer2.jpg" alt="#" class="img-responsive">
+                            <figcaption class="image-hover">
+                                <img src="<?php echo $url_path ?>/images/computer1.jpg" alt="#" class="img-responsive">
+                                <div class="bor_img">
+                                    <div class="like">
+                                        <a href="#">
+                                            <div class="search">
+                                                <i class="fa fa-heart"></i>
+                                                <i class="fa fa-toggle-on"></i>
+                                                <i class="fa fa-search"></i>
+                                            </div>
+                                        </a>
+                                        <a href="#">
+                                            <div class="cart">
+                                                <i class="fa fa-shopping-basket"></i> Add to cart
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        <!-- texxt -->
+                        <div class="product">
+                            <a href="#">Phone 1</a>
+                            <div class="price">
+                                <span class="new_price">$868.00</span>
+                                <span class="old_price">$968.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div id="Electroniss1905" class="tabcontents" style="display: none">
                 <div class="col-md-3 col-sm-6 col-xs-6">
