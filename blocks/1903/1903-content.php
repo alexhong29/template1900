@@ -22,7 +22,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             Electronis
                             <i class="fa fa-chevron-right"></i>
                         </button>
-                        <button class="tablinks1903 " onclick="openCity(event, 'Fashion')" id="fashion">
+                        <button class="tablinks1903" onclick="openCity(event, 'Fashion')" id="fashion">
                             Fashion
                             <i class="fa fa-chevron-right"></i>
                         </button>
