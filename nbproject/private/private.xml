@@ -2,14 +2,17 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
         <group>
-            <file>file:/E:/Git/template1900/fashion.php</file>
-            <file>file:/E:/Git/template1900/blocks/1902/less/1902.less</file>
-            <file>file:/E:/Git/template1900/home.php</file>
-        </group>
             <file>file:/C:/Users/ASUS/Documents/GitHub/template1900/blocks/1912/1912-content.php</file>
             <file>file:/C:/Users/ASUS/Documents/GitHub/template1900/blocks/1912/less/1912.less</file>
+        </group>
+        <group>
+            <file>file:/C:/Users/ASUS/Documents/GitHub/template1900/blocks/1907/less/1907.less</file>
+            <file>file:/C:/Users/ASUS/Documents/GitHub/template1900/blocks/1906/less/1906.less</file>
+            <file>file:/C:/Users/ASUS/Documents/GitHub/template1900/blocks/1910/1910-content.php</file>
+            <file>file:/C:/Users/ASUS/Documents/GitHub/template1900/blocks/1907/1907-content.php</file>
+            <file>file:/C:/Users/ASUS/Documents/GitHub/template1900/blocks/1900/less/1900.less</file>
+            <file>file:/C:/Users/ASUS/Documents/GitHub/template1900/blocks/1910/less/1910.less</file>
         </group>
     </open-files>
 </project-private>
