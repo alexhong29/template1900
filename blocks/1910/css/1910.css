@@ -119,20 +119,19 @@
 }
 .type-1910 .sort-pagi-bar .product-order form.woocommerce-ordering .orderby {
   height: 30px;
-  width: 163px;
+  width: 137px;
   border: 1px solid #e8e8e8;
   position: relative;
 }
 .type-1910 .sort-pagi-bar .product-order form.woocommerce-ordering .icon-img {
   border: 1px solid #e8e8e8;
   position: absolute;
-  top: 0px;
-  right: -10px;
 }
 .type-1910 .sort-pagi-bar .product-per-page .orderby {
   height: 30px;
   width: 90px;
   border: 1px solid #e8e8e8;
+  margin-left: 20px;
 }
 .type-1910 .sort-pagi-bar .product-pagi-nav .page-numbers-1 {
   background: #ff9933;
@@ -218,7 +217,7 @@
     margin: 10px 0;
   }
 }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .type-1910 .product-pagi-nav {
     margin: 10px 0;
   }
