@@ -39,7 +39,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-3">
-                    <div class="wpb_wrapper">
+                    <div class="wpb_wrapper buyfrom">
                         <div class="footer-box">
                             <h2>WHY BUY FROM US</h2>
                             <ul class="footer-menu-box">
