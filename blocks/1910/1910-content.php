@@ -158,7 +158,7 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
     </div>
     <div class="row">
-        <div class="col-md-9 col-sm-8 col-xs-12 view-shop">
+        <div class="col-md-12 col-sm-8 col-xs-12 view-shop">
             <div class="sort-pagi-bar">
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="product-order">
