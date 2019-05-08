@@ -160,7 +160,7 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class="row">
         <div class="col-md-9 view-shop">
             <div class="sort-pagi-bar">
-                <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="col-md-4 col-sm-6 col-xs-6">
                     <div class="product-order">
                         <form class="woocommerce-ordering" method="get">
                             <select name="orderby" class="orderby">
@@ -187,7 +187,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         </select>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="col-md-5 col-sm-12 col-xs-12">
                     <div class="product-pagi-nav">
                         <span aria-current="page" class="page-numbers-1">1</span>
                         <a class="page-numbers-2" href="#">2</a>
