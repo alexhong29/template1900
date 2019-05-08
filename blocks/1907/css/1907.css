@@ -59,6 +59,7 @@
   list-style: none;
 }
 .type-1907 .footer-before .wpb_wrapper .footer-box ul.footer-menu-box li a {
+  text-decoration: none;
   color: #555;
   padding: 0;
 }
@@ -82,6 +83,9 @@
 .type-1907 .footer-before .column-inner .footer-box ul.footer-box-contact li a {
   color: #555;
   padding: 0;
+}
+.type-1907 .footer-before .column-inner .footer-box ul.footer-box-contact li a:hover {
+  color: #4BAE4F;
 }
 .type-1907 .footer-before .column-inner .footer-box ul.footer-box-contact li i.fa-home {
   color: #4BAE4F;
@@ -113,44 +117,58 @@
   margin: 5px;
 }
 .type-1907 .footer-before .column-inner .social-footer ul li i.fa-facebook {
-  background: #425D98;
+  background: #8d929b;
   padding: 12px 16px;
   color: #fff;
+  transition: all 0.3s ease-in-out;
 }
 .type-1907 .footer-before .column-inner .social-footer ul li i.fa-linkedin {
-  background: #3984BD;
+  background: #8d929b;
   padding: 12px 14px;
   color: #fff;
+  opacity: 0.8;
+  transition: all 0.3s ease-in-out;
 }
 .type-1907 .footer-before .column-inner .social-footer ul li i.fa-twitter {
-  background: #0FAED2;
+  background: #8d929b;
   padding: 12px 13px;
   color: #fff;
+  opacity: 0.8;
+  transition: all 0.3s ease-in-out;
 }
 .type-1907 .footer-before .column-inner .social-footer ul li i.fa-google-plus {
-  background: #D52D1B;
+  background: #8d929b;
   padding: 12px 11px;
   color: #fff;
+  opacity: 0.8;
+  transition: all 0.3s ease-in-out;
 }
 .type-1907 .footer-before .column-inner .social-footer ul li i.fa-pinterest {
-  background: #D50019;
+  background: #8d929b;
   padding: 12px 14px;
   color: #fff;
+  opacity: 0.8;
+  transition: all 0.3s ease-in-out;
 }
 .type-1907 .footer-before .column-inner .social-footer ul li i.fa-facebook:hover {
-  opacity: 0.8;
+  background: #3B5998;
+  opacity: 1;
 }
 .type-1907 .footer-before .column-inner .social-footer ul li i.fa-linkedin:hover {
-  opacity: 0.8;
+  background: #4875B4;
+  opacity: 1;
 }
 .type-1907 .footer-before .column-inner .social-footer ul li i.fa-twitter:hover {
-  opacity: 0.8;
+  background: #33CCFF;
+  opacity: 1;
 }
 .type-1907 .footer-before .column-inner .social-footer ul li i.fa-google-plus:hover {
-  opacity: 0.8;
+  background: #C63D2D;
+  opacity: 1;
 }
 .type-1907 .footer-before .column-inner .social-footer ul li i.fa-pinterest:hover {
-  opacity: 0.8;
+  background: #D50019;
+  opacity: 1;
 }
 .type-1907 .footer-after {
   border-top: 1px solid #e5e5e5;
@@ -190,6 +208,12 @@
   font-weight: 400;
   margin: 0 10px 0 0;
   vertical-align: middle;
+}
+.type-1907 .footer-after .footer-column-inner-after .payment-method a img {
+  transition: all 0.5s ease-in-out;
+}
+.type-1907 .footer-after .footer-column-inner-after .payment-method a img:hover {
+  transform: scale(1.2);
 }
 @media (max-width: 1199px) and (min-width: 990px) {
   .type-1907 .new-form .newsletter-form form.wp-form-email .wp-form-fields input[type="submit"] {
