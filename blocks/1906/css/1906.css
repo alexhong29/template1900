@@ -1,5 +1,6 @@
 .type-1906 .client-says {
   padding: 0 15px;
+  margin-bottom: 50px;
 }
 .type-1906 span {
   font-weight: bold;
@@ -27,15 +28,11 @@
   padding-right: 10px;
   font-size: 15px;
 }
-.type-1906 a:hover {
-  text-decoration: none;
-  color: #333;
-}
 .type-1906 a {
   font-weight: bold;
   font-size: 20px;
   margin: 0 0 20px;
-  color: #4bae4f;
+  color: #fff;
 }
 .type-1906 .info-pic {
   margin-top: -25px;
@@ -69,9 +66,14 @@
   opacity: 1;
   text-align: center;
 }
+.type-1906 .swiper-controls .prev-arroww,
+.type-1906 .swiper-controls .next-arroww {
+  opacity: .5;
+}
 .type-1906 .swiper-controls .prev-arroww:hover,
 .type-1906 .swiper-controls .next-arroww:hover {
   border-color: #7ccbfc;
+  opacity: 1;
 }
 .type-1906 .qoutation-slider--higher {
   margin: 0 auto;
@@ -129,7 +131,7 @@
     max-height: 438px;
   }
   .type-1906 .swiper-container {
-    margin-top: -65px;
+    margin-top: -50px;
   }
   .type-1906 .info-pic {
     margin-top: -25px;

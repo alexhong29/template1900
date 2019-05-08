@@ -9,6 +9,7 @@
     @font_size_by: 15px;
     .client-says{
         padding: 0 15px;
+        margin-bottom: 50px;
     }
     span {
         font-weight: bold;
@@ -37,15 +38,11 @@
         padding-right: 10px;
         font-size: @font_size_by;
     }
-    a:hover{
-        text-decoration: none;
-        color: #333;
-    }
     a {
         font-weight: bold;
         font-size: @font_size_title;
         margin: 0 0 20px;
-        color: @color_info_pic_title;
+        color: #fff;
     }
 
     .info-pic{
@@ -80,8 +77,14 @@
             opacity: 1;
             text-align: center;
         }
+
+        .prev-arroww, .next-arroww{
+            opacity: .5;
+        }
+
         .prev-arroww:hover, .next-arroww:hover {
             border-color: @color_arrow_hover;
+            opacity: 1;
         }
     }
     /* slide say*/
@@ -144,7 +147,7 @@
             max-height: 438px;
         }
         .swiper-container{
-            margin-top: -65px;
+            margin-top: -50px;
         }
         .info-pic{
             margin-top: -25px;

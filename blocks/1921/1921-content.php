@@ -36,12 +36,10 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="wrapper item-adv-simple ">
                                 <a href="#">
                                     <img src="<?php echo $url_path ?>/images/ad2-2.jpg" class="img-responsive">
-                                    <h3>iPOD APPLE</h3>
-                                <p>Aliquam tempus rutum</p>
-                                <span class="money">
+                                    <h3>iPOD APPLE <p>Aliquam tempus rutum</p> <span class="money">
                                     <span class="icon">$</span>
                                     170.00
-                                </span>
+                                </span></h3>
                                 </a>
                             </div>
                         </div>
