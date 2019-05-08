@@ -13,12 +13,12 @@ $url_path = str_replace('\\', '/', $url_path);
                 <h2>shop</h2>
             </div>
             <div class="row">
-                <div class="col-md-4 col-sm-12 col-xs-12 view-sp">
+                <div class="col-md-4 col-sm-6 col-xs-6 view-sp">
                     <div class="circle-info-wrapper">
                         <figure class="imghvr-push-up">
                             <img src="<?php echo $url_path ?>/images/img_1.1.jpg" alt="#">
                             <figcaption class="image-hover">
-                                <img src="<?php echo $url_path ?>/images/img_1.0.jpg" alt="#">
+                                <img src="<?php echo $url_path ?>/images/img_1.1.jpg" alt="#">
                                 <div class="bor_img">
                                     <div class="like">
                                         <a href="#">
@@ -60,7 +60,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-12 col-xs-12 view-sp">
+                <div class="col-md-4 col-sm-6 col-xs-6 view-sp">
                     <div class="circle-info-wrapper">
                         <figure class="imghvr-push-up">
                             <img src="<?php echo $url_path ?>/images/img_2.0.jpg" alt="#">
@@ -107,7 +107,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-12 col-xs-12 view-sp">
+                <div class="col-md-4 col-sm-6 col-xs-6 view-sp">
                     <div class="circle-info-wrapper">
                         <figure class="imghvr-push-up">
                             <img src="<?php echo $url_path ?>/images/img_3.0.jpg" alt="#">
@@ -158,9 +158,9 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
     </div>
     <div class="row">
-        <div class="col-md-12 col-sm-8 col-xs-12 view-shop">
+        <div class="col-md-12 col-sm-12 col-xs-12 view-shopp">
             <div class="sort-pagi-bar">
-                <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="col-md-4 col-sm-12 col-xs-12">
                     <div class="product-order">
                         <form class="woocommerce-ordering" method="get">
                             <select name="orderby" class="orderby">
@@ -175,7 +175,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         </form>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="col-md-4 col-sm-12 col-xs-12">
                     <div class="product-per-page">
                         <select name="orderby" class="orderby">
                             <option value="menu_order" selected="selected">show 12</option>
@@ -187,7 +187,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         </select>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="col-md-4 col-sm-12 col-xs-12">
                     <div class="product-pagi-nav">
                         <span aria-current="page" class="page-numbers-1">1</span>
                         <a class="page-numbers-2" href="#">2</a>
