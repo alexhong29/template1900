@@ -153,12 +153,6 @@
   .type-1904 .wrapper.item-adv-simple img {
     width: auto;
   }
-  .type-1904 .item-adv-simple a:after {
-    display: none;
-  }
-  .type-1904 .item-adv-simple a:before {
-    display: none;
-  }
   .type-1904 .img .slide-band6 .info-1 {
     top: 20px;
     right: 25px;
@@ -186,12 +180,6 @@
   }
   .type-1904 .wrapper.item-adv-simple img {
     width: auto;
-  }
-  .type-1904 .item-adv-simple a:after {
-    display: none;
-  }
-  .type-1904 .item-adv-simple a:before {
-    display: none;
   }
   .type-1904 .img .slide-band6 .info-1 {
     top: 40px;
