@@ -74,10 +74,10 @@ $url_path = str_replace('\\', '/', $url_path);
                             <h2>Contact Us</h2>
                             <ul class="footer-box-contact">
                                 <li>
-                                    <i class="fa fa-home"></i> Our business address is 1063 Free
+                                    <i class="fa fa-home"></i> <a href="#"> Our business address is 1063 Free></a>
                                 </li>
                                 <li>
-                                    <i class="fa fa-mobile"></i> + 020.566.8866
+                                    <i class="fa fa-mobile"></i> <a href="#">+ 020.566.8866</a>
                                 </li>
                                 <li>
                                     <i class="fa fa-envelope"></i> 
