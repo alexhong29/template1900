@@ -110,20 +110,6 @@
 .type-1904 .img .slide-band6 .img2 .single-img.item-adv-simple.item2 {
   padding-top: 30px;
 }
-.type-1904 .img .slide-band6 .img2 .single-img.item-adv-simple.item2 h3 {
-  font-size: 23px;
-  font-weight: 700;
-  position: absolute;
-  color: #4bae4f;
-  margin-top: -130px;
-  text-align: left;
-}
-.type-1904 .img .slide-band6 .img2 .single-img.item-adv-simple.item2 p {
-  font-weight: 200;
-  font-size: 14px;
-  margin: 10px 0;
-  color: #595957;
-}
 .type-1904 .img .slide-band6 .img2 .item1 h3 {
   font-size: 23px;
   font-weight: 700;
@@ -141,6 +127,20 @@
 .type-1904 .img .slide-band6 .img2 .item1 span {
   font-size: 20px;
 }
+.type-1904 .img .slide-band6 .img2 .item2 h3 {
+  font-size: 23px;
+  font-weight: 700;
+  position: absolute;
+  color: #4bae4f;
+  margin-top: -130px;
+  text-align: left;
+}
+.type-1904 .img .slide-band6 .img2 .item2 p {
+  font-weight: 200;
+  font-size: 14px;
+  margin: 10px 0;
+  color: #595957;
+}
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .type-1904 .img {
     padding-top: 0px;
@@ -150,26 +150,31 @@
   }
   .type-1904 .img .slide-band6 .img1 h1 {
     font-size: 30px;
-    margin-top: -205px;
+    margin-top: -175px;
     margin-left: 25px;
+    line-height: 30px;
   }
   .type-1904 .img .slide-band6 .img1 p {
     font-size: 11px;
     margin: 0;
   }
+  .type-1904 .img .slide-band6 .img1 .button {
+    padding: 0px 24px;
+    font-size: 9px;
+  }
   .type-1904 .img .slide-band6 .img2 .item1 h3 {
     margin-left: 183px;
-    font-size: 22px;
+    font-size: 20px;
   }
   .type-1904 .img .slide-band6 .img2 .item1 p {
     font-size: 12px;
   }
   .type-1904 .img .slide-band6 .img2 .item2 h3 {
     margin-left: 205px;
-    font-size: 22px;
+    font-size: 20px;
   }
   .type-1904 .img .slide-band6 .img2 .item2 p {
-    font-size: 12px !important;
+    font-size: 12px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -187,17 +192,17 @@
   }
   .type-1904 .img .slide-band6 .img2 .item1 h3 {
     margin-left: 183px;
-    font-size: 22px;
+    font-size: 23px;
   }
   .type-1904 .img .slide-band6 .img2 .item1 p {
-    font-size: 17px;
+    font-size: 15px;
   }
   .type-1904 .img .slide-band6 .img2 .item2 h3 {
     margin-left: 205px;
-    font-size: 22px;
+    font-size: 23px;
   }
   .type-1904 .img .slide-band6 .img2 .item2 p {
-    font-size: 22px;
+    font-size: 15px;
   }
 }
 @media only screen and (min-width: 992px) {
@@ -246,9 +251,6 @@
     position: absolute;
     margin-top: -288px;
     margin-left: 340px;
-    letter-spacing: 5px;
-    text-align: center;
-    text-transform: uppercase;
   }
   .type-1904 .img .slide-band6 .img1 p {
     font-size: 30px;
