@@ -82,8 +82,8 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="footer-box">
                         <h2>Contact Us</h2>
                         <ul class="footer-box-contact">
-                            <li><i class="fa fa-home"><span class="hidden">icon</span></i> Our business address is 1063 Free</li>
-                            <li><i class="fa fa-mobile"><span class="hidden">icon</span></i> + 020.566.8866</li>
+                            <li><i class="fa fa-home"><span class="hidden">icon</span></i> <a>Our business address is 1063 Free</a></li>
+                            <li><i class="fa fa-mobile"><span class="hidden">icon</span></i><a> + 020.566.8866</a></li>
                             <li><i class="fa fa-envelope"><span class="hidden">icon</span></i> <a href="mailto:support@7-Up.com">support@7-Up.com</a></li>
                         </ul>
                     </div>
@@ -106,39 +106,34 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="col-sm-6">
                             <div class="social-footer">
                                 <label>Follow Us</label>
-                                <ul>
-                                    <li>
-                                        <a href="#">
-                                            <img width="40" height="40" src="<?php echo $url_path ?>/images/s1.png" class="attachment-full size-full" alt="">
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <img width="40" height="40" src="<?php echo $url_path ?>/images/s2.png" class="attachment-full size-full" alt="">
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <img width="40" height="40" src="<?php echo $url_path ?>/images/s3.png" class="attachment-full size-full" alt="">
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <img width="40" height="40" src="<?php echo $url_path ?>/images/s4.png" class="attachment-full size-full" alt="">
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <img width="40" height="40" src="<?php echo $url_path ?>/images/s5.png" class="attachment-full size-full" alt="">
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <img width="40" height="40" src="<?php echo $url_path ?>/images/s6.png" class="attachment-full size-full" alt="">
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-pinterest"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                         </div>
                     </div>
                 </div>

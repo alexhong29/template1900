@@ -215,15 +215,9 @@
   .type-1910 .product-pagi-nav {
     margin: 10px 0;
   }
-  .type-1910 .product-per-page {
-    margin: 10px 0;
-  }
 }
 @media (max-width: 991px) {
   .type-1910 .product-pagi-nav {
-    margin: 10px 0;
-  }
-  .type-1910 .product-per-page {
     margin: 10px 0;
   }
 }

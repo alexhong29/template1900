@@ -81,7 +81,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </li>
                                 <li>
                                     <i class="fa fa-envelope"></i> 
-                                    <a class="footer-email" href="mailto:support@7-Up.com">support@7-Up.com</a>
+                                    <a href="mailto:support@7-Up.com">support@7-Up.com</a>
                                 </li>
                             </ul>
                         </div>

@@ -118,17 +118,69 @@
   text-transform: uppercase;
 }
 .type-1912 .form-contact .social-footer ul {
-  display: inline-block;
-  font-size: 0;
-  margin: 0;
+  display: inline-flex;
+  padding: 0;
 }
 .type-1912 .form-contact .social-footer ul li {
-  display: inline-block;
-  font-size: 14px;
+  margin-bottom: 10px;
+  list-style: none;
 }
-.type-1912 .form-contact .social-footer ul li a {
-  margin-right: 0;
-  margin-left: 10px;
+.type-1912 .form-contact .social-footer ul li i {
+  margin: 5px;
+}
+.type-1912 .form-contact .social-footer ul li i.fa-facebook {
+  background: #8d929b;
+  padding: 12px 16px;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.type-1912 .form-contact .social-footer ul li i.fa-linkedin {
+  background: #8d929b;
+  padding: 12px 14px;
+  color: #fff;
+  opacity: 0.8;
+  transition: all 0.3s ease-in-out;
+}
+.type-1912 .form-contact .social-footer ul li i.fa-twitter {
+  background: #8d929b;
+  padding: 12px 13px;
+  color: #fff;
+  opacity: 0.8;
+  transition: all 0.3s ease-in-out;
+}
+.type-1912 .form-contact .social-footer ul li i.fa-google-plus {
+  background: #8d929b;
+  padding: 12px 11px;
+  color: #fff;
+  opacity: 0.8;
+  transition: all 0.3s ease-in-out;
+}
+.type-1912 .form-contact .social-footer ul li i.fa-pinterest {
+  background: #8d929b;
+  padding: 12px 14px;
+  color: #fff;
+  opacity: 0.8;
+  transition: all 0.3s ease-in-out;
+}
+.type-1912 .form-contact .social-footer ul li i.fa-facebook:hover {
+  background: #3B5998;
+  opacity: 1;
+}
+.type-1912 .form-contact .social-footer ul li i.fa-linkedin:hover {
+  background: #4875B4;
+  opacity: 1;
+}
+.type-1912 .form-contact .social-footer ul li i.fa-twitter:hover {
+  background: #33CCFF;
+  opacity: 1;
+}
+.type-1912 .form-contact .social-footer ul li i.fa-google-plus:hover {
+  background: #C63D2D;
+  opacity: 1;
+}
+.type-1912 .form-contact .social-footer ul li i.fa-pinterest:hover {
+  background: #D50019;
+  opacity: 1;
 }
 .type-1912 .category .footer-category {
   border-top-width: 1px !important;
@@ -218,9 +270,11 @@
   transition: all 0.3s ease-out 0s;
   top: 0;
 }
-.type-1912 .pay-card .payment-method a imag {
-  max-width: 100%;
-  height: auto;
+.type-1912 .pay-card .payment-method a img {
+  opacity: 0.5;
+}
+.type-1912 .pay-card .payment-method a img:hover {
+  opacity: 1;
 }
 @media (max-width: 767px) and (min-width: 439px) {
   .type-1912 .form-contact .social-footer {
