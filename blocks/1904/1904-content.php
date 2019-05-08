@@ -18,14 +18,15 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="wrapper item-adv-simple">
                                 <a href="#" class="img-sale">
                                     <img width="780" height="400" src="<?php echo $url_path ?>/images/ad4-2.jpg" class="img-responsive">
+                                    <h1>
+                                        Siemens
+                                        <p>Magnetom Avanto</p>
+                                        <button class="button">
+                                            <span>Shop Now</span>
+                                        </button>
+                                    </h1>
+
                                 </a>
-                            </div>
-                            <div class="promotion info-1">
-                                <h1>Siemens</h1>
-                                <p>Magnetom Avanto</p>
-                                <button class="button">
-                                    <span>Shop Now</span>
-                                </button>
                             </div>
                         </div>
                     </div>
@@ -36,16 +37,15 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="wrapper item-adv-simple">
                                 <a href="#">
                                     <img src="<?php echo $url_path ?>/images/ad5-1.jpg" class="img-responsive">
+                                    <h3>
+                                        Cupcake Corer
+                                        <p>Commercial Cookware</p>
+                                        <span class="money">
+                                            <span class="icon">$</span>
+                                            200.00
+                                        </span>
+                                    </h3>
                                 </a>
-                            </div>
-
-                            <div class="promotion info-2">
-                                <h3>Cupcake Corer</h3>
-                                <p>Commercial Cookware</p>
-                                <span class="money">
-                                    <span class="icon">$</span>
-                                    200.00
-                                </span>
                             </div>
                         </div>
 
@@ -53,15 +53,15 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="wrapper item-adv-simple ">
                                 <a href="#">
                                     <img src="<?php echo $url_path ?>/images/ad6.jpg" class="img-responsive">
+                                    <h3>
+                                        Piece OXO
+                                        <p>Holder with Tools Set</p>
+                                        <span class="money">
+                                            <span class="icon">$</span>
+                                            80.00
+                                        </span>
+                                    </h3>
                                 </a>
-                            </div>
-                            <div class="promotion info-3">
-                                <h3>Piece OXO</h3>
-                                <p>Holder with Tools Set</p>
-                                <span class="money">
-                                    <span class="icon">$</span>
-                                    80.00
-                                </span>
                             </div>
                         </div>
                     </div>
