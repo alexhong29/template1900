@@ -1,3 +1,10 @@
+@size40: 40px;
+@size12: 12px;
+@size14: 14px;
+@size16: 16px;
+@size18: 18px;
+@size20: 20px;
+@size30: 30px;
 .type-1902 {  
 
     .swiper1902 {
@@ -28,7 +35,7 @@
             float: left;
             border: 0;
             margin-top: 0px;
-            padding: 5px 20px;
+            padding: 5px @size20;
             background-color: #6b6;
 
             span {
@@ -84,9 +91,9 @@
         }
 
         .next1902, .prev1902{
-            width: 40px;
-            height: 40px;
-            line-height: 40px;
+            width: @size40;
+            height: @size40;
+            line-height: @size40;
             background: #333 none repeat scroll 0 0;
             text-align: center;
         }
@@ -115,7 +122,7 @@
 
         .swiper-slide {
             text-align: center;
-            font-size: 18px;
+            font-size: @size18;
             background: #fff;
             /* Center slide text vertically */
             display: -webkit-box;
@@ -142,10 +149,10 @@
     @media only screen and (min-width: 320px) and (max-width: 479px){  
         .promotion{
             h3{
-                font-size: 18px;
+                font-size: @size18;
             }
             h2{
-                font-size: 20px;
+                font-size: @size20;
             }
             span{
                 font-size: 10px;
@@ -153,16 +160,16 @@
 
             .button{
                 margin-left: 25px;
-                font-size: 12px;
+                font-size: @size12;
             }
         }
 
         .promotion-2{
             h3{
-                font-size: 14px;
+                font-size: @size14;
             }
             h2{
-                font-size: 16px;
+                font-size: @size16;
 
                 span{
                     font-size: 10px;
@@ -170,20 +177,20 @@
             }
 
             .d2{
-                font-size: 12px;
+                font-size: @size12;
             }
         }
 
         .promotion-3{
             h3{
-                font-size: 16px;
+                font-size: @size16;
             }
             h2{
-                font-size: 14px;
+                font-size: @size14;
             }
 
             .d3{
-                font-size: 12px;
+                font-size: @size12;
             }
         }
     }
@@ -197,38 +204,38 @@
                 font-size: 24px;
             }
             span{
-                font-size: 14px;
+                font-size: @size14;
             }
         }
 
         .button{
             margin-left: 35px;
-            font-size: 14px;
+            font-size: @size14;
         }
 
         .promotion-2{
             h3{
-                font-size: 20px;
+                font-size: @size20;
             }
             h2{
                 font-size: 22px;
 
                 span{
-                    font-size: 14px;
+                    font-size: @size14;
                 }
             }
         }
 
         .promotion-3{
             h3{
-                font-size: 20px;
+                font-size: @size20;
             }
             h2{
-                font-size: 16px;
+                font-size: @size16;
             }
 
             .d3{
-                font-size: 14px;
+                font-size: @size14;
             }
         }
     }
@@ -242,7 +249,7 @@
                 font-size: 28px;
 
                 span{
-                    font-size: 18px;
+                    font-size: @size18;
                 }
             }
         }
@@ -251,7 +258,7 @@
             margin-left: 45px;
             margin-top: 5px;
             span{
-                font-size: 16px;
+                font-size: @size16;
             }
         }
 
@@ -263,7 +270,7 @@
                 font-size: 24px;
 
                 span{
-                    font-size: 16px;
+                    font-size: @size16;
                 }
             }
         }
@@ -273,24 +280,24 @@
                 font-size: 22px;
             }
             h2{
-                font-size: 18px;
+                font-size: @size18;
             }
 
             .d3{
-                font-size: 16px;
+                font-size: @size16;
             }
         }
     }
 
     @media only screen and (min-width: 992px){  
         h3{
-            font-size: 30px;
+            font-size: @size30;
         }
         h2{
             font-size: 32px;
 
             span{
-                font-size: 20px;
+                font-size: @size20;
             }
         }
 
@@ -298,7 +305,7 @@
             margin-left: 60px;
             margin-top: 10px;
             span{
-                font-size: 20px;
+                font-size: @size20;
             }
         }
 
@@ -310,7 +317,7 @@
                 font-size: 26px;
 
                 span{
-                    font-size: 18px;
+                    font-size: @size18;
                 }
             }
         }
@@ -324,7 +331,7 @@
             }
 
             .d3{
-                font-size: 18px;
+                font-size: @size18;
             }
         }
     }
