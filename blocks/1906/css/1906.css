@@ -37,6 +37,12 @@
 .type-1906 .info-pic {
   margin-top: -25px;
 }
+.type-1906 .info-pic h3 a {
+  color: #4bae4f;
+}
+.type-1906 .info-pic h3 a:hover {
+  color: black;
+}
 .type-1906 .swiper-controls {
   position: relative;
   top: -75px;
@@ -123,7 +129,7 @@
     margin-bottom: 5px;
   }
   .type-1906 .swiper-controls {
-    top: -45px;
+    top: -38px;
     float: right;
     margin-bottom: 20px;
   }
