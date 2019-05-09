@@ -32,7 +32,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         </button>
                     </div>
                 </div>
-                <div class="supperdeal-countdown" data-date="12/15/2018" data-tc-id="e37c4a25-3896-3a91-bfdb-3cb0b4f106d5">
+                <div class="supperdeal-countdown" data-date="05/08/2019" data-tc-id="e37c4a25-3896-3a91-bfdb-3cb0b4f106d5">
                     <div class="time_circles">
                         <canvas width="225" height="56"></canvas>
                         <div class="textDiv_Days" style="top: 20px; left: 0px; width: 56.25px;">
