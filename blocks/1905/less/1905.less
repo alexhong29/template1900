@@ -50,13 +50,16 @@
                                     color: black;
                                     font-size: 16px;
                                     margin-left: -1px;
-                                    background: @background_man none repeat scroll 0 0;
+                                    background: @color_green none repeat scroll 0 0;
                                     color: #fff;
                                     display: block;
                                     padding: 8px 14px;
                                     overflow: hidden;
-                                    i{
-                                        color: #fff;
+                                    .add{
+                                        opacity: 0.5;
+                                        i{
+                                            color: #fff;
+                                        }
                                     }
                                 }
                             }
@@ -76,8 +79,8 @@
                                     }
                                 }
                                 .cart{
-                                    i:hover{
-                                        color: @color_green;
+                                    .add:hover{
+                                        opacity: 1;
                                     }
                                 }
                             }
