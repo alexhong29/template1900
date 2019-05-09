@@ -5,8 +5,8 @@
   max-width: 100%;
 }
 .type-1904 .item-adv-simple a:before {
-  border-bottom: 1px solid rgba(255,255,255,0.8);
-  border-top: 1px solid rgba(255,255,255,0.8);
+  border-bottom: 1px solid ;
+  border-top: 1px solid ;
   bottom: 20px;
   content: "";
   left: 15px;
@@ -19,8 +19,8 @@
   z-index: 9;
 }
 .type-1904 .item-adv-simple a:after {
-  border-left: 1px solid rgba(255,255,255,0.8);
-  border-right: 1px solid rgba(255,255,255,0.8);
+  border-left: 1px solid ;
+  border-right: 1px solid ;
   bottom: 20px;
   content: "";
   left: 15px;
