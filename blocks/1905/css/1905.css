@@ -24,6 +24,7 @@
   color: #fff;
   background: rgba(0,0,0,0.3) none repeat scroll 0 0;
   margin-top: -38px;
+  margin-left: -1px;
 }
 .type-1905 .row.gallery div .circle-info-wrapper .imghvr-push-up figcaption.image-hover .bor_img .like .search i.fa-heart:hover {
   color: #4bae4f;
@@ -40,6 +41,7 @@
 .type-1905 .row.gallery div .circle-info-wrapper .imghvr-push-up figcaption.image-hover .bor_img .like .cart {
   color: black;
   font-size: 16px;
+  margin-left: -1px;
   background: #fe9c00 none repeat scroll 0 0;
   color: #fff;
   display: block;
