@@ -1,8 +1,11 @@
 .type-1907{
-    @background_man:#4BAE4F;
     @color_man:#4BAE4F;
+    @color-border-right: #e5e5e5;
+    @color-background-btn-sub: #ccdb38;
+    
+    @font-size-title-footer: 18px;
     .new-form{
-        background: @background_man;
+        background: @color_man;
 
         .newsletter-form{
             h2.newsletter{
@@ -29,7 +32,7 @@
                         padding: 0 20px;
                     }
                     input[type="submit"]{
-                        background: #ccdb38 none repeat scroll 0 0;
+                        background: @color-background-btn-sub none repeat scroll 0 0;
                         border: medium none;
                         color: #fff;
                         height: 40px;
@@ -51,11 +54,11 @@
             margin: 0;
         }
         .wpb_wrapper{
-            border-right: 1px solid #e5e5e5;
+            border-right: 1px solid @color-border-right;
             .footer-box{
                 h2{
                     color: @color_man;
-                    font-size: 18px;
+                    font-size: @font-size-title-footer;
                     font-weight: 700;
                     margin: 0 0 20px;
                     text-transform: uppercase;
@@ -84,7 +87,7 @@
             .footer-box{
                 h2{
                     color: @color_man;
-                    font-size: 18px;
+                    font-size: @font-size-title-footer;
                     font-weight: 700;
                     margin: 0 0 20px;
                     text-transform: uppercase;
@@ -258,7 +261,7 @@
             }
         }
     }
-    @media (max-width:992px) and (min-width:764px){
+    @media (max-width:992px) and (min-width:768px){
         .new-form{
             .newsletter-form{
                 h2.newsletter{
@@ -321,7 +324,7 @@
             }
         }
     }
-    @media (max-width:763px) and (min-width:620px){
+    @media (max-width:767px) and (min-width:620px){
         .new-form{
             .newsletter-form{
                 h2.newsletter{
@@ -347,6 +350,10 @@
                     }
                 }
             }
+            
+        }
+        .wpb_wrapper{
+            border: none !important;
         }
         /*.new-form{
                 .newsletter-form{
@@ -402,6 +409,9 @@
                 }
             }
         }
+        .wpb_wrapper{
+            border: none !important;
+        }
     }
     @media (max-width:479px) and (min-width:380px){
         .new-form{
@@ -429,6 +439,9 @@
                     }
                 }
             }
+        }
+        .wpb_wrapper{
+            border: none !important;
         }
     }
     @media (max-width:379px) and (min-width:320px){
