@@ -5,7 +5,6 @@
 @size30: 30px;
 @size40: 40px;
 @color_boder: rgba(255, 255, 255, 0.8);
-
 .type-1904{
     .item-adv-simple a{
         position: relative;
@@ -353,46 +352,6 @@
                     font-weight: 200;
                     color: rgb(80,80,80);
                     margin: 10px 0;
-                }
-
-                .button{
-                    background-color: @background-button;
-                    border: none;
-                    color: white;
-                    padding: 0px 32px;
-                    text-align: center;
-                    text-decoration: none;
-                    display: inline-block;
-                    text-transform: uppercase;
-                    font-size: 13px;
-
-                    span {
-                        cursor: pointer;
-                        display: inline-block;
-                        position: relative;
-                        transition: 0.5s;
-                        font-weight: @font-weight700;
-
-                        ::after {
-                            content: '\00bb';
-                            position: absolute;
-                            opacity: 0;
-                            top: 0;
-                            right: -20px;
-                            transition: 0.5s;
-                        }
-                    }
-                    .button:hover {background-color: #3e8e41}
-
-                    .button:active {
-                        background-color: #3e8e41;
-                        box-shadow: 0 5px #666;
-                        transform: translateY(4px);
-                    }
-
-                    .item-adv-simple .wrapper {
-                        padding-bottom: 20px;
-                    }
                 }
             }
 
