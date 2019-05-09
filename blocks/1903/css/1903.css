@@ -170,7 +170,7 @@
   transition: all 0.3s ease-out 0s;
 }
 .type-1903 .tabcontent1903 .owl-controls {
-  margin-top: 15px;
+  margin: 15px 0;
   float: right;
 }
 .type-1903 .tabcontent1903 .owl-buttons div {
@@ -179,13 +179,19 @@
   display: inline-block;
   line-height: 25px;
   position: static;
-  margin: 0 0 0 1px;
   background: #707070;
-  opacity: 1;
 }
 .type-1903 .tabcontent1903 .owl-buttons div span {
   color: #fff;
   margin-left: 10px;
+}
+.type-1903 .tabcontent1903 .owl-buttons .next1903,
+.type-1903 .tabcontent1903 .owl-buttons .prev1903 {
+  opacity: .5;
+}
+.type-1903 .tabcontent1903 .owl-buttons .prev1903:hover,
+.type-1903 .tabcontent1903 .owl-buttons .next1903:hover {
+  opacity: 1;
 }
 .type-1903 .swiper2,
 .type-1903 .swiper3,

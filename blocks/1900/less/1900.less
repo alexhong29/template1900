@@ -8,10 +8,7 @@
 body{
     padding: 0;
     margin: 0;
-    a{
-        text-decoration: none;
-    }
-    a:hover{
+    a, a:hover, a:active, a:focus{
         text-decoration: none;
     }
     li{
@@ -52,7 +49,6 @@ body{
 
             .top-extra-link{
                 a{
-                    margin-left: 30px;
                     color: white;
                 }
                 a:hover{
@@ -242,7 +238,6 @@ body{
     .content{
         position: relative;
         .mmcontext{
-            padding: 0;
         }
         .right-menu{
             float: right;
@@ -265,7 +260,7 @@ body{
             li{
                 display: inline-block;
                 list-style: none;
-                padding: 0 15px;
+                padding: 0 15px 0 0;
                 position: relative;
                 height: 100%;
                 width: auto;
@@ -358,7 +353,7 @@ body{
                     position: absolute;
                     display: none;
                     top: 50px;
-                    left: 0;
+                    left: 98px;
                     transform: translate(-25%,0);
 
                     h2{
@@ -428,7 +423,7 @@ body{
                     position: absolute;
                     display: none;
                     top: 50px;
-                    left: 50%;
+                    left: 104%;
                     transform: translate(-50%,0);
                     .megaone{
                         width: 100%;
@@ -834,7 +829,7 @@ body{
                             background: @fff;
                             display: block;
                             transition: .5s;
-                            z-index: 2;
+                            z-index: 3;
                             box-shadow: 0px 5px 10px rgba(0,0,0,.5);
                             ul{
                                 li{
@@ -1343,8 +1338,8 @@ body{
                             position: fixed;
                             top: 0;
                             left: 0;
-                            z-index: 1;
-                            background: rgba(0,0,0,.9);
+                            z-index: 2;
+                            background: rgba(255, 255, 255, 0.46);
                             visibility: hidden;
                         }
                     }
@@ -1355,7 +1350,7 @@ body{
                             width: 40px;
                             height: 40px;
                             font-size: 40px;
-                            z-index: 1;
+                            z-index: 3;
                             position: fixed;
                             right: 100%;
                             top: -5px;
@@ -1568,6 +1563,13 @@ body{
         #collape{
             right: 15px!important;
         }
+        .top-extra-link{
+            float: right;
+
+            a{
+                margin-left: 0;
+            }
+        }
     }
 
     @media only screen and (min-width: 1200px){
@@ -1577,6 +1579,12 @@ body{
 
         .buttonclosemenu{
             display: none;
+        }
+
+        .top-extra-link{
+            a{
+                margin-left: 30px;
+            }
         }
     }
 

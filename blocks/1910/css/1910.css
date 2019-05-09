@@ -114,6 +114,9 @@
   color: #999;
   font-size: 12px;
 }
+.type-1910 .view-shopp {
+  text-align: center;
+}
 .type-1910 .sort-pagi-bar .product-order form.woocommerce-ordering .orderby {
   height: 30px;
   width: 137px;
@@ -216,6 +219,9 @@
 @media (max-width: 991px) {
   .type-1910 .product-pagi-nav {
     margin: 10px 0;
+  }
+  .type-1910 .product-per-page {
+    margin-top: 10px;
   }
 }
 @media (max-width: 902px) {

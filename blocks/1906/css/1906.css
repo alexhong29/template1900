@@ -72,7 +72,6 @@
 }
 .type-1906 .swiper-controls .prev-arroww:hover,
 .type-1906 .swiper-controls .next-arroww:hover {
-  border-color: #7ccbfc;
   opacity: 1;
 }
 .type-1906 .qoutation-slider--higher {
@@ -143,5 +142,20 @@
   }
   .type-1906 .client-says {
     padding: 0 15px;
+  }
+}
+@media (max-width: 377px) {
+  .type-1906 .swiper-controls {
+    top: -34px;
+  }
+  .type-1906 .info-pic h3 a {
+    color: black;
+    font-size: 16px;
+  }
+  .type-1906 .info-pic .by h5 {
+    font-size: 13px;
+  }
+  .type-1906 .info-pic p .post-desc {
+    font-size: 12px;
   }
 }

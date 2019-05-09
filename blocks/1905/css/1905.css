@@ -224,3 +224,11 @@
     font-size: 13px;
   }
 }
+@media (max-width: 377px) {
+  .type-1905 .productnew span {
+    font-size: 14px;
+  }
+  .type-1905 .filter {
+    font-size: 14px;
+  }
+}
