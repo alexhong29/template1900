@@ -1303,6 +1303,11 @@ body ul {
   .type-1900 .content .row {
     margin: 0;
   }
+  .type-1900 .menunav .menumobile ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 15px 0 5px;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .type-1900 .logo-top {
