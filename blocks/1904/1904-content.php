@@ -25,8 +25,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                             <span>Shop Now</span>
                                         </button>
                                     </h1>
-
                                 </a>
+
                             </div>
                         </div>
                     </div>
