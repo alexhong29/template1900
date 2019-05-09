@@ -33,7 +33,11 @@ $less->compileFile('blocks/1907/less/1907.less', 'blocks/1907/css/1907.css');
 
         <title>Home - AloShop</title>
 
-        <link href="http://template1900.local/blocks/1900/images/favicon_io/favicon.ico" rel="shortcut icon" type="image/x-icon">
+        <link rel="apple-touch-icon" sizes="180x180" href="/blocks/1900/images/favicon_io/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/blocks/1900/images/favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/blocks/1900/images/favicon_io/favicon-16x16.png">
+        <link rel="manifest" href="/blocks/1900/images/favicon_io/site.webmanifest">
+
         <link rel="stylesheet" href="<?php echo $url_path ?>/blocks/1900/css/bootstrap.min.css">
         <link rel="stylesheet" href="<?php echo $url_path ?>/blocks/1900/css/font-awesome.min.css">
         <link rel="stylesheet" href="<?php echo $url_path ?>/blocks/1900/css/swiper.min.css">

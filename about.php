@@ -31,6 +31,11 @@ $less->compileFile('blocks/1912/less/1912.less', 'blocks/1912/css/1912.css');
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>About - AloShop</title>
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="/blocks/1900/images/favicon_io/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/blocks/1900/images/favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/blocks/1900/images/favicon_io/favicon-16x16.png">
+        <link rel="manifest" href="/blocks/1900/images/favicon_io/site.webmanifest">
 
         <link rel="stylesheet" href="<?php echo $url_path ?>/blocks/1900/css/bootstrap.min.css">
         <link rel="stylesheet" href="<?php echo $url_path ?>/blocks/1900/css/font-awesome.min.css">
