@@ -28,7 +28,7 @@ $less->compileFile('blocks/1912/less/1912.less', 'blocks/1912/css/1912.css');
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Home - AloShop</title>
+        <title>Contact - AloShop</title>
         
         <link rel="apple-touch-icon" sizes="180x180" href="/blocks/1900/images/favicon_io/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/blocks/1900/images/favicon_io/favicon-32x32.png">
