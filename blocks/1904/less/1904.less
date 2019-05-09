@@ -5,6 +5,7 @@
     @size25: 25px;
     @size30: 30px;
     @size40: 40px;
+	@color_boder: rgba(255, 255, 255, 0.8);
 
     .item-adv-simple a{
         position: relative;
@@ -14,8 +15,8 @@
     }
 
     .item-adv-simple a:before{
-        border-bottom: 1px solid rgba(255, 255, 255, 0.8);
-        border-top: 1px solid rgba(255, 255, 255, 0.8);
+        border-bottom: 1px solid @color_bode;
+        border-top: 1px solid @color_bode;
         bottom: 20px;
         content: "";
         left: 15px;
@@ -28,8 +29,8 @@
         z-index: 9;
     }
     .item-adv-simple a:after{
-        border-left: 1px solid rgba(255, 255, 255, 0.8);
-        border-right: 1px solid rgba(255, 255, 255, 0.8);
+        border-left: 1px solid @color_bode;
+        border-right: 1px solid @color_bode;
         bottom: 20px;
         content: "";
         left: 15px;

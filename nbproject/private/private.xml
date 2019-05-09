@@ -13,9 +13,15 @@
             <file>file:/D:/Git/template1900/blocks/1905/less/1905.less</file>
             <file>file:/D:/Git/template1900/blocks/1905/1905-content.php</file>
         </group>
+
         <group>
             <file>file:/D:/Git/template1900/blocks/1910/less/1910.less</file>
             <file>file:/D:/Git/template1900/blocks/1910/1910-content.php</file>
+
+        <group/>
+        <group>
+            <file>file:/C:/Users/Admin/Documents/GitHub/template1900/blocks/1903/less/1903.less</file>
+
         </group>
     </open-files>
 </project-private>
