@@ -1,13 +1,15 @@
 .type-1920{
+	@color_e5: #e5e5e5;
+	@size95: 95px;
     font-family: "Open Sans",sans-serif;
 
     .container{
         width: 100%;
     }
     .about-review{
-        border-top: 2px solid #e5e5e5;
-        margin-top: 95px;
-        padding-top: 95px;
+        border-top: 2px solid @color_e5;
+        margin-top: @size95;
+        padding-top: @size95;
         .about .tittle-default{
             text-transform: uppercase;
             margin-bottom: 40px;
@@ -25,7 +27,7 @@
         }
 
         .about-review-img a{
-            border: 1px solid #e5e5e5;
+            border: 1px solid @color_e5;
             display: block;
             padding: 10px;
         }

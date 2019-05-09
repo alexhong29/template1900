@@ -1,4 +1,8 @@
 .type-1921{
+
+	@color_boder: rgba(255, 255, 255, 0.8);
+	@size15: 15px;
+	@size20: 20px;
     .item-adv-simple a{
         position: relative;
         display: inline-block;
@@ -7,28 +11,28 @@
     }
 
     .item-adv-simple a:before{
-        border-bottom: 1px solid rgba(255, 255, 255, 0.8);
-        border-top: 1px solid rgba(255, 255, 255, 0.8);
-        bottom: 20px;
+        border-bottom: 1px solid @color_boder;
+        border-top: 1px solid @color_boder;
+        bottom: @size20;
         content: "";
-        left: 15px;
+        left: @size15;
         position: absolute;
-        right: 15px;
-        top: 20px;
+        right: @size15;
+        top: @size20;
         transform: scale(0, 1);
         -webkit-transform: scale(0, 1);
         -moz-transform: scale(0, 1);
         z-index: 9;
     }
     .item-adv-simple a:after{
-        border-left: 1px solid rgba(255, 255, 255, 0.8);
-        border-right: 1px solid rgba(255, 255, 255, 0.8);
-        bottom: 20px;
+        border-left: 1px solid @color_boder;
+        border-right: 1px solid @color_boder;
+        bottom: @size20;
         content: "";
-        left: 15px;
+        left: @size15;
         position: absolute;
-        right: 15px;
-        top: 20px;
+        right: @size15;
+        top: @size20;
         transform: scale(1, 0);
         -webkit-transform: scale(1, 0);
         z-index: 9;
@@ -47,7 +51,7 @@
         .slide-band6{
             .img2{ 
                 .single-img.item-adv-simple.item2{
-                    padding-top: 15px;
+                    padding-top: @size15;
                 }
             }
             h3{
@@ -64,7 +68,7 @@
                 }
 
                 span{
-                    font-size: 20px;
+                    font-size: @size20;
                 }
             }
 
@@ -91,7 +95,7 @@
     .img .slide-band6 {
 
         .img2{
-            padding-top: 20px;
+            padding-top: @size20;
         } 
     }
 }
@@ -118,7 +122,7 @@
         }
 
         .img2{
-            padding-top: 20px;
+            padding-top: @size20;
             text-align: center;
         } 
     }
