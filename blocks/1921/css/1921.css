@@ -74,7 +74,7 @@
     width: auto;
   }
   .img .slide-band6 .img2 {
-    padding-top: 20px;
+    padding-top: ;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -92,7 +92,7 @@
     font-size: 28px;
   }
   .img .slide-band6 .img2 {
-    padding-top: 20px;
+    padding-top: ;
     text-align: center;
   }
 }
