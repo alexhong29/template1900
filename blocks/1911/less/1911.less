@@ -1,7 +1,15 @@
+@color-promotion-background: rgba(255,255,255,0.5);
+@color-title-adv: #FE9C00;
+@color-arrow: #333;
+
+@font-size-promotion-h3: 24px;
+@font-size-promotion-h2: 20px;
+@font-size-swiper: 18px;
+
 .type-1911{
     margin-top: 15px;
     .title-widget-adv {
-        background: #FE9C00 none repeat scroll 0 0;
+        background: @color-title-adv none repeat scroll 0 0;
         color: #fff;
         font-weight: 700;
         margin: 0;
@@ -23,20 +31,20 @@
 
         .promotion{
             position: absolute;
-            background: rgba(255,255,255,0.5);
+            background: @color-promotion-background;
             width: 100%;
         }
 
         h3{
-            font-size: 24px;
+            font-size: @font-size-promotion-h3;
         }
         h2{
-            font-size: 20px;
+            font-size: @font-size-promotion-h2;
         }
 
         .swiper-slide {
             text-align: center;
-            font-size: 18px;
+            font-size: @font-size-swiper;
             background: #fff;
             /* Center slide text vertically */
             display: -webkit-box;
@@ -57,7 +65,7 @@
             width: 20px;
             height: 40px;
             line-height: 40px;
-            background: #333 none repeat scroll 0 0;
+            background: @color-arrow none repeat scroll 0 0;
             text-align: center;
         }
 
