@@ -104,47 +104,38 @@
             }
             .supperdeal-countdown{
                 position: relative;
-                width: fit-content;
-                .countdown{
-                    position: relative;
-
-                    .clock-item .inner {
-                        position: relative;	
-                        width: 49px;
-                    }
-
-                    .clock-canvas {
-                        background: #5f6062 none repeat scroll 0 0;
-                        border-radius: 50%;
-                        height: 0px;
-                        padding-bottom: 100%;
-                    }
-                    .text {
-                        font-size: 30px;
-                        margin-top: -50px;
-                        text-align: center;
-                        text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
-                        width: 100%;
-                    }
-                    .text .val {
-                        font-size: 15px;
-                        font-weight: 700;
-                        color: #fff;
-                        margin: 10px 0 -7px;
-                    }
-                    .text .type-time {
-                        color: #ccc;
-                        font-size: 12px;
-                    }
+                width: 225px;
+                margin-bottom: 20px;
+                .time_circles > div {
+                    background: #5f6062 none repeat scroll 0 0;
+                    border-radius: 50%;
+                    height: 52px;
+                    margin-top: -18px;
+                    position: absolute;
+                    text-align: center;
+                    width: 52px !important;
                 }
 
-                .clock-item clock-days, .countdown-time-value{
-                    float: left;
+                .number {
+                    color: #fff;
+                    display: block;
+                    font-weight: 700;
+                    margin: 10px 0 -7px;
+                }
+
+                .text {
+                    color: #ccc;
+                    font-size: 12px;
+                }
+
+                .time_circles canvas {
+                    left: -2px;
+                    position: relative;
+                    z-index: 999;
                 }
             }
             .item-adv-simple, .adv-home6 {
                 margin-bottom: 20px;
-                margin-top: 100px;
 
                 a{
                     position: relative;
@@ -402,8 +393,7 @@
 
         .supperdeal-deal6{
             margin-top: 20px;
-            max-width: 95%;
-            left: 15px;
+            max-width: 100%;
         }
 
         .tabcontent1903 .owl-controls{
@@ -416,6 +406,12 @@
             .supperdeal-tab{
                 margin-bottom: 0;
             }
+        }
+
+        .supperdeal-countdown {
+            text-align: center;
+            margin: 0 auto;
+
         }
     }
 
@@ -449,16 +445,16 @@
             display: none;
         }
     }
-    
+
     @media only screen and (min-width: 1200px){
         .supperdeal-deal6 .supperdeal-sidebar .supperdeal-header ::before{
             display: block;
         }
-        
+
         .supperdeal-deal6 .supperdeal-sidebar {
             padding-left: 45px;
         }
-        
+
         .tabcontent1903 .owl-controls{
             display: block;
         }

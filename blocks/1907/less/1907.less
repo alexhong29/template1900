@@ -46,7 +46,7 @@
 
     .footer-before{
         margin-top: 3.8%;
-
+        
         .row{
             margin: 0;
         }
@@ -112,9 +112,6 @@
                         i.fa-envelope{
                             color: @color_man;
                             font-size: 18px;
-                        }
-                        a.footer-email{
-                            color: @color_man;
                         }
                     }
                 }
@@ -237,10 +234,10 @@
                 }
                 a{
                     img{
-                        transition: all 0.5s ease-in-out;
+                        opacity: 0.5;
                     }
                     img:hover{
-                        transform: scale(1.2);
+                        opacity: 1;
                     }
                 }
             }
@@ -248,7 +245,7 @@
     }
 
 
-    @media (max-width:1199px) and (min-width:990px){
+    @media (max-width:1199px) and (min-width:993px){
         .new-form{
             .newsletter-form{
                 form.wp-form-email{
@@ -261,9 +258,7 @@
             }
         }
     }
-    @media (max-width:989px) and (min-width:764px){
-
-
+    @media (max-width:992px) and (min-width:764px){
         .new-form{
             .newsletter-form{
                 h2.newsletter{
@@ -282,7 +277,7 @@
             }
         }
         .footer-before{
-            .wpb_wrapper{
+            .wpb_wrapper {
                 .footer-box{
                     h2{
                         font-size: 15px;
@@ -291,6 +286,9 @@
                 ul.footer-menu-box{
                     font-size: 13px;
                 }
+            }
+            .buyfrom{
+                border: none;
             }
             .column-inner{
                 .footer-box{

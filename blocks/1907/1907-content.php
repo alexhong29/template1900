@@ -39,7 +39,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-3">
-                    <div class="wpb_wrapper">
+                    <div class="wpb_wrapper buyfrom">
                         <div class="footer-box">
                             <h2>WHY BUY FROM US</h2>
                             <ul class="footer-menu-box">
@@ -81,7 +81,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </li>
                                 <li>
                                     <i class="fa fa-envelope"></i> 
-                                    <a class="footer-email" href="mailto:support@7-Up.com">support@7-Up.com</a>
+                                    <a href="mailto:support@7-Up.com">support@7-Up.com</a>
                                 </li>
                             </ul>
                         </div>
@@ -143,16 +143,16 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="payment-method">
                             <label>PAYMENT METHOD</label>
                             <a href="#">
-                                <img width="43" height="26" src="<?php echo $url_path ?>/images/img_1.PNG" alt="">
+                                <img width="48" height="30" src="<?php echo $url_path ?>/images/measter.png" alt="">
                             </a>
                             <a href="#">
-                                <img width="43" height="26" src="<?php echo $url_path ?>/images/img_2.PNG" alt="">
+                                <img width="48" height="30" src="<?php echo $url_path ?>/images/america.png" alt="">
                             </a>
                             <a href="#">
-                                <img width="43" height="25" src="<?php echo $url_path ?>/images/imh_3.PNG" alt="">
+                                <img width="48" height="30" src="<?php echo $url_path ?>/images/paypal.png" alt="">
                             </a>
                             <a href="#">
-                                <img width="43" height="25" src="<?php echo $url_path ?>/images/imh_4.PNG" alt="">
+                                <img width="48" height="30" src="<?php echo $url_path ?>/images/visa.png" alt="">
                             </a>
                         </div>
                     </div>

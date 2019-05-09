@@ -1,9 +1,34 @@
 $(document).ready(function () {
-    $('.countdown').final_countdown({
-        'start': 1362139200,
-        'end': 1388461320,
-        'now': 1387461319
-    });
+    if ($('.supperdeal-countdown').length > 0) {
+        $(".supperdeal-countdown").TimeCircles({
+            fg_width: 0.03,
+            bg_width: 1.2,
+            text_size: 0.07,
+            circle_bg_color: "#5f6062",
+            time: {
+                Days: {
+                    show: true,
+                    text: "day",
+                    color: "#c6d43a"
+                },
+                Hours: {
+                    show: true,
+                    text: "hou",
+                    color: "#c6d43a"
+                },
+                Minutes: {
+                    show: true,
+                    text: "min",
+                    color: "#c6d43a"
+                },
+                Seconds: {
+                    show: true,
+                    text: "sec",
+                    color: "#c6d43a"
+                }
+            }
+        });
+    }
 // Get the element with id="defaultOpen" and click on it
     document.getElementById("furniture").click();
     var swiper4 = new Swiper('.swiper4', {
