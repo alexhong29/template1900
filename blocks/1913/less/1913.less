@@ -1,3 +1,9 @@
+@color-date-background: #fe9c00;
+@color-pic-background: rgba(0, 0, 0, 0.5);
+@color-hover-content-a:#FE9C00;
+@font-size-date-strong: 18px;
+@font-size-date-span: 12px;
+@font-size-pic: 30px;
 .type-1913{
     .post{
         position:relative;
@@ -11,12 +17,12 @@
             z-index: 9;
 
             .date{
-                background: #fe9c00 none repeat scroll 0 0;
+                background: @color-date-background none repeat scroll 0 0;
                 color: #fff;
                 padding: 10px 0 8px;
                 strong{
                     display: block;
-                    font-size: 18px;
+                    font-size: @font-size-date;
                     margin-bottom: -3px;
                 }
                 span{
@@ -24,9 +30,9 @@
                 }
             }
             .pic{
-                background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+                background: @color-pic-background none repeat scroll 0 0;
                 color: #fff;
-                font-size: 30px;
+                font-size: @font-size-pic;
                 padding: 6px 0 8px;
             }
 
@@ -66,7 +72,7 @@
         }
         a:hover{
             transition: all 0.3s ease-out 0s;
-            color: #FE9C00;
+            color: @color-hover-content-a;
             text-decoration: none;
         }
         p{

@@ -1,8 +1,15 @@
+@color-border-a: #dadada;
+@color-hover-footer-a:#fe9c00;
+@color-border-contact-form: #e8e8e8;
+@color-boder-bottom-1912: #e5e5e5;
+@font-size-footer-box-a: 14px;
+@font-size-type-1912: 14px;
+@font-size-footer-li: 14px;
 .type-1912{
     font-family: "Open Sans",sans-serif;
-    font-size: 14px;
+    font-size: @font-size-type-1912;
     border-top: 1px solid #fe9c00;
-    border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid @color-boder-bottom-1912;
     padding: 40px 0 35px;
     margin-top: 70px;
     .logo-menu-footer{
@@ -20,9 +27,9 @@
                 ul{
                     li{
                         display: inline-block;
-                        font-size: 14px;
+                        font-size: @font-size-footer-li;
                         a{
-                            border-left: 1px solid #dadada;
+                            border-left: 1px solid @color-border-a;
                             display: block;
                             height: 14px;
                             line-height: 14px;
@@ -30,7 +37,7 @@
                             color:#333;
                         }
                         a:hover{
-                            color:#fe9c00 !important;
+                            color:@color-hover-footer-a !important;
                             text-decoration:none;
                         }
                     }
@@ -54,11 +61,11 @@
                     margin-bottom: 8px;
                     a{  
                         color: #333;
-                        font-size: 14px;
+                        font-size: @font-size-footer-box-a;
                         position: relative;
                     }
                     a:hover{
-                        color:#fe9c00 !important;
+                        color:@color-hover-footer-a !important;
                         text-decoration:none;
                     }
                 }
@@ -90,7 +97,7 @@
             padding: 20px 0px;
             margin-top: 20px;
             border-top-width: 1px;
-            border-top-color: #e8e8e8;
+            border-top-color: @color-border-contact-form;
             border-top-style: solid;
         }
 
