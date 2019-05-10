@@ -143,16 +143,16 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="payment-method">
                             <label>PAYMENT METHOD</label>
                             <a href="#">
-                                <img width="48" height="30" src="<?php echo $url_path ?>/images/measter.png" alt="">
+                                <img width="48" height="30" src="<?php echo $url_path ?>/images/measter.png" alt="a">
                             </a>
                             <a href="#">
-                                <img width="48" height="30" src="<?php echo $url_path ?>/images/america.png" alt="">
+                                <img width="48" height="30" src="<?php echo $url_path ?>/images/america.png" alt="a">
                             </a>
                             <a href="#">
-                                <img width="48" height="30" src="<?php echo $url_path ?>/images/paypal.png" alt="">
+                                <img width="48" height="30" src="<?php echo $url_path ?>/images/paypal.png" alt="a">
                             </a>
                             <a href="#">
-                                <img width="48" height="30" src="<?php echo $url_path ?>/images/visa.png" alt="">
+                                <img width="48" height="30" src="<?php echo $url_path ?>/images/visa.png" alt="a">
                             </a>
                         </div>
                     </div>
