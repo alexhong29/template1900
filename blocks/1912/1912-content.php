@@ -106,34 +106,34 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="col-sm-6">
                             <div class="social-footer">
                                 <label>Follow Us</label>
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-facebook"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-linkedin"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-google-plus"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-pinterest"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-linkedin"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-google-plus"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-pinterest"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -268,11 +268,18 @@ $url_path = str_replace('\\', '/', $url_path);
                             <img width="49" height="27" src="<?php echo $url_path ?>/images/p4.png" alt="#" class="attachment-full size-full">
                         </a>
                         <a href="#">
+<<<<<<< HEAD
                             <img width="49" height="27" src="<?php echo $url_path ?>/images/p3.png" alt="#" class="attachment-full size-full">
                             
                         </a>
                         <a href="#">
                             <img width="49" height="27" src="<?php echo $url_path ?>/images/p2.png" alt="a" class="attachment-full size-full">
+=======
+                            <img width="46" height="27" src="<?php echo $url_path ?>/images/p3.png" alt="#" class="attachment-full size-full">
+                        </a>
+                        <a href="#">
+                            <img width="46" height="28" src="<?php echo $url_path ?>/images/p2.png" class="attachment-full size-full">
+>>>>>>> 2659b4f322edb94b25bb92a23549625b4a436e26
                         </a>
                     </div>
                 </div>
