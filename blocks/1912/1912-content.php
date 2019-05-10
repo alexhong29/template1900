@@ -262,16 +262,17 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class=" col-sm-6 col-md-4">
                     <div class="payment-method clearfix">
                         <a href="#">
-                            <img width="77" height="27" src="<?php echo $url_path ?>/images/p1.png" alt="#" class="attachment-full size-full">
+                            <img width="49" height="27" src="<?php echo $url_path ?>/images/p1.png" alt="#" class="attachment-full size-full">
                         </a>
                         <a href="#">
-                            <img width="49" height="29" src="<?php echo $url_path ?>/images/p4.png" alt="#" class="attachment-full size-full">
+                            <img width="49" height="27" src="<?php echo $url_path ?>/images/p4.png" alt="#" class="attachment-full size-full">
                         </a>
                         <a href="#">
-                            <img width="46" height="27" src="<?php echo $url_path ?>/images/p3.png" alt="#" class="attachment-full size-full">
+                            <img width="49" height="27" src="<?php echo $url_path ?>/images/p3.png" alt="#" class="attachment-full size-full">
+                            
                         </a>
                         <a href="#">
-                            <img width="46" height="28" src="<?php echo $url_path ?>/images/p2.png" class="attachment-full size-full">
+                            <img width="49" height="27" src="<?php echo $url_path ?>/images/p2.png" alt="a" class="attachment-full size-full">
                         </a>
                     </div>
                 </div>
