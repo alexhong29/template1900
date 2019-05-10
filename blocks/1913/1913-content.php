@@ -20,7 +20,7 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
         </div>
         <div class="avatar">
-            <img src="<?php echo $url_path ?>/images/khaled.jpg" class="responsive">
+            <img src="<?php echo $url_path ?>/images/khaled.jpg" alt="#" class="responsive">
         </div>
     </div>
 
@@ -55,7 +55,7 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
         </div>
         <div class="avatar">
-            <img src="<?php echo $url_path ?>/images/khaled.jpg" class="responsive">
+            <img src="<?php echo $url_path ?>/images/khaled.jpg" alt="#" class="responsive">
         </div>
     </div>
 
@@ -90,7 +90,7 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
         </div>
         <div class="avatar">
-            <img src="<?php echo $url_path ?>/images/khaled.jpg" class="responsive">
+            <img src="<?php echo $url_path ?>/images/khaled.jpg" alt="#" class="responsive">
         </div>
     </div>
 

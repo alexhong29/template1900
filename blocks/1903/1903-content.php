@@ -55,7 +55,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
                 <div class="item-adv-simple adv-home6">
                     <a href="#">
-                        <img width="230" height="260" src="<?php echo $url_path ?>/images/ad3-2.jpg" class="img-responsive" alt="">
+                        <img width="230" height="260" src="<?php echo $url_path ?>/images/ad3-2.jpg" class="img-responsive" alt="a">
                     </a>
                 </div>
             </div>
@@ -93,7 +93,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </a>
                                                         <a href="#">
                                                             <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                <div class="add">
+                                                                    <i class="fa fa-shopping-basket"></i>
+                                                                    <span>Add to cart</span>
+                                                                </div>
                                                             </div>
                                                         </a>
                                                     </div>
@@ -129,7 +132,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </a>
                                                         <a href="#">
                                                             <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                <div class="add">
+                                                                    <i class="fa fa-shopping-basket"></i>
+                                                                    <span>Add to cart</span>
+                                                                </div>
                                                             </div>
                                                         </a>
                                                     </div>
@@ -169,7 +175,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </a>
                                                         <a href="#">
                                                             <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                <div class="add">
+                                                                    <i class="fa fa-shopping-basket"></i>
+                                                                    <span>Add to cart</span>
+                                                                </div>
                                                             </div>
                                                         </a>
                                                     </div>
@@ -205,7 +214,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </a>
                                                         <a href="#">
                                                             <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                <div class="add">
+                                                                    <i class="fa fa-shopping-basket"></i>
+                                                                    <span>Add to cart</span>
+                                                                </div>
                                                             </div>
                                                         </a>
                                                     </div>
@@ -245,7 +257,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </a>
                                                         <a href="#">
                                                             <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                <div class="add">
+                                                                    <i class="fa fa-shopping-basket"></i>
+                                                                    <span>Add to cart</span>
+                                                                </div>
                                                             </div>
                                                         </a>
                                                     </div>
@@ -281,7 +296,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </a>
                                                         <a href="#">
                                                             <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                <div class="add">
+                                                                    <i class="fa fa-shopping-basket"></i>
+                                                                    <span>Add to cart</span>
+                                                                </div>
                                                             </div>
                                                         </a>
                                                     </div>
@@ -321,7 +339,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </a>
                                                         <a href="#">
                                                             <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                <div class="add">
+                                                                    <i class="fa fa-shopping-basket"></i>
+                                                                    <span>Add to cart</span>
+                                                                </div>
                                                             </div>
                                                         </a>
                                                     </div>
@@ -357,7 +378,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </a>
                                                         <a href="#">
                                                             <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                <div class="add">
+                                                                    <i class="fa fa-shopping-basket"></i>
+                                                                    <span>Add to cart</span>
+                                                                </div>
                                                             </div>
                                                         </a>
                                                     </div>
@@ -397,7 +421,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </a>
                                                         <a href="#">
                                                             <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                <div class="add">
+                                                                    <i class="fa fa-shopping-basket"></i>
+                                                                    <span>Add to cart</span>
+                                                                </div>
                                                             </div>
                                                         </a>
                                                     </div>
@@ -433,7 +460,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </a>
                                                         <a href="#">
                                                             <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                <div class="add">
+                                                                    <i class="fa fa-shopping-basket"></i>
+                                                                    <span>Add to cart</span>
+                                                                </div>
                                                             </div>
                                                         </a>
                                                     </div>
@@ -473,7 +503,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </a>
                                                         <a href="#">
                                                             <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                <div class="add">
+                                                                    <i class="fa fa-shopping-basket"></i>
+                                                                    <span>Add to cart</span>
+                                                                </div>
                                                             </div>
                                                         </a>
                                                     </div>
@@ -509,7 +542,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </a>
                                                         <a href="#">
                                                             <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                <div class="add">
+                                                                    <i class="fa fa-shopping-basket"></i>
+                                                                    <span>Add to cart</span>
+                                                                </div>
                                                             </div>
                                                         </a>
                                                     </div>
@@ -549,7 +585,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </a>
                                                         <a href="#">
                                                             <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                <div class="add">
+                                                                    <i class="fa fa-shopping-basket"></i>
+                                                                    <span>Add to cart</span>
+                                                                </div>
                                                             </div>
                                                         </a>
                                                     </div>
@@ -585,7 +624,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </a>
                                                         <a href="#">
                                                             <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                <div class="add">
+                                                                    <i class="fa fa-shopping-basket"></i>
+                                                                    <span>Add to cart</span>
+                                                                </div>
                                                             </div>
                                                         </a>
                                                     </div>
@@ -641,7 +683,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </a>
                                                         <a href="#">
                                                             <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                <div class="add">
+                                                                    <i class="fa fa-shopping-basket"></i>
+                                                                    <span>Add to cart</span>
+                                                                </div>
                                                             </div>
                                                         </a>
                                                     </div>
@@ -677,7 +722,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </a>
                                                         <a href="#">
                                                             <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                <div class="add">
+                                                                    <i class="fa fa-shopping-basket"></i>
+                                                                    <span>Add to cart</span>
+                                                                </div>
                                                             </div>
                                                         </a>
                                                     </div>
@@ -717,7 +765,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </a>
                                                         <a href="#">
                                                             <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                <div class="add">
+                                                                    <i class="fa fa-shopping-basket"></i>
+                                                                    <span>Add to cart</span>
+                                                                </div>
                                                             </div>
                                                         </a>
                                                     </div>
@@ -753,7 +804,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </a>
                                                         <a href="#">
                                                             <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                <div class="add">
+                                                                    <i class="fa fa-shopping-basket"></i>
+                                                                    <span>Add to cart</span>
+                                                                </div>
                                                             </div>
                                                         </a>
                                                     </div>
@@ -793,7 +847,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </a>
                                                         <a href="#">
                                                             <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                <div class="add">
+                                                                    <i class="fa fa-shopping-basket"></i>
+                                                                    <span>Add to cart</span>
+                                                                </div>
                                                             </div>
                                                         </a>
                                                     </div>
@@ -829,7 +886,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </a>
                                                         <a href="#">
                                                             <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                <div class="add">
+                                                                    <i class="fa fa-shopping-basket"></i>
+                                                                    <span>Add to cart</span>
+                                                                </div>
                                                             </div>
                                                         </a>
                                                     </div>
@@ -869,7 +929,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </a>
                                                         <a href="#">
                                                             <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                <div class="add">
+                                                                    <i class="fa fa-shopping-basket"></i>
+                                                                    <span>Add to cart</span>
+                                                                </div>
                                                             </div>
                                                         </a>
                                                     </div>
@@ -905,7 +968,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </a>
                                                         <a href="#">
                                                             <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                <div class="add">
+                                                                    <i class="fa fa-shopping-basket"></i>
+                                                                    <span>Add to cart</span>
+                                                                </div>
                                                             </div>
                                                         </a>
                                                     </div>
@@ -945,7 +1011,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </a>
                                                         <a href="#">
                                                             <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                <div class="add">
+                                                                    <i class="fa fa-shopping-basket"></i>
+                                                                    <span>Add to cart</span>
+                                                                </div>
                                                             </div>
                                                         </a>
                                                     </div>
@@ -981,7 +1050,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </a>
                                                         <a href="#">
                                                             <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                <div class="add">
+                                                                    <i class="fa fa-shopping-basket"></i>
+                                                                    <span>Add to cart</span>
+                                                                </div>
                                                             </div>
                                                         </a>
                                                     </div>
@@ -1037,7 +1109,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </a>
                                                         <a href="#">
                                                             <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                <div class="add">
+                                                                    <i class="fa fa-shopping-basket"></i>
+                                                                    <span>Add to cart</span>
+                                                                </div>
                                                             </div>
                                                         </a>
                                                     </div>
@@ -1073,7 +1148,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </a>
                                                         <a href="#">
                                                             <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                <div class="add">
+                                                                    <i class="fa fa-shopping-basket"></i>
+                                                                    <span>Add to cart</span>
+                                                                </div>
                                                             </div>
                                                         </a>
                                                     </div>
@@ -1113,7 +1191,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </a>
                                                         <a href="#">
                                                             <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                <div class="add">
+                                                                    <i class="fa fa-shopping-basket"></i>
+                                                                    <span>Add to cart</span>
+                                                                </div>
                                                             </div>
                                                         </a>
                                                     </div>
@@ -1149,7 +1230,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </a>
                                                         <a href="#">
                                                             <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                <div class="add">
+                                                                    <i class="fa fa-shopping-basket"></i>
+                                                                    <span>Add to cart</span>
+                                                                </div>
                                                             </div>
                                                         </a>
                                                     </div>
@@ -1189,7 +1273,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </a>
                                                         <a href="#">
                                                             <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                <div class="add">
+                                                                    <i class="fa fa-shopping-basket"></i>
+                                                                    <span>Add to cart</span>
+                                                                </div>
                                                             </div>
                                                         </a>
                                                     </div>
@@ -1225,7 +1312,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </a>
                                                         <a href="#">
                                                             <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                <div class="add">
+                                                                    <i class="fa fa-shopping-basket"></i>
+                                                                    <span>Add to cart</span>
+                                                                </div>
                                                             </div>
                                                         </a>
                                                     </div>
@@ -1265,7 +1355,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </a>
                                                         <a href="#">
                                                             <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                <div class="add">
+                                                                    <i class="fa fa-shopping-basket"></i>
+                                                                    <span>Add to cart</span>
+                                                                </div>
                                                             </div>
                                                         </a>
                                                     </div>
@@ -1301,7 +1394,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </a>
                                                         <a href="#">
                                                             <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                <div class="add">
+                                                                    <i class="fa fa-shopping-basket"></i>
+                                                                    <span>Add to cart</span>
+                                                                </div>
                                                             </div>
                                                         </a>
                                                     </div>
@@ -1341,7 +1437,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </a>
                                                         <a href="#">
                                                             <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                <div class="add">
+                                                                    <i class="fa fa-shopping-basket"></i>
+                                                                    <span>Add to cart</span>
+                                                                </div>
                                                             </div>
                                                         </a>
                                                     </div>
@@ -1377,7 +1476,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </a>
                                                         <a href="#">
                                                             <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                <div class="add">
+                                                                    <i class="fa fa-shopping-basket"></i>
+                                                                    <span>Add to cart</span>
+                                                                </div>
                                                             </div>
                                                         </a>
                                                     </div>

@@ -30,7 +30,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                         </a>
                                         <a href="#">
                                             <div class="cart">
-                                                <i class="fa fa-shopping-basket"></i> Add to cart
+                                                <div class="add">
+                                                    <i class="fa fa-shopping-basket"></i>
+                                                    <span>Add to cart</span>
+                                                </div>
                                             </div>
                                         </a>
                                     </div>
@@ -77,7 +80,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                         </a>
                                         <a href="#">
                                             <div class="cart">
-                                                <i class="fa fa-shopping-cart"></i> Add to cart
+                                                <div class="add">
+                                                    <i class="fa fa-shopping-basket"></i>
+                                                    <span>Add to cart</span>
+                                                </div>
                                             </div>
                                         </a>
                                     </div>
@@ -124,7 +130,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                         </a>
                                         <a href="#">
                                             <div class="cart">
-                                                <i class="fa fa-shopping-basket"></i> Add to cart
+                                                <div class="add">
+                                                    <i class="fa fa-shopping-basket"></i>
+                                                    <span>Add to cart</span>
+                                                </div>
                                             </div>
                                         </a>
                                     </div>

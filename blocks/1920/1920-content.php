@@ -22,7 +22,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="review">
                                 <div class="item-about-review">
                                     <div class="about-review-img">
-                                        <a href="#"><img src="<?php echo $url_path ?>/images/cus2.jpg"/></a>
+                                        <a href="#"><img src="<?php echo $url_path ?>/images/cus2.jpg" alt="#"/></a>
                                     </div>
                                     <div class="about-review-info">
                                         <h3>
@@ -55,7 +55,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="review">
                                 <div class="item-about-review">
                                     <div class="about-review-img">
-                                        <a href="#"><img src="<?php echo $url_path ?>/images/cus3.jpg" width="80" height="80"/></a>
+                                        <a href="#"><img src="<?php echo $url_path ?>/images/cus3.jpg"alt="#" width="80" height="80"/></a>
                                     </div>
                                     <div class="about-review-info">
                                         <h3>
@@ -70,7 +70,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 
                                 <div class="item-about-review">
                                     <div class="about-review-img">
-                                        <a href="#"><img src="<?php echo $url_path ?>/images/cus4.jpg"/></a>
+                                        <a href="#"><img src="<?php echo $url_path ?>/images/cus4.jpg" alt="#"/></a>
                                     </div>
                                     <div class="about-review-info">
                                         <h3>

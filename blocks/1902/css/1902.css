@@ -24,7 +24,7 @@
   float: left;
   border: 0;
   margin-top: 0px;
-  padding: 5px ;
+  padding: 5px 20px;
   background-color: #6b6;
 }
 .type-1902 .swiper1902 .button span {
@@ -76,9 +76,9 @@
 }
 .type-1902 .swiper1902 .next1902,
 .type-1902 .swiper1902 .prev1902 {
-  width: ;
-  height: ;
-  line-height: ;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
   background: #333 none repeat scroll 0 0;
   text-align: center;
 }
@@ -101,7 +101,7 @@
 }
 .type-1902 .swiper1902 .swiper-slide {
   text-align: center;
-  font-size: ;
+  font-size: 18px;
   background: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -121,38 +121,38 @@
 }
 @media only screen and (min-width: 320px) and (max-width: 479px) {
   .type-1902 .promotion h3 {
-    font-size: ;
+    font-size: 18px;
   }
   .type-1902 .promotion h2 {
-    font-size: ;
+    font-size: 20px;
   }
   .type-1902 .promotion span {
     font-size: 10px;
   }
   .type-1902 .promotion .button {
     margin-left: 25px;
-    font-size: ;
+    font-size: 12px;
   }
   .type-1902 .promotion-2 h3 {
-    font-size: ;
+    font-size: 14px;
   }
   .type-1902 .promotion-2 h2 {
-    font-size: ;
+    font-size: 16px;
   }
   .type-1902 .promotion-2 h2 span {
     font-size: 10px;
   }
   .type-1902 .promotion-2 .d2 {
-    font-size: ;
+    font-size: 12px;
   }
   .type-1902 .promotion-3 h3 {
-    font-size: ;
+    font-size: 16px;
   }
   .type-1902 .promotion-3 h2 {
-    font-size: ;
+    font-size: 14px;
   }
   .type-1902 .promotion-3 .d3 {
-    font-size: ;
+    font-size: 12px;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -163,29 +163,29 @@
     font-size: 24px;
   }
   .type-1902 .promotion span {
-    font-size: ;
+    font-size: 14px;
   }
   .type-1902 .button {
     margin-left: 35px;
-    font-size: ;
+    font-size: 14px;
   }
   .type-1902 .promotion-2 h3 {
-    font-size: ;
+    font-size: 20px;
   }
   .type-1902 .promotion-2 h2 {
     font-size: 22px;
   }
   .type-1902 .promotion-2 h2 span {
-    font-size: ;
+    font-size: 14px;
   }
   .type-1902 .promotion-3 h3 {
-    font-size: ;
+    font-size: 20px;
   }
   .type-1902 .promotion-3 h2 {
-    font-size: ;
+    font-size: 16px;
   }
   .type-1902 .promotion-3 .d3 {
-    font-size: ;
+    font-size: 14px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -196,14 +196,14 @@
     font-size: 28px;
   }
   .type-1902 .promotion h2 span {
-    font-size: ;
+    font-size: 18px;
   }
   .type-1902 .button {
     margin-left: 45px;
     margin-top: 5px;
   }
   .type-1902 .button span {
-    font-size: ;
+    font-size: 16px;
   }
   .type-1902 .promotion-2 h3 {
     font-size: 22px;
@@ -212,34 +212,34 @@
     font-size: 24px;
   }
   .type-1902 .promotion-2 h2 span {
-    font-size: ;
+    font-size: 16px;
   }
   .type-1902 .promotion-3 h3 {
     font-size: 22px;
   }
   .type-1902 .promotion-3 h2 {
-    font-size: ;
+    font-size: 18px;
   }
   .type-1902 .promotion-3 .d3 {
-    font-size: ;
+    font-size: 16px;
   }
 }
 @media only screen and (min-width: 992px) {
   .type-1902 h3 {
-    font-size: ;
+    font-size: 30px;
   }
   .type-1902 h2 {
     font-size: 32px;
   }
   .type-1902 h2 span {
-    font-size: ;
+    font-size: 20px;
   }
   .type-1902 .button {
     margin-left: 60px;
     margin-top: 10px;
   }
   .type-1902 .button span {
-    font-size: ;
+    font-size: 20px;
   }
   .type-1902 .promotion-2 h3 {
     font-size: 24px;
@@ -248,7 +248,7 @@
     font-size: 26px;
   }
   .type-1902 .promotion-2 h2 span {
-    font-size: ;
+    font-size: 18px;
   }
   .type-1902 .promotion-3 h3 {
     font-size: 28px;
@@ -257,6 +257,6 @@
     font-size: 22px;
   }
   .type-1902 .promotion-3 .d3 {
-    font-size: ;
+    font-size: 18px;
   }
 }
