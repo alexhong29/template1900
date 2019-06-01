@@ -1290,12 +1290,9 @@ body ul {
     right: 28%;
     position: absolute;
   }
-  .type-1900 .menunav .menumobile {
+  .type-1900 .content .container .row .menunav .menumobile {
     width: 250px;
     height: auto;
-  }
-  .type-1900 .buttonclosemenu span {
-    right: 55%;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
