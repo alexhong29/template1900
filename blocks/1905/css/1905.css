@@ -207,6 +207,14 @@
 .type-1905 [class^=imghvr-] figcaption {
   background: #fff;
 }
+@media (max-width: 320px) {
+  .type-1905 .productnew span {
+    font-size: 10px;
+  }
+  .type-1905 .filter {
+    font-size: 14px;
+  }
+}
 @media (max-width: 480px) and (min-width: 413px) {
   .type-1905 .productnew span {
     font-size: 12px;
