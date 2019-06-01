@@ -17,21 +17,21 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class="swiper-container swiper1911">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <img src="<?php echo $url_path ?>/images/slide1.jpg" class="img-responsive">
+                <img src="<?php echo $url_path ?>/images/slide1.jpg" alt="#" class="img-responsive">
                 <div class="promotion">
                     <h3>Quality usinesswear </h3>
                     <h2><span>from</span> 30% off</h2>
                 </div>
             </div>
             <div class="swiper-slide">
-                <img src="<?php echo $url_path ?>/images/slide2.jpg" class="img-responsive">
+                <img src="<?php echo $url_path ?>/images/slide2.jpg" alt="#" class="img-responsive">
                 <div class="promotion">
                     <h3>New Collection </h3>
                     <h2><span>from</span> 40% off</h2>
                 </div>
             </div>
             <div class="swiper-slide">
-                <img src="<?php echo $url_path ?>/images/slide3.jpg" class="img-responsive">
+                <img src="<?php echo $url_path ?>/images/slide3.jpg" alt="#" class="img-responsive">
                 <div class="promotion">
                     <h3>QHanbags Style 2019</h3>
                     <h2><span>from</span> 20% off</h2>

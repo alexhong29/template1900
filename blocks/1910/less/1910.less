@@ -1,4 +1,5 @@
 @color_wight:#fff;
+@color_green_background_cart: rgb(75,174,79);
 @color_green: green;
 @background_man:#fe9c00;
 @background_page: #ff9933;
@@ -44,15 +45,15 @@
                                 background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
                                 margin-top: -38px;
                                 i.fa-heart:hover{
-                                    color: @background_man;
+                                    color: @color_green_background_cart;
                                     background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
                                 }
                                 i.fa-toggle-on:hover{
-                                    color: @background_man;
+                                    color: @color_green_background_cart;
                                     background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
                                 }
                                 i.fa-search:hover{
-                                    color: @background_man;
+                                    color: @color_green_background_cart;
                                     background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
                                 }
 
@@ -60,13 +61,16 @@
                             .cart{
                                 color: black;
                                 font-size: 16px;
-                                background: @background_man none repeat scroll 0 0;
+                                background: @color_green_background_cart none repeat scroll 0 0;
                                 color: #fff;
                                 display: block;
                                 padding: 8px 14px;
                                 overflow: hidden;
-                                i{
-                                    color: #fe9c00;
+                                .add{
+                                    opacity: 0.5;
+                                    i{
+                                        color: #fff;
+                                    }
                                 }
                             }
                         }
@@ -86,8 +90,8 @@
                                 }
                             }
                             .cart{
-                                i:hover{
-                                    color: @color_green;
+                                .add:hover{
+                                    opacity: 1;
                                 }
                             }
                         }

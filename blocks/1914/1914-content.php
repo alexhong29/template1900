@@ -31,7 +31,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <ul class="list-post-tab">
                         <li>
                             <div class="zoom-image-thumb">
-                                <a href=""><img src="<?php echo $url_path ?>/images/7-100x67.jpg" alt=""></a>
+                                <a href=""><img src="<?php echo $url_path ?>/images/7-100x67.jpg" alt="#"></a>
                             </div>
                             <div class="post-tab-info">
                                 <h3><a href="#">Lorem Khaled Ipsum is a major key to</a></h3>
@@ -40,7 +40,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         </li>
                         <li>
                             <div class="zoom-image-thumb">
-                                <a href=""><img src="<?php echo $url_path ?>/images/b3-100x67.jpg" alt=""></a>
+                                <a href=""><img src="<?php echo $url_path ?>/images/b3-100x67.jpg" alt="#"></a>
                             </div>
                             <div class="post-tab-info">
                                 <h3><a href="#">Lorem Khaled Ipsum is a major key to</a></h3>
@@ -49,7 +49,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         </li>
                         <li>
                             <div class="zoom-image-thumb">
-                                <a href=""><img src="<?php echo $url_path ?>/images/slide2-1-1-100x67.jpg" alt=""></a>
+                                <a href=""><img src="<?php echo $url_path ?>/images/slide2-1-1-100x67.jpg" alt="#"></a>
                             </div>
                             <div class="post-tab-info">
                                 <h3><a href="#">Lorem Khaled Ipsum is a major key to</a></h3>
@@ -58,7 +58,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         </li>
                         <li>
                             <div class="zoom-image-thumb">
-                                <a href=""><img src="<?php echo $url_path ?>/images/8-100x67.jpg" alt=""></a>
+                                <a href=""><img src="<?php echo $url_path ?>/images/8-100x67.jpg" alt="#"></a>
                             </div>
                             <div class="post-tab-info">
                                 <h3><a href="#">Lorem Khaled Ipsum is a major key to</a></h3>
@@ -72,7 +72,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
                         <li>
                             <div class="zoom-image-thumb">
-                                <a href=""><img src="<?php echo $url_path ?>/images/2-100x67.jpg" alt=""></a>
+                                <a href=""><img src="<?php echo $url_path ?>/images/2-100x67.jpg" alt="#"></a>
                             </div>
                             <div class="post-tab-info">
                                 <h3><a href="#">Lorem Khaled Ipsum is a major key to</a></h3>
@@ -81,7 +81,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         </li>
                         <li>
                             <div class="zoom-image-thumb">
-                                <a href=""><img src="<?php echo $url_path ?>/images/b3-100x67.jpg" alt=""></a>
+                                <a href=""><img src="<?php echo $url_path ?>/images/b3-100x67.jpg" alt="#"></a>
                             </div>
                             <div class="post-tab-info">
                                 <h3><a href="#">Lorem Khaled Ipsum is a major key to</a></h3>
@@ -90,7 +90,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         </li>
                         <li>
                             <div class="zoom-image-thumb">
-                                <a href=""><img src="<?php echo $url_path ?>/images/slide2-1-1-100x67.jpg" alt=""></a>
+                                <a href=""><img src="<?php echo $url_path ?>/images/slide2-1-1-100x67.jpg" alt="#"></a>
                             </div>
                             <div class="post-tab-info">
                                 <h3><a href="#">Lorem Khaled Ipsum is a major key to</a></h3>
@@ -99,7 +99,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         </li>
                         <li>
                             <div class="zoom-image-thumb">
-                                <a href=""><img src="<?php echo $url_path ?>/images/7-100x67.jpg" alt=""></a>
+                                <a href=""><img src="<?php echo $url_path ?>/images/7-100x67.jpg" alt="#"></a>
                             </div>
                             <div class="post-tab-info">
                                 <h3><a href="#">Lorem Khaled Ipsum is a major key to</a></h3>
@@ -108,7 +108,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         </li>
                         <li>
                             <div class="zoom-image-thumb">
-                                <a href=""><img src="<?php echo $url_path ?>/images/8-100x67.jpg" alt=""></a>
+                                <a href=""><img src="<?php echo $url_path ?>/images/8-100x67.jpg" alt="#"></a>
                             </div>
                             <div class="post-tab-info">
                                 <h3><a href="#">Lorem Khaled Ipsum is a major key to</a></h3>

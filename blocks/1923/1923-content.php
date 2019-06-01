@@ -15,7 +15,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="detail_left">
                         <div class="product-img-box">
                             <div class="image">
-                                <img src="<?php echo $url_path ?>/images/2_12.jpg" alt="">
+                                <img src="<?php echo $url_path ?>/images/2_12.jpg" alt="a">
                             </div>
                             <div class="frameswiper">
                                 <!-- Swiper -->
@@ -23,37 +23,37 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
                                             <figure>
-                                                <img src="<?php echo $url_path ?>/images/2_12.jpg" width="100" height="105" alt="" class="click">
+                                                <img src="<?php echo $url_path ?>/images/2_12.jpg" width="100" height="105" alt="a" class="click">
                                             </figure>
                                         </div>
                                         <div class="swiper-slide">
                                             <figure>
-                                                <img src="<?php echo $url_path ?>/images/21_1_2.jpg" width="100" height="105" alt="" class="click">
+                                                <img src="<?php echo $url_path ?>/images/21_1_2.jpg" width="100" height="105" alt="a" class="click">
                                             </figure>
                                         </div>
                                         <div class="swiper-slide">
                                             <figure>
-                                                <img src="<?php echo $url_path ?>/images/6_1_14.jpg" width="100" height="105" alt="" class="click">
+                                                <img src="<?php echo $url_path ?>/images/6_1_14.jpg" width="100" height="105" alt="a" class="click">
                                             </figure>
                                         </div>
                                         <div class="swiper-slide">
                                             <figure>
-                                                <img src="<?php echo $url_path ?>/images/10.jpg" width="100" height="105" alt="" class="click">
+                                                <img src="<?php echo $url_path ?>/images/10.jpg" width="100" height="105" alt="a" class="click">
                                             </figure>
                                         </div>
                                         <div class="swiper-slide">
                                             <figure>
-                                                <img src="<?php echo $url_path ?>/images/11.jpg" width="100" height="105" alt="" class="click">
+                                                <img src="<?php echo $url_path ?>/images/11.jpg" width="100" height="105" alt="a" class="click">
                                             </figure>
                                         </div>
                                         <div class="swiper-slide">
                                             <figure>
-                                                <img src="<?php echo $url_path ?>/images/15.jpg" width="100" height="105" alt="" class="click">
+                                                <img src="<?php echo $url_path ?>/images/15.jpg" width="100" height="105" alt="a" class="click">
                                             </figure>
                                         </div>
                                         <div class="swiper-slide">
                                             <figure>
-                                                <img src="<?php echo $url_path ?>/images/17.jpg" width="100" height="105" alt="" class="click">
+                                                <img src="<?php echo $url_path ?>/images/17.jpg" width="100" height="105" alt="a" class="click">
                                             </figure>
                                         </div>
                                     </div>
@@ -78,7 +78,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <span class="fa fa-star-o" data-rating="3"></span>
                             <span class="fa fa-star-o" data-rating="4"></span>
                             <span class="fa fa-star-o" data-rating="5"></span>
-                            <input type="hidden" name="whatever1" class="rating-value" value="2.56">
+                            <input type="hidden" name="whatever1" value="2.56">
                         </div>
                         <div class="product-order">
                             <span>5 Orders</span>

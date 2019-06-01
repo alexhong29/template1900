@@ -39,28 +39,31 @@
   margin-top: -38px;
 }
 .type-1910 .home-title-wrapper .circle-info-wrapper figure.imghvr-push-up figcaption.image-hover .bor_img .like .search i.fa-heart:hover {
-  color: #fe9c00;
+  color: #4bae4f;
   background: rgba(0,0,0,0.5) none repeat scroll 0 0;
 }
 .type-1910 .home-title-wrapper .circle-info-wrapper figure.imghvr-push-up figcaption.image-hover .bor_img .like .search i.fa-toggle-on:hover {
-  color: #fe9c00;
+  color: #4bae4f;
   background: rgba(0,0,0,0.5) none repeat scroll 0 0;
 }
 .type-1910 .home-title-wrapper .circle-info-wrapper figure.imghvr-push-up figcaption.image-hover .bor_img .like .search i.fa-search:hover {
-  color: #fe9c00;
+  color: #4bae4f;
   background: rgba(0,0,0,0.5) none repeat scroll 0 0;
 }
 .type-1910 .home-title-wrapper .circle-info-wrapper figure.imghvr-push-up figcaption.image-hover .bor_img .like .cart {
   color: black;
   font-size: 16px;
-  background: #fe9c00 none repeat scroll 0 0;
+  background: #4bae4f none repeat scroll 0 0;
   color: #fff;
   display: block;
   padding: 8px 14px;
   overflow: hidden;
 }
-.type-1910 .home-title-wrapper .circle-info-wrapper figure.imghvr-push-up figcaption.image-hover .bor_img .like .cart i {
-  color: #fe9c00;
+.type-1910 .home-title-wrapper .circle-info-wrapper figure.imghvr-push-up figcaption.image-hover .bor_img .like .cart .add {
+  opacity: 0.5;
+}
+.type-1910 .home-title-wrapper .circle-info-wrapper figure.imghvr-push-up figcaption.image-hover .bor_img .like .cart .add i {
+  color: #fff;
 }
 .type-1910 .home-title-wrapper .circle-info-wrapper figure.imghvr-push-up figcaption.image-hover .bor_img .like .search .fa {
   padding: 10px;
@@ -74,8 +77,8 @@
 .type-1910 .home-title-wrapper .circle-info-wrapper figure.imghvr-push-up figcaption.image-hover .bor_img .like .search .fa-search:hover {
   color: green;
 }
-.type-1910 .home-title-wrapper .circle-info-wrapper figure.imghvr-push-up figcaption.image-hover .bor_img .like .cart i:hover {
-  color: green;
+.type-1910 .home-title-wrapper .circle-info-wrapper figure.imghvr-push-up figcaption.image-hover .bor_img .like .cart .add:hover {
+  opacity: 1;
 }
 .type-1910 .home-title-wrapper .circle-info-wrapper figure.imghvr-push-up figcaption.image-hover .bor_img img {
   border: 1px solid ;

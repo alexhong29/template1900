@@ -197,6 +197,7 @@ body ul {
 }
 .type-1900 .content .right-menu {
   float: right;
+  cursor: pointer;
 }
 .type-1900 .menunav {
   position: relative;
@@ -1239,6 +1240,7 @@ body ul {
 .type-1900 #collape li {
   padding: 4px 10px;
   border-bottom: 1px solid #999;
+  border-left: 1px solid transparent;
 }
 .type-1900 #collape li a {
   font-size: 14px;

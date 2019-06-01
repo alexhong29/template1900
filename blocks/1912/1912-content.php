@@ -16,7 +16,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="logo-footer">
                             <figure class="figure-image">
                                 <a href="#" target="_self" class="vc_single_image-wrapper">
-                                    <img src="<?php echo $url_path ?>/images/logo-footer.png" class="vc_single_image-img attachment-thumbnail" alt="">
+                                    <img src="<?php echo $url_path ?>/images/logo-footer.png" alt="#" class="vc_single_image-img attachment-thumbnail">
                                 </a>
                             </figure>
                         </div>
@@ -106,34 +106,34 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="col-sm-6">
                             <div class="social-footer">
                                 <label>Follow Us</label>
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-facebook"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-linkedin"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-google-plus"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-pinterest"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-linkedin"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-google-plus"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-pinterest"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -262,13 +262,17 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class=" col-sm-6 col-md-4">
                     <div class="payment-method clearfix">
                         <a href="#">
-                            <img width="77" height="27" src="<?php echo $url_path ?>/images/p1.png" class="attachment-full size-full" alt="">
+                            <img width="49" height="27" src="<?php echo $url_path ?>/images/p1.png" alt="#" class="attachment-full size-full">
                         </a>
                         <a href="#">
-                            <img width="49" height="29" src="<?php echo $url_path ?>/images/p4.png" class="attachment-full size-full" alt="">
+                            <img width="49" height="27" src="<?php echo $url_path ?>/images/p4.png" alt="#" class="attachment-full size-full">
                         </a>
                         <a href="#">
-                            <img width="46" height="27" src="<?php echo $url_path ?>/images/p3.png" class="attachment-full size-full" alt=""></a><a href="#"><img width="46" height="28" src="images/p2.png" class="attachment-full size-full" alt="">
+                            <img width="49" height="27" src="<?php echo $url_path ?>/images/p3.png" alt="#" class="attachment-full size-full">
+                            
+                        </a>
+                        <a href="#">
+                            <img width="49" height="27" src="<?php echo $url_path ?>/images/p2.png" alt="a" class="attachment-full size-full">
                         </a>
                     </div>
                 </div>

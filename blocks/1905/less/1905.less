@@ -50,13 +50,16 @@
                                     color: black;
                                     font-size: 16px;
                                     margin-left: -1px;
-                                    background: @background_man none repeat scroll 0 0;
+                                    background: @color_green none repeat scroll 0 0;
                                     color: #fff;
                                     display: block;
                                     padding: 8px 14px;
                                     overflow: hidden;
-                                    i{
-                                        color: #fff;
+                                    .add{
+                                        opacity: 0.5;
+                                        i{
+                                            color: #fff;
+                                        }
                                     }
                                 }
                             }
@@ -76,8 +79,8 @@
                                     }
                                 }
                                 .cart{
-                                    i:hover{
-                                        color: @color_green;
+                                    .add:hover{
+                                        opacity: 1;
                                     }
                                 }
                             }
@@ -112,6 +115,7 @@
         padding: 0;
     }
     .productnew{
+        user-select: none;
         background: @color_green;
         text-align: center;
         padding: 15px;
@@ -141,6 +145,7 @@
         }
     }
     .filter{
+        user-select: none;
         background: @color_green_yelow;
         padding: 15px;
         text-align: center;
@@ -204,6 +209,7 @@
         margin-right: 0;
     }
     .load_more{
+        cursor: pointer;
         margin-top: 30px !important;
         margin-bottom: 30px !important;
         background: @color_green_yelow none repeat scroll 0 0;
@@ -233,6 +239,18 @@
         background: #fff;
 
     }
+	
+	@media (max-width: 320px ){
+        .productnew{
+            span{
+                font-size: 10px;
+            }
+        }
+        .filter{
+            font-size: 14px;
+        }
+    }
+	
     @media (max-width: 480px ) and (min-width:413px) {
         .productnew{
             span{

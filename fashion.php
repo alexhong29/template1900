@@ -25,7 +25,6 @@ $less->compileFile('blocks/1912/less/1912.less', 'blocks/1912/css/1912.css');
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <!--Meta, title, CSS, favicons, etc.--> 
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">

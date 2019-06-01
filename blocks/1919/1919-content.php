@@ -34,7 +34,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="imagemodule">
                         <figure>
                             <a href="#">
-                                <img src="<?php echo $url_path ?>/images/about-video.jpg" alt="" vc_single_image-imgsrcset="<?php echo $url_path ?>/images/about-video.jpg">
+                                <img src="<?php echo $url_path ?>/images/about-video.jpg" alt="">
                             </a>
                         </figure>
                     </div>
