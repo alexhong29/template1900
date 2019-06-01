@@ -19,10 +19,10 @@ $(document).ready(function () {
                 $('.buttonclosemenu span').css({"right": "40%"});
             }
             if ($(window).width() <= 500) {
-                $('.buttonclosemenu span').css({"right": "28%"});
+                $('.buttonclosemenu span').css({"right": "50%"});
             }
             if ($(window).width() <= 400) {
-                $('.buttonclosemenu span').css({"right": "8%"});
+                $('.buttonclosemenu span').css({"right": "55%"});
             }
         }, 400)
         $('.menumobile').css({"display": "block", "left": "0", "top": "0"});
