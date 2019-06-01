@@ -338,9 +338,11 @@
     font-size: 10px;
     width: 92%;
   }
-  .type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-countdown .time_circles > div {
-    height: 40px;
-    width: 40px !important;
+  .type-1903 .product-box .product-info h3.title-product {
+    font-size: 10px;
+  }
+  .type-1903 .product-box .product-info .info-price span.Price-amount span.new_price {
+    font-size: 10px;
   }
 }
 @media (max-width: 414px) {
@@ -360,7 +362,7 @@
   }
   .type-1903 .item-adv-simple,
   .type-1903 .adv-home6 {
-    padding-left: 50px;
+    padding-left: 0px;
   }
   .type-1903 .tabcontent1903 .owl-controls {
     display: none;
