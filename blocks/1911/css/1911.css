@@ -69,18 +69,15 @@
 .type-1911 .swiper1911:hover .arrow1911 {
   display: block;
 }
-@media (max-width: 480px) and (min-width: 413px) {
+@media (max-width: 480px) and (min-width: 320px) {
   .type-1911 .promotion h3 {
     font-size: 20px;
   }
   .type-1911 .promotion h2 {
     font-size: 25px;
   }
-  .type-1911 .title-widget-adv strong {
-    font-size: 22px;
-  }
-  .type-1911 .title-widget-adv span {
-    font-size: 15px;
+  .type-1911 .title-widget-adv {
+    font-size: 25px;
   }
 }
 @media (max-width: 768px) and (min-width: 480px) {
@@ -93,10 +90,7 @@
   .type-1911 .promotion h2 {
     font-size: 30px;
   }
-  .type-1911 .title-widget-adv strong {
+  .type-1911 .title-widget-adv {
     font-size: 25px;
-  }
-  .type-1911 .title-widget-adv span {
-    font-size: 17px;
   }
 }
