@@ -44,11 +44,11 @@ $(document).ready(function () {
         $(this).toggleClass("active");
         if (dem == 1)
         {
-            $(this).find('.title i').attr({"class": "fa fa-angle-down"});
+            $(this).find('.title i').attr({"class": "fa fa-angle-up"});
         }
         if (dem == 2)
         {
-            $(this).find('.title i').attr({"class": "fa fa-angle-up"});
+            $(this).find('.title i').attr({"class": "fa fa-angle-down"});
             dem = 0;
         }
     });

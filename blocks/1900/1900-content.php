@@ -51,7 +51,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="smart-search">
                             <div class="select-category">
                                 <a href="#" class="category-toggle-link">All Categories</a>
-                                <button class="btn-collapse" type="button" data-toggle="collapse" data-target="#collap" aria-expanded="false"><i class="fa fa-angle-up" aria-hidden="true"></i></button>
+                                <button class="btn-collapse" type="button" data-toggle="collapse" data-target="#collap" aria-expanded="false"><i class="fa fa-angle-down" aria-hidden="true"></i></button>
                                 <ul id="collap" class="list-category-toggle sub-menu-top collapse" style="">
                                     <li class="active"><a href="#" data-filter="">All Categories</a></li>
                                     <li class="item"><a href="#" data-filter=".accessories">Accessories</a></li>
@@ -108,7 +108,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <!--Item Home-->
                                     <li>
                                         <div class="title">
-                                            <a href="#">HOME <i class="fa fa-angle-up" aria-hidden="true"></i></a>
+                                            <a href="#">HOME <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                         </div>
                                         <div class="context">
                                             <ul>
@@ -122,7 +122,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <!--Item Shop-->
                                     <li>
                                         <div class="title">
-                                            <a href="#">Shops <i class="fa fa-angle-up" aria-hidden="true"></i></a>
+                                            <a href="#">Shops <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                         </div>
 
                                         <div class="contextshop">
@@ -172,7 +172,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <!--Item MegaMenu-->
                                     <li>
                                         <div class="title">
-                                            <a href="#">Mega Menu <i class="fa fa-angle-up" aria-hidden="true"></i></a>
+                                            <a href="#">Mega Menu <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                         </div>
                                         <div class="contextmega">
                                             <div class="col-sm-4">

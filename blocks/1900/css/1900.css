@@ -1325,10 +1325,20 @@ body ul {
   .type-1900 .content .row {
     margin: 0;
   }
+  .type-1900 .buttonclosemenu {
+    cursor: pointer;
+  }
+  .type-1900 .menunav {
+    cursor: pointer;
+  }
   .type-1900 .menunav .menumobile ul li {
     display: inline-block;
     list-style: none;
     padding: 0 15px 0 5px;
+  }
+  .type-1900 .content .container .row .menunav .menumobile ul li .contextmega .megaone .shop-button {
+    margin-bottom: 10px;
+    padding: 0 15px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
