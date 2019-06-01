@@ -147,6 +147,13 @@
   background-color: #ed321e;
 }
 @media only screen and (min-width: 320px) and (max-width: 479px) {
+  .type-1909 {
+    margin-top: 20px;
+  }
+  .type-1909 .promotion {
+    margin-top: -45px !important;
+    padding-left: 40px !important;
+  }
   .type-1909 .promotion h3 {
     font-size: 14px !important;
   }
@@ -166,6 +173,10 @@
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .type-1909 {
     margin-top: 50px;
+  }
+  .type-1909 .promotion {
+    margin-top: -45px !important;
+    padding-left: 40px !important;
   }
   .type-1909 .promotion h3 {
     font-size: 22px;

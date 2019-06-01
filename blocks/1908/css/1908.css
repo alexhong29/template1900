@@ -190,3 +190,8 @@
 .type-1908 ul li a {
   text-decoration: none;
 }
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .type-1908 .sidebar-shop .widget .widget-title {
+    font-size: 14px;
+  }
+}
