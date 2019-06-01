@@ -118,7 +118,7 @@
   transition: all 0.3s ease-out 0s;
   background: #FE9C00;
 }
-@media (max-width: 480px) and (min-width: 413px) {
+@media (max-width: 480px) and (min-width: 320px) {
   .type-1913 .content a {
     font-size: 20px;
   }
