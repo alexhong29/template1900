@@ -325,7 +325,7 @@
 }
 @media only screen and (min-width: 320px) and (max-width: 479px) {
   .type-1903 .supperdeal-sidebar .supperdeal-header h2 {
-    font-size: 15px;
+    font-size: 15px !important;
   }
   .type-1903 .supperdeal-sidebar .supperdeal-header span {
     font-size: 10px;
@@ -341,7 +341,8 @@
   .type-1903 .product-box .product-info h3.title-product {
     font-size: 10px;
   }
-  .type-1903 .product-box .product-info .info-price span.Price-amount span.new_price {
+  .type-1903 .product-box .product-info .info-price span.Price-amount span.new_price,
+  .type-1903 .old_price {
     font-size: 10px;
   }
 }
