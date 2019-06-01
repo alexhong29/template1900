@@ -169,6 +169,49 @@
 
         }
     }
+    @media only screen and (min-width: 320px) and (max-width: 479px){
+        .img .slide-band6{
+            .img1{
+                h1{
+                    font-size: 20px;
+                    line-height: 20px;
+                    margin-top: -135px;
+                    margin-left: 157px;
+                }
+                p{
+                    font-size: 8px;
+
+                }
+                .button{
+                    padding: 0 10px;
+                    font-size: 10px;
+                }
+            }
+            .img2{
+                left: 0px;
+                .item1{
+                    padding-top: 30px;
+                    h3{
+                        font-size: 15px;
+                    }
+
+                }
+                .item2{
+                    h3{
+                        font-size: 15px;
+                        left: 180px;
+                    }
+                    p{
+                        font-size: 10px;
+                    }
+                    span{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+
     @media only screen and (min-width: 480px) and (max-width: 767px){  
         .img {
             padding-top: 0px;
@@ -352,46 +395,6 @@
                     font-weight: 200;
                     color: rgb(80,80,80);
                     margin: 10px 0;
-                }
-
-                .button{
-                    background-color: @background-button;
-                    border: none;
-                    color: white;
-                    padding: 0px 32px;
-                    text-align: center;
-                    text-decoration: none;
-                    display: inline-block;
-                    text-transform: uppercase;
-                    font-size: 13px;
-
-                    span {
-                        cursor: pointer;
-                        display: inline-block;
-                        position: relative;
-                        transition: 0.5s;
-                        font-weight: @font-weight700;
-
-                        ::after {
-                            content: '\00bb';
-                            position: absolute;
-                            opacity: 0;
-                            top: 0;
-                            right: -20px;
-                            transition: 0.5s;
-                        }
-                    }
-                    .button:hover {background-color: #3e8e41}
-
-                    .button:active {
-                        background-color: #3e8e41;
-                        box-shadow: 0 5px #666;
-                        transform: translateY(4px);
-                    }
-
-                    .item-adv-simple .wrapper {
-                        padding-bottom: 20px;
-                    }
                 }
             }
 
