@@ -143,17 +143,18 @@
 }
 @media only screen and (min-width: 320px) and (max-width: 479px) {
   .type-1904 .img .slide-band6 .img1 h1 {
-    font-size: 20px;
-    line-height: 20px;
-    margin-top: -135px;
-    margin-left: 157px;
+    font-size: 15px;
+    line-height: 15px;
+    margin-top: -110px;
+    margin-left: 129px;
   }
   .type-1904 .img .slide-band6 .img1 p {
-    font-size: 8px;
+    font-size: 5px;
+    margin: 5px 0;
   }
   .type-1904 .img .slide-band6 .img1 .button {
     padding: 0 10px;
-    font-size: 10px;
+    font-size: 8px;
   }
   .type-1904 .img .slide-band6 .img2 {
     left: 0px;
@@ -162,17 +163,26 @@
     padding-top: 30px;
   }
   .type-1904 .img .slide-band6 .img2 .item1 h3 {
-    font-size: 15px;
+    font-size: 12px;
+    margin-top: -100px;
+    margin-left: 140px;
+  }
+  .type-1904 .img .slide-band6 .img2 .item1 p {
+    font-size: 10px;
+  }
+  .type-1904 .img .slide-band6 .img2 .item1 span {
+    font-size: 10px;
   }
   .type-1904 .img .slide-band6 .img2 .item2 h3 {
     font-size: 15px;
-    left: 180px;
+    left: 150px;
+    margin-top: -100px;
   }
   .type-1904 .img .slide-band6 .img2 .item2 p {
     font-size: 10px;
   }
   .type-1904 .img .slide-band6 .img2 .item2 span {
-    font-size: 15px;
+    font-size: 10px;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -185,11 +195,11 @@
   .type-1904 .img .slide-band6 .img1 h1 {
     font-size: 30px;
     margin-top: -175px;
-    margin-left: 25px;
+    margin-left: 10px;
     line-height: 30px;
   }
   .type-1904 .img .slide-band6 .img1 p {
-    font-size: 11px;
+    font-size: 10px;
     margin: 0;
   }
   .type-1904 .img .slide-band6 .img1 .button {
