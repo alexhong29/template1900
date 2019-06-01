@@ -1263,22 +1263,39 @@ body ul {
   -webkit-filter: drop-shadow(1px 1px 1px #4BAE4F);
 }
 @media only screen and (min-width: 320px) and (max-width: 479px) {
+  .type-1900 .header-top .header-second {
+    padding-top: 5px;
+  }
   .type-1900 .smart-search {
     display: none;
   }
   .type-1900 .mini-cart {
     display: none;
   }
+  .type-1900 .left-contact {
+    text-align: center;
+  }
   .type-1900 .left-contact p {
-    font-size: 11px;
+    font-size: 10px;
+  }
+  .type-1900 .top-extra-link {
+    text-align: center;
+    line-height: 12px;
   }
   .type-1900 .top-extra-link a {
-    font-size: 11px;
+    font-size: 10px;
     margin: 1px 1px !important;
   }
   .type-1900 .logo-top a {
     right: 28%;
     position: absolute;
+  }
+  .type-1900 .menunav .menumobile {
+    width: 250px;
+    height: auto;
+  }
+  .type-1900 .buttonclosemenu span {
+    right: 55%;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
