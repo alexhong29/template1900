@@ -122,7 +122,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <!--Item Shop-->
                                     <li>
                                         <div class="title">
-                                            <a href="#">Shops <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                            <a href="fashion.php">Shops <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                         </div>
 
                                         <div class="contextshop">
@@ -166,7 +166,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <!--Item Blog-->
                                     <li>
                                         <div class="title">
-                                            <a href="../blog.php">Blog</a>
+                                            <a href="blog.php">Blog</a>
                                         </div>
                                     </li>
                                     <!--Item MegaMenu-->
@@ -222,13 +222,13 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <!--Item About-->
                                     <li>
                                         <div class="title">
-                                            <a href="../about.php">About</a>
+                                            <a href="about.php">About</a>
                                         </div>
                                     </li>
                                     <!--Item Contact-->
                                     <li>
                                         <div class="title">
-                                            <a href="../contact.php">Contact</a>
+                                            <a href="contact.php">Contact</a>
                                         </div>
                                     </li>
                                 </ul>
