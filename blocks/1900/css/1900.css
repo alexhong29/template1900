@@ -201,6 +201,7 @@ body ul {
 }
 .type-1900 .menunav {
   position: relative;
+  float: left;
 }
 .type-1900 .menunav .menuiconnav {
   display: none;

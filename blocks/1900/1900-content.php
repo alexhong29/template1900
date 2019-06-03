@@ -97,13 +97,46 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="container">
                 <div class="row">
 
+                    <div class="right-menu col-sm-2 col-xs-6">
+                        <div class="right-category-dropdown">
+                            <span class="menu-right" data-toggle="collapse" data-target="#collape">
+                                <i class="fa fa-bars" aria-hidden="true"></i>
+                            </span>
+                        </div>
+
+                        <ul id="collape" class="list-category-dropdown collapse">
+                            <li class="has-cat-mega">
+                                <a href="#">Computers
+                                    <img width="20" height="16" src="http://7uptheme.com/wordpress/aloshop/wp-content/uploads/2016/03/cat2.png" class="attachment-full size-full" alt="">
+                                </a>
+                            </li>
+                            <li class="has-cat-mega">
+                                <a href="#">Electronis
+                                    <img width="20" height="19" src="http://7uptheme.com/wordpress/aloshop/wp-content/uploads/2016/03/cat3.png" class="attachment-full size-full" alt="">
+                                </a>
+                            </li>
+                            <li class="">
+                                <a href="http://7uptheme.com/wordpress/aloshop/product-category/fashion/">Fashion
+                                    <img width="20" height="19" src="http://7uptheme.com/wordpress/aloshop/wp-content/uploads/2016/03/cat4.png" class="attachment-full size-full" alt="">
+                                </a>
+
+                            </li>
+                            <li class="has-cat-mega">
+                                <a href="http://7uptheme.com/wordpress/aloshop/product-category/food/">Food
+                                    <img width="20" height="21" src="http://7uptheme.com/wordpress/aloshop/wp-content/uploads/2016/03/cat7.png" class="attachment-full size-full" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                        <a href="#" class="expand-category-link"></a>
+                    </div>
+					
                     <!-- menu nav -->
                     <div class="menunav">
                         <span class="menuiconnav" data-toggle="collapse" data-target="#navbar">
                             <i class="fa fa-bars" aria-hidden="true"></i>
                         </span>
                         <div class="menumobile">
-                            <div class="col-sm-10 col-md-8 col-xs-2 mmcontext">
+                            <div class="col-md-12 col-sm-12 col-xs-2 mmcontext">
                                 <ul class="" id="collap">
                                     <!--Item Home-->
                                     <li>
@@ -242,38 +275,6 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                     <a href="#" class="toggle-mobile-menu"><span>Menu</span></a>
 
-                    <div class="right-menu col-sm-2 col-xs-6">
-                        <div class="right-category-dropdown">
-                            <span class="menu-right" data-toggle="collapse" data-target="#collape">
-                                <i class="fa fa-bars" aria-hidden="true"></i>
-                            </span>
-                        </div>
-
-                        <ul id="collape" class="list-category-dropdown collapse">
-                            <li class="has-cat-mega">
-                                <a href="#">Computers
-                                    <img width="20" height="16" src="http://7uptheme.com/wordpress/aloshop/wp-content/uploads/2016/03/cat2.png" class="attachment-full size-full" alt="">
-                                </a>
-                            </li>
-                            <li class="has-cat-mega">
-                                <a href="#">Electronis
-                                    <img width="20" height="19" src="http://7uptheme.com/wordpress/aloshop/wp-content/uploads/2016/03/cat3.png" class="attachment-full size-full" alt="">
-                                </a>
-                            </li>
-                            <li class="">
-                                <a href="http://7uptheme.com/wordpress/aloshop/product-category/fashion/">Fashion
-                                    <img width="20" height="19" src="http://7uptheme.com/wordpress/aloshop/wp-content/uploads/2016/03/cat4.png" class="attachment-full size-full" alt="">
-                                </a>
-
-                            </li>
-                            <li class="has-cat-mega">
-                                <a href="http://7uptheme.com/wordpress/aloshop/product-category/food/">Food
-                                    <img width="20" height="21" src="http://7uptheme.com/wordpress/aloshop/wp-content/uploads/2016/03/cat7.png" class="attachment-full size-full" alt="">
-                                </a>
-                            </li>
-                        </ul>
-                        <a href="#" class="expand-category-link"></a>
-                    </div>
                 </div>
             </div>
         </div>
