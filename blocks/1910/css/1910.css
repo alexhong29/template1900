@@ -1,3 +1,24 @@
+.type-1910 .rating-stars ul {
+  list-style-type: none;
+  padding: 0;
+  cursor: pointer;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  float: left;
+}
+.type-1910 .rating-stars ul > li.star {
+  display: inline-block;
+}
+.type-1910 .rating-stars ul > li.star > i.fa {
+  font-size: 1em;
+  color: #ccc;
+}
+.type-1910 .rating-stars ul > li.star.hover > i.fa {
+  color: #FFCC36;
+}
+.type-1910 .rating-stars ul > li.star.selected > i.fa {
+  color: #FF912C;
+}
 .type-1910 .home-title-wrapper .row {
   display: flex;
   flex-wrap: wrap;

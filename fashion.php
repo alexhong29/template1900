@@ -60,7 +60,7 @@ $less->compileFile('blocks/1912/less/1912.less', 'blocks/1912/css/1912.css');
 
         <script src="<?php echo $url_path ?>/blocks/1900/js/1900.js"></script>
         <script src="<?php echo $url_path ?>/blocks/1908/js/1908.js"></script>
-        <script src="<?php echo $url_path ?>/blocks/1922/js/1922.js"></script>
+        <script src="<?php echo $url_path ?>/blocks/1910/js/1910.js"></script>
         <script src="<?php echo $url_path ?>/blocks/1911/js/1911.js"></script>
         <script src="<?php echo $url_path ?>/blocks/1909/js/1909.js"></script>
         <script src="<?php echo $url_path ?>/blocks/1912/js/1912.js"></script>

@@ -50,15 +50,24 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <span>$</span>128.00
                                 </span>
                             </div>
-                            <div class="product-rating">
-                                <span class="stars">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </span>
-                                <span class="value-s">(0s)</span>
+                            <div class='rating-stars text-center'>
+                                <ul id='stars'>
+                                    <li class='star' title='Poor' data-value='1'>
+                                        <i class='fa fa-star fa-fw'></i>
+                                    </li>
+                                    <li class='star' title='Fair' data-value='2'>
+                                        <i class='fa fa-star fa-fw'></i>
+                                    </li>
+                                    <li class='star' title='Good' data-value='3'>
+                                        <i class='fa fa-star fa-fw'></i>
+                                    </li>
+                                    <li class='star' title='Excellent' data-value='4'>
+                                        <i class='fa fa-star fa-fw'></i>
+                                    </li>
+                                    <li class='star' title='WOW!!!' data-value='5'>
+                                        <i class='fa fa-star fa-fw'></i>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -100,15 +109,24 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <span>$</span>128.00
                                 </span>
                             </div>
-                            <div class="product-rating">
-                                <span class="stars">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </span>
-                                <span class="value-s">(0s)</span>
+                            <div class='rating-stars text-center'>
+                                <ul id='stars'>
+                                    <li class='star' title='Poor' data-value='1'>
+                                        <i class='fa fa-star fa-fw'></i>
+                                    </li>
+                                    <li class='star' title='Fair' data-value='2'>
+                                        <i class='fa fa-star fa-fw'></i>
+                                    </li>
+                                    <li class='star' title='Good' data-value='3'>
+                                        <i class='fa fa-star fa-fw'></i>
+                                    </li>
+                                    <li class='star' title='Excellent' data-value='4'>
+                                        <i class='fa fa-star fa-fw'></i>
+                                    </li>
+                                    <li class='star' title='WOW!!!' data-value='5'>
+                                        <i class='fa fa-star fa-fw'></i>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -150,15 +168,24 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <span>$</span>128.00
                                 </span>
                             </div>
-                            <div class="product-rating">
-                                <span class="stars">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </span>
-                                <span class="value-s">(0s)</span>
+                            <div class='rating-stars text-center'>
+                                <ul id='stars'>
+                                    <li class='star' title='Poor' data-value='1'>
+                                        <i class='fa fa-star fa-fw'></i>
+                                    </li>
+                                    <li class='star' title='Fair' data-value='2'>
+                                        <i class='fa fa-star fa-fw'></i>
+                                    </li>
+                                    <li class='star' title='Good' data-value='3'>
+                                        <i class='fa fa-star fa-fw'></i>
+                                    </li>
+                                    <li class='star' title='Excellent' data-value='4'>
+                                        <i class='fa fa-star fa-fw'></i>
+                                    </li>
+                                    <li class='star' title='WOW!!!' data-value='5'>
+                                        <i class='fa fa-star fa-fw'></i>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
