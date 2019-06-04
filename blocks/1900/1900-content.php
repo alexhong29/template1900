@@ -42,7 +42,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="header-second">
                     <div class="col-md-4 col-sm-3">
                         <div class="logo-top">
-                            <a class="logo" href="../">
+                            <a class="logo" href="home.php">
                                 <img  src="<?php echo $url_path ?>/images/logo-top.png" class="img-responsive" alt="logo">
                             </a>
                         </div>
@@ -141,7 +141,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <!--Item Home-->
                                     <li>
                                         <div class="title">
-                                            <a href="#">HOME <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                            <a href="home.php">HOME <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                         </div>
                                         <div class="context">
                                             <ul>
