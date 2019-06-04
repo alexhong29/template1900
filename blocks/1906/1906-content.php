@@ -35,9 +35,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <div class="by">
                                             <h5>By : admin | 4 comment</h5>
                                         </div>
-                                        <p class="post-desc">Porem ipsum dolor sit amet, consectetur adip isicing elit, sed
-                                            do eiusmod tempor
-                                        </p>
+                                        <p class="post-desc">Porem ipsum dolor sit amet, consectetur adip isicing elit, seddo eiusmod tempor</p>
                                     </div>
 
                                 </div>
@@ -55,9 +53,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <div class="by">
                                             <h5>By : admin | 4 comment</h5>
                                         </div>
-                                        <p class="post-desc">Porem ipsum dolor sit amet, consectetur adip isicing elit, sed
-                                            do eiusmod tempor
-                                        </p>
+                                        <p class="post-desc">Porem ipsum dolor sit amet, consectetur adip isicing elit, seddo eiusmod tempor</p>
                                     </div>
 
                                 </div>
@@ -77,9 +73,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <div class="by">
                                             <h5>By : admin | 4 comment</h5>
                                         </div>
-                                        <p class="post-desc">Porem ipsum dolor sit amet, consectetur adip isicing elit, sed
-                                            do eiusmod tempor
-                                        </p>
+                                        <p class="post-desc">Porem ipsum dolor sit amet, consectetur adip isicing elit, seddo eiusmod tempor</p>
                                     </div>
 
                                 </div>
@@ -97,9 +91,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <div class="by">
                                             <h5>By : admin | 4 comment</h5>
                                         </div>
-                                        <p class="post-desc">Porem ipsum dolor sit amet, consectetur adip isicing elit, sed
-                                            do eiusmod tempor
-                                        </p>
+                                        <p class="post-desc">Porem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor</p>
                                     </div>
 
                                 </div>

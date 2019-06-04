@@ -52,6 +52,7 @@
 .type-1908 .sidebar-shop .widget ul li .input-check a {
   color: #666;
   cursor: pointer;
+  word-break: break-all;
 }
 .type-1908 .sidebar-shop .widget ul li .input-check a:hover {
   color: #fe9c00;
@@ -66,6 +67,7 @@
   text-transform: uppercase;
   padding: 0;
   border-bottom: 0;
+  word-break: break-all;
 }
 .type-1908 .sidebar-shop .box-filter {
   border-bottom: 1px solid #e8e8e8;
@@ -177,7 +179,7 @@
   background-color: #bd0316;
 }
 .type-1908 .sidebar-shop .list-color-filter .color-white {
-  background-color: #fff f;
+  background-color: #fff;
 }
 .type-1908 .ui-slider {
   position: relative;

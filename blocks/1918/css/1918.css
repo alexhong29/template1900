@@ -7,18 +7,11 @@
   line-height: inherit;
   margin: 0;
   padding: 0;
-  background: #FFFFFF;
+  background: #f4f4f4 none repeat scroll 0 0;
 }
 .type-1918 .contact-info-page {
-  background: #f4f4f4 none repeat scroll 0 0;
   padding: 70px 0;
   text-align: center;
-}
-.type-1918 .contact-info-page .desc {
-  color: #555;
-  margin: 0 auto;
-  max-width: 890px;
-  padding: 0 15px;
 }
 .type-1918 .item-contact-info {
   margin-bottom: 45px;
@@ -107,11 +100,17 @@
 .type-1918 .last-item:after {
   display: none;
 }
+.type-1918 p {
+  line-height: 24px;
+}
 .type-1918 .vc_custom {
   margin-bottom: 0px;
 }
-.type-1918 p {
-  line-height: 24px;
+.type-1918 .vc_custom .desc {
+  color: #555;
+  margin: 0 300px;
+  padding: 30px;
+  text-align: center;
 }
 @media (max-width: 768px) {
   .type-1918 .item-contact-info:after {

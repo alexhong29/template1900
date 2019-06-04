@@ -9,18 +9,16 @@
   margin: 24px 20px 24px 0;
   font-weight: bold;
   text-transform: uppercase;
+  word-break: break-word;
 }
 .type-1907 .new-form .newsletter-form form.wp-form-email {
   position: relative;
 }
 .type-1907 .new-form .newsletter-form form.wp-form-email .wp-form-fields input[type="text"] {
   display: inline-block;
-  max-width: 520px;
   height: 40px;
   top: 20.5px;
-  padding-right: 120px;
   position: relative;
-  width: 100%;
   border: medium none;
   padding: 0 20px;
 }
@@ -29,8 +27,7 @@
   border: medium none;
   color: #fff;
   height: 40px;
-  position: absolute;
-  right: 33.7%;
+  position: relative;
   text-transform: uppercase;
   top: 20.5px;
   width: 120px;
@@ -43,6 +40,7 @@
 }
 .type-1907 .footer-before .wpb_wrapper {
   border-right: 1px solid #e5e5e5;
+  word-break: break-word;
 }
 .type-1907 .footer-before .wpb_wrapper .footer-box h2 {
   color: #4BAE4F;

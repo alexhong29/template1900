@@ -1,6 +1,9 @@
 .type-1911 {
   margin-top: 15px;
 }
+.type-1911 .title_sale {
+  word-break: break-word;
+}
 .type-1911 .title-widget-adv {
   background: #FE9C00 none repeat scroll 0 0;
   color: #fff;
@@ -14,7 +17,7 @@
 }
 .type-1911 .img-responsive {
   width: 100%;
-  height: auto;
+  height: 395px;
 }
 .type-1911 .swiper1911 {
   cursor: pointer;

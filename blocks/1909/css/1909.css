@@ -75,6 +75,9 @@
   align-items: center;
   cursor: pointer;
 }
+.type-1909 .swiper1909 .swiper-slide img {
+  height: 283px;
+}
 .type-1909 .swiper1909 .next1909,
 .type-1909 .swiper1909 .prev1909 {
   width: 40px;

@@ -1,8 +1,14 @@
+.type-1910 .home-title-wrapper .row {
+  display: flex;
+  flex-wrap: wrap;
+}
 .type-1910 .home-title-wrapper .row .view-shop {
   text-align: center;
 }
 .type-1910 .home-title-wrapper .row .view-sp {
   padding-bottom: 25px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .type-1910 .home-title-wrapper .title_text {
   margin: 20px 0 18px;
@@ -18,9 +24,15 @@
 .type-1910 .home-title-wrapper .circle-info-wrapper figure.imghvr-push-up {
   background-color: #fff;
 }
+.type-1910 .home-title-wrapper .circle-info-wrapper figure.imghvr-push-up img {
+  height: 312px;
+}
 .type-1910 .home-title-wrapper .circle-info-wrapper figure.imghvr-push-up figcaption.image-hover {
   background: none;
   padding: 0px;
+}
+.type-1910 .home-title-wrapper .circle-info-wrapper figure.imghvr-push-up figcaption.image-hover img {
+  max-width: 100%;
 }
 .type-1910 .home-title-wrapper .circle-info-wrapper figure.imghvr-push-up figcaption.image-hover .bor_img {
   position: relativfe;

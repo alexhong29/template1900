@@ -10,13 +10,17 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class="new-form">
         <div class="container">
             <div class="newsletter-form">
-                <h2 class="newsletter">newsletter</h2>
-                <form class="wp-form-email" method="post" data-name="MailChimlp">
-                    <div class="wp-form-fields">
-                        <input type="text" name="EMAIL" placeholder="Enter Your Email..." required="">
-                        <input type="submit" value="SUBSCRIBE">
-                    </div>
-                </form>
+                <div class="col-md-4">
+                    <h2 class="newsletter">newsletter</h2>
+                </div>
+                <div class="col-md-4">
+                    <form class="wp-form-email" method="post" data-name="MailChimlp">
+                        <div class="wp-form-fields">
+                            <input type="text" name="EMAIL" placeholder="Enter Your Email..." required="">
+                            <input type="submit" value="SUBSCRIBE">
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </div>

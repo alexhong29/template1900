@@ -9,6 +9,7 @@
   top: 0;
   width: 90px;
   z-index: 9;
+  word-break: break-word;
 }
 .type-1913 .post .blog .date {
   background: #fe9c00 none repeat scroll 0 0;
@@ -40,7 +41,7 @@
 }
 .type-1913 .post .avatar .responsive {
   width: 100%;
-  height: auto;
+  height: 390px;
 }
 .type-1913 .blog_content {
   margin-left: -15px;

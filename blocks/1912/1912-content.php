@@ -96,11 +96,16 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="border1912">
                         <div class="col-sm-6">
                             <div class="newsletter-footer" placeholder="Enter Your Email..." >
-                                <label>Newsletter</label>
-                                <form class="form-group " method="post" data-name="MailChimlp">
-                                    <input type="text" name="EMAIL" placeholder="Enter Your Email..." required="">
-                                    <input type="submit" value="">
-                                </form>
+                                <div class="col-md-4">
+                                    <label>Newsletter</label>
+                                </div>
+                                <div class="col-md-8">
+                                    <form class="form-group " method="post" data-name="MailChimlp">
+                                        <input type="text" name="EMAIL" placeholder="Enter Your Email..." required="">
+                                        <input type="submit" value="">
+                                    </form>
+                                </div>
+
                             </div>
                         </div>
                         <div class="col-sm-6">
@@ -269,7 +274,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         </a>
                         <a href="#">
                             <img width="49" height="27" src="<?php echo $url_path ?>/images/p3.png" alt="#" class="attachment-full size-full">
-                            
+
                         </a>
                         <a href="#">
                             <img width="49" height="27" src="<?php echo $url_path ?>/images/p2.png" alt="a" class="attachment-full size-full">

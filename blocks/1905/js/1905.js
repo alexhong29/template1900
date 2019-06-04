@@ -15,7 +15,7 @@ function open1905(evt, cityName1905) {
   }
 
   // Show the current tab, and add an "active" class to the button that opened the tab
-  document.getElementById(cityName1905).style.display = "block";
+  document.getElementById(cityName1905).style.display = "flex";
   evt.currentTarget.className += " active";
 }
 

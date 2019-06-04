@@ -6,6 +6,9 @@
   padding: 40px 0 35px;
   margin-top: 70px;
 }
+.type-1912 .footer-page {
+  word-break: break-word;
+}
 .type-1912 .logo-menu-footer .logo-inner {
   padding-top: 30px !important;
   margin-bottom: 35px;

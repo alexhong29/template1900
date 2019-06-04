@@ -63,7 +63,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="box-filter color-filter">
                     <h2 class="widget-title accordion1 active1">color</h2>
                     <div class="panel-body">
-                        <div class="list-color-filter"><a data-attribute="pa_color" data-term="black" class="color-black" href="#"></a>
+                        <div class="list-color-filter">
+                            <a class="color-black" href="#"></a>
                             <a class="color-blue" href="#"></a>
                             <a class="color-blue-sky" href="#"></a>
                             <a class="color-brown" href="#"></a>

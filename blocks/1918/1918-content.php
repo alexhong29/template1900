@@ -9,8 +9,8 @@ $url_path = str_replace('\\', '/', $url_path);
 
 <div class="container">
     <div class="row">
-        <div class="col-md-12 col-sm-12">
-            <div class="type-1918">
+        <div class="type-1918">
+            <div class="col-md-12 col-sm-12">
                 <div class="contact-info-page">
                     <div class="col-sm-4">
                         <div class="item-contact-info ">
@@ -45,10 +45,10 @@ $url_path = str_replace('\\', '/', $url_path);
                             </h2>
                         </div>
                     </div>
-                    <div class="vc_custom">
-                        <p class="desc">If the supplier fails to ship your products on time or the product quality does not meet the standards set in your contract, Aloshop will refund the covered amount of your payment.</p>
-                    </div>
                 </div>
+            </div>
+            <div class="vc_custom">
+                <p class="desc">If the supplier fails to ship your products on time or the product quality does not meet the standards set in your contract, Aloshop will refund the covered amount of your payment.</p>
             </div>
         </div>
     </div>

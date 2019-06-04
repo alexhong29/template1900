@@ -5,9 +5,15 @@
 .type-1905 .row.gallery div .circle-info-wrapper .imghvr-push-up {
   border: 1px solid #e8e8dd;
 }
+.type-1905 .row.gallery div .circle-info-wrapper .imghvr-push-up img {
+  height: 312px;
+}
 .type-1905 .row.gallery div .circle-info-wrapper .imghvr-push-up figcaption.image-hover {
   background: none;
   padding: 0px;
+}
+.type-1905 .row.gallery div .circle-info-wrapper .imghvr-push-up figcaption.image-hover img {
+  height: 312px;
 }
 .type-1905 .row.gallery div .circle-info-wrapper .imghvr-push-up figcaption.image-hover .bor_img {
   position: relativfe;

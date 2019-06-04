@@ -30,7 +30,7 @@ $url_path = str_replace('\\', '/', $url_path);
         <!-- Tab content -->
         <div class="row gallery">
 
-            <div id="Computer1905" class="tabcontents" style="display: block">
+            <div id="Computer1905" class="tabcontents" style="display: flex; flex-wrap: wrap;">
                 <div class="col-md-3 col-sm-4 col-xs-6">
                     <div class="circle-info-wrapper">
                         <figure class="imghvr-push-up">
@@ -216,7 +216,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
             </div>
-            <div id="Electroniss1905" class="tabcontents" style="display: none">
+            <div id="Electroniss1905" class="tabcontents" style="display: none;flex-wrap: wrap;">
                 <div class="col-md-3 col-sm-6 col-xs-6">
                     <div class="circle-info-wrapper">
                         <figure class="imghvr-push-up">
@@ -254,7 +254,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
             </div>
-            <div id="Fashionss1905" class="tabcontents" style="display: none">
+            <div id="Fashionss1905" class="tabcontents" style="display: none; flex-wrap: wrap;">
 
                 <div class="col-md-3 col-sm-6 col-xs-6">
                     <div class="circle-info-wrapper">
@@ -294,7 +294,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
             </div>
-            <div id="Foods1905" class="tabcontents" style="display: none">
+            <div id="Foods1905" class="tabcontents" style="display: none; flex-wrap: wrap;">
                 <div class="col-md-3 col-sm-6 col-xs-6">
                     <div class="circle-info-wrapper">
                         <figure class="imghvr-push-up">
