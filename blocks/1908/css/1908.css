@@ -52,7 +52,7 @@
 .type-1908 .sidebar-shop .widget ul li .input-check a {
   color: #666;
   cursor: pointer;
-  word-break: break-all;
+  word-break: break-word;
 }
 .type-1908 .sidebar-shop .widget ul li .input-check a:hover {
   color: #fe9c00;
@@ -67,7 +67,7 @@
   text-transform: uppercase;
   padding: 0;
   border-bottom: 0;
-  word-break: break-all;
+  word-break: break-word;
 }
 .type-1908 .sidebar-shop .box-filter {
   border-bottom: 1px solid #e8e8e8;
