@@ -204,10 +204,7 @@
 .type-1903 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  display: -webkit-box;
   display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   -webkit-justify-content: center;
@@ -219,6 +216,9 @@
 }
 .type-1903 .product-box {
   width: 206px;
+}
+.type-1903 .product-box figure.imghvr-push-up {
+  height: 246px;
 }
 .type-1903 .product-box figure.imghvr-push-up figcaption.image-hover {
   background: none;
