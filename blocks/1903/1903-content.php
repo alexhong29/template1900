@@ -116,6 +116,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
                                             <img src="<?php echo $url_path ?>/images/2-2-300x360.jpg" alt="#">
@@ -198,6 +202,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
                                             <img src="<?php echo $url_path ?>/images/3-1-300x360.jpg" alt="#">
@@ -280,6 +288,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
                                             <img src="<?php echo $url_path ?>/images/5-1-300x360.jpg" alt="#">
@@ -362,6 +374,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">          
+                                <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
                                             <img src="<?php echo $url_path ?>/images/12-300x360.jpg" alt="#">
@@ -407,9 +423,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/0-300x360.jpg" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/8-1-300x360.jpg" alt="#">
                                             <figcaption class="image-hover">
-                                                <img src="<?php echo $url_path ?>/images/8-1-300x360.jpg" alt="#">
+                                                <img src="<?php echo $url_path ?>/images/7-1-300x360.jpg" alt="#">
                                                 <div class="bor_img">
                                                     <div class="like">
                                                         <a href="#">
@@ -434,16 +450,20 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <!-- texxt -->
                                         <div class="product-info">
                                             <h3 class="title-product">
-                                                <a href="#">BB Passport</a>
+                                                <a href="#">Macbook</a>
                                             </h3>
                                             <div class="info-price">
                                                 <span class="Price-amount">
-                                                    <span class="new_price">$646.00</span>
-                                                    <span class="old_price">$686.00</span>
+                                                    <span class="new_price">$866.00</span>
+                                                    <span class="old_price">$889.00</span>
                                                 </span>
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">         
+                                <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
                                             <img src="<?php echo $url_path ?>/images/8-1-300x360.jpg" alt="#">
@@ -489,9 +509,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/10-1-300x360.jpg" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/8-1-300x360.jpg" alt="#">
                                             <figcaption class="image-hover">
-                                                <img src="<?php echo $url_path ?>/images/3-1-300x360.jpg" alt="#">
+                                                <img src="<?php echo $url_path ?>/images/7-1-300x360.jpg" alt="#">
                                                 <div class="bor_img">
                                                     <div class="like">
                                                         <a href="#">
@@ -516,16 +536,20 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <!-- texxt -->
                                         <div class="product-info">
                                             <h3 class="title-product">
-                                                <a href="#">Macbook</a>
+                                                <a href="#">Sony Z5 Premium</a>
                                             </h3>
                                             <div class="info-price">
                                                 <span class="Price-amount">
-                                                    <span class="new_price">$866.00</span>
-                                                    <span class="old_price">$889.00</span>
+                                                    <span class="new_price">$620.00</span>
+                                                    <span class="old_price">$648.00</span>
                                                 </span>
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
                                             <img src="<?php echo $url_path ?>/images/8-1-300x360.jpg" alt="#">
@@ -571,9 +595,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/7-1-300x360.jpg" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/5-1-300x360.jpg" alt="#">
                                             <figcaption class="image-hover">
-                                                <img src="<?php echo $url_path ?>/images/10-1-300x360.jpg" alt="#">
+                                                <img src="<?php echo $url_path ?>/images/9-1-300x360.jpg" alt="#">
                                                 <div class="bor_img">
                                                     <div class="like">
                                                         <a href="#">
@@ -598,16 +622,20 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <!-- texxt -->
                                         <div class="product-info">
                                             <h3 class="title-product">
-                                                <a href="#">Asus 550a</a>
+                                                <a href="#">Galaxy S VII</a>
                                             </h3>
                                             <div class="info-price">
                                                 <span class="Price-amount">
-                                                    <span class="new_price">$486.00</span>
-                                                    <span class="old_price">$512.00</span>
+                                                    <span class="new_price">$567.00</span>
+                                                    <span class="old_price">$688.00</span>
                                                 </span>
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">        
+                                <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
                                             <img src="<?php echo $url_path ?>/images/5-1-300x360.jpg" alt="#">
@@ -669,9 +697,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/10.png" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/15-1-300x360.jpg" alt="#">
                                             <figcaption class="image-hover">
-                                                <img src="<?php echo $url_path ?>/images/8-300x360.png" alt="#">
+                                                <img src="<?php echo $url_path ?>/images/16-1-300x360.jpg" alt="#">
                                                 <div class="bor_img">
                                                     <div class="like">
                                                         <a href="#">
@@ -696,16 +724,20 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <!-- texxt -->
                                         <div class="product-info">
                                             <h3 class="title-product">
-                                                <a href="#">Lacoste Sport</a>
+                                                <a href="#">T-Shirt Sport</a>
                                             </h3>
                                             <div class="info-price">
                                                 <span class="Price-amount">
-                                                    <span class="new_price">$289.00</span>
-                                                    <span class="old_price">$322.00</span>
+                                                    <span class="new_price">$233.00</span>
+                                                    <span class="old_price">$342.00</span>
                                                 </span>
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
                                             <img src="<?php echo $url_path ?>/images/15-1-300x360.jpg" alt="#">
@@ -751,9 +783,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/4-300x360.png" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/1-300x360.png" alt="#">
                                             <figcaption class="image-hover">
-                                                <img src="<?php echo $url_path ?>/images/1-300x360.png" alt="#">
+                                                <img src="<?php echo $url_path ?>/images/4-300x360.png" alt="#">
                                                 <div class="bor_img">
                                                     <div class="like">
                                                         <a href="#">
@@ -778,16 +810,20 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <!-- texxt -->
                                         <div class="product-info">
                                             <h3 class="title-product">
-                                                <a href="#">Fashion Mangto</a>
+                                                <a href="#">Women's Woolen</a>
                                             </h3>
                                             <div class="info-price">
                                                 <span class="Price-amount">
-                                                    <span class="new_price">$68.00</span>
-                                                    <span class="old_price">$86.00</span>
+                                                    <span class="new_price">$386.00</span>
+                                                    <span class="old_price">$421.00</span>
                                                 </span>
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
                                             <img src="<?php echo $url_path ?>/images/1-300x360.png" alt="#">
@@ -833,7 +869,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/10.png" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/11-300x360.png" alt="#">
                                             <figcaption class="image-hover">
                                                 <img src="<?php echo $url_path ?>/images/8-300x360.png" alt="#">
                                                 <div class="bor_img">
@@ -860,16 +896,20 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <!-- texxt -->
                                         <div class="product-info">
                                             <h3 class="title-product">
-                                                <a href="#">Men's Woolen</a>
+                                                <a href="#">Bag Goodsol model</a>
                                             </h3>
                                             <div class="info-price">
                                                 <span class="Price-amount">
-                                                    <span class="new_price">$312.00</span>
-                                                    <span class="old_price">$325.00</span>
+                                                    <span class="new_price">$289.00</span>
+                                                    <span class="old_price">$323.00</span>
                                                 </span>
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
                                             <img src="<?php echo $url_path ?>/images/11-300x360.png" alt="#">
@@ -915,7 +955,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/3-300x360.png" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/4-300x360.png" alt="#">
                                             <figcaption class="image-hover">
                                                 <img src="<?php echo $url_path ?>/images/1-300x360.png" alt="#">
                                                 <div class="bor_img">
@@ -942,16 +982,20 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <!-- texxt -->
                                         <div class="product-info">
                                             <h3 class="title-product">
-                                                <a href="#">Fashion Mangto</a>
+                                                <a href="#">Women's Woolen</a>
                                             </h3>
                                             <div class="info-price">
                                                 <span class="Price-amount">
-                                                    <span class="new_price">$75.00</span>
-                                                    <span class="old_price">$95.00</span>
+                                                    <span class="new_price">$386.00</span>
+                                                    <span class="old_price">$421.00</span>
                                                 </span>
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">          
+                                <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
                                             <img src="<?php echo $url_path ?>/images/4-300x360.png" alt="#">
@@ -997,7 +1041,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/10.png" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/11-300x360.png" alt="#">
                                             <figcaption class="image-hover">
                                                 <img src="<?php echo $url_path ?>/images/8-300x360.png" alt="#">
                                                 <div class="bor_img">
@@ -1024,16 +1068,20 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <!-- texxt -->
                                         <div class="product-info">
                                             <h3 class="title-product">
-                                                <a href="#">Men's Woolen</a>
+                                                <a href="#">Bag Goodsol model</a>
                                             </h3>
                                             <div class="info-price">
                                                 <span class="Price-amount">
-                                                    <span class="new_price">$312.00</span>
-                                                    <span class="old_price">$325.00</span>
+                                                    <span class="new_price">$289.00</span>
+                                                    <span class="old_price">$323.00</span>
                                                 </span>
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
                                             <img src="<?php echo $url_path ?>/images/11-300x360.png" alt="#">
@@ -1095,9 +1143,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/6-300x360.jpg" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/7-300x360.jpg" alt="#">
                                             <figcaption class="image-hover">
-                                                <img src="<?php echo $url_path ?>/images/8-300x360.jpg" alt="#">
+                                                <img src="<?php echo $url_path ?>/images/9-300x360.jpg" alt="#">
                                                 <div class="bor_img">
                                                     <div class="like">
                                                         <a href="#">
@@ -1122,16 +1170,20 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <!-- texxt -->
                                         <div class="product-info">
                                             <h3 class="title-product">
-                                                <a href="#">Hedgehogs</a>
+                                                <a href="#">Lipzor Light</a>
                                             </h3>
                                             <div class="info-price">
                                                 <span class="Price-amount">
-                                                    <span class="new_price">$112.00</span>
-                                                    <span class="old_price">$126.00</span>
+                                                    <span class="new_price">$187.00</span>
+                                                    <span class="old_price">$234.00</span>
                                                 </span>
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
                                             <img src="<?php echo $url_path ?>/images/7-300x360.jpg" alt="#">
@@ -1177,9 +1229,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/8-300x360.jpg" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/9-300x360.jpg" alt="#">
                                             <figcaption class="image-hover">
-                                                <img src="<?php echo $url_path ?>/images/10-300x360.jpg" alt="#">
+                                                <img src="<?php echo $url_path ?>/images/8-300x360.jpg" alt="#">
                                                 <div class="bor_img">
                                                     <div class="like">
                                                         <a href="#">
@@ -1204,16 +1256,20 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <!-- texxt -->
                                         <div class="product-info">
                                             <h3 class="title-product">
-                                                <a href="#">Pok Chair Classicle</a>
+                                                <a href="#">Light Classic</a>
                                             </h3>
                                             <div class="info-price">
                                                 <span class="Price-amount">
-                                                    <span class="new_price">$245.00</span>
-                                                    <span class="old_price">$466.00</span>
+                                                    <span class="new_price">$52.00</span>
+                                                    <span class="old_price">$58.00</span>
                                                 </span>
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
                                             <img src="<?php echo $url_path ?>/images/9-300x360.jpg" alt="#">
@@ -1259,7 +1315,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/10-300x360.jpg" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/8-300x360.jpg" alt="#">
                                             <figcaption class="image-hover">
                                                 <img src="<?php echo $url_path ?>/images/6-300x360.jpg" alt="#">
                                                 <div class="bor_img">
@@ -1290,12 +1346,16 @@ $url_path = str_replace('\\', '/', $url_path);
                                             </h3>
                                             <div class="info-price">
                                                 <span class="Price-amount">
-                                                    <span class="new_price">$244.00</span>
-                                                    <span class="old_price">$288.00</span>
+                                                    <span class="new_price">$112.00</span>
+                                                    <span class="old_price">$126.00</span>
                                                 </span>
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
                                             <img src="<?php echo $url_path ?>/images/8-300x360.jpg" alt="#">
@@ -1341,9 +1401,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/9-300x360.jpg" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/8-300x360.jpg" alt="#">
                                             <figcaption class="image-hover">
-                                                <img src="<?php echo $url_path ?>/images/7-300x360.jpg" alt="#">
+                                                <img src="<?php echo $url_path ?>/images/10-300x360.jpg" alt="#">
                                                 <div class="bor_img">
                                                     <div class="like">
                                                         <a href="#">
@@ -1368,16 +1428,20 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <!-- texxt -->
                                         <div class="product-info">
                                             <h3 class="title-product">
-                                                <a href="#">Lipzor Light</a>
+                                                <a href="#">Chair Classicle</a>
                                             </h3>
                                             <div class="info-price">
                                                 <span class="Price-amount">
-                                                    <span class="new_price">$187.00</span>
-                                                    <span class="old_price">$234.00</span>
+                                                    <span class="new_price">$245.00</span>
+                                                    <span class="old_price">$466.00</span>
                                                 </span>
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">          
+                                <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
                                             <img src="<?php echo $url_path ?>/images/8-300x360.jpg" alt="#">
@@ -1423,9 +1487,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/8-300x360.jpg" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/9-300x360.jpg" alt="#">
                                             <figcaption class="image-hover">
-                                                <img src="<?php echo $url_path ?>/images/10-300x360.jpg" alt="#">
+                                                <img src="<?php echo $url_path ?>/images/8-300x360.jpg" alt="#">
                                                 <div class="bor_img">
                                                     <div class="like">
                                                         <a href="#">
@@ -1450,16 +1514,20 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <!-- texxt -->
                                         <div class="product-info">
                                             <h3 class="title-product">
-                                                <a href="#">Pok Chair Classicle</a>
+                                                <a href="#">Light Classic</a>
                                             </h3>
                                             <div class="info-price">
                                                 <span class="Price-amount">
-                                                    <span class="new_price">$245.00</span>
-                                                    <span class="old_price">$466.00</span>
+                                                    <span class="new_price">$52.00</span>
+                                                    <span class="old_price">$58.00</span>
                                                 </span>
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
                                             <img src="<?php echo $url_path ?>/images/9-300x360.jpg" alt="#">
