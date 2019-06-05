@@ -220,6 +220,9 @@
 .type-1903 .product-box figure.imghvr-push-up {
   height: 246px;
 }
+.type-1903 .product-box figure.imghvr-push-up img {
+  height: 246px;
+}
 .type-1903 .product-box figure.imghvr-push-up figcaption.image-hover {
   height: 246px;
   background: none;
