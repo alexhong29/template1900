@@ -79,9 +79,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/10-1-300x360.jpg" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/10-1-300x360.jpg" alt="#" class="cover">
                                             <figcaption class="image-hover">
-                                                <img src="<?php echo $url_path ?>/images/0-300x360.jpg" alt="#">
+                                                <img src="<?php echo $url_path ?>/images/0-300x360.jpg" alt="#" class="cover">
                                                 <div class="bor_img">
                                                     <div class="like">
                                                         <a href="#">
@@ -122,9 +122,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/2-2-300x360.jpg" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/2-2-300x360.jpg" alt="#" class="cover">
                                             <figcaption class="image-hover">
-                                                <img src="<?php echo $url_path ?>/images/3-1-300x360.jpg" alt="#">
+                                                <img src="<?php echo $url_path ?>/images/3-1-300x360.jpg" alt="#" class="cover">
                                                 <div class="bor_img">
                                                     <div class="like">
                                                         <a href="#">
@@ -165,9 +165,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/7-1-300x360.jpg" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/7-1-300x360.jpg" alt="#" class="cover">
                                             <figcaption class="image-hover">
-                                                <img src="<?php echo $url_path ?>/images/8-1-300x360.jpg" alt="#">
+                                                <img src="<?php echo $url_path ?>/images/8-1-300x360.jpg" alt="#" class="cover">
                                                 <div class="bor_img">
                                                     <div class="like">
                                                         <a href="#">
@@ -208,9 +208,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/3-1-300x360.jpg" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/3-1-300x360.jpg" alt="#" class="cover">
                                             <figcaption class="image-hover">
-                                                <img src="<?php echo $url_path ?>/images/10-1-300x360.jpg" alt="#">
+                                                <img src="<?php echo $url_path ?>/images/10-1-300x360.jpg" alt="#" class="cover">
                                                 <div class="bor_img">
                                                     <div class="like">
                                                         <a href="#">
@@ -251,9 +251,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/8-1-300x360.jpg" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/8-1-300x360.jpg" alt="#" class="cover">
                                             <figcaption class="image-hover">
-                                                <img src="<?php echo $url_path ?>/images/10-1-300x360.jpg" alt="#">
+                                                <img src="<?php echo $url_path ?>/images/10-1-300x360.jpg" alt="#" class="cover">
                                                 <div class="bor_img">
                                                     <div class="like">
                                                         <a href="#">
@@ -294,9 +294,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/5-1-300x360.jpg" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/5-1-300x360.jpg" alt="#" class="cover">
                                             <figcaption class="image-hover">
-                                                <img src="<?php echo $url_path ?>/images/9-1-300x360.jpg" alt="#">
+                                                <img src="<?php echo $url_path ?>/images/9-1-300x360.jpg" alt="#" class="cover">
                                                 <div class="bor_img">
                                                     <div class="like">
                                                         <a href="#">
@@ -337,9 +337,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/0-300x360.jpg" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/0-300x360.jpg" alt="#" class="cover">
                                             <figcaption class="image-hover">
-                                                <img src="<?php echo $url_path ?>/images/3-1-300x360.jpg" alt="#">
+                                                <img src="<?php echo $url_path ?>/images/3-1-300x360.jpg" alt="#" class="cover">
                                                 <div class="bor_img">
                                                     <div class="like">
                                                         <a href="#">
@@ -380,9 +380,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/12-300x360.jpg" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/12-300x360.jpg" alt="#" class="cover">
                                             <figcaption class="image-hover">
-                                                <img src="<?php echo $url_path ?>/images/10-300x360.jpg" alt="#">
+                                                <img src="<?php echo $url_path ?>/images/10-300x360.jpg" alt="#" class="cover">
                                                 <div class="bor_img">
                                                     <div class="like">
                                                         <a href="#">
@@ -423,9 +423,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/8-1-300x360.jpg" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/8-1-300x360.jpg" alt="#" class="cover">
                                             <figcaption class="image-hover">
-                                                <img src="<?php echo $url_path ?>/images/7-1-300x360.jpg" alt="#">
+                                                <img src="<?php echo $url_path ?>/images/7-1-300x360.jpg" alt="#" class="cover">
                                                 <div class="bor_img">
                                                     <div class="like">
                                                         <a href="#">
@@ -466,9 +466,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/8-1-300x360.jpg" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/8-1-300x360.jpg" alt="#" class="cover">
                                             <figcaption class="image-hover">
-                                                <img src="<?php echo $url_path ?>/images/7-1-300x360.jpg" alt="#">
+                                                <img src="<?php echo $url_path ?>/images/7-1-300x360.jpg" alt="#" class="cover">
                                                 <div class="bor_img">
                                                     <div class="like">
                                                         <a href="#">
@@ -509,9 +509,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/8-1-300x360.jpg" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/8-1-300x360.jpg" alt="#" class="cover">
                                             <figcaption class="image-hover">
-                                                <img src="<?php echo $url_path ?>/images/7-1-300x360.jpg" alt="#">
+                                                <img src="<?php echo $url_path ?>/images/7-1-300x360.jpg" alt="#" class="cover">
                                                 <div class="bor_img">
                                                     <div class="like">
                                                         <a href="#">
@@ -552,9 +552,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/8-1-300x360.jpg" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/8-1-300x360.jpg" alt="#" class="cover">
                                             <figcaption class="image-hover">
-                                                <img src="<?php echo $url_path ?>/images/7-1-300x360.jpg" alt="#">
+                                                <img src="<?php echo $url_path ?>/images/7-1-300x360.jpg" alt="#" class="cover">
                                                 <div class="bor_img">
                                                     <div class="like">
                                                         <a href="#">
@@ -595,9 +595,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/5-1-300x360.jpg" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/5-1-300x360.jpg" alt="#" class="cover">
                                             <figcaption class="image-hover">
-                                                <img src="<?php echo $url_path ?>/images/9-1-300x360.jpg" alt="#">
+                                                <img src="<?php echo $url_path ?>/images/9-1-300x360.jpg" alt="#" class="cover">
                                                 <div class="bor_img">
                                                     <div class="like">
                                                         <a href="#">
@@ -638,9 +638,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/5-1-300x360.jpg" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/5-1-300x360.jpg" alt="#" class="cover">
                                             <figcaption class="image-hover">
-                                                <img src="<?php echo $url_path ?>/images/9-1-300x360.jpg" alt="#">
+                                                <img src="<?php echo $url_path ?>/images/9-1-300x360.jpg" alt="#" class="cover">
                                                 <div class="bor_img">
                                                     <div class="like">
                                                         <a href="#">
@@ -697,9 +697,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/15-1-300x360.jpg" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/15-1-300x360.jpg" alt="#" class="cover">
                                             <figcaption class="image-hover">
-                                                <img src="<?php echo $url_path ?>/images/16-1-300x360.jpg" alt="#">
+                                                <img src="<?php echo $url_path ?>/images/16-1-300x360.jpg" alt="#" class="cover">
                                                 <div class="bor_img">
                                                     <div class="like">
                                                         <a href="#">
@@ -740,9 +740,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/15-1-300x360.jpg" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/15-1-300x360.jpg" alt="#" class="cover">
                                             <figcaption class="image-hover">
-                                                <img src="<?php echo $url_path ?>/images/16-1-300x360.jpg" alt="#">
+                                                <img src="<?php echo $url_path ?>/images/16-1-300x360.jpg" alt="#" class="cover">
                                                 <div class="bor_img">
                                                     <div class="like">
                                                         <a href="#">
@@ -783,9 +783,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/1-300x360.png" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/1-300x360.png" alt="#" class="cover">
                                             <figcaption class="image-hover">
-                                                <img src="<?php echo $url_path ?>/images/4-300x360.png" alt="#">
+                                                <img src="<?php echo $url_path ?>/images/4-300x360.png" alt="#" class="cover">
                                                 <div class="bor_img">
                                                     <div class="like">
                                                         <a href="#">
@@ -826,9 +826,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/1-300x360.png" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/1-300x360.png" alt="#" class="cover">
                                             <figcaption class="image-hover">
-                                                <img src="<?php echo $url_path ?>/images/4-300x360.png" alt="#">
+                                                <img src="<?php echo $url_path ?>/images/4-300x360.png" alt="#" class="cover">
                                                 <div class="bor_img">
                                                     <div class="like">
                                                         <a href="#">
@@ -869,9 +869,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/11-300x360.png" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/11-300x360.png" alt="#" class="cover">
                                             <figcaption class="image-hover">
-                                                <img src="<?php echo $url_path ?>/images/8-300x360.png" alt="#">
+                                                <img src="<?php echo $url_path ?>/images/8-300x360.png" alt="#" class="cover">
                                                 <div class="bor_img">
                                                     <div class="like">
                                                         <a href="#">
@@ -912,9 +912,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/11-300x360.png" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/11-300x360.png" alt="#" class="cover">
                                             <figcaption class="image-hover">
-                                                <img src="<?php echo $url_path ?>/images/8-300x360.png" alt="#">
+                                                <img src="<?php echo $url_path ?>/images/8-300x360.png" alt="#" class="cover">
                                                 <div class="bor_img">
                                                     <div class="like">
                                                         <a href="#">
@@ -955,9 +955,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/4-300x360.png" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/4-300x360.png" alt="#" class="cover">
                                             <figcaption class="image-hover">
-                                                <img src="<?php echo $url_path ?>/images/1-300x360.png" alt="#">
+                                                <img src="<?php echo $url_path ?>/images/1-300x360.png" alt="#" class="cover">
                                                 <div class="bor_img">
                                                     <div class="like">
                                                         <a href="#">
@@ -998,9 +998,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/4-300x360.png" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/4-300x360.png" alt="#" class="cover">
                                             <figcaption class="image-hover">
-                                                <img src="<?php echo $url_path ?>/images/1-300x360.png" alt="#">
+                                                <img src="<?php echo $url_path ?>/images/1-300x360.png" alt="#" class="cover">
                                                 <div class="bor_img">
                                                     <div class="like">
                                                         <a href="#">
@@ -1041,9 +1041,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/11-300x360.png" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/11-300x360.png" alt="#" class="cover">
                                             <figcaption class="image-hover">
-                                                <img src="<?php echo $url_path ?>/images/8-300x360.png" alt="#">
+                                                <img src="<?php echo $url_path ?>/images/8-300x360.png" alt="#" class="cover">
                                                 <div class="bor_img">
                                                     <div class="like">
                                                         <a href="#">
@@ -1084,9 +1084,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/11-300x360.png" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/11-300x360.png" alt="#" class="cover">
                                             <figcaption class="image-hover">
-                                                <img src="<?php echo $url_path ?>/images/8-300x360.png" alt="#">
+                                                <img src="<?php echo $url_path ?>/images/8-300x360.png" alt="#" class="cover">
                                                 <div class="bor_img">
                                                     <div class="like">
                                                         <a href="#">
@@ -1143,9 +1143,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/7-300x360.jpg" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/7-300x360.jpg" alt="#" class="cover">
                                             <figcaption class="image-hover">
-                                                <img src="<?php echo $url_path ?>/images/9-300x360.jpg" alt="#">
+                                                <img src="<?php echo $url_path ?>/images/9-300x360.jpg" alt="#" class="cover">
                                                 <div class="bor_img">
                                                     <div class="like">
                                                         <a href="#">
@@ -1186,9 +1186,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/7-300x360.jpg" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/7-300x360.jpg" alt="#" class="cover">
                                             <figcaption class="image-hover">
-                                                <img src="<?php echo $url_path ?>/images/9-300x360.jpg" alt="#">
+                                                <img src="<?php echo $url_path ?>/images/9-300x360.jpg" alt="#" class="cover">
                                                 <div class="bor_img">
                                                     <div class="like">
                                                         <a href="#">
@@ -1229,9 +1229,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/9-300x360.jpg" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/9-300x360.jpg" alt="#" class="cover">
                                             <figcaption class="image-hover">
-                                                <img src="<?php echo $url_path ?>/images/8-300x360.jpg" alt="#">
+                                                <img src="<?php echo $url_path ?>/images/8-300x360.jpg" alt="#" class="cover">
                                                 <div class="bor_img">
                                                     <div class="like">
                                                         <a href="#">
@@ -1272,9 +1272,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/9-300x360.jpg" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/9-300x360.jpg" alt="#" class="cover">
                                             <figcaption class="image-hover">
-                                                <img src="<?php echo $url_path ?>/images/8-300x360.jpg" alt="#">
+                                                <img src="<?php echo $url_path ?>/images/8-300x360.jpg" alt="#" class="cover">
                                                 <div class="bor_img">
                                                     <div class="like">
                                                         <a href="#">
@@ -1315,9 +1315,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/8-300x360.jpg" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/8-300x360.jpg" alt="#" class="cover">
                                             <figcaption class="image-hover">
-                                                <img src="<?php echo $url_path ?>/images/6-300x360.jpg" alt="#">
+                                                <img src="<?php echo $url_path ?>/images/6-300x360.jpg" alt="#" class="cover">
                                                 <div class="bor_img">
                                                     <div class="like">
                                                         <a href="#">
@@ -1358,9 +1358,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/8-300x360.jpg" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/8-300x360.jpg" alt="#" class="cover">
                                             <figcaption class="image-hover">
-                                                <img src="<?php echo $url_path ?>/images/6-300x360.jpg" alt="#">
+                                                <img src="<?php echo $url_path ?>/images/6-300x360.jpg" alt="#" class="cover">
                                                 <div class="bor_img">
                                                     <div class="like">
                                                         <a href="#">
@@ -1401,9 +1401,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/8-300x360.jpg" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/8-300x360.jpg" alt="#" class="cover">
                                             <figcaption class="image-hover">
-                                                <img src="<?php echo $url_path ?>/images/10-300x360.jpg" alt="#">
+                                                <img src="<?php echo $url_path ?>/images/10-300x360.jpg" alt="#" class="cover">
                                                 <div class="bor_img">
                                                     <div class="like">
                                                         <a href="#">
@@ -1444,9 +1444,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/8-300x360.jpg" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/8-300x360.jpg" alt="#" class="cover">
                                             <figcaption class="image-hover">
-                                                <img src="<?php echo $url_path ?>/images/10-300x360.jpg" alt="#">
+                                                <img src="<?php echo $url_path ?>/images/10-300x360.jpg" alt="#" class="cover">
                                                 <div class="bor_img">
                                                     <div class="like">
                                                         <a href="#">
@@ -1487,9 +1487,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/9-300x360.jpg" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/9-300x360.jpg" alt="#" class="cover">
                                             <figcaption class="image-hover">
-                                                <img src="<?php echo $url_path ?>/images/8-300x360.jpg" alt="#">
+                                                <img src="<?php echo $url_path ?>/images/8-300x360.jpg" alt="#" class="cover">
                                                 <div class="bor_img">
                                                     <div class="like">
                                                         <a href="#">
@@ -1530,9 +1530,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="thisis-product">
                                     <div class="product-box">
                                         <figure class="imghvr-push-up">
-                                            <img src="<?php echo $url_path ?>/images/9-300x360.jpg" alt="#">
+                                            <img src="<?php echo $url_path ?>/images/9-300x360.jpg" alt="#" class="cover">
                                             <figcaption class="image-hover">
-                                                <img src="<?php echo $url_path ?>/images/8-300x360.jpg" alt="#">
+                                                <img src="<?php echo $url_path ?>/images/8-300x360.jpg" alt="#" class="cover">
                                                 <div class="bor_img">
                                                     <div class="like">
                                                         <a href="#">
