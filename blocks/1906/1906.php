@@ -19,7 +19,7 @@ $less->compileFile('less/1906.less', 'css/1906.css');
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <script src="<?php echo $url_path ?>/js/jquery.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
         <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
         <script src="<?php echo $url_path ?>/js/1906.js"></script>
         <link href="<?php echo $url_path ?>/css/1906.css" rel="stylesheet" type="text/css"/>

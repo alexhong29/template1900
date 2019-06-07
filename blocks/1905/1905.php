@@ -22,13 +22,15 @@ $less->compileFile('less/1905.less', 'css/1905.css');
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Basic usage demo">
         <meta name="author" content="David Deutsch">
+        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/imagehover.min.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/1905.css" rel="stylesheet" type="text/css"/>
+        <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
         <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
         <script src="<?php echo $url_path ?>/js/1905.js"></script>
-        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet" type="text/css"/>
-        <link href="<?php echo $url_path ?>/css/1905.css" rel="stylesheet" type="text/css"/>
-        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-        <!-- <script type="js/1905.js"></script> -->
     </head>
     <body>
         <?php include '../1905/1905-content.php'; ?>
