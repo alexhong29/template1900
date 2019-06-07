@@ -8,36 +8,34 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 
-<div class="faqs">
-    <div class="type-1915">
-        <div class="row">
-            <div class="sidebar-left sidebar-post">
-                <div class="sidebar-widget widget widget_text">
-                    <h3 class="widget-title">FAQS</h3>			
-                    <div class="textwidget">
-                        <ul class="list-post-faq">
-                            <li class="active">
-                                <h3>Flyout Content Area 1</h3>
-                                <p>Porem ipsum dolor sit amet, ctetur adip isicing elit, sed do eiusmod tempor incid idunt ut labore et dolore magna</p>
-                            </li>
-                            <li>
-                                <h3>Flyout Content Area 2</h3>
-                                <p>Porem ipsum dolor sit amet, ctetur adip isicing elit, sed do eiusmod tempor incid idunt ut labore et dolore magna</p>
-                            </li>
-                            <li>
-                                <h3>Flyout Content Area 3</h3>
-                                <p>Porem ipsum dolor sit amet, ctetur adip isicing elit, sed do eiusmod tempor incid idunt ut labore et dolore magna</p>
-                            </li>
-                            <li>
-                                <h3>Flyout Content Area 4</h3>
-                                <p>Porem ipsum dolor sit amet, ctetur adip isicing elit, sed do eiusmod tempor incid idunt ut labore et dolore magna</p>
-                            </li>
-                            <li>
-                                <h3>Flyout Content Area 5</h3>
-                                <p>Porem ipsum dolor sit amet, ctetur adip isicing elit, sed do eiusmod tempor incid idunt ut labore et dolore magna</p>
-                            </li>
-                        </ul>
-                    </div>
+<div class="type-1915">
+    <div class="row">
+        <div class="sidebar-post">
+            <div class="sidebar-widget widget">
+                <h3 class="widget-title">FAQS</h3>			
+                <div class="textwidget">
+                    <ul class="list-post-faq">
+                        <li class="active">
+                            <h3>Flyout Content Area 1</h3>
+                            <p>Porem ipsum dolor sit amet, ctetur adip isicing elit, sed do eiusmod tempor incid idunt ut labore et dolore magna</p>
+                        </li>
+                        <li>
+                            <h3>Flyout Content Area 2</h3>
+                            <p>Porem ipsum dolor sit amet, ctetur adip isicing elit, sed do eiusmod tempor incid idunt ut labore et dolore magna</p>
+                        </li>
+                        <li>
+                            <h3>Flyout Content Area 3</h3>
+                            <p>Porem ipsum dolor sit amet, ctetur adip isicing elit, sed do eiusmod tempor incid idunt ut labore et dolore magna</p>
+                        </li>
+                        <li>
+                            <h3>Flyout Content Area 4</h3>
+                            <p>Porem ipsum dolor sit amet, ctetur adip isicing elit, sed do eiusmod tempor incid idunt ut labore et dolore magna</p>
+                        </li>
+                        <li>
+                            <h3>Flyout Content Area 5</h3>
+                            <p>Porem ipsum dolor sit amet, ctetur adip isicing elit, sed do eiusmod tempor incid idunt ut labore et dolore magna</p>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
