@@ -16,7 +16,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="wrapper">
                         <div class="single-img item-adv-simple">
                             <div class="wrapper item-adv-simple">
-                                <a href="#" class="img-sale">
+                                <a href="#">
                                     <img width="780" height="400" src="<?php echo $url_path ?>/images/ad4-2.jpg" alt="#" class="img-responsive">
                                     <h1>
                                         Siemens
