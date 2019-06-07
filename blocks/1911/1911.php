@@ -25,17 +25,27 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
         
-        <script src="<?php echo $url_path ?>/js/jquery-2.2.4.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
         <link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet" type="text/css" />
         <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
         <script src="<?php echo $url_path ?>/js/1911.js"></script>
+         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/1911.css" rel="stylesheet" type="text/css" />
 
 
     </head>
     <body>
-    <?php include $dir_block.'/1911-content.php'; ?>
+        <div class="blog-page">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4 col-xs-12">
+                        <?php include $dir_block.'/1911-content.php'; ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
     </body>
 </html>

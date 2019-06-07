@@ -35,19 +35,19 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="supperdeal-countdown" data-date="05/08/2019" data-tc-id="e37c4a25-3896-3a91-bfdb-3cb0b4f106d5">
                     <div class="time_circles">
                         <canvas width="225" height="56"></canvas>
-                        <div class="textDiv_Days" style="top: 20px; left: 0px; width: 56.25px;">
+                        <div style="top: 20px; left: 0px; width: 56.25px;">
                             <span class="number">144</span>
                             <span class="text">day</span>
                         </div>
-                        <div class="textDiv_Hours" style="top: 20px; left: 56px; width: 56.25px;">
+                        <div style="top: 20px; left: 56px; width: 56.25px;">
                             <span class="number">21</span>
                             <span class="text">hou</span>
                         </div>
-                        <div class="textDiv_Minutes" style="top: 20px; left: 113px; width: 56.25px;">
+                        <div style="top: 20px; left: 113px; width: 56.25px;">
                             <span class="number">43</span>
                             <span class="text">min</span>
                         </div>
-                        <div class="textDiv_Seconds" style="top: 20px; left: 169px; width: 56.25px;">
+                        <div style="top: 20px; left: 169px; width: 56.25px;">
                             <span class="number">47</span>
                             <span class="text">sec</span>
                         </div>

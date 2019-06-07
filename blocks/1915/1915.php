@@ -16,23 +16,26 @@ $less = new lessc;
 $less->compileFile('less/1915.less', 'css/1915.css');
 ?>
 <!DOCTYPE html>
-
 <html lang="en">
     <head>
         <title>module 1915</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="<?php echo $url_path ?>/1900/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="<?php echo $url_path ?>/1900/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-        <link href="<?php echo $url_path ?>/1900/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/1915.css" rel="stylesheet" type="text/css"/>
-        <script src="<?php echo $url_path ?>/1900/js/jquery.min.js"></script>
-        <script src="<?php echo $url_path ?>/1900/js/swiper.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
         <script src="<?php echo $url_path ?>/js/1915.js"></script>
     </head>
-
-    <body>   
-        <?php include $dir_block . '/1915-content.php'; ?>
-
+    <body>
+        <div class="blog-page">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4 col-xs-12">
+                        <?php include $dir_block . '/1915-content.php'; ?>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>

@@ -27,6 +27,14 @@ $less->compileFile('less/1913.less', 'css/1913.css');
         <link href="<?php echo $url_path ?>/css/1913.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <?php include '../1913/1913-content.php'; ?>
+        <div class="blog-page">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9 col-sm-8 col-xs-12">
+                        <?php include '../1913/1913-content.php'; ?>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>

@@ -119,6 +119,9 @@
   -webkit-align-items: center;
   align-items: center;
 }
+.type-1902 .swiper1902 img {
+  height: 400px;
+}
 .type-1902 .swiper1902:hover .arrow1902 {
   display: block;
 }

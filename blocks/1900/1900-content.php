@@ -42,7 +42,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="header-second">
                     <div class="col-md-4 col-sm-3">
                         <div class="logo-top">
-                            <a class="logo" href="home.php">
+                            <a class="logo" href="#">
                                 <img  src="<?php echo $url_path ?>/images/logo-top.png" class="img-responsive" alt="logo">
                             </a>
                         </div>
@@ -118,12 +118,14 @@ $url_path = str_replace('\\', '/', $url_path);
                             <li class="">
                                 <a href="#">Fashion
                                     <img width="20" height="19" src="#" class="attachment-full size-full" alt="">
+                                    <img width="20" height="19" src="http://7uptheme.com/wordpress/aloshop/wp-content/uploads/2016/03/cat4.png" class="attachment-full size-full" alt="">
                                 </a>
 
                             </li>
                             <li class="has-cat-mega">
                                 <a href="#">Food
                                     <img width="20" height="21" src="#" class="attachment-full size-full" alt="">
+                                    <img width="20" height="21" src="http://7uptheme.com/wordpress/aloshop/wp-content/uploads/2016/03/cat7.png" class="attachment-full size-full" alt="">
                                 </a>
                             </li>
                         </ul>
@@ -141,7 +143,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <!--Item Home-->
                                     <li>
                                         <div class="title">
-                                            <a href="home.php">HOME <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                            <a href="#">HOME <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                         </div>
                                         <div class="context">
                                             <ul>
@@ -155,7 +157,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <!--Item Shop-->
                                     <li>
                                         <div class="title">
-                                            <a href="fashion.php">Shops <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                            <a href="#">Shops <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                         </div>
 
                                         <div class="contextshop">
@@ -199,7 +201,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <!--Item Blog-->
                                     <li>
                                         <div class="title">
-                                            <a href="blog.php">Blog</a>
+                                            <a href="#">Blog</a>
                                         </div>
                                     </li>
                                     <!--Item MegaMenu-->
@@ -255,13 +257,13 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <!--Item About-->
                                     <li>
                                         <div class="title">
-                                            <a href="about.php">About</a>
+                                            <a href="#">About</a>
                                         </div>
                                     </li>
                                     <!--Item Contact-->
                                     <li>
                                         <div class="title">
-                                            <a href="contact.php">Contact</a>
+                                            <a href="#">Contact</a>
                                         </div>
                                     </li>
                                 </ul>
