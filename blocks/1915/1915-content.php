@@ -16,23 +16,23 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="textwidget">
                     <ul class="list-post-faq">
                         <li class="active">
-                            <h3>Flyout Content Area 1</h3>
+                            <h3 class="accordion1 active1">Flyout Content Area 1</h3>
                             <p>Porem ipsum dolor sit amet, ctetur adip isicing elit, sed do eiusmod tempor incid idunt ut labore et dolore magna</p>
                         </li>
                         <li>
-                            <h3>Flyout Content Area 2</h3>
+                            <h3 class="accordion1 active1">Flyout Content Area 2</h3>
                             <p>Porem ipsum dolor sit amet, ctetur adip isicing elit, sed do eiusmod tempor incid idunt ut labore et dolore magna</p>
                         </li>
                         <li>
-                            <h3>Flyout Content Area 3</h3>
+                            <h3 class="accordion1 active1">Flyout Content Area 3</h3>
                             <p>Porem ipsum dolor sit amet, ctetur adip isicing elit, sed do eiusmod tempor incid idunt ut labore et dolore magna</p>
                         </li>
                         <li>
-                            <h3>Flyout Content Area 4</h3>
+                            <h3 class="accordion1 active1">Flyout Content Area 4</h3>
                             <p>Porem ipsum dolor sit amet, ctetur adip isicing elit, sed do eiusmod tempor incid idunt ut labore et dolore magna</p>
                         </li>
                         <li>
-                            <h3>Flyout Content Area 5</h3>
+                            <h3 class="accordion1 active1">Flyout Content Area 5</h3>
                             <p>Porem ipsum dolor sit amet, ctetur adip isicing elit, sed do eiusmod tempor incid idunt ut labore et dolore magna</p>
                         </li>
                     </ul>

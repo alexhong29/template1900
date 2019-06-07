@@ -23,7 +23,7 @@
 .type-1915 .sidebar-post ul {
   list-style: none;
 }
-.type-1915 .sidebar-post .list-post-faq li h3 {
+.type-1915 .sidebar-post .list-post-faq li .accordion1 {
   cursor: pointer;
   font-size: 14px;
   margin: 0;
@@ -31,10 +31,10 @@
   position: relative;
   text-transform: uppercase;
 }
-.type-1915 .sidebar-post .list-post-faq li.active h3::after {
+.type-1915 .sidebar-post .list-post-faq li.active .accordion1::after {
   content: "-";
 }
-.type-1915 .sidebar-post .list-post-faq h3::after {
+.type-1915 .sidebar-post .list-post-faq .accordion1::after {
   content: "+";
   position: absolute;
   right: 0;
