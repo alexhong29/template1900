@@ -107,23 +107,23 @@ $url_path = str_replace('\\', '/', $url_path);
                         <ul id="collape" class="list-category-dropdown collapse">
                             <li class="has-cat-mega">
                                 <a href="#">Computers
-                                    <img width="20" height="16" src="http://7uptheme.com/wordpress/aloshop/wp-content/uploads/2016/03/cat2.png" class="attachment-full size-full" alt="">
+                                    <img width="20" height="16" src="#" class="attachment-full size-full" alt="">
                                 </a>
                             </li>
                             <li class="has-cat-mega">
                                 <a href="#">Electronis
-                                    <img width="20" height="19" src="http://7uptheme.com/wordpress/aloshop/wp-content/uploads/2016/03/cat3.png" class="attachment-full size-full" alt="">
+                                    <img width="20" height="19" src="#" class="attachment-full size-full" alt="">
                                 </a>
                             </li>
                             <li class="">
-                                <a href="http://7uptheme.com/wordpress/aloshop/product-category/fashion/">Fashion
-                                    <img width="20" height="19" src="http://7uptheme.com/wordpress/aloshop/wp-content/uploads/2016/03/cat4.png" class="attachment-full size-full" alt="">
+                                <a href="#">Fashion
+                                    <img width="20" height="19" src="#" class="attachment-full size-full" alt="">
                                 </a>
 
                             </li>
                             <li class="has-cat-mega">
-                                <a href="http://7uptheme.com/wordpress/aloshop/product-category/food/">Food
-                                    <img width="20" height="21" src="http://7uptheme.com/wordpress/aloshop/wp-content/uploads/2016/03/cat7.png" class="attachment-full size-full" alt="">
+                                <a href="#">Food
+                                    <img width="20" height="21" src="#" class="attachment-full size-full" alt="">
                                 </a>
                             </li>
                         </ul>
