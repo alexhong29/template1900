@@ -26,12 +26,19 @@ $less->compileFile('less/1909.less', 'css/1909.css');
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/1909.css" rel="stylesheet" type="text/css"/>
-        <script src="<?php echo $url_path ?>/js/jquery.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
         <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
         <script src="<?php echo $url_path ?>/js/1909.js"></script>
     </head>
-
-    <body>   
-<?php $dir_block . include'1909-content.php'; ?>
+    <body>
+        <div class="blog-page">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9 col-sm-8 col-xs-12">
+                        <?php $dir_block . include'1909-content.php'; ?>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>

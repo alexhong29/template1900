@@ -31,7 +31,16 @@ $less->compileFile('less/1914.less', 'css/1914.css');
         
     </head>
     <body>
-        <?php include $dir_block . '/1914-content.php'; ?>
+        <div class="blog-page">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4 col-xs-12">
+                        <?php include $dir_block . '/1914-content.php'; ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
     </body>
 </html>
 

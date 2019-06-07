@@ -26,9 +26,18 @@ $less->compileFile('less/1910.less', 'css/1910.css');
         <link href="<?php echo $url_path ?>/css/1910.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="css/imagehover.min.css">
-        <!-- <script type="js/1910.js"></script> -->
+        <script src="<?php echo $url_path ?>/js/jquery.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/1910.js"></script>
     </head>
     <body>
-        <?php include '../1910/1910-content.php'; ?>
+        <div class="blog-page">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9 col-sm-8 col-xs-12">
+                        <?php include '../1910/1910-content.php'; ?>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
