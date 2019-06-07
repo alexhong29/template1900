@@ -60,6 +60,10 @@
   background: #333 none repeat scroll 0 0;
   text-align: center;
 }
+.type-1911 .swiper1911 .next1911:hover,
+.type-1911 .swiper1911 .prev1911:hover {
+  background: #ed321e;
+}
 .type-1911 .swiper1911 .arrow1911 {
   display: none;
 }

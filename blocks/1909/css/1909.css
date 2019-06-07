@@ -48,6 +48,10 @@
 .type-1909 .swiper1909 .prev1909 {
   top: 55%;
 }
+.type-1909 .swiper1909 .next1909:hover,
+.type-1909 .swiper1909 .prev1909:hover {
+  background: #ed321e;
+}
 .type-1909 .swiper1909 .button {
   background: #333 none repeat scroll 0 0;
   color: #fff;
