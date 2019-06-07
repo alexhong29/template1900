@@ -112,14 +112,12 @@
   -webkit-box-align: center;
   align-items: center;
 }
-<<<<<<< HEAD
 .type-1902 .swiper1902 .swiper-slide img {
   height: auto;
   max-width: 100%;
-=======
+}
 .type-1902 .swiper1902 img {
   height: 400px;
->>>>>>> 6523ba1d36f442e29ddb38ecbd8b8cc430a927bf
 }
 .type-1902 .swiper1902:hover .arrow1902 {
   display: block;
