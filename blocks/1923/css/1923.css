@@ -1,3 +1,24 @@
+.type-1923 .rating-stars ul {
+  list-style-type: none;
+  padding: 0;
+  cursor: pointer;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  float: left;
+}
+.type-1923 .rating-stars ul > li.star {
+  display: inline-block;
+}
+.type-1923 .rating-stars ul > li.star > i.fa {
+  font-size: 1em;
+  color: #ccc;
+}
+.type-1923 .rating-stars ul > li.star.hover > i.fa {
+  color: #FFCC36;
+}
+.type-1923 .rating-stars ul > li.star.selected > i.fa {
+  color: #FF912C;
+}
 .type-1923 .frameswiper {
   width: 100%;
   height: 100px;
@@ -72,7 +93,7 @@
 .type-1923 .detail_right .product-order {
   height: 14px;
   line-height: 14px;
-  margin-left: -10px;
+  margin-left: -115px;
   padding-left: 10px;
   display: inline-block;
   position: relative;

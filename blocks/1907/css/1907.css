@@ -294,14 +294,14 @@
   .type-1907 .new-form .newsletter-form form.wp-form-email .wp-form-fields input[type="text"] {
     right: -1%;
     top: 23px;
-    width: 53%;
-    height: 22px;
+    width: 30%;
+    height: 30px;
   }
   .type-1907 .new-form .newsletter-form form.wp-form-email .wp-form-fields input[type="submit"] {
-    width: 85px;
-    height: 22px;
+    width: 74px;
+    height: 30px;
     top: 23px;
-    right: 3%;
+    right: -1%;
     font-size: 11px;
   }
   .type-1907 .wpb_wrapper {

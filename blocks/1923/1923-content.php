@@ -72,14 +72,26 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="product-name">
                             <h2>Polo shirt</h2>
                         </div>
-                        <div class="star-rating">
-                            <span class="fa fa-star-o" data-rating="1"></span>
-                            <span class="fa fa-star-o" data-rating="2"></span>
-                            <span class="fa fa-star-o" data-rating="3"></span>
-                            <span class="fa fa-star-o" data-rating="4"></span>
-                            <span class="fa fa-star-o" data-rating="5"></span>
-                            <input type="hidden" name="whatever1" value="2.56">
+                        <div class='rating-stars text-center'>
+                            <ul id='stars'>
+                                <li class='star' title='Poor' data-value='1'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </li>
+                                <li class='star' title='Fair' data-value='2'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </li>
+                                <li class='star' title='Good' data-value='3'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </li>
+                                <li class='star' title='Excellent' data-value='4'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </li>
+                                <li class='star' title='WOW!!!' data-value='5'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </li>
+                            </ul>
                         </div>
+                        <br/>
                         <div class="product-order">
                             <span>5 Orders</span>
                         </div>
