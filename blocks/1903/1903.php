@@ -22,17 +22,17 @@ $less->compileFile('less/1903.less', 'css/1903.css');
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <!--        Css-->
-        <link href="<?php echo $url_path ?>/1900/css/swiper.min.css" rel="stylesheet" type="text/css"/>
-        <link href="<?php echo $url_path ?>/1900/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>      
-        <link href="<?php echo $url_path ?>/1900/css/imagehover.min.css" rel="stylesheet" type="text/css"/>
-        <link href="<?php echo $url_path ?>/1900/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>      
+        <link href="<?php echo $url_path ?>/css/imagehover.min.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/1903.css" rel="stylesheet" type="text/css"/>
         <!--        JS-->
-        <script src="<?php echo $url_path ?>/1900/js/swiper.min.js"></script>
-        <script src="<?php echo $url_path ?>/1900/js/bootstrap.min.js"></script>
-        <script src="<?php echo $url_path ?>/1900/js/jquery.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
         <script src="https://code.jquery.com/jquery-latest.min.js"></script>
-        <script src="<?php echo $url_path ?>1900/js/TimeCircles.js"></script>
+        <script src="<?php echo $url_path ?>/js/TimeCircles.js"></script>
         <script src="<?php echo $url_path ?>/js/1903.js"></script>
     </head>
     <body>
