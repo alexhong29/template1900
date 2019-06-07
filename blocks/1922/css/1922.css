@@ -7,6 +7,23 @@
 .type-1922 .form .form-radio {
   padding: 0 20px;
 }
+.type-1922 .form .green:hover,
+.type-1922 .form .green:active {
+  color: green;
+}
+.type-1922 .form .red:hover,
+.type-1922 .form .red:active {
+  color: red;
+}
+.type-1922 .form .black:hover,
+.type-1922 .form .black:active {
+  color: black;
+}
+.type-1922 .form .man:hover,
+.type-1922 .form .man:focus,
+.type-1922 .form .man:active {
+  color: magenta;
+}
 .type-1922 .form button {
   background: #333 none repeat scroll 0 0;
   color: #fff;

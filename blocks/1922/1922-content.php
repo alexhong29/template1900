@@ -14,16 +14,24 @@ $url_path = str_replace('\\', '/', $url_path);
             <h2>COMMUNITY POLL</h2>
             <p>What is your favorite color</p>
             <div class="radio">
-                <label class="text"><input type="radio" name="optradio">Green</label>
+                <label class="text">
+                    <input type="radio" name="optradio"><span class="green">Green</span>
+                </label>
             </div>
             <div class="radio">
-                <label class="text"><input type="radio" name="optradio">Red</label>
+                <label class="text red">
+                    <input type="radio" name="optradio"><span class="red">Red</span>
+                </label>
             </div>
             <div class="radio">
-                <label class="text"><input type="radio" name="optradio">Black</label>
+                <label class="text black">
+                    <input type="radio" name="optradio"><span class="black">Black</span>
+                </label>
             </div>
             <div class="radio">
-                <label class="text"><input type="radio" name="optradio">Magenta</label>
+                <label class="text man">
+                    <input type="radio" name="optradio"><span class="man">Magenta</span>
+                </label>
             </div>
             <button>Vote</button>
         </div>
