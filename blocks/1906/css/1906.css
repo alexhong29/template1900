@@ -1,3 +1,6 @@
+.type-1906 a {
+  text-decoration: none;
+}
 .type-1906 .client-says {
   padding: 0 15px;
   margin-bottom: 50px;
@@ -40,9 +43,10 @@
 }
 .type-1906 .info-pic h3 a {
   color: #4bae4f;
+  opacity: .5;
 }
 .type-1906 .info-pic h3 a:hover {
-  color: black;
+  opacity: 1;
 }
 .type-1906 .swiper-controls {
   position: relative;
@@ -80,6 +84,7 @@
 .type-1906 .swiper-controls .prev-arroww:hover,
 .type-1906 .swiper-controls .next-arroww:hover {
   opacity: 1;
+  background: #4bae4f;
 }
 .type-1906 .qoutation-slider--higher {
   margin: 0 auto;
