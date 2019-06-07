@@ -36,6 +36,12 @@ $less->compileFile('less/1903.less', 'css/1903.css');
         <script src="<?php echo $url_path ?>/js/1903.js"></script>
     </head>
     <body>
-        <?php include $dir_block . '/1903-content.php'; ?>
+        <div class="slider-product">
+            <div class="container">
+                <div class="row">
+                    <?php include $dir_block . '/1903-content.php'; ?>
+                </div>
+            </div>
+        </div>
     </body>
 </html>

@@ -31,7 +31,12 @@ $less->compileFile('less/1902.less', 'css/1902.css');
     </head>
 
     <body>   
-<?php $dir_block . include'1902-content.php'; ?>
-
+        <div class="slider-home">
+            <div class="container">
+                <div class="row">
+                    <?php include $dir_block . '/1902-content.php'; ?>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
