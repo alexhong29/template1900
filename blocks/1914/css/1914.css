@@ -101,6 +101,7 @@
 .type-1914 .sidebar-post .zoom-image-thumb:hover img {
   transform: scale(1.15);
   -webkit-transform: scale(1.15);
+  transition: all .8s ease-in-out;
 }
 .type-1914 .sidebar-post .post-tab-info {
   display: table-cell;
