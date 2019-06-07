@@ -24,12 +24,12 @@ $less->compileFile('less/1900.less', 'css/1900.css');
 
         <title>Home - AloShop</title>
 
-        <link rel="stylesheet" href="<?php echo $url_path ?>/1900/css/bootstrap.min.css">
-        <link rel="stylesheet" href="<?php echo $url_path ?>/1900/css/font-awesome.min.css">
-        <link rel="stylesheet" href="<?php echo $url_path ?>/1900/css/1900.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/css/bootstrap.min.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/css/font-awesome.min.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/css/1900.css">
 
-        <script src="<?php echo $url_path ?>/1900/js/jquery-2.1.4.min.js"></script>
-        <script src="<?php echo $url_path ?>/1900/js/bootstrap.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script> 
         <script src="<?php echo $url_path ?>/js/1900.js"></script>
     </head>
 
