@@ -101,6 +101,7 @@
 .type-1902 .swiper1902 .next1902:hover,
 .type-1902 .swiper1902 .prev1902:hover {
   opacity: 1;
+  background: 4bae 4f;
 }
 .type-1902 .swiper1902 .swiper-slide {
   text-align: center;

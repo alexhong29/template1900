@@ -13,38 +13,38 @@ $(document).ready(function () {
         },
     });
 
-    $('.click').click(function () {
-        var url = $(this).attr('src');
-        $('.image img').attr("src", url);
-    });
-    var $star_rating = $('.star-rating .fa');
-
-    var SetRatingStar = function () {
-        return $star_rating.each(function () {
-            if (parseInt($star_rating.siblings('input.rating-value').val()) >= parseInt($(this).data('rating'))) {
-                return $(this).removeClass('fa-star-o').addClass('fa-star');
+    $('#stars li').on('mouseover', function () {
+        var onStar = parseInt($(this).data('value'), 10);
+        $(this).parent().children('li.star').each(function (e) {
+            if (e < onStar) {
+                $(this).addClass('hover');
             } else {
-                return $(this).removeClass('fa-star').addClass('fa-star-o');
+                $(this).removeClass('hover');
             }
         });
-    };
-
-    $star_rating.on('click', function () {
-        $star_rating.siblings('input.rating-value').val($(this).data('rating'));
-        return SetRatingStar();
+    }).on('mouseout', function () {
+        $(this).parent().children('li.star').each(function (e) {
+            $(this).removeClass('hover');
+        });
     });
+    $('#stars li').on('click', function () {
+        var onStar = parseInt($(this).data('value'), 10);
+        var stars = $(this).parent().children('li.star');
 
-    SetRatingStar();
-    $('.add').click(function () {
-        if ($(this).prev().val() < 10) {
-            $(this).prev().val(+$(this).prev().val() + 1);
+        for (i = 0; i < stars.length; i++) {
+            $(stars[i]).removeClass('selected');
         }
-    });
-    $('.sub').click(function () {
-        if ($(this).next().val() > 1) {
-            if ($(this).next().val() > 1)
-                $(this).next().val(+$(this).next().val() - 1);
+        for (i = 0; i < onStar; i++) {
+            $(stars[i]).addClass('selected');
         }
+        var ratingValue = parseInt($('#stars li.selected').last().data('value'), 10);
+        var msg = "";
+        if (ratingValue > 1) {
+            msg = "Thanks! You rated this " + ratingValue + " stars.";
+        } else {
+            msg = "We will improve ourselves. You rated this " + ratingValue + " stars.";
+        }
+        responseMessage(msg);
     });
 
 });
