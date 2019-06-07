@@ -29,10 +29,19 @@ $less->compileFile('less/1908.less', 'css/1908.css');
         <script src="<?php echo $url_path ?>/js/jquery-ui.js"></script>
         <script src="<?php echo $url_path ?>/js/1908.js"></script>
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
-        
+
     </head>
     <body>
-        <?php include $dir_block . '/1908-content.php'; ?>
+        <div class="blog-page">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4 col-xs-12">
+                        <?php include $dir_block . '/1908-content.php'; ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </body>
 </html>
 
