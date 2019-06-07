@@ -35,15 +35,13 @@
             text-transform: uppercase;
         }
 
-        .list-post-faq li.active .accordion1::after {
-            content: "-";
+        .accordion1::after {
+            content: "\2212";
+            float: right;
         }
-
-        .list-post-faq .accordion1::after {
-            content: "+";
-            position: absolute;
-            right: 0;
-            top: 12px;
+        .active1::after {
+            content: '\002B';
+            float: right;
         }
 
         .list-post-faq li.active p {
@@ -73,7 +71,7 @@
         border: 0;
         padding: 20px;
     }
-    
+
     @media only screen and (min-width: 320px) and (max-width: 479px){
         .sidebar-widget{
             .widget-title{

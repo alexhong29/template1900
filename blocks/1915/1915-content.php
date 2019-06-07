@@ -15,7 +15,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <h3 class="widget-title">FAQS</h3>			
                 <div class="textwidget">
                     <ul class="list-post-faq">
-                        <li class="active">
+                        <li>
                             <h3 class="accordion1 active1">Flyout Content Area 1</h3>
                             <p>Porem ipsum dolor sit amet, ctetur adip isicing elit, sed do eiusmod tempor incid idunt ut labore et dolore magna</p>
                         </li>

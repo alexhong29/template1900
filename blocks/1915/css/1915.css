@@ -31,14 +31,13 @@
   position: relative;
   text-transform: uppercase;
 }
-.type-1915 .sidebar-post .list-post-faq li.active .accordion1::after {
-  content: "-";
+.type-1915 .sidebar-post .accordion1::after {
+  content: "\2212";
+  float: right;
 }
-.type-1915 .sidebar-post .list-post-faq .accordion1::after {
-  content: "+";
-  position: absolute;
-  right: 0;
-  top: 12px;
+.type-1915 .sidebar-post .active1::after {
+  content: '\002B';
+  float: right;
 }
 .type-1915 .sidebar-post .list-post-faq li.active p {
   display: block;
