@@ -96,6 +96,7 @@
   position: relative;
   width: 225px;
   margin-bottom: 20px;
+  left: -8px;
 }
 .type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-countdown .time_circles > div {
   background: #5f6062 none repeat scroll 0 0;
@@ -220,6 +221,9 @@
 }
 .type-1903 .product-box figure.imghvr-push-up {
   height: 246px;
+}
+.type-1903 .product-box figure.imghvr-push-up .cover {
+  object-fit: cover;
 }
 .type-1903 .product-box figure.imghvr-push-up img {
   height: 246px;
@@ -385,6 +389,7 @@
   }
   .type-1903 .supperdeal-countdown {
     margin: 0 auto;
+    margin-top: 30px;
   }
   .type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-header ::before {
     display: none;
@@ -407,7 +412,7 @@
   }
   .type-1903 .supperdeal-countdown {
     text-align: center;
-    margin: 0 auto;
+    left: 5px !important;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
