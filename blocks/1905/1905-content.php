@@ -12,11 +12,10 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="row top_title">
             <div class="col-md-12 new_product">
                 <div class="col-md-4 col-sm-5 col-xs-5 productnew">
-                    <span>NEW PRODUCT</span>
+                    <button class="tablinks1905" onclick="open1905(event, 'Newproduct')">NEW PRODUCT</button>
                 </div>
                 <div class="col-md-8 col-sm-7 col-xs-7 filter">
-                    <i class="fa fa-filter"></i>
-                    <span>FILTER</span>
+                    <button class="tablinks1905" onclick="open1905(event, 'Filter')"><i class="fa fa-filter"></i>FILTER</button>
                 </div>
                 <!-- Tab links -->
                 <div class="tab1905">
