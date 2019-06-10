@@ -155,7 +155,7 @@ body ul {
   border: 1px solid white;
   color: #999;
   height: 45px;
-  padding: 0 25px;
+  padding: 0 20px;
   width: 100%;
 }
 .type-1900 .header-top .header-second .mini-cart {
@@ -1325,7 +1325,8 @@ body ul {
     left: 40%;
   }
   .type-1900 .smart-search {
-    display: none;
+    left: 185px;
+    top: 25px;
   }
   .type-1900 .mini-cart {
     display: none;
@@ -1338,6 +1339,12 @@ body ul {
   }
 }
 @media only screen and (max-width: 767.5px) {
+  .type-1900 .smart-search .select-category {
+    display: none;
+  }
+  .type-1900 .smart-search-form input[type="text"] {
+    display: none;
+  }
   .type-1900 .content .row {
     margin: 0;
   }

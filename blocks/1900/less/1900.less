@@ -176,7 +176,7 @@ body{
                         border:1px solid white;
                         color: #999;
                         height: 45px;
-                        padding: 0 25px;
+                        padding: 0 20px;
                         width: 100%;
                     }
                 }
@@ -1527,7 +1527,8 @@ body{
         }
 
         .smart-search{
-            display: none;
+            left: 185px;
+            top: 25px;
         }
 
         .mini-cart{
@@ -1546,6 +1547,16 @@ body{
     }
 
     @media only screen and (max-width: 767.5px){
+        .smart-search{
+                .select-category{
+                    display: none;
+                }
+        }
+        .smart-search-form{
+            input[type="text"]{
+                display: none;
+            }
+        }
         .content{
             .row{
                 margin: 0;

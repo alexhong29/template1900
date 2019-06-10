@@ -67,7 +67,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <input type="text" name="s" placeholder="I am shopping for..." onfocus="">
                                 <input type="hidden" name="post_type" value="product">
                                 <input class="cat-value" type="hidden" name="product_cat" value="">
-                                <button class="icon-search" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                <button id="show-btn" class="icon-search" type="submit" ><i class="fa fa-search" aria-hidden="true"></i></button>
                             </form>
                         </div>
                     </div>
