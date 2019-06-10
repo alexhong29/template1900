@@ -106,12 +106,49 @@
   user-select: none;
   background: #4bae4f;
   text-align: center;
-  padding: 15px;
+  padding: 0 0px;
 }
-.type-1905 .productnew span {
+.type-1905 .productnew button {
   color: white;
   font-size: 15px;
   font-weight: bold;
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 118px;
+}
+.type-1905 .productnew:hover {
+  background-color: #fe9c00;
+  transition: 0.5s;
+}
+.type-1905 .productnew button.active {
+  background-color: #106113;
+  padding: 14px 133px;
+}
+.type-1905 .filter {
+  user-select: none;
+  background: #ccdb38;
+  text-align: center;
+  padding: 0 0px;
+}
+.type-1905 .filter button {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 332px;
+}
+.type-1905 .filter:hover {
+  background-color: #fe9c00;
+  transition: 0.5s;
+}
+.type-1905 .filter button.active {
+  background-color: #b2c11f;
+  padding: 14px 347px;
 }
 .type-1905 .tab1905 {
   border: 1px solid #e5e5e5;
@@ -130,15 +167,6 @@
 }
 .type-1905 .tab1905 a:hover {
   color: #4bae4f;
-}
-.type-1905 .filter {
-  user-select: none;
-  background: #ccdb38;
-  padding: 15px;
-  text-align: center;
-  color: white;
-  font-size: 15px;
-  font-weight: bold;
 }
 .type-1905 .tabcontents {
   margin-top: 20px;
@@ -219,6 +247,85 @@
 .type-1905 [class^=imghvr-] figcaption {
   background: #fff;
 }
+.type-1905 .product-pagi-nav {
+  text-align: center;
+}
+.type-1905 .product-pagi-nav .page-numbers-1 {
+  background: #ff9933;
+  color: #fff;
+  border-left: 1px solid #e8e8e8;
+  display: inline-block;
+  font-size: 12px;
+  height: 28px;
+  line-height: 28px;
+  padding: 0 10px;
+  text-transform: uppercase;
+  vertical-align: top;
+}
+.type-1905 .product-pagi-nav .page-numbers-2 {
+  border: 1px solid #e8e8e8;
+  color: #666;
+  display: inline-block;
+  font-size: 12px;
+  height: 28px;
+  line-height: 28px;
+  padding: 0 10px;
+  text-transform: uppercase;
+  vertical-align: top;
+}
+.type-1905 .product-pagi-nav .page-numbers-2:hover {
+  background: #ff9933;
+  color: #fff;
+}
+.type-1905 .product-pagi-nav .page-numbers-dots {
+  font-weight: bold;
+  color: #666;
+}
+.type-1905 .product-pagi-nav .page-numbers-5 {
+  border: 1px solid #e8e8e8;
+  color: #666;
+  display: inline-block;
+  font-size: 12px;
+  height: 28px;
+  line-height: 28px;
+  padding: 0 10px;
+  text-transform: uppercase;
+  vertical-align: top;
+}
+.type-1905 .product-pagi-nav .page-numbers-5:hover {
+  background: #ff9933;
+  color: #fff;
+}
+.type-1905 .product-pagi-nav .page-numbers-6 {
+  border: 1px solid #e8e8e8;
+  color: #666;
+  display: inline-block;
+  font-size: 12px;
+  height: 28px;
+  line-height: 28px;
+  padding: 0 10px;
+  text-transform: uppercase;
+  vertical-align: top;
+}
+.type-1905 .product-pagi-nav .page-numbers-6:hover {
+  background: #ff9933;
+  color: #fff;
+}
+.type-1905 .product-pagi-nav .page-numbers-next i {
+  border: 1px solid #e8e8e8;
+  color: #666;
+  display: inline-block;
+  font-size: 18px;
+  height: 28px;
+  line-height: 28px;
+  padding: 0 10px;
+  text-transform: uppercase;
+  vertical-align: top;
+}
+.type-1905 .product-pagi-nav .page-numbers-next i:hover {
+  background: #ff9933;
+  color: #fff;
+}
 @media (max-width: 320px) {
   .type-1905 .productnew span {
     font-size: 10px;
@@ -236,14 +343,6 @@
   }
   .type-1905 .tab1905 a {
     padding: 10px;
-  }
-}
-@media (max-width: 480px) and (min-width: 413px) {
-  .type-1905 .imghvr-push-up img {
-    height: 252px !important;
-  }
-  .type-1905 .imghvr-push-up figcaption.image-hover img {
-    height: 252px !important;
   }
   .type-1905 .productnew span {
     font-size: 12px;
@@ -263,6 +362,39 @@
   .type-1905 .tabcontent .old_price {
     font-size: 13px;
   }
+  .type-1905 .productnew button {
+    font-size: 12px;
+    padding: 14px 48px;
+  }
+  .type-1905 .productnew button.active {
+    padding: 14px 48px;
+  }
+  .type-1905 .filter button {
+    font-size: 12px;
+    padding: 14px 106px;
+  }
+  .type-1905 .filter button.active {
+    padding: 14px 106px;
+  }
+  .type-1905 .tab1905 {
+    font-size: 12px;
+    text-align: center;
+  }
+  .type-1905 .tabcontents a {
+    font-size: 12px;
+  }
+  .type-1905 .tabcontents .price span .new_price,
+  .type-1905 .tabcontents .price span .old_price {
+    font-size: 15px;
+  }
+}
+@media (max-width: 480px) and (min-width: 413px) {
+  .type-1905 .imghvr-push-up img {
+    height: 252px !important;
+  }
+  .type-1905 .imghvr-push-up figcaption.image-hover img {
+    height: 252px !important;
+  }
 }
 @media (max-width: 768px) and (min-width: 480px) {
   .type-1905 .imghvr-push-up img {
@@ -271,8 +403,72 @@
   .type-1905 .imghvr-push-up figcaption.image-hover img {
     height: 252px !important;
   }
+  .type-1905 .productnew button {
+    font-size: 12px;
+    padding: 14px 48px;
+  }
+  .type-1905 .productnew button.active {
+    padding: 14px 48px;
+  }
+  .type-1905 .filter button {
+    font-size: 12px;
+    padding: 14px 106px;
+  }
+  .type-1905 .filter button.active {
+    padding: 14px 106px;
+  }
   .type-1905 .tab1905 {
-    font-size: 13px;
+    font-size: 12px;
+    text-align: center;
+  }
+  .type-1905 .tabcontents a {
+    font-size: 12px;
+  }
+  .type-1905 .tabcontents .price span .new_price,
+  .type-1905 .tabcontents .price span .old_price {
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .type-1905 .productnew button {
+    padding: 14px 92px;
+  }
+  .type-1905 .productnew button.active {
+    padding: 14px 92px;
+  }
+  .type-1905 .filter button {
+    padding: 14px 162px;
+  }
+  .type-1905 .filter button.active {
+    padding: 14px 177px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .type-1905 .productnew button {
+    padding: 14px 99px;
+  }
+  .type-1905 .productnew button.active {
+    padding: 14px 99px;
+  }
+  .type-1905 .filter button {
+    padding: 14px 266px;
+  }
+  .type-1905 .filter button.active {
+    padding: 14px 281px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .type-1905 .productnew button {
+    padding: 14px 133px;
+  }
+  .type-1905 .productnew button.active {
+    padding: 14px 133px;
+  }
+  .type-1905 .filter button {
+    padding: 14px 347px;
+  }
+  .type-1905 .filter button.active {
+    padding: 14px 347px;
   }
 }
 @media (max-width: 377px) {

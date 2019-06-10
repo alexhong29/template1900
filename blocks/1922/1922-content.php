@@ -19,17 +19,17 @@ $url_path = str_replace('\\', '/', $url_path);
                 </label>
             </div>
             <div class="radio">
-                <label class="text red">
+                <label class="text">
                     <input type="radio" name="optradio"><span class="red">Red</span>
                 </label>
             </div>
             <div class="radio">
-                <label class="text black">
+                <label class="text">
                     <input type="radio" name="optradio"><span class="black">Black</span>
                 </label>
             </div>
             <div class="radio">
-                <label class="text man">
+                <label class="text">
                     <input type="radio" name="optradio"><span class="man">Magenta</span>
                 </label>
             </div>
