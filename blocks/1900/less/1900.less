@@ -66,7 +66,6 @@ body{
 
             .smart-search{
                 position: relative;
-                right: 10%;
 
                 .select-category{
                     border-right: 1px solid #ccc;
@@ -126,6 +125,12 @@ body{
                             }
                         }
                         .item{
+                            a{
+                                &:focus{
+                                    background: @fe9;
+                                    color: @fff;
+                                }
+                            }
                             a:hover{
                                 border-top: 1px solid @fe9;
                                 background: @fe9;
@@ -1512,7 +1517,7 @@ body{
         }
     }
 
-    @media only screen and (min-width: 480px) and (max-width: 767px){
+    @media only screen and (min-width: 480px) and (max-width: 767.2px){
         .header-top{
             height: 130px;
         }
@@ -1540,7 +1545,7 @@ body{
         }
     }
 
-    @media only screen and (max-width: 767px){
+    @media only screen and (max-width: 767.2px){
         .content{
             .row{
                 margin: 0;
@@ -1571,7 +1576,7 @@ body{
 
     }
 
-    @media only screen and (min-width: 768px) and (max-width: 991px){
+    @media only screen and (min-width: 768px) and (max-width: 991.200px){
         .logo-top{
             left: 180%;
         }
@@ -1587,7 +1592,6 @@ body{
             height: 200px;
         }
         .smart-search{
-            right: 50%!important;
             width: 500px;
             padding: 47px 0 0 0;
         }

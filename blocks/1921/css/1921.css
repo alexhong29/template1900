@@ -111,8 +111,8 @@
   }
   .img .slide-band6 .item1 h3 {
     font-size: 15px;
-    margin-top: -128px;
-    left: 15px;
+    margin-top: 50px;
+    margin-left: 75px;
   }
   .img .slide-band6 .item1 h3 p {
     font-size: 12px;
@@ -122,8 +122,8 @@
   }
   .img .slide-band6 .item2 h3 {
     font-size: 15px;
-    margin-top: -128px;
-    left: 15px;
+    margin-top: 50px;
+    margin-left: 75px;
   }
   .img .slide-band6 .item2 h3 p {
     font-size: 12px;
@@ -138,6 +138,12 @@
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .wrapper.item-adv-simple img {
     width: auto;
+  }
+  .img .slide-band6 .item1 h3 {
+    margin-left: 198px;
+  }
+  .img .slide-band6 .item2 h3 {
+    margin-left: 198px;
   }
   .img .slide-band6 .info-1 {
     top: 40px;

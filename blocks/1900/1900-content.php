@@ -57,10 +57,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </button>
                                 <ul id="collap" class="list-category-toggle sub-menu-top collapse" style="">
                                     <li><a class="active" href="#" data-filter="">All Categories</a></li>
-                                    <li class="item"><a class="clickit" href="#" data-filter=".accessories">Accessories</a></li>
-                                    <li class="item"><a class="clickit" href="#" data-filter=".android">Android</a></li>
-                                    <li class="item"><a class="clickit" href="#" data-filter=".bags">Bags</a></li>
-                                    <li class="item"><a class="clickit" href="#" data-filter=".basketball">Basketball</a></li>
+                                    <li class="item"><a class="clickit i1" href="#" data-filter=".accessories">Accessories</a></li>
+                                    <li class="item"><a class="clickit i2" href="#" data-filter=".android">Android</a></li>
+                                    <li class="item"><a class="clickit i3" href="#" data-filter=".bags">Bags</a></li>
+                                    <li class="item"><a class="clickit i4" href="#" data-filter=".basketball">Basketball</a></li>
                                 </ul>
                             </div>
                             <form class="smart-search-form" action="#">
