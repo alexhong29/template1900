@@ -785,7 +785,7 @@ body{
             }
         }
     }
-    @media (max-width: 767px) {
+    @media only screen and (max-width: 767.5px) {
         .content{
             height: 50px;
             .container{
@@ -1361,9 +1361,9 @@ body{
                             height: 40px;
                             font-size: 40px;
                             z-index: 3;
-                            position: fixed;
+                            position: absolute;
+                            top: -140px;
                             right: 100%;
-                            top: -5px;
                             i{
                                 color: #fab502;
                             }
@@ -1517,7 +1517,7 @@ body{
         }
     }
 
-    @media only screen and (min-width: 480px) and (max-width: 767.2px){
+    @media only screen and (min-width: 480px) and (max-width: 767.5px){
         .header-top{
             height: 130px;
         }
@@ -1545,7 +1545,7 @@ body{
         }
     }
 
-    @media only screen and (max-width: 767.2px){
+    @media only screen and (max-width: 767.5px){
         .content{
             .row{
                 margin: 0;

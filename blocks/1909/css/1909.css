@@ -79,6 +79,9 @@
   align-items: center;
   cursor: pointer;
 }
+.type-1909 .swiper1909 .swiper-slide img {
+  height: 283px;
+}
 .type-1909 .swiper1909 .next1909,
 .type-1909 .swiper1909 .prev1909 {
   width: 40px;
@@ -150,9 +153,12 @@
 .type-1909 .list-shop-cat ul li a span:hover {
   background-color: #ed321e;
 }
-@media only screen and (min-width: 320px) and (max-width: 479px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   .type-1909 {
     margin-top: 20px;
+  }
+  .type-1909 .swiper-slide img {
+    height: 160px !important;
   }
   .type-1909 .promotion {
     margin-top: -45px !important;
@@ -178,6 +184,9 @@
   .type-1909 {
     margin-top: 50px;
   }
+  .type-1909 .swiper-slide img {
+    height: 245px !important;
+  }
   .type-1909 .promotion {
     margin-top: -45px !important;
     padding-left: 40px !important;
@@ -196,7 +205,10 @@
     font-size: 14px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 991.5px) {
+  .type-1909 .swiper-slide img {
+    height: 157px !important;
+  }
   .type-1909 .promotion h3 {
     font-size: 26px;
   }
