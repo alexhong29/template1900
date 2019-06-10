@@ -418,6 +418,9 @@
   width: 100%;
   border: 1px solid #d9d9d9;
 }
+.type-1923 .product-collateral .tabs .review form fieldset .data-table input[type=radio] {
+  cursor: pointer;
+}
 .type-1923 .product-collateral .tabs .review form fieldset .data-table th {
   padding: 8px 8px;
   font-weight: bold;

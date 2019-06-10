@@ -16,15 +16,15 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="wrapper">
                         <div class="single-img item-adv-simple">
                             <div class="wrapper item-adv-simple">
+                                <h1>
+                                    Siemens
+                                    <p>Magnetom Avanto</p>
+                                    <button class="button">
+                                        <span>Shop Now</span>
+                                    </button>
+                                </h1>
                                 <a href="#">
                                     <img width="780" height="400" src="<?php echo $url_path ?>/images/ad4-2.jpg" alt="#" class="img-responsive">
-                                    <h1>
-                                        Siemens
-                                        <p>Magnetom Avanto</p>
-                                        <button class="button">
-                                            <span>Shop Now</span>
-                                        </button>
-                                    </h1>
                                 </a>
 
                             </div>

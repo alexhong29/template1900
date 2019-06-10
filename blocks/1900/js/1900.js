@@ -69,10 +69,16 @@ $(document).ready(function () {
 
     $(".list-category-toggle li a").click(function () {
         var text = $(this).text();
-        
+
         $(".category-toggle-link").text(text);
-        
+
         return false;
+    });
+    $('.clickit').click(function () {
+        $('.active').css({"background": "none", "color": "#666"});
+    });
+    $('.active').click(function () {
+        $('.active').css({"background": "#fe9c00", "color": "#fff"});
     });
 });
 

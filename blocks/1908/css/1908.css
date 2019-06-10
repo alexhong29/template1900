@@ -110,6 +110,9 @@
   height: 28px;
   width: 72px;
 }
+.type-1908 .sidebar-shop .range-filter .btn-filter:hover {
+  background: #ed321e;
+}
 .type-1908 .sidebar-shop .range-filter #slider-range1 {
   background: #fe9c00 none repeat scroll 0 0;
   border: medium none;
@@ -125,6 +128,10 @@
   margin: 0 -14px;
   top: -8px;
   width: 16px;
+  cursor: pointer;
+}
+.type-1908 .sidebar-shop .range-filter #slider-range1 .ui-slider-handle:hover {
+  background: #ed321e;
   cursor: pointer;
 }
 .type-1908 .sidebar-shop .list-color-filter {

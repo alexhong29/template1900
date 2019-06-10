@@ -79,9 +79,6 @@
   align-items: center;
   cursor: pointer;
 }
-.type-1909 .swiper1909 .swiper-slide img {
-  height: 300px;
-}
 .type-1909 .swiper1909 .next1909,
 .type-1909 .swiper1909 .prev1909 {
   width: 40px;
@@ -157,9 +154,6 @@
   .type-1909 {
     margin-top: 20px;
   }
-  .type-1909 .swiper-slide img {
-    height: 152px !important;
-  }
   .type-1909 .promotion {
     margin-top: -45px !important;
     padding-left: 40px !important;
@@ -183,9 +177,6 @@
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .type-1909 {
     margin-top: 50px;
-  }
-  .type-1909 .swiper-slide img {
-    height: 152px !important;
   }
   .type-1909 .promotion {
     margin-top: -45px !important;

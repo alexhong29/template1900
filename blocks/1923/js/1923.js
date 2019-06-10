@@ -12,6 +12,10 @@ $(document).ready(function () {
             prevEl: '.swiper-button-prev',
         },
     });
+    $('.click').click(function () {
+        var url = $(this).attr('src');
+        $('.image img').attr("src", url);
+    });
 
     $('#stars li').on('mouseover', function () {
         var onStar = parseInt($(this).data('value'), 10);
@@ -45,6 +49,17 @@ $(document).ready(function () {
             msg = "We will improve ourselves. You rated this " + ratingValue + " stars.";
         }
         responseMessage(msg);
+    });
+    $('.add').click(function () {
+        if ($(this).prev().val() < 10) {
+            $(this).prev().val(+$(this).prev().val() + 1);
+        }
+    });
+    $('.sub').click(function () {
+        if ($(this).next().val() > 1) {
+            if ($(this).next().val() > 1)
+                $(this).next().val(+$(this).next().val() - 1);
+        }
     });
 
 });
