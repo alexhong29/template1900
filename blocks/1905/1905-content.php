@@ -336,6 +336,16 @@ $url_path = str_replace('\\', '/', $url_path);
 
         </div>
         <div class="row load">
+            <div class="product-pagi-nav">
+                <span aria-current="page" class="page-numbers-1">1</span>
+                <a class="page-numbers-2" href="#">2</a>
+                <span class="page-numbers-dots">…</span>
+                <a class="page-numbers-5" href="#">5</a>
+                <a class="page-numbers-6" href="#">6</a>
+                <a class="page-numbers-next" href="#">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
             <div class="load_more">
                 <a href="#">
                     Load More Items
