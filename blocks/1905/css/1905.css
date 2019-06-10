@@ -343,15 +343,16 @@
   }
   .type-1905 .tab1905 a {
     padding: 10px;
+    font-size: 8px;
   }
   .type-1905 .productnew span {
     font-size: 12px;
   }
   .type-1905 .filter {
-    font-size: 14px;
+    font-size: 8px;
   }
   .type-1905 .tab1905 {
-    font-size: 11px;
+    font-size: 8px;
   }
   .type-1905 .tabcontent a {
     font-size: 15px;
@@ -364,17 +365,17 @@
   }
   .type-1905 .productnew button {
     font-size: 12px;
-    padding: 14px 48px;
+    padding: 14px 15px;
   }
   .type-1905 .productnew button.active {
-    padding: 14px 48px;
+    padding: 14px 15px;
   }
   .type-1905 .filter button {
     font-size: 12px;
-    padding: 14px 106px;
+    padding: 14px 59px;
   }
   .type-1905 .filter button.active {
-    padding: 14px 106px;
+    padding: 14px 59px;
   }
   .type-1905 .tab1905 {
     font-size: 12px;

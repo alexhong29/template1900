@@ -107,9 +107,6 @@
 .type-1904 .img .slide-band6 .img1 .button .item-adv-simple .wrapper {
   padding-bottom: 20px;
 }
-.type-1904 .img .slide-band6 .img2 {
-  left: 15px;
-}
 .type-1904 .img .slide-band6 .img2 .single-img.item-adv-simple.item2 {
   padding-top: 30px;
 }
@@ -163,8 +160,8 @@
   .type-1904 .img .slide-band6 .img1 h1 {
     font-size: 10px;
     line-height: 15px;
-    margin-top: -110px;
-    margin-left: 129px;
+    margin-top: 40px;
+    margin-left: 126px;
   }
   .type-1904 .img .slide-band6 .img1 p {
     font-size: 5px;
@@ -182,8 +179,8 @@
   }
   .type-1904 .img .slide-band6 .img2 .item1 h3 {
     font-size: 10px;
-    margin-top: -100px;
-    margin-left: 140px;
+    margin-top: 45px;
+    margin-left: 150px;
   }
   .type-1904 .img .slide-band6 .img2 .item1 p {
     font-size: 8px;
@@ -193,8 +190,8 @@
   }
   .type-1904 .img .slide-band6 .img2 .item2 h3 {
     font-size: 10px;
-    left: 150px;
-    margin-top: -100px;
+    left: 165px;
+    margin-top: 40px;
   }
   .type-1904 .img .slide-band6 .img2 .item2 p {
     font-size: 10px;
@@ -250,7 +247,7 @@
   }
   .type-1904 .img .slide-band6 .img1 h1 {
     font-size: 50px;
-    margin-top: -270px;
+    margin-top: 100px;
     margin-left: 340px;
   }
   .type-1904 .img .slide-band6 .img1 p {
@@ -258,15 +255,16 @@
     margin: 0;
   }
   .type-1904 .img .slide-band6 .img2 .item1 h3 {
-    margin-left: 183px;
+    margin-left: 345px;
     font-size: 23px;
   }
   .type-1904 .img .slide-band6 .img2 .item1 p {
     font-size: 15px;
   }
   .type-1904 .img .slide-band6 .img2 .item2 h3 {
-    margin-left: 205px;
+    margin-left: 365px;
     font-size: 23px;
+    margin-top: 50px;
   }
   .type-1904 .img .slide-band6 .img2 .item2 p {
     font-size: 15px;
@@ -278,7 +276,7 @@
   }
   .type-1904 .img .slide-band6 .img1 h1 {
     font-size: 50px;
-    margin-top: -250px;
+    margin-top: 70px;
     margin-left: 289px;
   }
   .type-1904 .img .slide-band6 .img1 p {
@@ -286,7 +284,7 @@
   }
   .type-1904 .img .slide-band6 .img2 .item1 h3 {
     font-size: 18px;
-    margin-top: -105px;
+    margin-top: 40px;
     margin-left: 133px;
   }
   .type-1904 .img .slide-band6 .img2 .item1 p {
@@ -294,8 +292,8 @@
   }
   .type-1904 .img .slide-band6 .img2 .item2 h3 {
     font-size: 18px;
-    margin-top: -112px;
-    margin-left: 145px;
+    margin-top: 40px;
+    margin-left: 150px;
   }
   .type-1904 .img .slide-band6 .img2 .item2 p {
     font-size: 12px;
