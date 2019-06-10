@@ -115,6 +115,15 @@ $(document).ready(function () {
         }
     });
 });
+$(document).ready(function () {
+    $("button[href*='#']:not([href='#])").click(function () {
+        let target = $(this).attr("href");
+        $('html,body').stop().animate({
+            scrollTop: $(target).offset().top
+        }, 900);
+        event.preventDefault();
+    });
+});
 function openCity(evt, cityName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent1903");
