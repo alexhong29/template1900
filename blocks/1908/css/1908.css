@@ -130,7 +130,7 @@
   width: 16px;
   cursor: pointer;
 }
-.type-1908 .sidebar-shop .range-filter #slider-range1 .ui-slider-handle:hover {
+.type-1908 .sidebar-shop .range-filter #slider-range1 .ui-slider-handle:focus {
   background: #ed321e;
   cursor: pointer;
 }

@@ -258,6 +258,11 @@
     height: 252px !important;
   }
 }
+@media (max-width: 1200px) {
+  .type-1910 .circle-info-wrapper figure.imghvr-push-up img {
+    height: 253px !important;
+  }
+}
 @media (max-width: 991px) {
   .type-1910 .product-pagi-nav {
     margin: 10px 0;
