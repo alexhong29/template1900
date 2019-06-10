@@ -38,6 +38,10 @@
   color: #fe9c00 !important;
   text-decoration: none;
 }
+.type-1912 .option-contact .hover li a:hover {
+  color: #fe9c00 !important;
+  text-decoration: none;
+}
 .type-1912 .option-contact .footer-box h2 {
   font-size: 14px;
   font-weight: 700;
@@ -55,9 +59,6 @@
   color: #333;
   font-size: 14px;
   position: relative;
-}
-.type-1912 .option-contact .footer-box ul li a:hover {
-  color: #fe9c00 !important;
   text-decoration: none;
 }
 .type-1912 .option-contact .footer-box .footer-box-contact {
@@ -104,7 +105,7 @@
   padding: 0 15px;
   width: 100%;
 }
-.type-1912 .form-contact .newsletter-footer form input[type="submit"] {
+.type-1912 .form-contact .newsletter-footer form button {
   background: #fe9c00 url(../images/icon-newsletter.png) no-repeat scroll center center;
   border: medium none;
   height: 45px;
@@ -112,6 +113,10 @@
   right: 0;
   top: 0;
   width: 50px;
+}
+.type-1912 .form-contact .newsletter-footer form button:hover {
+  background-color: #ad700f;
+  opacity: 1;
 }
 .type-1912 .form-contact .social-footer {
   text-align: right;

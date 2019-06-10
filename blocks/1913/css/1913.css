@@ -99,6 +99,7 @@
 }
 .type-1913 .page {
   padding-top: 28px;
+  padding-bottom: 28px;
   text-align: right;
 }
 .type-1913 .page a {
@@ -114,6 +115,7 @@
   text-align: center;
   text-transform: uppercase;
   -webkit-transition: all 0.3s ease-out 0s;
+  text-decoration: none;
 }
 .type-1913 .page a:hover {
   transition: all 0.3s ease-out 0s;
