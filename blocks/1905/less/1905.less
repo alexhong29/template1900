@@ -147,13 +147,14 @@
         }
         button.active{
             background-color: #106113;
-            padding: 14px 132px;
+            padding: 14px 133px;
         }
     }
     .filter{
         user-select: none;
         background: @color_green_yelow;
         text-align: center;
+        padding: 0 0px;
         button {
             color: white;
             font-size: 15px;
@@ -169,7 +170,8 @@
             transition: 0.5s;
         }
         button.active{
-            background-color: #106113;
+            background-color: #b2c11f;
+            padding: 14px 347px;
         }
     }
     .tab1905{
@@ -383,19 +385,6 @@
         .tab1905 a{
             padding: 10px;
         }
-    }
-
-    @media (max-width: 480px ) and (min-width:413px) {
-        .imghvr-push-up{
-            img{
-                height: 252px!important;
-            }
-            figcaption.image-hover{
-                img{
-                    height: 252px!important;
-                }
-            }
-        }
         .productnew{
             span{
                 font-size: 12px;
@@ -418,6 +407,51 @@
                 font-size: 13px;
             }
         }
+        .productnew{
+            button{
+                font-size: 12px;
+                padding: 14px 48px;
+            }
+            button.active{
+                padding: 14px 48px;
+            }
+        }
+
+        .filter{
+            button{
+                font-size: 12px;
+                padding: 14px 106px;
+            }
+            button.active{
+                padding: 14px 106px;
+            }
+        }
+        .tab1905{
+            font-size: 12px;
+            text-align: center;
+        }
+        .tabcontents a{
+            font-size: 12px;
+        }
+        .tabcontents .price span{
+            .new_price, .old_price{
+                font-size: 15px;
+            }
+        }
+    }
+
+    @media (max-width: 480px ) and (min-width:413px) {
+        .imghvr-push-up{
+            img{
+                height: 252px!important;
+            }
+            figcaption.image-hover{
+                img{
+                    height: 252px!important;
+                }
+            }
+        }
+
     }
     @media (max-width: 768px ) and (min-width:480px) {
         .imghvr-push-up{
@@ -430,8 +464,90 @@
                 }
             }
         }
+
+        .productnew{
+            button{
+                font-size: 12px;
+                padding: 14px 48px;
+            }
+            button.active{
+                padding: 14px 48px;
+            }
+        }
+
+        .filter{
+            button{
+                font-size: 12px;
+                padding: 14px 106px;
+            }
+            button.active{
+                padding: 14px 106px;
+            }
+        }
         .tab1905{
-            font-size: 13px;
+            font-size: 12px;
+            text-align: center;
+        }
+        .tabcontents a{
+            font-size: 12px;
+        }
+        .tabcontents .price span{
+            .new_price, .old_price{
+                font-size: 15px;
+            }
+        }
+
+    }
+    @media only screen and (min-width: 768px) and (max-width: 991px){ 
+        .productnew{
+            button{
+                padding: 14px 92px;
+            }
+            button.active{
+                padding: 14px 92px;
+            }
+        }
+        .filter{
+            button{
+                padding: 14px 162px;
+            }
+            button.active{
+                padding: 14px 177px;
+            }
+        }
+    }
+    @media only screen and (min-width: 992px){
+        .productnew{
+            button{
+                padding: 14px 99px;
+            }
+            button.active{padding: 14px 99px;}
+        }
+        .filter{
+            button{
+                padding: 14px 266px;
+            }
+            button.active{
+                padding: 14px 281px;
+            }
+        }
+    }
+    @media only screen and (min-width: 1200px){
+        .productnew{
+            button{
+                padding: 14px 133px;
+            }
+            button.active{
+                padding: 14px 133px;
+            }
+        }
+        .filter{
+            button{
+                padding: 14px 347px;
+            }
+            button.active{
+                padding: 14px 347px;
+            }
         }
     }
     @media (max-width: 377px ){

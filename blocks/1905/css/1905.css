@@ -124,12 +124,13 @@
 }
 .type-1905 .productnew button.active {
   background-color: #106113;
-  padding: 14px 132px;
+  padding: 14px 133px;
 }
 .type-1905 .filter {
   user-select: none;
   background: #ccdb38;
   text-align: center;
+  padding: 0 0px;
 }
 .type-1905 .filter button {
   color: white;
@@ -146,7 +147,8 @@
   transition: 0.5s;
 }
 .type-1905 .filter button.active {
-  background-color: #106113;
+  background-color: #b2c11f;
+  padding: 14px 347px;
 }
 .type-1905 .tab1905 {
   border: 1px solid #e5e5e5;
@@ -342,14 +344,6 @@
   .type-1905 .tab1905 a {
     padding: 10px;
   }
-}
-@media (max-width: 480px) and (min-width: 413px) {
-  .type-1905 .imghvr-push-up img {
-    height: 252px !important;
-  }
-  .type-1905 .imghvr-push-up figcaption.image-hover img {
-    height: 252px !important;
-  }
   .type-1905 .productnew span {
     font-size: 12px;
   }
@@ -368,6 +362,39 @@
   .type-1905 .tabcontent .old_price {
     font-size: 13px;
   }
+  .type-1905 .productnew button {
+    font-size: 12px;
+    padding: 14px 48px;
+  }
+  .type-1905 .productnew button.active {
+    padding: 14px 48px;
+  }
+  .type-1905 .filter button {
+    font-size: 12px;
+    padding: 14px 106px;
+  }
+  .type-1905 .filter button.active {
+    padding: 14px 106px;
+  }
+  .type-1905 .tab1905 {
+    font-size: 12px;
+    text-align: center;
+  }
+  .type-1905 .tabcontents a {
+    font-size: 12px;
+  }
+  .type-1905 .tabcontents .price span .new_price,
+  .type-1905 .tabcontents .price span .old_price {
+    font-size: 15px;
+  }
+}
+@media (max-width: 480px) and (min-width: 413px) {
+  .type-1905 .imghvr-push-up img {
+    height: 252px !important;
+  }
+  .type-1905 .imghvr-push-up figcaption.image-hover img {
+    height: 252px !important;
+  }
 }
 @media (max-width: 768px) and (min-width: 480px) {
   .type-1905 .imghvr-push-up img {
@@ -376,8 +403,72 @@
   .type-1905 .imghvr-push-up figcaption.image-hover img {
     height: 252px !important;
   }
+  .type-1905 .productnew button {
+    font-size: 12px;
+    padding: 14px 48px;
+  }
+  .type-1905 .productnew button.active {
+    padding: 14px 48px;
+  }
+  .type-1905 .filter button {
+    font-size: 12px;
+    padding: 14px 106px;
+  }
+  .type-1905 .filter button.active {
+    padding: 14px 106px;
+  }
   .type-1905 .tab1905 {
-    font-size: 13px;
+    font-size: 12px;
+    text-align: center;
+  }
+  .type-1905 .tabcontents a {
+    font-size: 12px;
+  }
+  .type-1905 .tabcontents .price span .new_price,
+  .type-1905 .tabcontents .price span .old_price {
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .type-1905 .productnew button {
+    padding: 14px 92px;
+  }
+  .type-1905 .productnew button.active {
+    padding: 14px 92px;
+  }
+  .type-1905 .filter button {
+    padding: 14px 162px;
+  }
+  .type-1905 .filter button.active {
+    padding: 14px 177px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .type-1905 .productnew button {
+    padding: 14px 99px;
+  }
+  .type-1905 .productnew button.active {
+    padding: 14px 99px;
+  }
+  .type-1905 .filter button {
+    padding: 14px 266px;
+  }
+  .type-1905 .filter button.active {
+    padding: 14px 281px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .type-1905 .productnew button {
+    padding: 14px 133px;
+  }
+  .type-1905 .productnew button.active {
+    padding: 14px 133px;
+  }
+  .type-1905 .filter button {
+    padding: 14px 347px;
+  }
+  .type-1905 .filter button.active {
+    padding: 14px 347px;
   }
 }
 @media (max-width: 377px) {
