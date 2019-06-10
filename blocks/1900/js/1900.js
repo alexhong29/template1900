@@ -12,7 +12,7 @@ $(document).ready(function () {
         setTimeout(function () {
             $('.menunav').toggleClass("activemenunav");
             $('.menuiconnav').css({"opacity": "1"});
-            if ($(window).width() < 767) {
+            if ($(window).width() <= 767) {
                 $('.buttonclosemenu span').css({"right": "48%"});
             }
             if ($(window).width() <= 666) {

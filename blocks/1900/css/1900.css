@@ -678,7 +678,7 @@ body ul {
     padding: 0 5px;
   }
 }
-@media (max-width: 767px) {
+@media only screen and (max-width: 767.5px) {
   .type-1900 .content {
     height: 50px;
   }
@@ -1192,9 +1192,9 @@ body ul {
     height: 40px;
     font-size: 40px;
     z-index: 3;
-    position: fixed;
+    position: absolute;
+    top: -140px;
     right: 100%;
-    top: -5px;
   }
   .type-1900 .content .container .row .buttonclosemenu span i {
     color: #fab502;
@@ -1317,7 +1317,7 @@ body ul {
     cursor: pointer;
   }
 }
-@media only screen and (min-width: 480px) and (max-width: 767.2px) {
+@media only screen and (min-width: 480px) and (max-width: 767.5px) {
   .type-1900 .header-top {
     height: 130px;
   }
@@ -1337,7 +1337,7 @@ body ul {
     text-align: center;
   }
 }
-@media only screen and (max-width: 767.2px) {
+@media only screen and (max-width: 767.5px) {
   .type-1900 .content .row {
     margin: 0;
   }
