@@ -38,6 +38,10 @@
   color: #fe9c00 !important;
   text-decoration: none;
 }
+.type-1912 .option-contact .hover li a:hover {
+  color: #fe9c00 !important;
+  text-decoration: none;
+}
 .type-1912 .option-contact .footer-box h2 {
   font-size: 14px;
   font-weight: 700;
@@ -55,9 +59,6 @@
   color: #333;
   font-size: 14px;
   position: relative;
-}
-.type-1912 .option-contact .footer-box ul li a:hover {
-  color: #fe9c00 !important;
   text-decoration: none;
 }
 .type-1912 .option-contact .footer-box .footer-box-contact {
@@ -70,6 +71,7 @@
   position: relative;
 }
 .type-1912 .option-contact .footer-box .footer-box-contact li .fa {
+  color: #fe9c00;
   font-size: 18px;
   width: 25px;
 }
