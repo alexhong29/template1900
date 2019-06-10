@@ -35,32 +35,32 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="wrapper">
                         <div class="single-img item-adv-simple item1">
                             <div class="wrapper item-adv-simple">
-                                <a href="#">
+                                <h3>
+                                    <a class="hoverprd" href="#">Cupcake Corer</a>
+                                    <p>Commercial Cookware</p>
+                                    <span class="money">
+                                        <span class="icon">$</span>
+                                        200.00
+                                    </span>
+                                </h3>
+                                <a class="hoverimg" href="#">
                                     <img src="<?php echo $url_path ?>/images/ad5-1.jpg" alt="#" class="img-responsive">
-                                    <h3>
-                                        Cupcake Corer
-                                        <p>Commercial Cookware</p>
-                                        <span class="money">
-                                            <span class="icon">$</span>
-                                            200.00
-                                        </span>
-                                    </h3>
                                 </a>
                             </div>
                         </div>
 
                         <div class="single-img item-adv-simple item2">
                             <div class="wrapper item-adv-simple ">
-                                <a href="#">
+                                <h3>
+                                    <a class="hoverimg2" href="#">Piece OXO</a>
+                                    <p>Holder with Tools Set</p>
+                                    <span class="money">
+                                        <span class="icon">$</span>
+                                        80.00
+                                    </span>
+                                </h3>
+                                <a class="hoverimg" href="#">
                                     <img src="<?php echo $url_path ?>/images/ad6.jpg" alt="#" class="img-responsive">
-                                    <h3>
-                                        Piece OXO
-                                        <p>Holder with Tools Set</p>
-                                        <span class="money">
-                                            <span class="icon">$</span>
-                                            80.00
-                                        </span>
-                                    </h3>
                                 </a>
                             </div>
                         </div>
