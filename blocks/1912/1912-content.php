@@ -102,7 +102,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="col-md-8">
                                     <form class="form-group " method="post" data-name="MailChimlp">
                                         <input type="text" name="EMAIL" placeholder="Enter Your Email..." required="">
-                                        <input type="submit" value="">
+                                        <button></button>
                                     </form>
                                 </div>
 

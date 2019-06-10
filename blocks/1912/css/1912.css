@@ -70,7 +70,6 @@
   position: relative;
 }
 .type-1912 .option-contact .footer-box .footer-box-contact li .fa {
-  color: #fe9c00;
   font-size: 18px;
   width: 25px;
 }
@@ -104,7 +103,7 @@
   padding: 0 15px;
   width: 100%;
 }
-.type-1912 .form-contact .newsletter-footer form input[type="submit"] {
+.type-1912 .form-contact .newsletter-footer form button {
   background: #fe9c00 url(../images/icon-newsletter.png) no-repeat scroll center center;
   border: medium none;
   height: 45px;
@@ -112,6 +111,10 @@
   right: 0;
   top: 0;
   width: 50px;
+}
+.type-1912 .form-contact .newsletter-footer form button:hover {
+  background-color: #ad700f;
+  opacity: 1;
 }
 .type-1912 .form-contact .social-footer {
   text-align: right;

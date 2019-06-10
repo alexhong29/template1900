@@ -31,6 +31,12 @@
   position: relative;
   text-transform: uppercase;
 }
+.type-1915 .sidebar-post .list-post-faq li .accordion1:hover {
+  color: #4bae4f;
+}
+.type-1915 .sidebar-post .list-post-faq li .accordion1:active {
+  color: #4bae4f;
+}
 .type-1915 .sidebar-post .accordion1::after {
   content: "\2212";
   float: right;
