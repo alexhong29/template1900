@@ -2,6 +2,7 @@
   height: 190px;
   display: flex;
   max-width: 100%;
+  object-fit: cover;
 }
 .type-1921 a {
   text-decoration: none;
@@ -135,9 +136,9 @@
     padding-top: 20px;
   }
 }
-@media only screen and (min-width: 992.5px) {
+@media only screen and (min-width: 992px) {
   .wrapper.item-adv-simple img {
-    width: auto;
+    max-width: 100%;
   }
   .img .slide-band6 h3 p {
     font-size: 10px;
