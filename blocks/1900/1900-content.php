@@ -50,13 +50,12 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="col-sm-6">
                         <div class="smart-search">
                             <div class="select-category">
-                                
                                 <button class="btn-collapse" type="button" data-toggle="collapse" data-target="#collap" aria-expanded="false">
                                     <a href="#" class="category-toggle-link">All Categories</a>
                                     <i class="fa fa-angle-down" aria-hidden="true"></i>
                                 </button>
                                 <ul id="collap" class="list-category-toggle sub-menu-top collapse" style="">
-                                    <li><a class="active" href="#" data-filter="">All Categories</a></li>
+                                    <li class="item"><a class="active clickit" href="#" data-filter="">All Categories</a></li>
                                     <li class="item"><a class="clickit" href="#" data-filter=".accessories">Accessories</a></li>
                                     <li class="item"><a class="clickit" href="#" data-filter=".android">Android</a></li>
                                     <li class="item"><a class="clickit" href="#" data-filter=".bags">Bags</a></li>

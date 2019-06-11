@@ -1243,7 +1243,7 @@ body ul {
   border-image: initial;
   box-shadow: rgba(0,0,0,0.2) 0px 4px 4px 0px;
   width: 200px;
-  z-index: 2;
+  z-index: 100;
   transition: all 0.3s ease-out 0s;
   text-align: left;
   top: 100%;
@@ -1286,9 +1286,12 @@ body ul {
     left: 35%;
   }
   .type-1900 .smart-search {
-    left: 203px;
-    top: 15px;
+    left: 140px;
+    top: 7px;
     position: absolute !important;
+  }
+  .type-1900 .smart-search .select-category .btn-collapse {
+    width: 125px !important;
   }
   .type-1900 .mini-cart {
     display: none;
