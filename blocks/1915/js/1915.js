@@ -1,6 +1,16 @@
 $(document).ready(function () {
-    $('.list-post-faq li h3').on('click', function (event) {
-        $('.list-post-faq li').removeClass('active');
-        $(this).parent().addClass('active');
-    });
+    var acc = document.getElementsByClassName("accordion1");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+            this.classList.toggle("active1");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        });
+    }
 });

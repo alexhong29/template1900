@@ -29,6 +29,9 @@
   background: rgba(255,255,255,0.5);
   width: 100%;
 }
+.type-1911 .swiper1911 .promotion:hover {
+  color: #ed321e;
+}
 .type-1911 .swiper1911 h3 {
   font-size: 22px;
 }

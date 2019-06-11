@@ -50,6 +50,14 @@
         }
     }
     .option-contact{
+        .hover{
+            li{
+                a:hover{
+                    color:@color-hover-footer-a !important;
+                    text-decoration:none;
+                }
+            }
+        }
         .footer-box{
             h2{
                 font-size: 14px;
@@ -67,10 +75,7 @@
                         color: #333;
                         font-size: @font-size-footer-box-a;
                         position: relative;
-                    }
-                    a:hover{
-                        color:@color-hover-footer-a !important;
-                        text-decoration:none;
+                        text-decoration: none;
                     }
                 }
             }
@@ -123,7 +128,7 @@
                     padding: 0 15px;
                     width: 100%;
                 }
-                input[type="submit"]{
+                button{
                     background: #fe9c00 url(../images/icon-newsletter.png) no-repeat scroll center center;
                     border: medium none;
                     height: 45px;
@@ -131,6 +136,10 @@
                     right: 0;
                     top: 0;
                     width: 50px;
+                    &:hover{
+                        background-color: #ad700f;
+                        opacity: 1;
+                    }
                 }
             }
         }

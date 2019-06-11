@@ -23,7 +23,7 @@
 .type-1915 .sidebar-post ul {
   list-style: none;
 }
-.type-1915 .sidebar-post .list-post-faq li h3 {
+.type-1915 .sidebar-post .list-post-faq li .accordion1 {
   cursor: pointer;
   font-size: 14px;
   margin: 0;
@@ -31,14 +31,19 @@
   position: relative;
   text-transform: uppercase;
 }
-.type-1915 .sidebar-post .list-post-faq li.active h3::after {
-  content: "-";
+.type-1915 .sidebar-post .list-post-faq li .accordion1:hover {
+  color: #4bae4f;
 }
-.type-1915 .sidebar-post .list-post-faq h3::after {
-  content: "+";
-  position: absolute;
-  right: 0;
-  top: 12px;
+.type-1915 .sidebar-post .list-post-faq li .accordion1:active {
+  color: #4bae4f;
+}
+.type-1915 .sidebar-post .accordion1::after {
+  content: "\2212";
+  float: right;
+}
+.type-1915 .sidebar-post .active1::after {
+  content: '\002B';
+  float: right;
 }
 .type-1915 .sidebar-post .list-post-faq li.active p {
   display: block;

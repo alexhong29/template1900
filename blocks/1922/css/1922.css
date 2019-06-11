@@ -7,21 +7,16 @@
 .type-1922 .form .form-radio {
   padding: 0 20px;
 }
-.type-1922 .form .green:hover,
-.type-1922 .form .green:active {
+.type-1922 .form .green:hover {
   color: green;
 }
-.type-1922 .form .red:hover,
-.type-1922 .form .red:active {
+.type-1922 .form .red:hover {
   color: red;
 }
-.type-1922 .form .black:hover,
-.type-1922 .form .black:active {
+.type-1922 .form .black:hover {
   color: black;
 }
-.type-1922 .form .man:hover,
-.type-1922 .form .man:focus,
-.type-1922 .form .man:active {
+.type-1922 .form .man:hover {
   color: magenta;
 }
 .type-1922 .form button {

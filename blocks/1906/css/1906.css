@@ -110,6 +110,7 @@
   height: 200px;
   border: 0 none;
   vertical-align: middle;
+  cursor: pointer;
 }
 @media (min-width: 768px) {
   .type-1906 .qoutation-slider-controls {

@@ -77,6 +77,10 @@ body {
   background: #333 none repeat scroll 0 0;
   text-align: center;
 }
+.type-1917 .swiper1917 .next1917:hover,
+.type-1917 .swiper1917 .prev1917:hover {
+  background: #fe9c00;
+}
 .type-1917 .swiper1917 .next1917 {
   right: 0;
 }

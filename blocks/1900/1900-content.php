@@ -50,21 +50,24 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="col-sm-6">
                         <div class="smart-search">
                             <div class="select-category">
-                                <a href="#" class="category-toggle-link">All Categories</a>
-                                <button class="btn-collapse" type="button" data-toggle="collapse" data-target="#collap" aria-expanded="false"><i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                                
+                                <button class="btn-collapse" type="button" data-toggle="collapse" data-target="#collap" aria-expanded="false">
+                                    <a href="#" class="category-toggle-link">All Categories</a>
+                                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                </button>
                                 <ul id="collap" class="list-category-toggle sub-menu-top collapse" style="">
-                                    <li class="active"><a href="#" data-filter="">All Categories</a></li>
-                                    <li class="item"><a href="#" data-filter=".accessories">Accessories</a></li>
-                                    <li class="item"><a href="#" data-filter=".android">Android</a></li>
-                                    <li class="item"><a href="#" data-filter=".bags">Bags</a></li>
-                                    <li class="item"><a href="#" data-filter=".basketball">Basketball</a></li>
+                                    <li><a class="active" href="#" data-filter="">All Categories</a></li>
+                                    <li class="item"><a class="clickit" href="#" data-filter=".accessories">Accessories</a></li>
+                                    <li class="item"><a class="clickit" href="#" data-filter=".android">Android</a></li>
+                                    <li class="item"><a class="clickit" href="#" data-filter=".bags">Bags</a></li>
+                                    <li class="item"><a class="clickit" href="#" data-filter=".basketball">Basketball</a></li>
                                 </ul>
                             </div>
                             <form class="smart-search-form" action="#">
                                 <input type="text" name="s" placeholder="I am shopping for..." onfocus="">
                                 <input type="hidden" name="post_type" value="product">
                                 <input class="cat-value" type="hidden" name="product_cat" value="">
-                                <button class="icon-search" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                <button id="show-btn" class="icon-search" type="submit" ><i class="fa fa-search" aria-hidden="true"></i></button>
                             </form>
                         </div>
                     </div>

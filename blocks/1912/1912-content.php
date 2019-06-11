@@ -46,7 +46,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
             <div class="row option-contact">
                 <div class="col-sm-3 col-md-3 col-xs-6">
-                    <div class="footer-box">
+                    <div class="footer-box hover">
                         <h2>My Account</h2>
                         <ul class="footer-menu-box">
                             <li><a href="#">My orders</a></li>
@@ -57,7 +57,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
                 <div class="col-sm-3 col-md-3 col-xs-6">
-                    <div class="footer-box">
+                    <div class="footer-box hover">
                         <h2>Help</h2>
                         <ul class="footer-menu-box">
                             <li><a href="#">Where's my order?</a></li>
@@ -68,7 +68,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
                 <div class="col-sm-3 col-md-3 col-xs-6">
-                    <div class="footer-box">
+                    <div class="footer-box hover">
                         <h2>Further information</h2>
                         <ul class="footer-menu-box">
                             <li><a href="#">Drop Everything</a></li>
@@ -102,7 +102,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="col-md-8">
                                     <form class="form-group " method="post" data-name="MailChimlp">
                                         <input type="text" name="EMAIL" placeholder="Enter Your Email..." required="">
-                                        <input type="submit" value="">
+                                        <button></button>
                                     </form>
                                 </div>
 

@@ -26,24 +26,29 @@
         ul{
             list-style: none;
         }
-        .list-post-faq li h3 {
+        .list-post-faq li .accordion1 {
             cursor: pointer;
             font-size: 14px;
             margin: 0;
             padding: 12px 20px 11px 0;
             position: relative;
             text-transform: uppercase;
+
+            &:hover{
+                color: #4bae4f;
+            }
+            &:active{
+                color: #4bae4f;
+            }
         }
 
-        .list-post-faq li.active h3::after {
-            content: "-";
+        .accordion1::after {
+            content: "\2212";
+            float: right;
         }
-
-        .list-post-faq h3::after {
-            content: "+";
-            position: absolute;
-            right: 0;
-            top: 12px;
+        .active1::after {
+            content: '\002B';
+            float: right;
         }
 
         .list-post-faq li.active p {
@@ -73,7 +78,8 @@
         border: 0;
         padding: 20px;
     }
-    
+
+
     @media only screen and (min-width: 320px) and (max-width: 479px){
         .sidebar-widget{
             .widget-title{
