@@ -78,12 +78,19 @@ $(document).ready(function () {
         $('.active').css({"background": "none", "color": "#666"});
         $('#collap').css({"display": "none"});
     });
-    $('.btn-collapse').click(function () {
-        $('#collap').css({"display": "inline-table"});
-    });
+//    $('.btn-collapse').click(function () {
+//        $('#collap').css({"display": "inline-table"});
+//    });
     $('.active').click(function () {
         $('.active').css({"background": "#fe9c00", "color": "#fff"});
         $('#collap').css({"display": "none"});
+    });
+    $('.btn-collapse').click(function () {
+        $(this).children('ul').stop(true, true).slideDown(200);
+        $(this).toggleClass('open');
+    }, function () {
+        $(this).children('ul').stop(true, true).slideUp(200);
+        $(this).toggleClass('open');
     });
 });
 
