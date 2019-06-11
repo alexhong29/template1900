@@ -336,10 +336,10 @@
 }
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   .type-1905 .imghvr-push-up img {
-    height: 252px !important;
+    height: 180px !important;
   }
   .type-1905 .imghvr-push-up figcaption.image-hover img {
-    height: 252px !important;
+    height: 180px !important;
   }
   .type-1905 .tab1905 a {
     padding: 10px;

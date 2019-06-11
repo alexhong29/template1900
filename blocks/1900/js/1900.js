@@ -85,12 +85,5 @@ $(document).ready(function () {
         $('.active').css({"background": "#fe9c00", "color": "#fff"});
         $('#collap').css({"display": "none"});
     });
-
-    if ($(window).width() <= 767) {
-        $('.icon-search').onclick(function () {
-            $('input[type="text"]').css({"display": "block"});
-            $('.select-category').css({"display": "block"});
-        });
-    }
 });
 
