@@ -1,3 +1,8 @@
+.type-1906 img {
+  max-width: 100%;
+  display: flex;
+  object-fit: cover;
+}
 .type-1906 a {
   text-decoration: none;
 }
@@ -111,6 +116,38 @@
   border: 0 none;
   vertical-align: middle;
   cursor: pointer;
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .type-1906 .slide-content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .type-1906 .info-pic p.post-desc {
+    line-height: 20px;
+    font-size: 12px;
+  }
+  .type-1906 .info-pic .by h5 {
+    font-size: 12px;
+  }
+  .type-1906 .info-pic h3 a {
+    font-size: 15px;
+  }
+  .type-1906 img {
+    height: 155px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .type-1906 .slide-content .caption-slider .info-pic .by h5 {
+    margin-right: 0px;
+    padding-right: 0px;
+    font-size: 12px;
+  }
+  .type-1906 .slide-content .caption-slider .info-pic .post-desc {
+    font-size: 12px;
+  }
+  .type-1906 img {
+    height: 155px;
+  }
 }
 @media (min-width: 768px) {
   .type-1906 .qoutation-slider-controls {
