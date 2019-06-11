@@ -23,7 +23,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <span>Shop Now</span>
                                     </button>
                                 </h1>
-                                <a href="#">
+                                <a class="hoverimg imghover" href="#">
                                     <img width="780" height="400" src="<?php echo $url_path ?>/images/ad4-2.jpg" alt="#" class="img-responsive">
                                 </a>
 
@@ -43,8 +43,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                         200.00
                                     </span>
                                 </h3>
-                                <a class="hoverimg" href="#">
-                                    <img src="<?php echo $url_path ?>/images/ad5-1.jpg" alt="#" class="img-responsive">
+                                <a class="hoverimg imghover1" href="#">
+                                    <img width="372" height="190" src="<?php echo $url_path ?>/images/ad5-1.jpg" alt="#" class="img-responsive">
                                 </a>
                             </div>
                         </div>
@@ -59,8 +59,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                         80.00
                                     </span>
                                 </h3>
-                                <a class="hoverimg" href="#">
-                                    <img src="<?php echo $url_path ?>/images/ad6.jpg" alt="#" class="img-responsive">
+                                <a class="hoverimg imghover1" href="#">
+                                    <img width="372" height="190" src="<?php echo $url_path ?>/images/ad6.jpg" alt="#" class="img-responsive">
                                 </a>
                             </div>
                         </div>

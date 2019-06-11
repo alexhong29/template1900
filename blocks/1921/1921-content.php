@@ -26,7 +26,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     </span>
                                 </h3>
                                 <a class="hoverimg" href="#">
-                                    <img src="<?php echo $url_path ?>/images/ad1-2.jpg" alt="#" class="img-responsive">
+                                    <img width="372" height="190" src="<?php echo $url_path ?>/images/ad1-2.jpg" alt="#" class="img-responsive">
                                 </a>
                             </div>
                         </div>
@@ -42,7 +42,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     </span>
                                 </h3>
                                 <a class="hoverimg" href="#">
-                                    <img src="<?php echo $url_path ?>/images/ad2-2.jpg" alt="#"class="img-responsive">
+                                    <img width="372" height="190" src="<?php echo $url_path ?>/images/ad2-2.jpg" alt="#"class="img-responsive">
                                 </a>
                             </div>
                         </div>

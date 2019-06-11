@@ -7,6 +7,11 @@
 @font_size_by: 15px;
 
 .type-1906{
+    img{
+        max-width: 100%;
+        display: flex;
+        object-fit: cover;
+    }
     a{
         text-decoration: none;
     }
@@ -130,6 +135,53 @@
         cursor: pointer;
     }
     /*di dong*/
+    @media only screen and (min-width: 480px) and (max-width: 767px){
+        .slide-content{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .info-pic{
+            p.post-desc{
+                line-height: 20px;
+                font-size: 12px;
+            }
+            .by{
+                h5{
+                    font-size: 12px;
+                }
+            }
+            h3{
+                a{
+                    font-size: 15px;
+                }
+            }
+        }
+        img{
+            height: 155px;
+        }
+
+    }
+    @media only screen and (min-width: 768px) and (max-width: 991px){ 
+        .slide-content{
+            .caption-slider{
+                .info-pic{
+                    .by{
+                        h5{
+                            margin-right: 0px;
+                            padding-right: 0px;
+                            font-size: 12px;
+                        }
+                    }
+                    .post-desc{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+        img{
+            height: 155px;
+        }
+    }
     @media (min-width: 768px){
 
         .qoutation-slider-controls {
