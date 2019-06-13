@@ -66,7 +66,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <input type="text" name="s" placeholder="I am shopping for..." onfocus="">
                                 <input type="hidden" name="post_type" value="product">
                                 <input class="cat-value" type="hidden" name="product_cat" value="">
-                                <button id="show-btn" class="icon-search" type="submit" ><i class="fa fa-search" aria-hidden="true"></i></button>
+                                <div id="show-btn" class="icon-search"><i class="fa fa-search" aria-hidden="true"></i></div>
                             </form>
                         </div>
                     </div>
@@ -133,7 +133,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         </ul>
                         <a href="#" class="expand-category-link"></a>
                     </div>
-					
+
                     <!-- menu nav -->
                     <div class="menunav">
                         <span class="menuiconnav" data-toggle="collapse" data-target="#navbar">

@@ -149,10 +149,8 @@ body ul {
   right: 0;
   top: 0;
   width: 50px;
-  opacity: 1;
-}
-.type-1900 .header-top .header-second .smart-search .smart-search-form .icon-search:hover {
-  opacity: 0.5;
+  text-align: center;
+  padding-top: 15px;
 }
 .type-1900 .header-top .header-second .smart-search .smart-search-form input[type="text"] {
   border-color: #ccc;
@@ -1268,9 +1266,6 @@ body ul {
   float: right;
   margin-top: 5px;
 }
-.type-1900 #collape li:hover {
-  border-left: 1px solid #4bae4f;
-}
 .type-1900 #collape li:hover a {
   color: #4bae4f;
 }
@@ -1283,20 +1278,39 @@ body ul {
 .type-1900 .list-category-toggle li a {
   border-top: 1px solid transparent;
 }
+@media only screen and (max-width: 320.5px) {
+  .type-1900 .logo-top {
+    margin-left: 70px !important;
+  }
+}
 @media only screen and (min-width: 320px) and (max-width: 479.5px) {
   .type-1900 .header-top {
     height: 200px;
   }
   .type-1900 .logo-top {
-    left: 35%;
+    margin-left: 120px;
   }
   .type-1900 .smart-search {
-    left: 140px;
+    left: 145px;
     top: 7px;
     position: absolute !important;
   }
   .type-1900 .smart-search .select-category .btn-collapse {
-    width: 125px !important;
+    width: 140px !important;
+  }
+  .type-1900 .smart-search .select-category {
+    display: none;
+  }
+  .type-1900 .smart-search input[type="text"] {
+    display: none;
+    width: 70% !important;
+  }
+  .type-1900 .smart-search .smart-search-form {
+    position: relative;
+    float: left;
+  }
+  .type-1900 .smart-search .smart-search-form .icon-search {
+    background: none !important;
   }
   .type-1900 .mini-cart {
     display: none;
@@ -1313,12 +1327,29 @@ body ul {
     height: 170px;
   }
   .type-1900 .logo-top {
-    left: 35%;
+    margin-left: 178px;
   }
   .type-1900 .smart-search {
     left: 203px;
     top: 15px;
     position: absolute !important;
+  }
+  .type-1900 .smart-search .select-category {
+    display: none;
+  }
+  .type-1900 .smart-search input[type="text"] {
+    display: none;
+  }
+  .type-1900 .smart-search .smart-search-form {
+    position: relative;
+    float: left;
+  }
+  .type-1900 .smart-search .smart-search-form .icon-search {
+    right: -50px !important;
+    background: none !important;
+  }
+  .type-1900 .smart-search .smart-search-form .icon-search i {
+    color: black;
   }
   .type-1900 .mini-cart {
     display: none;

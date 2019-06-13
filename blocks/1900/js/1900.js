@@ -92,5 +92,24 @@ $(document).ready(function () {
             $("button.btn-collapse").click();
         }
     });
+    var ctgr = $('.select-category');
+    var ipt = $('input[type="text"]');
+    $('.icon-search').click(function () {
+        if ($(window).width() <= 767) {
+            ctgr.toggle();
+            ipt.toggle();
+        } else {
+            ctgr.attr({
+                display: "block"
+            });
+            ipt.show();
+        }
+    });
+    if ($(window).width() <= 767) {
+            $('.logo-top').css({"display": "none"});
+        }
+    
+
+
 });
 

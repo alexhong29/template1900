@@ -168,10 +168,8 @@ body{
                         right: 0;
                         top: 0;
                         width: 50px;
-                        opacity: 1;
-                        &:hover{
-                            opacity:0.5;
-                        }
+                        text-align: center;
+                        padding-top: 15px;
                     }
 
                     input[type="text"]{
@@ -1444,7 +1442,6 @@ body{
             }
         }
         li:hover{
-            border-left: 1px solid @4ba;
 
             a{
                 color: @4ba;
@@ -1467,22 +1464,41 @@ body{
         }
     }
 
+    @media only screen and (max-width: 320.5px){
 
+        .logo-top{
+            margin-left: 70px!important;
+        }
+
+    }
     @media only screen and (min-width: 320px) and (max-width: 479.5px){
         .header-top{
             height: 200px;
         }
-
         .logo-top{
-            left: 35%;
+            margin-left: 120px;
         }
-
         .smart-search{
-            left: 140px;
+            left: 145px;
             top: 7px;
             position: absolute!important;
             .select-category .btn-collapse {
-                width: 125px!important;
+                width: 140px!important;
+            }
+            .select-category{
+                display: none;
+            }
+            input[type="text"]{
+                display: none;
+                width: 70%!important;
+            }
+            .smart-search-form{
+                position: relative;
+                float: left;
+
+                .icon-search{
+                    background: none!important;
+                }
             }
         }
 
@@ -1507,13 +1523,31 @@ body{
         }
 
         .logo-top{
-            left: 35%;
+            margin-left: 178px;
         }
 
         .smart-search{
             left: 203px;
             top: 15px;
             position: absolute!important;
+            .select-category{
+                display: none;
+            }
+            input[type="text"]{
+                display: none;
+            }
+            .smart-search-form{
+                position: relative;
+                float: left;
+
+                .icon-search{
+                    right: -50px!important;
+                    background: none!important;
+                    i{
+                        color: black;
+                    }
+                }
+            }
         }
 
         .mini-cart{
