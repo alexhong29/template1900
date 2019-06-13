@@ -84,7 +84,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <ul class="footer-box-contact">
                             <li><i class="fa fa-home"><span class="hidden">icon</span></i> <a>Our business address is 1063 Free</a></li>
                             <li><i class="fa fa-mobile"><span class="hidden">icon</span></i><a> + 020.566.8866</a></li>
-                            <li><i class="fa fa-envelope"><span class="hidden">icon</span></i> <a  class="hover-a" href="mailto:support@7-Up.com">support@7-Up.com</a></li>
+                            <li><i class="fa fa-envelope"><span class="hidden">icon</span></i> <a href="mailto:support@7-Up.com">support@7-Up.com</a></li>
                         </ul>
                     </div>
                 </div>
@@ -261,7 +261,7 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="row pay-card">
                 <div class=" col-sm-6 col-md-8">
                     <div class="copyright">			
-                        <p>© 2018 7uptheme Demo Store. All Rights Reserved. Designed by <a href="http://7uptheme.com">7uptheme.com</a></p>			
+                        <p>© 2018 7uptheme Demo Store. All Rights Reserved. Designed by <a class="hover-a" href="http://7uptheme.com">7uptheme.com</a></p>			
                     </div>
                 </div>
                 <div class=" col-sm-6 col-md-4">

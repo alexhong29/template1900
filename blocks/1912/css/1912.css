@@ -42,10 +42,6 @@
   color: #fe9c00 !important;
   text-decoration: none;
 }
-.type-1912 .option-contact .hover-a:hover {
-  color: #fe9c00 !important;
-  text-decoration: none;
-}
 .type-1912 .option-contact .footer-box h2 {
   font-size: 14px;
   font-weight: 700;
@@ -270,6 +266,10 @@
 }
 .type-1912 .pay-card .copyright a {
   color: #999;
+}
+.type-1912 .pay-card .copyright .hover-a:hover {
+  color: #fe9c00 !important;
+  text-decoration: none;
 }
 .type-1912 .pay-card .payment-method {
   text-align: right;
