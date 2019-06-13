@@ -120,14 +120,14 @@ $url_path = str_replace('\\', '/', $url_path);
                             <li class="">
                                 <a href="#">Fashion
                                     <img width="20" height="19" src="#" class="attachment-full size-full" alt="">
-                                    <img width="20" height="19" src="http://7uptheme.com/wordpress/aloshop/wp-content/uploads/2016/03/cat4.png" class="attachment-full size-full" alt="">
+                                    <img width="20" height="19" src="" class="attachment-full size-full" alt="">
                                 </a>
 
                             </li>
                             <li class="has-cat-mega">
                                 <a href="#">Food
                                     <img width="20" height="21" src="#" class="attachment-full size-full" alt="">
-                                    <img width="20" height="21" src="http://7uptheme.com/wordpress/aloshop/wp-content/uploads/2016/03/cat7.png" class="attachment-full size-full" alt="">
+                                    <img width="20" height="21" src="" class="attachment-full size-full" alt="">
                                 </a>
                             </li>
                         </ul>
