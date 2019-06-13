@@ -8,7 +8,7 @@
     a{
         text-decoration: none;
     }
-    
+
     .rating-stars ul {
         list-style-type:none;
         padding:0;
@@ -320,6 +320,19 @@
     @media (max-width:568px){
         .sort-pagi-bar{
             padding-left: 50px;
+        }
+    }
+    @media only screen and (min-width: 320px) and (max-width: 479.5px){
+        .sort-pagi-bar{
+            text-align: left;
+            padding-left: 0px;
+            .product-order{ 
+                form.woocommerce-ordering{
+                    .orderby{
+                        float: left;
+                    }
+                }
+            }
         }
     }
 }

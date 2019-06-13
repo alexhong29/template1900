@@ -17,7 +17,7 @@
 }
 .type-1911 .img-responsive {
   width: 100%;
-  height: 395px;
+  height: 350px;
 }
 .type-1911 .swiper1911 {
   cursor: pointer;
@@ -81,7 +81,7 @@
 }
 @media (max-width: 480px) and (min-width: 320px) {
   .type-1911 .img-responsive {
-    height: 679px !important;
+    height: 390px !important;
   }
   .type-1911 .promotion h3 {
     font-size: 18px;

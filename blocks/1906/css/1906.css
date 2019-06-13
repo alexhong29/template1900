@@ -117,6 +117,11 @@
   vertical-align: middle;
   cursor: pointer;
 }
+@media only screen and (min-width: 320px) and (max-width: 479.5px) {
+  .type-1906 img {
+    height: 90px;
+  }
+}
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .type-1906 .slide-content {
     margin-top: 20px;
