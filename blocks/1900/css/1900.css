@@ -149,6 +149,10 @@ body ul {
   right: 0;
   top: 0;
   width: 50px;
+  opacity: 1;
+}
+.type-1900 .header-top .header-second .smart-search .smart-search-form .icon-search:hover {
+  opacity: 0.5;
 }
 .type-1900 .header-top .header-second .smart-search .smart-search-form input[type="text"] {
   border-color: #ccc;
@@ -452,6 +456,7 @@ body ul {
 }
 .type-1900 .menunav ul li .contextmega .megaone .image img {
   width: 100%;
+  height: 90px;
 }
 .type-1900 .menunav ul li .contextmega .megaone .image:before {
   content: '';
